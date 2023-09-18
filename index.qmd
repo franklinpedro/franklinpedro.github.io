@@ -2,9 +2,10 @@
 title: "pedro franklin"
 image: pfranklin.jpg
 resources: resume.pdf
-about: 
+about:
+  id: pf-heading
   template: jolla
-  image-shape: round
+  image-shape: rounded
   image-width: 15em
   links: 
     - text: email
@@ -18,10 +19,10 @@ about:
       href: resume.pdf
 ---
 
-This is a Quarto website.
+:::{#pf-heading}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+eu sou professor do núcleo de estatística da faculdade de matemática da universidade federal de uberlândia. gosto muito de estatística e de ser professor e, por isso, é sempre legal poder compartilhar o que sei com meus alunos.
 
-```{r}
-1 + 1
-```
+na seção **ensino** você encontra informações sobre as disciplinas que leciono e sugestões de livros sobre matemática e estatística. na seção **coisas legais** eu compartilho recomendações sobre coisas que acho interessantes. bons estudos!
+
+:::
