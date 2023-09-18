@@ -7,7 +7,7 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: home
       - favoritos.qmd
   page-footer:
     right: "Built with ❤️ and [Quarto](https://quarto.org/), by Pedro Franklin."
