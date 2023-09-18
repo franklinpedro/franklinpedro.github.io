@@ -1,5 +1,20 @@
 ---
 title: "pedro franklin"
+image: "mypic.png"
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 15em
+  links: 
+    - text: email
+      icon: envelope
+      href: mailto:pedrofranklin@ufu.br
+    - text: github
+      icon: github
+      href: https://github.com/franklinpedro
+    - text: resumo
+      icon: file-text
+      href: resume.pdf
 ---
 
 This is a Quarto website.
