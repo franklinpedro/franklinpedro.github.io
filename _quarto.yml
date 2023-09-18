@@ -9,6 +9,7 @@ website:
       - href: index.qmd
         text: home
       - ensino.qmd
+      - coisas_legais.qmd
   page-footer:
     right: "built with ❤️ and [quarto](https://quarto.org/), by pedro franklin."
     

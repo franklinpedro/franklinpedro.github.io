@@ -1,13 +1,5 @@
 ---
-title: "favoritos"
+title: "ensino"
 ---
 
-## my favorite things
-
--   raindrops on roses;
-
--   whiskers on kittens;
-
--   cream colored ponies;
-
--   crisp apple strudels.
+## disciplinas em andamento
