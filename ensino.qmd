@@ -3,3 +3,7 @@ title: "ensino"
 ---
 
 ### cursos em andamento
+
+- ges044: métodos matemáticos
+- ges033: análise de séries temporais
+- ges035: profissão e mercado de trabalho
