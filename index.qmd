@@ -1,6 +1,6 @@
 ---
 title: "pedro franklin"
-image: "mypic.png"
+image: pfranklin.jpg
 resources: resume.pdf
 about: 
   template: jolla
