@@ -2,10 +2,12 @@
 title: "favoritos"
 ---
 
-## filmes favoritos
+## my favorite things
 
--   paris, texas
+-   raindrops on roses;
 
--   central do brasil
+-   whiskers on kittens;
 
--   em trânsito
+-   bright copper kettles;
+
+-   warm woolen mittens.
