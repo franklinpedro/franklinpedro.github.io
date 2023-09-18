@@ -23,6 +23,6 @@ about:
 
 eu sou professor do núcleo de estatística da faculdade de matemática da universidade federal de uberlândia. gosto muito de estatística e de ser professor e, por isso, é sempre legal poder compartilhar o que sei com meus alunos.
 
-na seção **ensino** você encontra informações sobre as disciplinas que leciono e sugestões de livros sobre matemática e estatística. na seção **coisas legais** eu compartilho recomendações sobre coisas que acho interessantes. bons estudos!
+na seção **ensino** você encontra informações sobre as disciplinas que leciono e sugestões de livros sobre matemática e estatística. na seção **coisas legais** eu compartilho recomendações sobre assuntos que me interessam. bons estudos!
 
 :::
