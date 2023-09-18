@@ -14,9 +14,6 @@ about:
     - text: github
       icon: github
       href: https://github.com/franklinpedro
-    - text: resumo
-      icon: file-text
-      href: resume.pdf
 ---
 
 :::{#pf-heading}
