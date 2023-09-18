@@ -10,7 +10,7 @@ website:
         text: home
       - favoritos.qmd
   page-footer:
-    right: "Built with ❤️ and [Quarto](https://quarto.org/), by Pedro Franklin."
+    right: "built with ❤️ and [quarto](https://quarto.org/), by pedro franklin."
     
 
 format:
