@@ -6,7 +6,6 @@ date-format: DD/MM/YYYY
 image: ts2.png
 #categories: [teste]
 description: "este é um segundo teste de post para uma página com listing."
-language: _custom.yml
 ---
 
 Olá!

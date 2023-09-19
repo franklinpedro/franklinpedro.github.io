@@ -1,10 +1,51 @@
 ---
 title: "ensino"
+listing:
+  - id: em-andamento
+    contents: "ensino/em-andamento/*.qmd"
+    type: default
+    sort: "date"
+    date-format: DD/MM/YYYY
+    categories: false
+    fields: [image, description, title]
+  - id: encerradas
+    contents: "ensino/encerradas/*.qmd"
+    type: default
+    sort: "date"
+    date-format: DD/MM/YYYY
+    categories: false
+    fields: [image, description, title]
 language: _custom.yml
+#page-layout: full
 ---
 
-### cursos em andamento
-
+## cursos em andamento
 - ges044: métodos matemáticos
 - ges033: análise de séries temporais
 - ges035: profissão e mercado de trabalho
+
+:::{#em-andamento}
+:::
+
+## cursos encerrados
+
+- famat31033: estatística
+- gbc041: estatística
+- ges017: estatística computacional
+- ges022: inferência estatística 2
+- ges046: tópicos especiais em matemática aplicada - introdução ao aprendizado estatístico
+- ges012: estatística geral
+- famat31041: estatística computacional
+- ges035: profissão e mercado de trabalho
+- ges008: introdução à estatística 2
+- gcc014: estatística
+- gci018: estatística
+- ges018: inferência estatística 1
+- get014: estatística
+- ges015: probabilidade 2
+- ges031: modelos lineares generalizados
+
+:::{#encerradas}
+:::
+
+

@@ -3,7 +3,16 @@
     "listing": "/coisas_legais.html",
     "items": [
       "/posts/primeiro_post.html",
-      "/posts/segundo_post.html"
+      "/posts/segundo/segundo_post.html",
+      "/posts/primeiro/primeiro_post.html"
     ]
+  },
+  {
+    "listing": "/ensino/ensino.html",
+    "items": []
+  },
+  {
+    "listing": "/ensino.html",
+    "items": []
   }
 ]
