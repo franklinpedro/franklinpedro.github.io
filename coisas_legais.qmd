@@ -8,4 +8,5 @@ listing:
   categories: false
   fields: [image, description, title]
 language: _custom.yml
+#page-layout: full
 ---
