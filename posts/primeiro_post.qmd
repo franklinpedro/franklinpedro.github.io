@@ -1,0 +1,7 @@
+---
+title: "primeiro post"
+author: "pedro franklin"
+date: "19/09/2023"
+image: dawgs.png
+categories: [teste]
+---
