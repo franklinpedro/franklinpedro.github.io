@@ -4,4 +4,5 @@ author: "pedro franklin"
 date: "19/09/2023"
 image: dawgs.png
 categories: [teste]
+description: "este é um primeiro teste de post para uma página com listing."
 ---
