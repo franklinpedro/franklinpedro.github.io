@@ -4,5 +4,6 @@ listing:
   contents: posts
   type: default
   sort: "date"
+  date-format: short
   categories: true
 ---
