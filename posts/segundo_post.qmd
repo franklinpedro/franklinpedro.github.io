@@ -1,0 +1,16 @@
+---
+title: "segundo post"
+author: "pedro franklin"
+date: 2023-09-19
+date-format: DD/MM/YYYY
+image: fig3.png
+#categories: [teste]
+description: "este é um segundo teste de post para uma página com listing."
+language: _custom.yml
+---
+
+Olá!
+
+Nesta semana, apresento algumas recomendações de músicas dançantes.
+
+boa audição!

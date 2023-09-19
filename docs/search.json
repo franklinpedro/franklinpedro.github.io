@@ -32,7 +32,7 @@
     "href": "coisas_legais.html",
     "title": "coisas legais",
     "section": "",
-    "text": "primeiro post\n\n\n\n\n\n\n\nteste\n\n\n\n\neste é um primeiro teste de post para uma página com listing.\n\n\n\n\n\n\n19/09/2023\n\n\npedro franklin\n\n\n\n\n\n\nNo matching items"
+    "text": "primeiro post\n\n\n\n\n\neste é um primeiro teste de post para uma página com listing.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nsegundo post\n\n\n\n\n\neste é um segundo teste de post para uma página com listing.\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/primeiro_post.html",
@@ -40,5 +40,12 @@
     "title": "primeiro post",
     "section": "",
     "text": "Olá!\nNesta semana, apresento algumas recomendações de filmes sobre a infância.\nbons filmes!"
+  },
+  {
+    "objectID": "posts/segundo_post.html",
+    "href": "posts/segundo_post.html",
+    "title": "segundo post",
+    "section": "",
+    "text": "Olá!\nNesta semana, apresento algumas recomendações de músicas dançantes.\nboa audição!"
   }
 ]

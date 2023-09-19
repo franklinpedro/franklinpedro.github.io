@@ -5,5 +5,7 @@ listing:
   type: default
   sort: "date"
   date-format: DD/MM/YYYY
-  categories: true
+  categories: false
+  fields: [image, description, title]
+language: _custom.yml
 ---

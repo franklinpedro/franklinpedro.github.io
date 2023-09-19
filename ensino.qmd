@@ -1,5 +1,6 @@
 ---
 title: "ensino"
+language: _custom.yml
 ---
 
 ### cursos em andamento

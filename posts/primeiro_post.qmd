@@ -3,9 +3,10 @@ title: "primeiro post"
 author: "pedro franklin"
 date: 2023-09-19
 date-format: DD/MM/YYYY
-image: dawgs.png
-categories: [teste]
+image: pi.png
+#categories: [teste]
 description: "este é um primeiro teste de post para uma página com listing."
+language: _custom.yml
 ---
 
 Olá!
