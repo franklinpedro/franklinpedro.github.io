@@ -6,3 +6,9 @@ image: dawgs.png
 categories: [teste]
 description: "este é um primeiro teste de post para uma página com listing."
 ---
+
+Olá!
+
+Nesta semana, apresento algumas recomendações de filmes sobre a infância.
+
+bons filmes!
