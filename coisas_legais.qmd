@@ -4,6 +4,5 @@ listing:
   contents: posts
   type: default
   sort: "date"
-  date-format: DD/MM/YYYY
   categories: true
 ---
