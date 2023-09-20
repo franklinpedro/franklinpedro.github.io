@@ -1,0 +1,15 @@
+[
+  {
+    "listing": "/cursos.html",
+    "items": [
+      "/atual/st.html"
+    ]
+  },
+  {
+    "listing": "/coisas_legais.html",
+    "items": [
+      "/posts/segundo/segundo_post.html",
+      "/posts/primeiro/primeiro_post.html"
+    ]
+  }
+]
