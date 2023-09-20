@@ -1,8 +1,11 @@
 ---
 title: "análise de séries temporais"
+#author: "pedro franklin"
+date: 2023-07-31
+date-format: DD/MM/YYYY
 image: ts2.png
-#categories: [teste]
+categories: [disciplinas]
 description: "este é um primeiro teste de post para uma página com listing."
 ---
 
-Olá!
+![](ts2.png){fig-align="center" width="90%"}
