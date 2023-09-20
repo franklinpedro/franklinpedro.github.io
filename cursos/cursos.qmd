@@ -2,14 +2,14 @@
 title: "ensino"
 listing:
   - id: em-andamento
-    contents: atual
+    contents: "**/*/*.qmd"
     type: default
     sort: "date"
     date-format: DD/MM/YYYY
     categories: false
     fields: [image, description, title]
   - id: encerradas
-    contents: encerrada
+    contents: cursos/encerrada
     type: default
     sort: "date"
     date-format: DD/MM/YYYY

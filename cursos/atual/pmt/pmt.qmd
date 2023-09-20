@@ -1,0 +1,9 @@
+---
+title: "profissão e mercado de trabalho"
+#author: "pedro franklin"
+date: 2023-07-31
+date-format: DD/MM/YYYY
+image: pinguim.png
+categories: [disciplinas]
+description: "este é um primeiro teste de post para uma página com listing."
+---

@@ -8,7 +8,7 @@ website:
     left:
       - href: index.qmd
         text: home
-      - href: cursos.qmd
+      - href: cursos/cursos.qmd
         text: ensino
       - href: coisas_legais.qmd
         text: coisas legais

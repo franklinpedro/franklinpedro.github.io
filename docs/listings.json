@@ -1,8 +1,10 @@
 [
   {
-    "listing": "/cursos.html",
+    "listing": "/cursos/cursos.html",
     "items": [
-      "/atual/st.html"
+      "/cursos/atual/mm/mm.html",
+      "/cursos/atual/pmt/pmt.html",
+      "/cursos/atual/st/st.html"
     ]
   },
   {
