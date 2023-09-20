@@ -3,7 +3,7 @@ title: "métodos matemáticos"
 #author: "pedro franklin"
 date: 2023-07-31
 date-format: DD/MM/YYYY
-image: knn.jpg
+image: pinguim2.png
 categories: [disciplinas]
 description: "este é um primeiro teste de post para uma página com listing."
 ---
