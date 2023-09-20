@@ -12,6 +12,7 @@ website:
         text: ensino
       - href: coisas_legais.qmd
         text: coisas legais
+      
   page-footer:
     right: "built with 💜 and [quarto](https://quarto.org/), by pedro franklin."
     
