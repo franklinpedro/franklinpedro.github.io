@@ -16,6 +16,8 @@
   },
   {
     "listing": "/cursos.html",
-    "items": []
+    "items": [
+      "/atual/st.html"
+    ]
   }
 ]
