@@ -9,9 +9,9 @@
   {
     "listing": "/ensino/index.html",
     "items": [
-      "/ensino/atual/mm/mm.html",
-      "/ensino/atual/pmt/pmt.html",
-      "/ensino/atual/st/st.html"
+      "/ensino/atual/metodos_matematicos/index.html",
+      "/ensino/atual/profissao_mercado/index.html",
+      "/ensino/atual/series_temporais/index.html"
     ]
   }
 ]

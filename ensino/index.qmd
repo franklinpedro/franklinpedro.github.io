@@ -2,7 +2,7 @@
 title: "ensino"
 listing:
   - id: em-andamento
-    contents: "**/*/*.qmd"
+    contents: "**/*/index.qmd"
     type: default
     sort: "date"
     date-format: DD/MM/YYYY
