@@ -1,0 +1,17 @@
+[
+  {
+    "listing": "/coisas_legais.html",
+    "items": [
+      "/posts/primeiro/primeiro_post.html",
+      "/posts/segundo/segundo_post.html"
+    ]
+  },
+  {
+    "listing": "/ensino/index.html",
+    "items": [
+      "/ensino/em_andamento/metodos_matematicos/index.html",
+      "/ensino/em_andamento/profissao_mercado/index.html",
+      "/ensino/em_andamento/series_temporais/index.html"
+    ]
+  }
+]
