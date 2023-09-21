@@ -1,17 +1,17 @@
 [
   {
-    "listing": "/cursos/cursos.html",
-    "items": [
-      "/cursos/atual/mm/mm.html",
-      "/cursos/atual/pmt/pmt.html",
-      "/cursos/atual/st/st.html"
-    ]
-  },
-  {
     "listing": "/coisas_legais.html",
     "items": [
       "/posts/primeiro/primeiro_post.html",
       "/posts/segundo/segundo_post.html"
+    ]
+  },
+  {
+    "listing": "/ensino/index.html",
+    "items": [
+      "/ensino/atual/mm/mm.html",
+      "/ensino/atual/pmt/pmt.html",
+      "/ensino/atual/st/st.html"
     ]
   }
 ]
