@@ -4,7 +4,7 @@ author: "pedro franklin"
 date: 2023-09-19
 date-format: DD/MM/YYYY
 image: knn.jpg
-#categories: [teste]
+categories: [teste, aprendizagem]
 description: "este é um primeiro teste de post para uma página com listing."
 language: _custom.yml
 ---

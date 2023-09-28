@@ -8,13 +8,13 @@ website:
     left:
       - href: index.qmd
         text: home
-      - href: ensino/index.qmd
+      - href: ensino.qmd
         text: ensino
       - href: coisas_legais.qmd
         text: coisas legais
       
   page-footer:
-    right: "built with 💜 and [quarto](https://quarto.org/), by pedro franklin."
+    right: "página criada com 💜 and [quarto](https://quarto.org/) por pedro franklin."
     
 
 format:

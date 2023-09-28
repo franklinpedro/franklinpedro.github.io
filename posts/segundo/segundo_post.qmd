@@ -1,11 +1,12 @@
 ---
 title: "segundo post"
-#author: "pedro franklin"
-#date: 2023-09-19
-#date-format: DD/MM/YYYY
+author: "pedro franklin"
+date: 2023-09-20
+date-format: DD/MM/YYYY
 image: ts2.png
-#categories: [teste]
+categories: [teste]
 description: "este é um segundo teste de post para uma página com listing."
+editor: source
 ---
 
 Olá!

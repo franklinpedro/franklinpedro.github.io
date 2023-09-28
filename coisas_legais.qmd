@@ -3,10 +3,16 @@ title: "coisas legais"
 listing:
   contents: posts
   type: default
-  sort: "date"
+  sort: "date desc"
   date-format: DD/MM/YYYY
-  categories: false
-  fields: [image, description, title]
+  categories: true
+  fields: [image, description, title, date]
 language: _custom.yml
-#page-layout: full
+page-layout: full
+title-block-banner: true
+listing-page-category-all: "tudo"
+toc-title-website: "nesta página"
+listing-page-field-author: "autor"
+title-block-published: "publicado por"
+lang: pt-br
 ---
