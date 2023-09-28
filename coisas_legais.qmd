@@ -12,7 +12,5 @@ page-layout: full
 title-block-banner: true
 listing-page-category-all: "tudo"
 toc-title-website: "nesta página"
-listing-page-field-author: "autor"
-title-block-published: "publicado por"
 lang: pt-br
 ---
