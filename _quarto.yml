@@ -12,6 +12,9 @@ website:
         text: ensino
       - href: coisas-legais.qmd
         text: coisas legais
+    right: 
+      - icon: github
+      - href: https://github.com/franklinpedro
       
   page-footer:
     right: "página criada com 💜 e [quarto](https://quarto.org/) por pedro franklin."
