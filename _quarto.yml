@@ -14,7 +14,7 @@ website:
         text: coisas legais
       
   page-footer:
-    right: "página criada com 💜 and [quarto](https://quarto.org/) por pedro franklin."
+    right: "página criada com 💜 e [quarto](https://quarto.org/) por pedro franklin."
     
 
 format:
