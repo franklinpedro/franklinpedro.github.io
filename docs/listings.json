@@ -1,9 +1,9 @@
 [
   {
-    "listing": "/coisas_legais.html",
+    "listing": "/coisas-legais.html",
     "items": [
-      "/posts/segundo/index.html",
-      "/posts/primeiro/index.html"
+      "/coisas-legais/segundo/index.html",
+      "/coisas-legais/primeiro/index.html"
     ]
   },
   {
