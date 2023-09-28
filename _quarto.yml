@@ -10,7 +10,7 @@ website:
         text: home
       - href: ensino.qmd
         text: ensino
-      - href: coisas_legais.qmd
+      - href: coisas-legais.qmd
         text: coisas legais
       
   page-footer:
