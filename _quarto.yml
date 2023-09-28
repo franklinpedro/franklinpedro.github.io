@@ -14,7 +14,7 @@ website:
         text: coisas legais
     right: 
       - icon: github
-      - href: https://github.com/franklinpedro
+        href: https://github.com/franklinpedro
       
   page-footer:
     right: "página criada com 💜 e [quarto](https://quarto.org/) por pedro franklin."
