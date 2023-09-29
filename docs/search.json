@@ -47,5 +47,12 @@
     "title": "ensino",
     "section": "cursos encerrados",
     "text": "cursos encerrados\n\nfamat31033: estatística\ngbc041: estatística\nges017: estatística computacional\nges022: inferência estatística 2\nges046: tópicos especiais em matemática aplicada - introdução ao aprendizado estatístico\nges012: estatística geral\nfamat31041: estatística computacional\nges035: profissão e mercado de trabalho\nges008: introdução à estatística 2\ngcc014: estatística\ngci018: estatística\nges018: inferência estatística 1\nget014: estatística\nges015: probabilidade 2\nges031: modelos lineares generalizados"
+  },
+  {
+    "objectID": "ensino/series-temporais/index.html",
+    "href": "ensino/series-temporais/index.html",
+    "title": "análise de séries temporais",
+    "section": "",
+    "text": "as aulas das disciplina ges033: análise de séries temporais acontecem às quartas-feiras entre 20:50h e 22:30h e às quintas-feiras entre 19:00h e 20:40h na sala 3Q 308. eventualmente, para as aulas práticas, utilizaremos o laboratório de estatística ou os laboratórios do bloco 3Q.\n\nprograma\n\nintrodução à teoria de séries temporais e conceitos fundamentais;\nmodelos para séries estacionárias;\nmodelos para séries não estacionárias;\nidentificação de modelos;\nestimação, verificação e seleção de modelos;\nprevisão com modelos arima;\nmodelos sazonais;\nmétodos automáticos de previsão;\ntópicos especiais.\n\n\n\navaliações\n\nprova, 30 pontos, 19 de outubro.\nseminário, 30 pontos, 16 e 17 de novembro.\nlistas e trabalhos, 20 pontos.\nlaboratórios, 20 pontos.\nprova de recuperação, 100 pontos, 23 de novembro."
   }
 ]
