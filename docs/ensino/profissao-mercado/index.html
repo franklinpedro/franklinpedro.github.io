@@ -156,24 +156,44 @@ ul.task-list li input[type="checkbox"] {
 <p>as aulas das disciplina <strong>ges035: profissão e mercado de trabalho</strong> acontecem às quartas-feiras entre 19:00h e 20:40h e às quintas-feiras entre 20:50h e 22:30h na sala 3Q 308. eventualmente, para as aulas práticas, utilizaremos o laboratório de estatística ou os laboratórios do bloco 3Q.</p>
 <section id="programa" class="level1">
 <h1>programa</h1>
+<ul>
+<li>curriculum vitae: informações para construção de um cv; trainees; entrevistas de contratação.</li>
+<li>busca do emprego.</li>
+<li>descrição do mercado de trabalho.</li>
+<li>organização profissional: leis, regulamentação da profissão, confe, conre, sindicato.</li>
+<li>cursos de graduação, departamentos de estatística, pesquisa e pós-graduação em estatística.</li>
+<li>como se manter atualizado e estatística na internet.</li>
+<li>estatísticas oficiais (ibge, ipea, datasus, inep).</li>
+<li>Competências esperadas de um estatístico.</li>
+<li>como ensinar estatística para não-estatísticos.</li>
+<li>novas formas de organização e análise de dados.</li>
+<li>as diferentes faces da estatística.</li>
+</ul>
 </section>
 <section id="avaliação" class="level1">
 <h1>avaliação</h1>
+<ul>
+<li>primeiro seminário, 30 pontos, 4 e 5 de outubro.</li>
+<li>segundo seminário, 30 pontos, 16 e 17 de novembro.</li>
+<li>trabalhos e relatórios, 40 pontos.</li>
+<li>prova de recuperação, 100 pontos, 23 de novembro; só pode fazer a prova de recuperação alunos frequentes e que possuem nota final superior a 20 pontos.</li>
+</ul>
 </section>
 <section id="material-de-apoio" class="level1">
 <h1>material de apoio</h1>
 <p>a seguir, uma lista com materiais que podem ser úteis para complementar as discussões realizadas em sala de aula.</p>
 <ul>
-<li><a href="https://quarto.org/docs/guide/">documentação do quarto.</a></li>
 <li><a href="https://www.conre3.org.br/portal/">conselho regional de estatística da 3ª região (conre-3).</a></li>
+<li><a href="https://www.ibge.gov.br/">instituto brasileiro de geografia e estatística.</a></li>
+<li><a href="https://www.ipea.gov.br/portal/">instituto de pesquisa econômica aplicada (ipea).</a></li>
+<li><a href="https://datasus.saude.gov.br/">departamento de informática do sistema único de saúde (datasus).</a></li>
+<li><a href="https://www.gov.br/inep/pt-br">instituto nacional de estudos e pesquisas educacionais anísio teixeira (inep).</a></li>
+<li><a href="https://www.redeabe.org.br/">associação brasileira de estatística (abe).</a></li>
+<li><a href="https://www.amstat.org/">american statistical society (asa).</a></li>
+<li><a href="https://www.escolavirtual.gov.br/catalogo">catálogo de cursos da escola virtual do governo.</a></li>
+<li><a href="https://quarto.org/docs/guide/">documentação do quarto.</a></li>
 <li><a href="https://www.kaggle.com/">kaggle: comunidade de data science e machine learning.</a></li>
 <li><a href="https://archive.ics.uci.edu/">uci: repositório de machine learning.</a></li>
-<li><a href="https://www.ibge.gov.br/">instituto brasileiro de geografia e estatística.</a></li>
-<li><a href="https://www.ipea.gov.br/portal/">instituto de pesquisa econômica aplicada.</a></li>
-<li><a href="https://datasus.saude.gov.br/">datasus.</a></li>
-<li><a href="instituto nacional de estudos e pesquisas educacionais anísio teixeira">inep.</a></li>
-<li><a href="https://www.redeabe.org.br/">associação brasileira de estatística (abe).</a></li>
-<li><a href="https://www.amstat.org/">american statistical society.</a></li>
 </ul>
 
 
@@ -311,6 +331,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

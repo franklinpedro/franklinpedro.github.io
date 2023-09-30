@@ -11,19 +11,37 @@ as aulas das disciplina **ges035: profissão e mercado de trabalho** acontecem �
 
 # programa
 
+- curriculum vitae: informações para construção de um cv; trainees; entrevistas de contratação.
+- busca do emprego.
+- descrição do mercado de trabalho.
+- organização profissional: leis, regulamentação da profissão, confe, conre, sindicato.
+- cursos de graduação, departamentos de estatística, pesquisa e pós-graduação em estatística.
+- como se manter atualizado e estatística na internet.
+- estatísticas oficiais (ibge, ipea, datasus, inep).
+- Competências esperadas de um estatístico.
+- como ensinar estatística para não-estatísticos.
+- novas formas de organização e análise de dados.
+- as diferentes faces da estatística.
+
 # avaliação
+
+- primeiro seminário, 30 pontos, 4 e 5 de outubro. 
+- segundo seminário, 30 pontos, 16 e 17 de novembro.
+- trabalhos e relatórios, 40 pontos.
+- prova de recuperação, 100 pontos, 23 de novembro; só pode fazer a prova de recuperação alunos frequentes e que possuem nota final superior a 20 pontos.
 
 # material de apoio
 
 a seguir, uma lista com materiais que podem ser úteis para complementar as discussões realizadas em sala de aula.
 
-- [documentação do quarto.](https://quarto.org/docs/guide/)
 - [conselho regional de estatística da 3ª região (conre-3).](https://www.conre3.org.br/portal/)
+- [instituto brasileiro de geografia e estatística.](https://www.ibge.gov.br/)
+- [instituto de pesquisa econômica aplicada (ipea).](https://www.ipea.gov.br/portal/)
+- [departamento de informática do sistema único de saúde (datasus).](https://datasus.saude.gov.br/)
+- [instituto nacional de estudos e pesquisas educacionais anísio teixeira (inep).](https://www.gov.br/inep/pt-br)
+- [associação brasileira de estatística (abe).](https://www.redeabe.org.br/)
+- [american statistical society (asa).](https://www.amstat.org/)
+- [catálogo de cursos da escola virtual do governo.](https://www.escolavirtual.gov.br/catalogo)
+- [documentação do quarto.](https://quarto.org/docs/guide/)
 - [kaggle: comunidade de data science e machine learning.](https://www.kaggle.com/)
 - [uci: repositório de machine learning.](https://archive.ics.uci.edu/)
-- [instituto brasileiro de geografia e estatística.](https://www.ibge.gov.br/)
-- [instituto de pesquisa econômica aplicada.](https://www.ipea.gov.br/portal/)
-- [datasus.](https://datasus.saude.gov.br/)
-- [inep.](instituto nacional de estudos e pesquisas educacionais anísio teixeira)
-- [associação brasileira de estatística (abe).](https://www.redeabe.org.br/)
-- [american statistical society.](https://www.amstat.org/)
