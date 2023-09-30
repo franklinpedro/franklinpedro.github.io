@@ -8,3 +8,16 @@ description: "a disciplina propões discutir e analisar as habilidades gerais ne
 ---
 
 as aulas das disciplina **ges035: profissão e mercado de trabalho** acontecem às quartas-feiras entre 19:00h e 20:40h e às quintas-feiras entre 20:50h e 22:30h na sala 3Q 308. eventualmente, para as aulas práticas, utilizaremos o laboratório de estatística ou os laboratórios do bloco 3Q.
+
+# programa
+
+# avaliação
+
+# material de apoio
+
+a seguir, uma lista com materiais que podem ser úteis para complementar as discussões realizadas em sala de aula.
+
+- [documentação do quarto.](https://quarto.org/docs/guide/)
+- [conselho regional de estatística da 3ª região (conre-3).](https://www.conre3.org.br/portal/)
+- [kaggle: comunidade de data science e machine learning.](https://www.kaggle.com/)
+- [uci: repositório de machine learning.](https://archive.ics.uci.edu/)
