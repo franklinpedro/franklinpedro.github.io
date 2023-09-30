@@ -32,18 +32,18 @@ as aulas das disciplina **ges033: análise de séries temporais** acontecem às 
 # bibliografia básica
 
 - [time series analysis: univariate and multivariate methods.](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=107524)<br />
-william w. s. wei; 2. edição, addison-wesley, 2006. 
+william w. s. wei; 2ed, addison-wesley, 2006. 
 
 - [time series analysis and its aplications with r examples.](https://acervo.bibliotecas.ufu.br/index.html)<br />
-robert h. shumway, david s. stoffer; 2. edição, springer, 2006.
+robert h. shumway, david s. stoffer; 2ed, springer, 2006.
 
 - [análise de séries temporais.]()<br />
-pedro a. morettin, clélia m.c. toloi; 2. edição, blucher, 2006.
+pedro a. morettin, clélia m.c. toloi; 2ed, blucher, 2006.
 
 # bibliografica complementar
 
 - [the analysis of time series: an introduction with r.](https://www.taylorfrancis.com/books/mono/10.1201/9781351259446/analysis-time-series-chris-chatfield-haipeng-xing)<br />
-    chris chatfield, haipeng xing; 7. edição, chapman and hall/crc, 2019.
+    chris chatfield, haipeng xing; 7ed, chapman and hall/crc, 2019.
     
     há uma versão da [sexta edição do livro](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=123240 
 ) em nossa biblioteca. a sexta edição não contém a parte computacional em r.
