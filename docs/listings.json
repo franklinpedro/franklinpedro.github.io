@@ -6,5 +6,12 @@
       "/ensino/profissao-mercado/index.html",
       "/ensino/metodos-matematicos/index.html"
     ]
+  },
+  {
+    "listing": "/coisas-legais.html",
+    "items": [
+      "/coisas-legais/segundo/index.html",
+      "/coisas-legais/primeiro/index.html"
+    ]
   }
 ]
