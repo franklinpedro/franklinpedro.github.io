@@ -4,7 +4,7 @@ title: "métodos matemáticos"
 date: 2023-07-31
 date-format: DD/MM/YYYY
 image: pinguim2.png
-description: ""
+description: "o curso tem como objetivo central proporcionar aos estudantes de estatística uma base sólida de conhecimentos teóricos e práticos no campo do aprendizado de máquina."
 ---
 
 as aulas das disciplina **ges044: métodos matemáticos** acontecem às segundas-feiras entre 20:50h e 22:30h e às terças-feiras entre 19:00h e 20:40h no laboratório 4 do bloco 1b.
