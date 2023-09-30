@@ -4,6 +4,25 @@ title: "métodos matemáticos"
 date: 2023-07-31
 date-format: DD/MM/YYYY
 image: pinguim2.png
-categories: [disciplinas]
-description: "este é um primeiro teste de post para uma página com listing."
+description: ""
 ---
+
+# programa
+
+- introdução ao aprendizado de máquina: definição e conceitos básicos; tipos de aprendizado: supervisionado, não supervisionado e por reforço.
+- pré-processamento de dados.
+- modelos de aprendizado de máquina supervisionado.
+- aprendizado não supervisionado, sistemas de recomendação, aprendizado por reforço.
+- algoritmos avançados de aprendizado de máquina.
+- processamento de linguagem natural
+
+# bibliografia
+
+-   [an introduction to statistical learning with applications in r.](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf)<br />
+gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.
+
+- [r for data science.](https://r4ds.hadley.nz/)
+hadley wickham, mine çetinkaya-rundel, garrett grolemund. 3ed, o'reilley, 2023.
+
+- [ggplot2: elegant graphics for data analysis](https://ggplot2-book.org/)<br />
+hadley wickham, danielle navarro, and thomas lin pedersen. 3ed, springer, 2023.
