@@ -18,6 +18,14 @@ as aulas das disciplina **ges044: métodos matemáticos** acontecem às segundas
 - algoritmos avançados de aprendizado de máquina.
 - processamento de linguagem natural
 
+# avaliação
+
+- primeira prova, 28 pontos, 09 de outubro.
+- segunda prova, 28 pontos, 07 de novembro.
+- laboratórios, 28 pontos.
+- seminário, 16 pontos.
+- prova de recuperação, 100 pontos, 28 de novembro.
+
 # bibliografia
 
 -   [an introduction to statistical learning with applications in r.](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf)<br />

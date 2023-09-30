@@ -23,11 +23,11 @@ as aulas das disciplina **ges033: análise de séries temporais** acontecem às 
 
 # avaliações
 
--   primeira prova, 30 pontos, 19 de outubro.
--   seminário, 30 pontos, 16 e 17 de novembro.
--   listas e trabalhos, 20 pontos.
--   laboratórios, 20 pontos.
--   prova de recuperação, 100 pontos, 23 de novembro.
+- primeira prova, 30 pontos, 19 de outubro.
+- seminário, 30 pontos, 16 e 17 de novembro.
+- listas e trabalhos, 20 pontos.
+- laboratórios, 20 pontos.
+- prova de recuperação, 100 pontos, 23 de novembro.
 
 # bibliografia básica
 
