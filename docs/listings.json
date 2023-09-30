@@ -1,12 +1,5 @@
 [
   {
-    "listing": "/coisas-legais.html",
-    "items": [
-      "/coisas-legais/segundo/index.html",
-      "/coisas-legais/primeiro/index.html"
-    ]
-  },
-  {
     "listing": "/ensino.html",
     "items": [
       "/ensino/series-temporais/index.html",
