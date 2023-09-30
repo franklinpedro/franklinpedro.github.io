@@ -7,6 +7,8 @@ image: pinguim2.png
 description: ""
 ---
 
+as aulas das disciplina **ges044: métodos matemáticos** acontecem às segundas-feiras entre 20:50h e 22:30h e às terças-feiras entre 19:00h e 20:40h no laboratório 4 do bloco 1b.
+
 # programa
 
 - introdução ao aprendizado de máquina: definição e conceitos básicos; tipos de aprendizado: supervisionado, não supervisionado e por reforço.
