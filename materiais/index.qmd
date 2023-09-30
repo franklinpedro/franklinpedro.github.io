@@ -1,0 +1,73 @@
+---
+title: "materiais"
+title-block-banner: true
+toc-title-website: "nesta página"
+toc-depth: 6
+editor: source
+---
+
+## visualização de dados no r
+
+o `ggplot2` é um pacote do R para a produção de gráficos. ele é uma implementação da gramática dos gráficos (grammar of graphics). a gramática dos gráficos é um conjunto de regras e convenções que descreve como os componentes de um gráfico podem ser combinados para criar visualizações. quando você entende esta estrutura da grmáticas dos gráficos, as coisas ficam mais fáceis e é possível produzir gráficos muito bonitos. sou super fã deste pacote e sempre tento introduzir seus fundamentos em minhas aulas. a seguir, duas recomendações que podem ser úteis para quem quer aprender a construir gráficos no r com o `ggplot2`.
+
+<br>
+
+::: grid
+::: g-col-4
+![](cover_ggplot2.jpeg){width="180"}
+:::
+
+::: g-col-8
+##### [ggplot2: elegant graphics for data analysis](https://ggplot2-book.org/)
+
+livro escrito por hadley wickham, o criador do pacote ggplot2. gosto muito deste livro. não é um texto que apresentará receitas prontas de como construir gráficos no r. o foco da obra está em explicar a gramática dos gráficos que o pacote ggplot2 utiliza.
+:::
+:::
+
+<br>
+
+::: grid
+::: g-col-4
+![](cedric.png){width="180"}
+:::
+
+::: g-col-8
+##### [a ggplot2 tutorial for beautiful plotting in r](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
+
+livro escrito por hadley wickham, o criador do pacote ggplot2. gosto muito deste livro. não é um texto que apresentará receitas prontas de como construir gráficos no r. o foco da obra está em explicar a gramática dos gráficos que o pacote ggplot2 utiliza.
+:::
+:::
+
+## ciência de dados
+
+ciência de dados é a disciplina que utiliza a estatística, a matemática e a ciência da computação para extrair informação e conhecimento a partir de conjuntos de dados. a lista desta seção apresenta o meu livro preferido para introduzir o assunto em sala de aula (r for data science) e também alguns outros bins títulos que já utilizei durante meu processo de aprendizagem.
+
+<br>
+
+::: grid
+::: g-col-4
+![](r4ds.png){width="180"}
+:::
+
+::: g-col-8
+##### [r for data science](https://r4ds.hadley.nz/)
+
+o livro cobre os tópicos de visualização, organização, transformação e importação de dados. os últimos capítulos abordam os aspectos técnicos para comunicação dos resultados obtidos durante o processo de ciência de dados. é nesta parte que o leitor pode aprender sobre o [quarto](https://quarto.org/), um sistema muito legal de publicação científica de código aberto (dá para criar relatórios, apresentações, livros, blogs, websites com ele!). estou muito empolgado com o quarto e tenho gostado muito de utilizá-lo em meu dia a dia.
+:::
+:::
+
+## programação em r
+
+<br>
+
+::: grid
+::: g-col-4
+![](book-r.png){width="180"}
+:::
+
+::: g-col-8
+##### [the book of r](https://books.google.com.br/books/about/The_Book_of_R.html?id=N4G7DQAAQBAJ&redir_esc=y)
+
+guia sobre r abrangente e amigável para iniciantes. foi um dos livros que utilizei quando comecei a aprender r.
+:::
+:::

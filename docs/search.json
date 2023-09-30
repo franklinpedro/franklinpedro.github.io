@@ -35,6 +35,13 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "materiais/index.html",
+    "href": "materiais/index.html",
+    "title": "materiais",
+    "section": "",
+    "text": "o ggplot2 é um pacote do R para a produção de gráficos. ele é uma implementação da gramática dos gráficos (grammar of graphics). a gramática dos gráficos é um conjunto de regras e convenções que descreve como os componentes de um gráfico podem ser combinados para criar visualizações. quando você entende esta estrutura da grmáticas dos gráficos, as coisas ficam mais fáceis e é possível produzir gráficos muito bonitos. sou super fã deste pacote e sempre tento introduzir seus fundamentos em minhas aulas. a seguir, duas recomendações que podem ser úteis para quem quer aprender a construir gráficos no r com o ggplot2.\n\n\n\n\n\n\n\nlivro escrito por hadley wickham, o criador do pacote ggplot2. gosto muito deste livro. não é um texto que apresentará receitas prontas de como construir gráficos no r. o foco da obra está em explicar a gramática dos gráficos que o pacote ggplot2 utiliza.\n\n\n\n\n\n\n\n\n\nlivro escrito por hadley wickham, o criador do pacote ggplot2. gosto muito deste livro. não é um texto que apresentará receitas prontas de como construir gráficos no r. o foco da obra está em explicar a gramática dos gráficos que o pacote ggplot2 utiliza."
+  },
+  {
     "objectID": "ensino.html",
     "href": "ensino.html",
     "title": "ensino",
@@ -68,5 +75,19 @@
     "title": "métodos matemáticos",
     "section": "",
     "text": "as aulas das disciplina ges044: métodos matemáticos acontecem às segundas-feiras entre 20:50h e 22:30h e às terças-feiras entre 19:00h e 20:40h no laboratório 4 do bloco 1b.\n\nprograma\n\nintrodução ao aprendizado de máquina: definição e conceitos básicos; tipos de aprendizado: supervisionado, não supervisionado e por reforço.\npré-processamento de dados.\nmodelos de aprendizado de máquina supervisionado.\naprendizado não supervisionado, sistemas de recomendação, aprendizado por reforço.\nalgoritmos avançados de aprendizado de máquina.\nprocessamento de linguagem natural\n\n\n\navaliação\n\nprimeira prova, 28 pontos, 09 de outubro.\nsegunda prova, 28 pontos, 07 de novembro.\nlaboratórios, 28 pontos.\nseminário, 16 pontos.\nprova de recuperação, 100 pontos, 28 de novembro.\n\n\n\nbibliografia\n\nan introduction to statistical learning with applications in r. gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.\nr for data science. hadley wickham, mine çetinkaya-rundel, garrett grolemund. 3ed, o’reilley, 2023.\nggplot2: elegant graphics for data analysis. a terceira edição do livro de hadley wickham, danielle navarro e thomas lin pedersen está em construção e pode ser acessada a partir deste link."
+  },
+  {
+    "objectID": "materiais/index.html#ciência-de-dados",
+    "href": "materiais/index.html#ciência-de-dados",
+    "title": "materiais",
+    "section": "ciência de dados",
+    "text": "ciência de dados\nciência de dados é a disciplina que utiliza a estatística, a matemática e a ciência da computação para extrair informação e conhecimento a partir de conjuntos de dados. a lista desta seção apresenta o meu livro preferido para introduzir o assunto em sala de aula (r for data science) e também alguns outros bins títulos que já utilizei durante meu processo de aprendizagem.\n\n\n\n\n\n\nr for data science\no livro cobre os tópicos de visualização, organização, transformação e importação de dados. os últimos capítulos abordam os aspectos técnicos para comunicação dos resultados obtidos durante o processo de ciência de dados. é nesta parte que o leitor pode aprender sobre o quarto, um sistema muito legal de publicação científica de código aberto (dá para criar relatórios, apresentações, livros, blogs, websites com ele!). estou muito empolgado com o quarto e tenho gostado muito de utilizá-lo em meu dia a dia."
+  },
+  {
+    "objectID": "materiais/index.html#programação-em-r",
+    "href": "materiais/index.html#programação-em-r",
+    "title": "materiais",
+    "section": "programação em r",
+    "text": "programação em r\n\n\n\n\n\n\nthe book of r\nguia sobre r abrangente e amigável para iniciantes. foi um dos livros que utilizei quando comecei a aprender r."
   }
 ]
