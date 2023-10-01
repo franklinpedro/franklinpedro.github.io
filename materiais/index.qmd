@@ -76,7 +76,7 @@ guia sobre r abrangente e amigável para iniciantes. foi um dos livros que utili
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-4}
-![](posit.jpeg){width="180" fig-align="center"}
+![](posit.jpeg){width="180"}
 :::
 ::: {.g-col-12 .g-col-md-8}
 ##### [canal no youtube da posit](https://www.youtube.com/@PositPBC)
