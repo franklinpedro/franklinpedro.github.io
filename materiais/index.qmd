@@ -71,3 +71,19 @@ o livro cobre os tópicos de visualização, organização, transformação e im
 guia sobre r abrangente e amigável para iniciantes. foi um dos livros que utilizei quando comecei a aprender r.
 :::
 :::
+
+<br>
+
+::: {.grid}
+
+::: {.g-col-4}
+![](posit.jpeg){width="180"}
+:::
+
+::: {.g-col-8}
+[canal no youtube da posit](https://www.youtube.com/@PositPBC)
+
+o rstudio foi fundado em 2009 e, em 2011, lança o rstudio IDE. em julho de 2022, o rstudio mudou seu nome para posit, sinalizando sua ampliação na exploração de outras linguagens de programação, como python. o rstudio IDE manteve seu nome. o canal no youtube da posit possui um rico material sobre programação em r (como esta excelente [aula sobre o tidyverse](https://youtu.be/KsBBRHAgAhM?si=biZQB54EP8m6JCet)) e outros tópicos (como quarto).
+:::
+
+:::
