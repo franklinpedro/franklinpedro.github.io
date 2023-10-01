@@ -4,6 +4,8 @@ toc: true
 title-block-banner: true
 toc-title-website: "nesta página"
 toc-depth: 10
+description: |
+  sugestões de materiais sobre visualização de dados no r, ciência de dados, programação em r, estatística com r e aprendizado de máquina; a maioria dos livros sugeridos foram disponibilizados gratuitamente pelo seus autores; ao clicar no título de cada sugestão, você terá acesso ao material gratuito; se o livro não está disponível gratuitamente, o link do título conduzirá você a uma página externa com informações adicionais sobre a obra.
 editor: source
 ---
 
@@ -13,7 +15,7 @@ o ggplot2 é um pacote do R para a produção de gráficos. ele é uma implement
 
 <br>
 
-::: {.grid}
+::: grid
 ::: {.g-col-12 .g-col-md-4}
 ![](cover_ggplot2.jpeg){width="180"}
 :::
@@ -27,7 +29,7 @@ livro escrito por hadley wickham, o criador do pacote ggplot2. gosto muito deste
 
 <br>
 
-::: {.grid}
+::: grid
 ::: {.g-col-12 .g-col-md-4}
 ![](cedric.png){width="180"}
 :::
@@ -45,15 +47,29 @@ ciência de dados é a disciplina que utiliza a estatística, a matemática e a 
 
 <br>
 
-::: {.grid}
+::: grid
 ::: {.g-col-12 .g-col-md-4}
-![](r4ds.png){width="180"}
+![](r4ds.jpg){width="180"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
 ##### [r for data science](https://r4ds.hadley.nz/)
 
-o livro cobre os tópicos de visualização, organização, transformação e importação de dados. os últimos capítulos abordam os aspectos técnicos para comunicação dos resultados obtidos durante o processo de ciência de dados. é nesta parte que o leitor pode aprender sobre o [quarto](https://quarto.org/), um sistema muito legal de publicação científica de código aberto (dá para criar relatórios, apresentações, livros, blogs, websites com ele!). estou muito empolgado com o quarto e tenho gostado muito de utilizá-lo em meu dia a dia.
+o livro cobre os tópicos de visualização, organização, transformação e importação de dados. os últimos capítulos abordam os aspectos técnicos para comunicação dos resultados obtidos durante o processo de ciência de dados. é nesta parte que o leitor pode aprender sobre o [quarto](https://quarto.org/), um sistema muito legal de publicação científica de código aberto (dá para criar relatórios, apresentações, livros, blogs e websites com ele). estou muito empolgado com o quarto e tenho gostado muito de utilizá-lo em meu dia a dia. o livro é excelente e possui muitos exercícios para praticar.
+:::
+:::
+
+<br>
+
+::: grid
+::: {.g-col-12 .g-col-md-4}
+![](ids-rafael.jpg){width="180"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+##### [introduction to data science](http://rafalab.dfci.harvard.edu/dsbook-part-1/)
+
+o livro começa introduzindo os fundamentos de r para em seguida falar sobre manipulação de dados com dplyr, visualização de dados com ggplot2, organização de arquivos com o shell do unix/linux, controle de versão com git e github, e preparação de documentos reproduzíveis com quarto e knitr. também apresenta muitos exercícios e bons exemplos. há um segundo volume chamado [advanced data science](). este volume mais avançado concentra-se na aplicação de métodos estatísticos e de aprendizado de máquina na análise de dados.
 :::
 :::
 
@@ -61,25 +77,25 @@ o livro cobre os tópicos de visualização, organização, transformação e im
 
 há alguns anos eu tenho utilizado o r em minhas aulas. desde então, tenho percebido que as aulas ficaram mais interessantes e dinâmicas e que os alunos passaram a se interessar mais pelo universo da estatística e probabilidade.
 
-o r é uma linguagem de programação muito legal. é possível, a partir dele, gerar gráficos bonitos, manipular vetores de forma elegante e fácil, realizar análises estatísticas, simular experimentos aleatórios e utilizar vários modelos de aprendizado de máquina que estão disponíveis em diversos pacotes. 
+o r é uma linguagem de programação muito legal. é possível, a partir dele, gerar gráficos bonitos, manipular vetores de forma elegante e fácil, realizar análises estatísticas, simular experimentos aleatórios e utilizar vários modelos de aprendizado de máquina que estão disponíveis em diversos pacotes.
 
 <br>
 
-::: {.grid}
+::: grid
 ::: {.g-col-12 .g-col-md-4}
 ![](book-r.png){width="180"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
-##### [the book of r](https://books.google.com.br/books/about/The_Book_of_R.html?id=N4G7DQAAQBAJ&redir_esc=y)
+##### [the book of r](https://nostarch.com/bookofr)
 
-guia sobre r abrangente e amigável para iniciantes. foi um dos livros que utilizei quando comecei a aprender r.
+foi um dos livros que utilizei quando comecei a aprender r. é um guia bem abrangente e amigável para iniciantes. começa com os fundamentos da linguagem (r como calculadora, criação de objetos, tipos de objetos, vetores, matrizes, data frames, gráficos), depois aprofunda na parte da programação ao falar sobre funções, estruturas condicionais e estruturas de repetição. ainda contém capítulos sobre probabilidade e inferência estatística. 
 :::
 :::
 
 <br>
 
-::: {.grid}
+::: grid
 ::: {.g-col-12 .g-col-md-4}
 ![](hands2.jpg){width="180"}
 :::
@@ -87,21 +103,20 @@ guia sobre r abrangente e amigável para iniciantes. foi um dos livros que utili
 ::: {.g-col-12 .g-col-md-8}
 ##### [hands-on programming with r](https://rstudio-education.github.io/hopr/)
 
-o livro, introdução amigável à linguagem r, se concentra no ensino das habilidades de programação mais relacionadas à ciência de dados. uma coisa que me faz gostar bastante deste livro é que o ensino da linguagem (fundamentos, importação e manipulação de dados, escrita de funções, loops) a partir de 3 projetos práticos: lançamento de dados, jogo de cartas e criação de uma máquina caça-níqueis. 
+o livro, introdução amigável à linguagem r, se concentra no ensino das habilidades de programação mais relacionadas à ciência de dados. uma coisa que me faz gostar bastante deste livro é que o ensino da linguagem (fundamentos, importação e manipulação de dados, escrita de funções, loops) a partir de três projetos práticos: lançamento de dados, jogo de cartas e criação de uma máquina caça-níqueis.
 :::
 :::
 
 <br>
 
-::: {.grid}
+::: grid
 ::: {.g-col-12 .g-col-md-4}
 ![](posit.jpeg){width="180"}
 :::
+
 ::: {.g-col-12 .g-col-md-8}
 ##### [canal no youtube da posit](https://www.youtube.com/@PositPBC)
 
 o rstudio foi fundado em 2009 e, em 2011, lança o rstudio IDE. em julho de 2022, o rstudio mudou seu nome para posit, sinalizando sua ampliação na exploração de outras linguagens de programação, como python. o rstudio IDE manteve seu nome. o canal no youtube da posit possui um rico material sobre muitos tópicos, como estas excelentes aulas sobre o [tidyverse](https://youtu.be/KsBBRHAgAhM?si=biZQB54EP8m6JCet)) e sobre como criar um [portfolio de data science com quarto](https://www.youtube.com/live/xtSFXtDf4cM?si=vScG6OnBJUyi8GR3).
 :::
 :::
-
-

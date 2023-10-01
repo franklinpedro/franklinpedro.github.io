@@ -20,7 +20,7 @@ website:
       
   page-footer:
     left: "página criada com 💜 e [quarto](https://quarto.org/) por pedro franklin."
-  favicon: icon-site.jpg
+  favicon: cat.jpg
 format:
   html:
     theme:
