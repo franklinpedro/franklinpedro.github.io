@@ -89,5 +89,12 @@
     "title": "métodos matemáticos",
     "section": "",
     "text": "as aulas das disciplina ges044: métodos matemáticos acontecem às segundas-feiras entre 20:50h e 22:30h e às terças-feiras entre 19:00h e 20:40h no laboratório 4 do bloco 1b.\n\nprograma\n\nintrodução ao aprendizado de máquina: definição e conceitos básicos; tipos de aprendizado: supervisionado, não supervisionado e por reforço.\npré-processamento de dados.\nmodelos de aprendizado de máquina supervisionado.\naprendizado não supervisionado, sistemas de recomendação, aprendizado por reforço.\nalgoritmos avançados de aprendizado de máquina.\nprocessamento de linguagem natural\n\n\n\navaliação\n\nprimeira prova, 28 pontos, 09 de outubro.\nsegunda prova, 28 pontos, 07 de novembro.\nlaboratórios, 28 pontos.\nseminário, 16 pontos.\nprova de recuperação, 100 pontos, 28 de novembro.\n\n\n\nbibliografia\n\nan introduction to statistical learning with applications in r. gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.\nr for data science. hadley wickham, mine çetinkaya-rundel, garrett grolemund. 3ed, o’reilley, 2023.\nggplot2: elegant graphics for data analysis. a terceira edição do livro de hadley wickham, danielle navarro e thomas lin pedersen está em construção e pode ser acessada a partir deste link."
+  },
+  {
+    "objectID": "materiais/index.html#estatística-com-r",
+    "href": "materiais/index.html#estatística-com-r",
+    "title": "materiais",
+    "section": "estatística com r",
+    "text": "estatística com r\n\n\n\n\n\nstatistical inference via data science\no livro, além de ensinar os fundamentos de r e a utilizar o conjunto de pacotes tidyverse para ciência de dados, apresenta tópicos sobre inferência estatística, como amostragem, intervalos de confiança e testes de hipóteses. o capítulo final do livro, conte uma história com os dados, apresenta alguns estudos de caso adicionais sobre o trabalho com dados (exemplos: um estudo de caso sobre preços de casas vendidas num certo período e um estudo de caso sobre o teste de bechdel, uma medida da representação de mulheres em filmes e outras obras de ficção)."
   }
 ]

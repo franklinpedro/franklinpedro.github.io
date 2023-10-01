@@ -120,3 +120,20 @@ o livro, introdução amigável à linguagem r, se concentra no ensino das habil
 o rstudio foi fundado em 2009 e, em 2011, lança o rstudio IDE. em julho de 2022, o rstudio mudou seu nome para posit, sinalizando sua ampliação na exploração de outras linguagens de programação, como python. o rstudio IDE manteve seu nome. o canal no youtube da posit possui um rico material sobre muitos tópicos, como estas excelentes aulas sobre o [tidyverse](https://youtu.be/KsBBRHAgAhM?si=biZQB54EP8m6JCet)) e sobre como criar um [portfolio de data science com quarto](https://www.youtube.com/live/xtSFXtDf4cM?si=vScG6OnBJUyi8GR3).
 :::
 :::
+
+<br>
+
+## estatística com r
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+![](siwds.jpeg){width="180"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+##### [statistical inference via data science]()
+
+o livro, além de ensinar os fundamentos de r e a utilizar o conjunto de pacotes tidyverse para ciência de dados, apresenta tópicos sobre 
+inferência estatística, como amostragem, intervalos de confiança e testes de hipóteses. o capítulo final do livro, *conte uma história com os dados*, apresenta alguns estudos de caso adicionais sobre o trabalho com dados (exemplos: um estudo de caso sobre preços de casas vendidas num certo período e um estudo de caso sobre o teste de bechdel, uma medida da representação de mulheres em filmes e outras obras de ficção).
+:::
+:::
