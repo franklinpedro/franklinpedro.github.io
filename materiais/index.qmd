@@ -76,13 +76,12 @@ guia sobre r abrangente e amigável para iniciantes. foi um dos livros que utili
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-4}
-![](posit.jpeg){width="180"}
+![](posit.jpeg){width="180" fig-align="center"}
 :::
-
 ::: {.g-col-12 .g-col-md-8}
 ##### [canal no youtube da posit](https://www.youtube.com/@PositPBC)
 
-o rstudio foi fundado em 2009 e, em 2011, lança o rstudio IDE. em julho de 2022, o rstudio mudou seu nome para posit, sinalizando sua ampliação na exploração de outras linguagens de programação, como python. o rstudio IDE manteve seu nome. o canal no youtube da posit possui um rico material sobre programação em r (como esta excelente [aula sobre o tidyverse](https://youtu.be/KsBBRHAgAhM?si=biZQB54EP8m6JCet)) e outros tópicos (como quarto).
+o rstudio foi fundado em 2009 e, em 2011, lança o rstudio IDE. em julho de 2022, o rstudio mudou seu nome para posit, sinalizando sua ampliação na exploração de outras linguagens de programação, como python. o rstudio IDE manteve seu nome. o canal no youtube da posit possui um rico material sobre muitos tópicos, como estas excelentes aulas sobre o [tidyverse](https://youtu.be/KsBBRHAgAhM?si=biZQB54EP8m6JCet)) e sobre como criar um [portfolio de data science com quarto](https://www.youtube.com/live/xtSFXtDf4cM?si=vScG6OnBJUyi8GR3).
 :::
 :::
 
