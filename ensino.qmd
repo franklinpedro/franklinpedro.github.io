@@ -12,6 +12,7 @@ title-block-banner: true
 toc-title-website: "nesta página"
 #language: _custom.yml
 page-layout: full
+toc: true
 ---
 
 ## cursos em andamento

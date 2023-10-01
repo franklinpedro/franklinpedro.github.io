@@ -1,5 +1,6 @@
 ---
 title: "materiais"
+toc: true
 title-block-banner: true
 toc-title-website: "nesta página"
 toc-depth: 10
@@ -34,7 +35,7 @@ livro escrito por hadley wickham, o criador do pacote ggplot2. gosto muito deste
 ::: {.g-col-12 .g-col-md-8}
 ##### [a ggplot2 tutorial for beautiful plotting in r](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
 
-livro escrito por hadley wickham, o criador do pacote ggplot2. gosto muito deste livro. não é um texto que apresentará receitas prontas de como construir gráficos no r. o foco da obra está em explicar a gramática dos gráficos que o pacote ggplot2 utiliza.
+este tutorial foi escrito por cédric scherer. cédric começou a utilizar o ggplot2 enquanto preparava a apresentação de sua tese de doutorado em 2016. seu tutorial é um ótimo ponto de partida para quem quer aprender a usar a o ggplot2. a proposta do autor é introduzir o ggplot2 a partir de um estudo sobre morbidade e mortalidade por poluição do ar. sempre volto ao tutorial em momentos de dúvidas durante a construção de algum gráfico.
 :::
 :::
 
@@ -73,6 +74,20 @@ o r é uma linguagem de programação muito legal. é possível, a partir dele, 
 ##### [the book of r](https://books.google.com.br/books/about/The_Book_of_R.html?id=N4G7DQAAQBAJ&redir_esc=y)
 
 guia sobre r abrangente e amigável para iniciantes. foi um dos livros que utilizei quando comecei a aprender r.
+:::
+:::
+
+<br>
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+![](hands2.jpg){width="180"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+##### [hands-on programming with r](https://rstudio-education.github.io/hopr/)
+
+o livro, introdução amigável à linguagem r, se concentra no ensino das habilidades de programação mais relacionadas à ciência de dados. uma coisa que me faz gostar bastante deste livro é que o ensino da linguagem (fundamentos, importação e manipulação de dados, escrita de funções, loops) a partir de 3 projetos práticos: lançamento de dados, jogo de cartas e criação de uma máquina caça-níqueis. 
 :::
 :::
 
