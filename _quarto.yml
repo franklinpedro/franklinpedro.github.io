@@ -19,8 +19,8 @@ website:
         href: https://github.com/franklinpedro
       
   page-footer:
-    right: "página criada com 💜 e [quarto](https://quarto.org/) por pedro franklin."
-  
+    left: "página criada com 💜 e [quarto](https://quarto.org/) por pedro franklin."
+  favicon: icon-site.jpg
 format:
   html:
     theme:

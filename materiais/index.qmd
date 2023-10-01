@@ -2,22 +2,22 @@
 title: "materiais"
 title-block-banner: true
 toc-title-website: "nesta página"
-toc-depth: 6
+toc-depth: 10
 editor: source
 ---
 
 ## visualização de dados no r
 
-o `ggplot2` é um pacote do R para a produção de gráficos. ele é uma implementação da gramática dos gráficos (grammar of graphics). a gramática dos gráficos é um conjunto de regras e convenções que descreve como os componentes de um gráfico podem ser combinados para criar visualizações. quando você entende esta estrutura da grmáticas dos gráficos, as coisas ficam mais fáceis e é possível produzir gráficos muito bonitos. sou super fã deste pacote e sempre tento introduzir seus fundamentos em minhas aulas. a seguir, duas recomendações que podem ser úteis para quem quer aprender a construir gráficos no r com o `ggplot2`.
+o ggplot2 é um pacote do R para a produção de gráficos. ele é uma implementação da gramática dos gráficos (grammar of graphics). a gramática dos gráficos é um conjunto de regras e convenções que descreve como os componentes de um gráfico podem ser combinados para criar visualizações. quando você entende esta estrutura da grmáticas dos gráficos, as coisas ficam mais fáceis e é possível produzir gráficos muito bonitos. sou super fã deste pacote e sempre tento introduzir seus fundamentos em minhas aulas. a seguir, duas recomendações que podem ser úteis para quem quer aprender a construir gráficos no r com o ggplot2.
 
 <br>
 
-::: grid
-::: g-col-4
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
 ![](cover_ggplot2.jpeg){width="180"}
 :::
 
-::: g-col-8
+::: {.g-col-12 .g-col-md-8}
 ##### [ggplot2: elegant graphics for data analysis](https://ggplot2-book.org/)
 
 livro escrito por hadley wickham, o criador do pacote ggplot2. gosto muito deste livro. não é um texto que apresentará receitas prontas de como construir gráficos no r. o foco da obra está em explicar a gramática dos gráficos que o pacote ggplot2 utiliza.
@@ -26,12 +26,12 @@ livro escrito por hadley wickham, o criador do pacote ggplot2. gosto muito deste
 
 <br>
 
-::: grid
-::: g-col-4
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
 ![](cedric.png){width="180"}
 :::
 
-::: g-col-8
+::: {.g-col-12 .g-col-md-8}
 ##### [a ggplot2 tutorial for beautiful plotting in r](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
 
 livro escrito por hadley wickham, o criador do pacote ggplot2. gosto muito deste livro. não é um texto que apresentará receitas prontas de como construir gráficos no r. o foco da obra está em explicar a gramática dos gráficos que o pacote ggplot2 utiliza.
@@ -44,12 +44,12 @@ ciência de dados é a disciplina que utiliza a estatística, a matemática e a 
 
 <br>
 
-::: grid
-::: g-col-4
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
 ![](r4ds.png){width="180"}
 :::
 
-::: g-col-8
+::: {.g-col-12 .g-col-md-8}
 ##### [r for data science](https://r4ds.hadley.nz/)
 
 o livro cobre os tópicos de visualização, organização, transformação e importação de dados. os últimos capítulos abordam os aspectos técnicos para comunicação dos resultados obtidos durante o processo de ciência de dados. é nesta parte que o leitor pode aprender sobre o [quarto](https://quarto.org/), um sistema muito legal de publicação científica de código aberto (dá para criar relatórios, apresentações, livros, blogs, websites com ele!). estou muito empolgado com o quarto e tenho gostado muito de utilizá-lo em meu dia a dia.
@@ -60,12 +60,12 @@ o livro cobre os tópicos de visualização, organização, transformação e im
 
 <br>
 
-::: grid
-::: g-col-4
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
 ![](book-r.png){width="180"}
 :::
 
-::: g-col-8
+::: {.g-col-12 .g-col-md-8}
 ##### [the book of r](https://books.google.com.br/books/about/The_Book_of_R.html?id=N4G7DQAAQBAJ&redir_esc=y)
 
 guia sobre r abrangente e amigável para iniciantes. foi um dos livros que utilizei quando comecei a aprender r.
@@ -75,15 +75,15 @@ guia sobre r abrangente e amigável para iniciantes. foi um dos livros que utili
 <br>
 
 ::: {.grid}
-
-::: {.g-col-4}
+::: {.g-col-12 .g-col-md-4}
 ![](posit.jpeg){width="180"}
 :::
 
-::: {.g-col-8}
-[canal no youtube da posit](https://www.youtube.com/@PositPBC)
+::: {.g-col-12 .g-col-md-8}
+##### [canal no youtube da posit](https://www.youtube.com/@PositPBC)
 
 o rstudio foi fundado em 2009 e, em 2011, lança o rstudio IDE. em julho de 2022, o rstudio mudou seu nome para posit, sinalizando sua ampliação na exploração de outras linguagens de programação, como python. o rstudio IDE manteve seu nome. o canal no youtube da posit possui um rico material sobre programação em r (como esta excelente [aula sobre o tidyverse](https://youtu.be/KsBBRHAgAhM?si=biZQB54EP8m6JCet)) e outros tópicos (como quarto).
 :::
-
 :::
+
+
