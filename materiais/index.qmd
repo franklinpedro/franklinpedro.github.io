@@ -6,6 +6,7 @@ toc-title-website: "nesta página"
 toc-depth: 10
 description: |
   a seguir, sugestões de materiais sobre visualização de dados no r, ciência de dados, programação em r, estatística com r e aprendizado de máquina; a maioria dos livros sugeridos foram disponibilizados gratuitamente pelo seus autores; ao clicar no título de cada sugestão, você terá acesso ao material gratuito; se o livro não está disponível gratuitamente, o link do título conduzirá você a uma página externa com informações adicionais sobre a obra.
+link-external-newwindow: true
 editor: source
 ---
 
@@ -167,7 +168,7 @@ os livros desta seção além de apresentarem os fundamentos da linguagem r, con
 :::
 
 ::: {.g-col-12 .g-col-md-8}
-##### [statistical inference via data science]()
+##### [statistical inference via data science](https://moderndive.com/)
 
 o livro, além de ensinar os fundamentos de r e a utilizar o conjunto de pacotes tidyverse para ciência de dados, apresenta tópicos sobre 
 inferência estatística, como amostragem, intervalos de confiança e testes de hipóteses. o capítulo final do livro, *conte uma história com os dados*, apresenta alguns estudos de caso adicionais sobre o trabalho com dados (exemplos: um estudo de caso sobre preços de casas vendidas num certo período e um estudo de caso sobre o teste de bechdel, uma medida da representação de mulheres em filmes e outras obras de ficção).
