@@ -148,6 +148,24 @@ inferência estatística, como amostragem, intervalos de confiança e testes de 
 ::: {.g-col-12 .g-col-md-8}
 ##### [using r for introductory statistics](https://www.math.csi.cuny.edu/Statistics/R/simpleR/printable/simpleR.pdf)
 
-o livro aborda os fundamentos do r, manipulação e análise de dados, simulações de experimentos aleatórios e considerações sobre o teorema central do limite, intervalos de confiança e testes de hipóteses, análise de regressão e análise de variância. o objetivo do livro não é mostrar todas as características do r ou substituir um livro didático padrão, mas mostrar como o r pode ser utilizado para ilustrar e auxiliar na resolução de problemas estatísticos.
+o livro aborda os fundamentos do r, manipulação e análise de dados, simulações de experimentos aleatórios e considerações sobre o teorema central do limite, intervalos de confiança e testes de hipóteses, análise de regressão e análise de variância. o objetivo do livro não é mostrar todas as características do r ou substituir um livro didático padrão, mas mostrar como o r pode ser utilizado para ilustrar e auxiliar na resolução de problemas estatísticos. há uma versão expandida em comparação com a versão disponibilizada gratuitamente pelo autor.
 :::
 :::
+
+<br>
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+![](curso-r.png){width="180"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+##### [ciência de dados em r](https://livro.curso-r.com/index.html)
+
+excelente material desenvolvido pelo pessoal da [curso-r](https://curso-r.com/). o livro tem como objetivo apresentar ao leitor todas as etapas de uma análise de dados utilizando o r como ferramenta. neste livro, você encontrará ferramentas para importar, arrumar, manipular, visualizar e modelar bases de dados. ele também apresenta ferramentas para comunicar e automatizar resultados.
+:::
+:::
+
+## aprendizado de máquina
+
+
