@@ -9,88 +9,9 @@ description: |
 editor: source
 ---
 
-## visualização de dados no r
-
-o ggplot2 é um pacote do R para a produção de gráficos. ele é uma implementação da gramática dos gráficos (grammar of graphics). a gramática dos gráficos é um conjunto de regras e convenções que descreve como os componentes de um gráfico podem ser combinados para criar visualizações. quando você entende esta estrutura da grmáticas dos gráficos, as coisas ficam mais fáceis e é possível produzir gráficos muito bonitos. sou super fã deste pacote e sempre tento introduzir seus fundamentos em minhas aulas. a seguir, duas recomendações que podem ser úteis para quem quer aprender a construir gráficos no r com o ggplot2.
-
-<br>
-
-::: grid
-::: {.g-col-12 .g-col-md-4}
-![](cover_ggplot2.jpeg){width="200"}
-:::
-
-::: {.g-col-12 .g-col-md-8}
-##### [ggplot2: elegant graphics for data analysis](https://ggplot2-book.org/)
-
-livro escrito por hadley wickham, o criador do pacote ggplot2. gosto muito deste livro. não é um texto que apresentará receitas prontas de como construir gráficos no r. o foco da obra está em explicar a gramática dos gráficos que o pacote ggplot2 utiliza.
-:::
-:::
-
-<br>
-
-::: grid
-::: {.g-col-12 .g-col-md-4}
-![](cedric.png){width="200"}
-:::
-
-::: {.g-col-12 .g-col-md-8}
-##### [a ggplot2 tutorial for beautiful plotting in r](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
-
-este tutorial foi escrito por cédric scherer. cédric começou a utilizar o ggplot2 enquanto preparava a apresentação de sua tese de doutorado em 2016. seu tutorial é um ótimo ponto de partida para quem quer aprender a usar a o ggplot2. a proposta do autor é introduzir o ggplot2 a partir de um estudo sobre morbidade e mortalidade por poluição do ar. sempre volto ao tutorial em momentos de dúvidas durante a construção de algum gráfico.
-:::
-:::
-
-## ciência de dados
-
-ciência de dados é a disciplina que utiliza a estatística, a matemática e a ciência da computação para extrair informação e conhecimento a partir de conjuntos de dados. a lista desta seção apresenta o meu livro preferido para introduzir o assunto em sala de aula (r for data science) e também alguns outros bins títulos que já utilizei durante meu processo de aprendizagem.
-
-<br>
-
-::: grid
-::: {.g-col-12 .g-col-md-4}
-![](r4ds.jpg){width="200"}
-:::
-
-::: {.g-col-12 .g-col-md-8}
-##### [r for data science](https://r4ds.hadley.nz/)
-
-o livro cobre os tópicos de visualização, organização, transformação e importação de dados. os últimos capítulos abordam os aspectos técnicos para comunicação dos resultados obtidos durante o processo de ciência de dados. é nesta parte que o leitor pode aprender sobre o [quarto](https://quarto.org/), um sistema muito legal de publicação científica de código aberto (dá para criar relatórios, apresentações, livros, blogs e websites com ele). estou muito empolgado com o quarto e tenho gostado muito de utilizá-lo em meu dia a dia. o livro é excelente e possui muitos exercícios para praticar.
-:::
-:::
-
-<br>
-
-::: grid
-::: {.g-col-12 .g-col-md-4}
-![](ids-rafael.jpg){width="200"}
-:::
-
-::: {.g-col-12 .g-col-md-8}
-##### [introduction to data science](http://rafalab.dfci.harvard.edu/dsbook-part-1/)
-
-o livro começa introduzindo os fundamentos de r para em seguida falar sobre manipulação de dados com dplyr, visualização de dados com ggplot2, organização de arquivos com o shell do unix/linux, controle de versão com git e github, e preparação de documentos reproduzíveis com quarto e knitr. também apresenta muitos exercícios e bons exemplos. há um segundo volume chamado [advanced data science](). este volume mais avançado concentra-se na aplicação de métodos estatísticos e de aprendizado de máquina na análise de dados.
-:::
-:::
-
-<br>
-
-::: {.grid}
-::: {.g-col-12 .g-col-md-4}
-![](curso-r.png){width="200"}
-:::
-
-::: {.g-col-12 .g-col-md-8}
-##### [ciência de dados em r](https://livro.curso-r.com/index.html)
-
-excelente material desenvolvido pelo pessoal da [curso-r](https://curso-r.com/). o livro tem como objetivo apresentar ao leitor todas as etapas de uma análise de dados utilizando o r como ferramenta. neste livro, você encontrará ferramentas para importar, arrumar, manipular, visualizar e modelar bases de dados. ele também apresenta ferramentas para comunicar e automatizar resultados.
-:::
-:::
-
-
 ## programação em r
 
-há alguns anos eu tenho utilizado o r em minhas aulas. desde então, tenho percebido que as aulas ficaram mais interessantes e dinâmicas e que os alunos passaram a se interessar mais pelo universo da estatística e probabilidade.
+há alguns anos eu tenho utilizado o r em minhas aulas, principalmente em disciplinas básicas de estatísticas. desde então, tenho percebido que as aulas ficaram melhores e que os alunos passaram a se interessar mais pelo universo da estatística e probabilidade.
 
 o r é uma linguagem de programação muito legal. é possível, a partir dele, gerar gráficos bonitos, manipular vetores de forma elegante e fácil, realizar análises estatísticas, simular experimentos aleatórios e utilizar vários modelos de aprendizado de máquina que estão disponíveis em diversos pacotes.
 
@@ -147,6 +68,88 @@ o livro escrito por pedro duarte faria tem como objetivo, ensinar os fundamentos
 ##### [canal no youtube da posit](https://www.youtube.com/@PositPBC)
 
 o rstudio foi fundado em 2009 e, em 2011, lança o rstudio IDE. em julho de 2022, o rstudio mudou seu nome para posit, sinalizando sua ampliação na exploração de outras linguagens de programação, como python. o rstudio IDE manteve seu nome. o canal no youtube da posit possui um rico material sobre muitos tópicos, como estas excelentes aulas sobre o [tidyverse](https://youtu.be/KsBBRHAgAhM?si=biZQB54EP8m6JCet)) e sobre como criar um [portfolio de data science com quarto](https://www.youtube.com/live/xtSFXtDf4cM?si=vScG6OnBJUyi8GR3).
+:::
+:::
+
+<br>
+
+## visualização de dados no r
+
+o ggplot2 é um pacote do R para a produção de gráficos. ele é uma implementação da gramática dos gráficos (grammar of graphics). a gramática dos gráficos é um conjunto de regras e convenções que descreve como os componentes de um gráfico podem ser combinados para criar visualizações. quando você entende esta estrutura da grmáticas dos gráficos, as coisas ficam mais fáceis e é possível produzir gráficos muito bonitos. sou super fã deste pacote e sempre tento introduzir seus fundamentos em minhas aulas. a seguir, duas recomendações que podem ser úteis para quem quer aprender a construir gráficos no r com o ggplot2.
+
+<br>
+
+::: grid
+::: {.g-col-12 .g-col-md-4}
+![](cover_ggplot2.jpeg){width="200"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+##### [ggplot2: elegant graphics for data analysis](https://ggplot2-book.org/)
+
+livro escrito por hadley wickham, o criador do pacote ggplot2. gosto muito deste livro. não é um texto que apresentará receitas prontas de como construir gráficos no r. o foco da obra está em explicar a gramática dos gráficos que o pacote ggplot2 utiliza.
+:::
+:::
+
+<br>
+
+::: grid
+::: {.g-col-12 .g-col-md-4}
+![](cedric.png){width="200"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+##### [a ggplot2 tutorial for beautiful plotting in r](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
+
+este tutorial foi escrito por cédric scherer. cédric começou a utilizar o ggplot2 enquanto preparava a apresentação de sua tese de doutorado em 2016. seu tutorial é um ótimo ponto de partida para quem quer aprender a usar a o ggplot2. a proposta do autor é introduzir o ggplot2 a partir de um estudo sobre morbidade e mortalidade por poluição do ar. sempre volto ao tutorial em momentos de dúvidas durante a construção de algum gráfico.
+:::
+:::
+
+<br>
+
+## ciência de dados
+
+ciência de dados é a disciplina que utiliza a estatística, a matemática e a ciência da computação para extrair informação e conhecimento a partir de conjuntos de dados. a lista desta seção apresenta o meu livro preferido para introduzir o assunto em sala de aula (r for data science) e também alguns outros bins títulos que já utilizei durante meu processo de aprendizagem.
+
+<br>
+
+::: grid
+::: {.g-col-12 .g-col-md-4}
+![](r4ds.jpg){width="200"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+##### [r for data science](https://r4ds.hadley.nz/)
+
+o livro cobre os tópicos de visualização, organização, transformação e importação de dados. os últimos capítulos abordam os aspectos técnicos para comunicação dos resultados obtidos durante o processo de ciência de dados. é nesta parte que o leitor pode aprender sobre o [quarto](https://quarto.org/), um sistema muito legal de publicação científica de código aberto (dá para criar relatórios, apresentações, livros, blogs e websites com ele). estou muito empolgado com o quarto e tenho gostado muito de utilizá-lo em meu dia a dia. o livro é excelente e possui muitos exercícios para praticar.
+:::
+:::
+
+<br>
+
+::: grid
+::: {.g-col-12 .g-col-md-4}
+![](ids-rafael.jpg){width="200"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+##### [introduction to data science](http://rafalab.dfci.harvard.edu/dsbook-part-1/)
+
+o livro começa introduzindo os fundamentos de r para em seguida falar sobre manipulação de dados com dplyr, visualização de dados com ggplot2, organização de arquivos com o shell do unix/linux, controle de versão com git e github, e preparação de documentos reproduzíveis com quarto e knitr. também apresenta muitos exercícios e bons exemplos. há um segundo volume chamado [advanced data science](http://rafalab.dfci.harvard.edu/dsbook-part-2/). este volume mais avançado concentra-se na aplicação de métodos estatísticos e de aprendizado de máquina na análise de dados.
+:::
+:::
+
+<br>
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+![](curso-r.png){width="200"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+##### [ciência de dados em r](https://livro.curso-r.com/index.html)
+
+excelente material desenvolvido pelo pessoal da [curso-r](https://curso-r.com/). o livro tem como objetivo apresentar ao leitor todas as etapas de uma análise de dados utilizando o r como ferramenta. neste livro, você encontrará ferramentas para importar, arrumar, manipular, visualizar e modelar bases de dados. ele também apresenta ferramentas para comunicar e automatizar resultados.
 :::
 :::
 
