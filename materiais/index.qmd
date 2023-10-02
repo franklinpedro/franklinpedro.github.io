@@ -185,7 +185,8 @@ inferência estatística, como amostragem, intervalos de confiança e testes de 
 ::: {.g-col-12 .g-col-md-8}
 ##### [using r for introductory statistics](https://www.math.csi.cuny.edu/Statistics/R/simpleR/printable/simpleR.pdf)
 
-o livro aborda os fundamentos do r, manipulação e análise de dados, simulações de experimentos aleatórios e considerações sobre o teorema central do limite, intervalos de confiança e testes de hipóteses, análise de regressão e análise de variância. o objetivo do livro não é mostrar todas as características do r ou substituir um livro didático padrão, mas mostrar como o r pode ser utilizado para ilustrar e auxiliar na resolução de problemas estatísticos. há uma versão expandida em comparação com a versão disponibilizada gratuitamente pelo autor.
+o livro aborda os fundamentos do r, manipulação e análise de dados, simulações de experimentos aleatórios e considerações sobre o teorema central do limite, intervalos de confiança e testes de hipóteses, análise de regressão e análise de variância. o objetivo do livro não é mostrar todas as características do r ou substituir um livro didático padrão, mas mostrar como o r pode ser utilizado para ilustrar e auxiliar na resolução de problemas estatísticos. há uma [versão expandida](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=94533 
+) deste livro que pode ser encontrada em nossa biblioteca.
 :::
 :::
 
