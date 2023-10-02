@@ -17,7 +17,7 @@ o ggplot2 é um pacote do R para a produção de gráficos. ele é uma implement
 
 ::: grid
 ::: {.g-col-12 .g-col-md-4}
-![](cover_ggplot2.jpeg){width="180"}
+![](cover_ggplot2.jpeg){width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
@@ -31,7 +31,7 @@ livro escrito por hadley wickham, o criador do pacote ggplot2. gosto muito deste
 
 ::: grid
 ::: {.g-col-12 .g-col-md-4}
-![](cedric.png){width="180"}
+![](cedric.png){width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
@@ -49,7 +49,7 @@ ciência de dados é a disciplina que utiliza a estatística, a matemática e a 
 
 ::: grid
 ::: {.g-col-12 .g-col-md-4}
-![](r4ds.jpg){width="180"}
+![](r4ds.jpg){width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
@@ -63,7 +63,7 @@ o livro cobre os tópicos de visualização, organização, transformação e im
 
 ::: grid
 ::: {.g-col-12 .g-col-md-4}
-![](ids-rafael.jpg){width="180"}
+![](ids-rafael.jpg){width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
@@ -72,6 +72,21 @@ o livro cobre os tópicos de visualização, organização, transformação e im
 o livro começa introduzindo os fundamentos de r para em seguida falar sobre manipulação de dados com dplyr, visualização de dados com ggplot2, organização de arquivos com o shell do unix/linux, controle de versão com git e github, e preparação de documentos reproduzíveis com quarto e knitr. também apresenta muitos exercícios e bons exemplos. há um segundo volume chamado [advanced data science](). este volume mais avançado concentra-se na aplicação de métodos estatísticos e de aprendizado de máquina na análise de dados.
 :::
 :::
+
+<br>
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+![](curso-r.png){width="200"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+##### [ciência de dados em r](https://livro.curso-r.com/index.html)
+
+excelente material desenvolvido pelo pessoal da [curso-r](https://curso-r.com/). o livro tem como objetivo apresentar ao leitor todas as etapas de uma análise de dados utilizando o r como ferramenta. neste livro, você encontrará ferramentas para importar, arrumar, manipular, visualizar e modelar bases de dados. ele também apresenta ferramentas para comunicar e automatizar resultados.
+:::
+:::
+
 
 ## programação em r
 
@@ -83,7 +98,7 @@ o r é uma linguagem de programação muito legal. é possível, a partir dele, 
 
 ::: grid
 ::: {.g-col-12 .g-col-md-4}
-![](book-r.png){width="180"}
+![](book-r.png){width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
@@ -97,7 +112,7 @@ foi um dos livros que utilizei quando comecei a aprender r. é um guia bem abran
 
 ::: grid
 ::: {.g-col-12 .g-col-md-4}
-![](hands2.jpg){width="180"}
+![](hands2.jpg){width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
@@ -109,9 +124,23 @@ o livro, introdução amigável à linguagem r, se concentra no ensino das habil
 
 <br>
 
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+![](ilr.png){width="200"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+##### [introdução à linguagem r](https://pedropark99.github.io/Introducao_R/)
+
+o livro escrito por pedro duarte faria tem como objetivo, ensinar os fundamentos da linguagem r e como eles se aplicam na prática de análises de dados. alguns temas incluem: estruturas e tipos de dados; importação de dados e operações sobre tabelas; dados relacionais e join’s; geração de gráficos; controles de fluxo e funções e loops.
+:::
+:::
+
+<br>
+
 ::: grid
 ::: {.g-col-12 .g-col-md-4}
-![](posit.jpeg){width="180"}
+![](posit.jpeg){width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
@@ -125,9 +154,13 @@ o rstudio foi fundado em 2009 e, em 2011, lança o rstudio IDE. em julho de 2022
 
 ## estatística com r
 
+os livros desta seção além de apresentarem os fundamentos da linguagem r, contém tópicos que geralmente são abordados em um primeiro curso de estatística básica, como análise descritiva de dados, probabilidade, inferência estatística e regressão linear.
+
+<br>
+
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-4}
-![](siwds.jpeg){width="180"}
+![](siwds.jpeg){width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
@@ -142,7 +175,7 @@ inferência estatística, como amostragem, intervalos de confiança e testes de 
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-4}
-![](usingr.png){width="180"}
+![](usingr.png){width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
@@ -154,18 +187,36 @@ o livro aborda os fundamentos do r, manipulação e análise de dados, simulaç�
 
 <br>
 
+## aprendizado de máquina
+
+nesta seção dois excelentes livros sobre aprendizado de máquina. ambos os livros conseguem conciliar a teoria e a prática apresentando aplicações interessantes para vários modelos de classificação e de aprendizado não supervisionado. os dois livros foram disponibilizados gratuitamente por seus autores.
+
+<br>
+
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-4}
-![](curso-r.png){width="180"}
+![](islr.jpg){width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
-##### [ciência de dados em r](https://livro.curso-r.com/index.html)
+##### [an introduction to statistical learning with applications in r](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf)
 
-excelente material desenvolvido pelo pessoal da [curso-r](https://curso-r.com/). o livro tem como objetivo apresentar ao leitor todas as etapas de uma análise de dados utilizando o r como ferramenta. neste livro, você encontrará ferramentas para importar, arrumar, manipular, visualizar e modelar bases de dados. ele também apresenta ferramentas para comunicar e automatizar resultados.
+livro espetacular que apresenta algumas das técnicas de modelagem e previsão mais importantes; utiliza aplicações do mundo real para ilustrar os métodos discutidos no texto. os tópicos incluem regressão linear, classificação, métodos de reamostragem, métodos baseados em árvores, máquinas de vetor de suporte, agrupamento e muito mais. há vários laboratórios para implementar e praticar no r as análises e os métodos discutidos em cada capítulo. se tornou uma espécie de livro de cabeceira para mim; um livro de referência para assuntos relacionados à aprendizagem de máquina. recentemente, um versão do livro com aplicações em python foi lançada.
 :::
 :::
 
-## aprendizado de máquina
+<br>
 
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+![](amae.jpeg){width="200"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+##### [aprendizado de máquina: uma abordagem estatística](http://www.rizbicki.ufscar.br/AME.pdf)
+
+outro excelente livro sobre aprendizado de máquina. escrito por rafael izbicki e tiago mendança dos santos, o objetivo desta obra é introduzir as ideias do aprendizado de máquina sob uma ótica estatística. a discussão é feita em linguagem r e os códigos produzidos ao longo do texto podem ser utilizados para aplicar os métodos apresentados. alguns resultados teóricos sobre os problemas e
+métodos investigados foram incluídos o que contribui muito para que o leitor consiga compreender as ideias e conceitos que estão por trás dos modelos investigados. o livro está dividido em três partes: regressão, classificação e aprendizado não supervisionado.
+:::
+:::
 
