@@ -3,7 +3,7 @@ title: "profissão e mercado de trabalho"
 #author: "pedro franklin"
 date: 2023-07-31
 date-format: DD/MM/YYYY
-image: pinguim3.png
+image: profissao_mercado.png
 description: "a disciplina propões discutir e analisar as habilidades gerais necessárias para o sucesso profissional de um bacharel em estatística."
 ---
 

@@ -3,7 +3,7 @@ title: "métodos matemáticos"
 #author: "pedro franklin"
 date: 2023-07-31
 date-format: DD/MM/YYYY
-image: pinguim2.png
+image: metodos_matematicos.png
 description: "o curso tem como objetivo central proporcionar aos estudantes de estatística uma base sólida de conhecimentos teóricos e práticos no campo do aprendizado de máquina."
 ---
 
