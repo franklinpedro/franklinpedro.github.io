@@ -3,7 +3,7 @@ title: "análise de séries temporais"
 description: "o objetivo principal do curso é apresentar as técnicas mais utilizadas em análise de séries temporais, dando ênfase na parte teórica dos modelos e mostrando aplicações práticas de estimação e previsão em séries reais."
 date: 2023-07-31
 date-format: DD/MM/YYYY
-image: series_temporais.png
+image: series_temporais1.png
 ---
 
 as aulas das disciplina **ges033: análise de séries temporais** acontecem às quartas-feiras entre 20:50h e 22:30h e às quintas-feiras entre 19:00h e 20:40h na sala 3Q 308. eventualmente, para as aulas práticas, utilizaremos o laboratório de estatística ou os laboratórios do bloco 3Q.

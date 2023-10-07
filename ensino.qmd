@@ -3,8 +3,8 @@ title: "ensino"
 listing:
   - id: em-andamento
     contents: ensino
-    type: default
-    sort: "date desc"
+    type: grid
+    sort: "title asc"
     date-format: DD/MM/YYYY
     categories: false
     fields: [image, description, title]
