@@ -7,7 +7,7 @@ freeze: true
 # Enable banner style title blocks
 title-block-banner: true
 
-title-block-published: "início do curso"
+published-title: "início do curso"
 title-block-author-single: "autor"
 
 toc-title: "nesta página"
