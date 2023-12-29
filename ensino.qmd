@@ -10,7 +10,7 @@ listing:
     fields: [image, description, title]
     image-height: 190px
 title-block-banner: true
-toc-title-website: "nesta página"
+toc-title: "nesta página"
 #language: _custom.yml
 page-layout: full
 toc: true
