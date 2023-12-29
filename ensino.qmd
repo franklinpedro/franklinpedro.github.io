@@ -23,11 +23,13 @@ toc: true
 
 ## cursos encerrados
 
+- ges044: métodos matemáticos (introdução ao aprendizado de máquina)
+- ges033: análise de séries temporais
 - famat31033: estatística
 - gbc041: estatística
 - ges017: estatística computacional
 - ges022: inferência estatística 2
-- ges046: tópicos especiais em matemática aplicada - introdução ao aprendizado estatístico
+- ges046: tópicos especiais em matemática aplicada (introdução ao aprendizado estatístico)
 - ges012: estatística geral
 - famat31041: estatística computacional
 - ges035: profissão e mercado de trabalho
