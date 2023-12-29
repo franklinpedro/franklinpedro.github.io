@@ -1,13 +1,13 @@
 ---
 title: "profissão e mercado de trabalho"
 #author: "pedro franklin"
-date: 2023-07-31
+date: 2023-01-10
 date-format: DD/MM/YYYY
-image: profissao_mercado.png
+image: hex_profissao.png
 description: "a disciplina propões discutir e analisar as habilidades gerais necessárias para o sucesso profissional de um bacharel em estatística."
 ---
 
-as aulas das disciplina **ges035: profissão e mercado de trabalho** acontecem às quartas-feiras entre 19:00h e 20:40h e às quintas-feiras entre 20:50h e 22:30h na sala 3Q 308. eventualmente, para as aulas práticas, utilizaremos o laboratório de estatística ou os laboratórios do bloco 3Q.
+as aulas das disciplina **ges035: profissão e mercado de trabalho** acontecem às quartas-feiras entre 19:00h e 20:40h e às quintas-feiras entre 20:50h e 22:30h na sala 3Q 308. eventualmente, para as aulas práticas, utilizaremos o laboratório de estatística ou algum laboratório do bloco 3Q.
 
 # programa
 
