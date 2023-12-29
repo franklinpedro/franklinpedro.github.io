@@ -1,35 +1,28 @@
 [
   {
-    "objectID": "coisas-legais/segundo/index.html",
-    "href": "coisas-legais/segundo/index.html",
-    "title": "segundo post",
+    "objectID": "ensino/metodos-matematicos/index.html",
+    "href": "ensino/metodos-matematicos/index.html",
+    "title": "métodos matemáticos",
     "section": "",
-    "text": "Olá!\nNesta semana, apresento algumas recomendações de músicas dançantes.\nboa audição!"
+    "text": "as aulas das disciplina ges044: métodos matemáticos acontecem às segundas-feiras entre 20:50h e 22:30h e às terças-feiras entre 19:00h e 20:40h no laboratório 4 do bloco 1b.\n\nprograma\n\nintrodução ao aprendizado de máquina: definição e conceitos básicos; tipos de aprendizado: supervisionado, não supervisionado e por reforço.\npré-processamento de dados.\nmodelos de aprendizado de máquina supervisionado.\naprendizado não supervisionado, sistemas de recomendação, aprendizado por reforço.\nalgoritmos avançados de aprendizado de máquina.\nprocessamento de linguagem natural\n\n\n\navaliação\n\nprimeira prova, 28 pontos, 09 de outubro.\nsegunda prova, 28 pontos, 07 de novembro.\nlaboratórios, 28 pontos.\nseminário, 16 pontos.\nprova de recuperação, 100 pontos, 28 de novembro.\n\n\n\nbibliografia\n\nan introduction to statistical learning with applications in r. gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.\nr for data science. hadley wickham, mine çetinkaya-rundel, garrett grolemund. 3ed, o’reilley, 2023.\nggplot2: elegant graphics for data analysis. a terceira edição do livro de hadley wickham, danielle navarro e thomas lin pedersen está em construção e pode ser acessada a partir deste link."
   },
   {
-    "objectID": "coisas-legais/primeiro/index.html",
-    "href": "coisas-legais/primeiro/index.html",
-    "title": "primeiro post",
+    "objectID": "ensino/series-temporais/index.html",
+    "href": "ensino/series-temporais/index.html",
+    "title": "análise de séries temporais",
     "section": "",
-    "text": "Olá!\nNesta semana, apresento algumas recomendações de filmes sobre a infância.\nbons filmes!"
-  },
-  {
-    "objectID": "coisas-legais.html",
-    "href": "coisas-legais.html",
-    "title": "coisas legais",
-    "section": "",
-    "text": "segundo post\n\n\n\n\n\neste é um segundo teste de post para uma página com listing.\n\n\n\n\n\n\n20/09/2023\n\n\n\n\n\n\n  \n\n\n\n\nprimeiro post\n\n\n\n\n\neste é um primeiro teste de post para uma página com listing.\n\n\n\n\n\n\n19/09/2023\n\n\n\n\n\n\nNenhum item correspondente"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "pedro franklin",
-    "section": "",
-    "text": "eu sou professor do núcleo de estatística da faculdade de matemática da universidade federal de uberlândia. gosto muito de estatística e de ser professor e, por isso, é sempre legal poder compartilhar o que aprendi com meus alunos.\nna seção ensino, você encontrará informações sobre as disciplinas que leciono. em materiais, sugestões relacionadas à matemática e à estatística, como livros, tutoriais, videos e sites. na seção coisas legais, compartilho recomendações sobre assuntos que me interessam.\nbons estudos!\n \n  \n   \n  \n    \n     email\n  \n  \n    \n     github"
+    "text": "as aulas das disciplina ges033: análise de séries temporais acontecem às quartas-feiras entre 20:50h e 22:30h e às quintas-feiras entre 19:00h e 20:40h na sala 3Q 308. eventualmente, para as aulas práticas, utilizaremos o laboratório de estatística ou os laboratórios do bloco 3Q.\n\nprograma\n\nintrodução à teoria de séries temporais e conceitos fundamentais;\nmodelos para séries estacionárias;\nmodelos para séries não estacionárias;\nidentificação de modelos;\nestimação, verificação e seleção de modelos;\nprevisão com modelos arima;\nmodelos sazonais;\nmétodos automáticos de previsão;\ntópicos especiais.\n\n\n\navaliações\n\nprimeira prova, 30 pontos, 19 de outubro.\nseminário, 30 pontos, 16 e 17 de novembro.\nlistas e trabalhos, 20 pontos.\nlaboratórios, 20 pontos.\nprova de recuperação, 100 pontos, 23 de novembro.\n\n\n\nbibliografia básica\n\ntime series analysis: univariate and multivariate methods. william w. s. wei; 2ed, addison-wesley, 2006.\ntime series analysis and its aplications with r examples. robert h. shumway, david s. stoffer; 2ed, springer, 2006.\nanálise de séries temporais. pedro a. morettin, clélia m.c. toloi; 2ed, blucher, 2006.\n\n\n\nbibliografica complementar\n\nthe analysis of time series: an introduction with r. chris chatfield, haipeng xing; 7ed, chapman and hall/crc, 2019.\nhá uma versão da sexta edição do livro em nossa biblioteca. a sexta edição não contém a parte computacional em r.\ntime series analysis. notas de aulas do professor kevin kotzé."
   },
   {
     "objectID": "materiais/index.html",
     "href": "materiais/index.html",
+    "title": "materiais",
+    "section": "",
+    "text": "há alguns anos eu tenho utilizado o r em minhas aulas, principalmente em disciplinas básicas de estatísticas. desde então, tenho percebido que as aulas ficaram melhores e que os alunos passaram a se interessar mais pelo universo da estatística e probabilidade.\no r é uma linguagem de programação muito legal. é possível, a partir dele, gerar gráficos bonitos, manipular vetores de forma elegante e fácil, realizar análises estatísticas, simular experimentos aleatórios e utilizar vários modelos de aprendizado de máquina que estão disponíveis em diversos pacotes.\n\n\n\n\n\n\n\nfoi um dos livros que utilizei quando comecei a aprender r. é um guia bem abrangente e amigável para iniciantes. começa com os fundamentos da linguagem (r como calculadora, criação de objetos, tipos de objetos, vetores, matrizes, data frames, gráficos), depois aprofunda na parte da programação ao falar sobre funções, estruturas condicionais e estruturas de repetição. ainda contém capítulos sobre probabilidade e inferência estatística.\n\n\n\n\n\n\n\n\n\no livro, introdução amigável à linguagem r, se concentra no ensino das habilidades de programação mais relacionadas à ciência de dados. uma coisa que me faz gostar bastante deste livro é que o ensino da linguagem (fundamentos, importação e manipulação de dados, escrita de funções, loops) a partir de três projetos práticos: lançamento de dados, jogo de cartas e criação de uma máquina caça-níqueis.\n\n\n\n\n\n\n\n\n\no livro escrito por pedro duarte faria tem como objetivo, ensinar os fundamentos da linguagem r e como eles se aplicam na prática de análises de dados. alguns temas incluem: estruturas e tipos de dados; importação de dados e operações sobre tabelas; dados relacionais e join’s; geração de gráficos; controles de fluxo e funções e loops.\n\n\n\n\n\n\n\n\n\no rstudio foi fundado em 2009 e, em 2011, lança o rstudio IDE. em julho de 2022, o rstudio mudou seu nome para posit, sinalizando sua ampliação na exploração de outras linguagens de programação, como python. o rstudio IDE manteve seu nome. o canal no youtube da posit possui um rico material sobre muitos tópicos, como estas excelentes aulas sobre o tidyverse) e sobre como criar um portfolio de data science com quarto."
+  },
+  {
+    "objectID": "materiais/index.html#programação-em-r",
+    "href": "materiais/index.html#programação-em-r",
     "title": "materiais",
     "section": "",
     "text": "há alguns anos eu tenho utilizado o r em minhas aulas, principalmente em disciplinas básicas de estatísticas. desde então, tenho percebido que as aulas ficaram melhores e que os alunos passaram a se interessar mais pelo universo da estatística e probabilidade.\no r é uma linguagem de programação muito legal. é possível, a partir dele, gerar gráficos bonitos, manipular vetores de forma elegante e fácil, realizar análises estatísticas, simular experimentos aleatórios e utilizar vários modelos de aprendizado de máquina que estão disponíveis em diversos pacotes.\n\n\n\n\n\n\n\nfoi um dos livros que utilizei quando comecei a aprender r. é um guia bem abrangente e amigável para iniciantes. começa com os fundamentos da linguagem (r como calculadora, criação de objetos, tipos de objetos, vetores, matrizes, data frames, gráficos), depois aprofunda na parte da programação ao falar sobre funções, estruturas condicionais e estruturas de repetição. ainda contém capítulos sobre probabilidade e inferência estatística.\n\n\n\n\n\n\n\n\n\no livro, introdução amigável à linguagem r, se concentra no ensino das habilidades de programação mais relacionadas à ciência de dados. uma coisa que me faz gostar bastante deste livro é que o ensino da linguagem (fundamentos, importação e manipulação de dados, escrita de funções, loops) a partir de três projetos práticos: lançamento de dados, jogo de cartas e criação de uma máquina caça-níqueis.\n\n\n\n\n\n\n\n\n\no livro escrito por pedro duarte faria tem como objetivo, ensinar os fundamentos da linguagem r e como eles se aplicam na prática de análises de dados. alguns temas incluem: estruturas e tipos de dados; importação de dados e operações sobre tabelas; dados relacionais e join’s; geração de gráficos; controles de fluxo e funções e loops.\n\n\n\n\n\n\n\n\n\no rstudio foi fundado em 2009 e, em 2011, lança o rstudio IDE. em julho de 2022, o rstudio mudou seu nome para posit, sinalizando sua ampliação na exploração de outras linguagens de programação, como python. o rstudio IDE manteve seu nome. o canal no youtube da posit possui um rico material sobre muitos tópicos, como estas excelentes aulas sobre o tidyverse) e sobre como criar um portfolio de data science com quarto."
@@ -63,8 +56,43 @@
     "text": "aprendizado de máquina\nnesta seção dois excelentes livros sobre aprendizado de máquina. ambos os livros conseguem conciliar a teoria e a prática apresentando aplicações interessantes para vários modelos de classificação e de aprendizado não supervisionado. os dois livros foram disponibilizados gratuitamente por seus autores.\n\n\n\n\n\n\nan introduction to statistical learning with applications in r\nlivro espetacular que apresenta algumas das técnicas de modelagem e previsão mais importantes; utiliza aplicações do mundo real para ilustrar os métodos discutidos no texto. os tópicos incluem regressão linear, classificação, métodos de reamostragem, métodos baseados em árvores, máquinas de vetor de suporte, agrupamento e muito mais. há vários laboratórios para implementar e praticar no r as análises e os métodos discutidos em cada capítulo. se tornou uma espécie de livro de cabeceira para mim; um livro de referência para assuntos relacionados à aprendizagem de máquina. recentemente, um versão do livro com aplicações em python foi lançada.\n\n\n\n\n\n\n\n\naprendizado de máquina: uma abordagem estatística\noutro excelente livro sobre aprendizado de máquina. escrito por rafael izbicki e tiago mendança dos santos, o objetivo desta obra é introduzir as ideias do aprendizado de máquina sob uma ótica estatística. a discussão é feita em linguagem r e os códigos produzidos ao longo do texto podem ser utilizados para aplicar os métodos apresentados. alguns resultados teóricos sobre os problemas e métodos investigados foram incluídos o que contribui muito para que o leitor consiga compreender as ideias e conceitos que estão por trás dos modelos investigados. o livro está dividido em três partes: regressão, classificação e aprendizado não supervisionado."
   },
   {
+    "objectID": "coisas-legais.html",
+    "href": "coisas-legais.html",
+    "title": "coisas legais",
+    "section": "",
+    "text": "segundo post\n\n\n\n\n\neste é um segundo teste de post para uma página com listing.\n\n\n\n\n\n\n20/09/2023\n\n\n\n\n\n\n  \n\n\n\n\nprimeiro post\n\n\n\n\n\neste é um primeiro teste de post para uma página com listing.\n\n\n\n\n\n\n19/09/2023\n\n\n\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "coisas-legais/segundo/index.html",
+    "href": "coisas-legais/segundo/index.html",
+    "title": "segundo post",
+    "section": "",
+    "text": "Olá!\nNesta semana, apresento algumas recomendações de músicas dançantes.\nboa audição!"
+  },
+  {
+    "objectID": "coisas-legais/primeiro/index.html",
+    "href": "coisas-legais/primeiro/index.html",
+    "title": "primeiro post",
+    "section": "",
+    "text": "Olá!\nNesta semana, apresento algumas recomendações de filmes sobre a infância.\nbons filmes!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "pedro franklin",
+    "section": "",
+    "text": "eu sou professor do núcleo de estatística da faculdade de matemática da universidade federal de uberlândia. gosto muito de estatística e de ser professor e, por isso, é sempre legal poder compartilhar o que aprendi com meus alunos.\nna seção ensino, você encontrará informações sobre as disciplinas que leciono. em materiais, sugestões relacionadas à matemática e à estatística, como livros, tutoriais, videos e sites. na seção coisas legais, compartilho recomendações sobre assuntos que me interessam.\nbons estudos!\n \n  \n   \n  \n    \n     email\n  \n  \n    \n     github"
+  },
+  {
     "objectID": "ensino.html",
     "href": "ensino.html",
+    "title": "ensino",
+    "section": "",
+    "text": "o objetivo principal do curso é apresentar as técnicas mais utilizadas em análise de séries temporais, dando ênfase na parte teórica dos modelos e mostrando aplicações…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\no curso tem como objetivo central proporcionar aos estudantes de estatística uma base sólida de conhecimentos teóricos e práticos no campo do aprendizado de máquina.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\na disciplina propões discutir e analisar as habilidades gerais necessárias para o sucesso profissional de um bacharel em estatística.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "ensino.html#cursos-em-andamento",
+    "href": "ensino.html#cursos-em-andamento",
     "title": "ensino",
     "section": "",
     "text": "o objetivo principal do curso é apresentar as técnicas mais utilizadas em análise de séries temporais, dando ênfase na parte teórica dos modelos e mostrando aplicações…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\no curso tem como objetivo central proporcionar aos estudantes de estatística uma base sólida de conhecimentos teóricos e práticos no campo do aprendizado de máquina.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\na disciplina propões discutir e analisar as habilidades gerais necessárias para o sucesso profissional de um bacharel em estatística.\n\n\n\n\n\n\n\nNo matching items"
@@ -77,31 +105,10 @@
     "text": "cursos encerrados\n\nges044: métodos matemáticos (introdução ao aprendizado de máquina)\nges033: análise de séries temporais\nfamat31033: estatística\ngbc041: estatística\nges017: estatística computacional\nges022: inferência estatística 2\nges046: tópicos especiais em matemática aplicada (introdução ao aprendizado estatístico)\nges012: estatística geral\nfamat31041: estatística computacional\nges035: profissão e mercado de trabalho\nges008: introdução à estatística 2\ngcc014: estatística\ngci018: estatística\nges018: inferência estatística 1\nget014: estatística\nges015: probabilidade 2\nges031: modelos lineares generalizados"
   },
   {
-    "objectID": "ensino/series-temporais/index.html",
-    "href": "ensino/series-temporais/index.html",
-    "title": "análise de séries temporais",
-    "section": "",
-    "text": "as aulas das disciplina ges033: análise de séries temporais acontecem às quartas-feiras entre 20:50h e 22:30h e às quintas-feiras entre 19:00h e 20:40h na sala 3Q 308. eventualmente, para as aulas práticas, utilizaremos o laboratório de estatística ou os laboratórios do bloco 3Q.\n\nprograma\n\nintrodução à teoria de séries temporais e conceitos fundamentais;\nmodelos para séries estacionárias;\nmodelos para séries não estacionárias;\nidentificação de modelos;\nestimação, verificação e seleção de modelos;\nprevisão com modelos arima;\nmodelos sazonais;\nmétodos automáticos de previsão;\ntópicos especiais.\n\n\n\navaliações\n\nprimeira prova, 30 pontos, 19 de outubro.\nseminário, 30 pontos, 16 e 17 de novembro.\nlistas e trabalhos, 20 pontos.\nlaboratórios, 20 pontos.\nprova de recuperação, 100 pontos, 23 de novembro.\n\n\n\nbibliografia básica\n\ntime series analysis: univariate and multivariate methods. william w. s. wei; 2ed, addison-wesley, 2006.\ntime series analysis and its aplications with r examples. robert h. shumway, david s. stoffer; 2ed, springer, 2006.\nanálise de séries temporais. pedro a. morettin, clélia m.c. toloi; 2ed, blucher, 2006.\n\n\n\nbibliografica complementar\n\nthe analysis of time series: an introduction with r. chris chatfield, haipeng xing; 7ed, chapman and hall/crc, 2019.\nhá uma versão da sexta edição do livro em nossa biblioteca. a sexta edição não contém a parte computacional em r.\ntime series analysis. notas de aulas do professor kevin kotzé."
-  },
-  {
     "objectID": "ensino/profissao-mercado/index.html",
     "href": "ensino/profissao-mercado/index.html",
     "title": "profissão e mercado de trabalho",
     "section": "",
     "text": "as aulas das disciplina ges035: profissão e mercado de trabalho acontecem às quartas-feiras entre 19:00h e 20:40h e às quintas-feiras entre 20:50h e 22:30h na sala 3Q 308. eventualmente, para as aulas práticas, utilizaremos o laboratório de estatística ou algum laboratório do bloco 3Q.\n\nprograma\n\ncurriculum vitae: informações para construção de um cv; trainees; entrevistas de contratação.\nbusca do emprego.\ndescrição do mercado de trabalho.\norganização profissional: leis, regulamentação da profissão, confe, conre, sindicato.\ncursos de graduação, departamentos de estatística, pesquisa e pós-graduação em estatística.\ncomo se manter atualizado e estatística na internet.\nestatísticas oficiais (ibge, ipea, datasus, inep).\nCompetências esperadas de um estatístico.\ncomo ensinar estatística para não-estatísticos.\nnovas formas de organização e análise de dados.\nas diferentes faces da estatística.\n\n\n\navaliação\n\nprimeiro seminário, 30 pontos, 4 e 5 de outubro.\nsegundo seminário, 30 pontos, 16 e 17 de novembro.\ntrabalhos e relatórios, 40 pontos.\nprova de recuperação, 100 pontos, 23 de novembro; só pode fazer a prova de recuperação alunos frequentes e que possuem nota final superior a 20 pontos.\n\n\n\nmaterial de apoio\na seguir, uma lista com materiais que podem ser úteis para complementar as discussões realizadas em sala de aula.\n\nconselho regional de estatística da 3ª região (conre-3).\ninstituto brasileiro de geografia e estatística.\ninstituto de pesquisa econômica aplicada (ipea).\ndepartamento de informática do sistema único de saúde (datasus).\ninstituto nacional de estudos e pesquisas educacionais anísio teixeira (inep).\nassociação brasileira de estatística (abe).\namerican statistical society (asa).\ncatálogo de cursos da escola virtual do governo.\ndocumentação do quarto.\nkaggle: comunidade de data science e machine learning.\nuci: repositório de machine learning."
-  },
-  {
-    "objectID": "ensino/metodos-matematicos/index.html",
-    "href": "ensino/metodos-matematicos/index.html",
-    "title": "métodos matemáticos",
-    "section": "",
-    "text": "as aulas das disciplina ges044: métodos matemáticos acontecem às segundas-feiras entre 20:50h e 22:30h e às terças-feiras entre 19:00h e 20:40h no laboratório 4 do bloco 1b.\n\nprograma\n\nintrodução ao aprendizado de máquina: definição e conceitos básicos; tipos de aprendizado: supervisionado, não supervisionado e por reforço.\npré-processamento de dados.\nmodelos de aprendizado de máquina supervisionado.\naprendizado não supervisionado, sistemas de recomendação, aprendizado por reforço.\nalgoritmos avançados de aprendizado de máquina.\nprocessamento de linguagem natural\n\n\n\navaliação\n\nprimeira prova, 28 pontos, 09 de outubro.\nsegunda prova, 28 pontos, 07 de novembro.\nlaboratórios, 28 pontos.\nseminário, 16 pontos.\nprova de recuperação, 100 pontos, 28 de novembro.\n\n\n\nbibliografia\n\nan introduction to statistical learning with applications in r. gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.\nr for data science. hadley wickham, mine çetinkaya-rundel, garrett grolemund. 3ed, o’reilley, 2023.\nggplot2: elegant graphics for data analysis. a terceira edição do livro de hadley wickham, danielle navarro e thomas lin pedersen está em construção e pode ser acessada a partir deste link."
-  },
-  {
-    "objectID": "ensino.html#cursos-em-andamento",
-    "href": "ensino.html#cursos-em-andamento",
-    "title": "ensino",
-    "section": "",
-    "text": "o objetivo principal do curso é apresentar as técnicas mais utilizadas em análise de séries temporais, dando ênfase na parte teórica dos modelos e mostrando aplicações…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\no curso tem como objetivo central proporcionar aos estudantes de estatística uma base sólida de conhecimentos teóricos e práticos no campo do aprendizado de máquina.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\na disciplina propões discutir e analisar as habilidades gerais necessárias para o sucesso profissional de um bacharel em estatística.\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
