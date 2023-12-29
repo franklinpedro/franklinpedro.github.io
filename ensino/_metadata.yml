@@ -7,8 +7,8 @@ freeze: true
 # Enable banner style title blocks
 title-block-banner: true
 
-title-block-author-single: "autor"
 title-block-published: "início do curso"
+title-block-author-single: "autor"
 
 toc-title-website: "nesta página"
 listing-page-field-categories: "categorias"
