@@ -2,7 +2,7 @@
 title: "materiais"
 toc: true
 title-block-banner: true
-toc-title-website: "nesta página"
+toc-title: "nesta página"
 toc-depth: 10
 description: |
   a seguir, sugestões de materiais sobre visualização de dados no r, ciência de dados, programação em r, estatística com r e aprendizado de máquina; a maioria dos livros sugeridos foram disponibilizados gratuitamente pelo seus autores; ao clicar no título de cada sugestão, você terá acesso ao material gratuito; se o livro não está disponível gratuitamente, o link do título conduzirá você a uma página externa com informações adicionais sobre a obra.
