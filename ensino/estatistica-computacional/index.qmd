@@ -21,8 +21,8 @@ as aulas das disciplina **estatística computacional (famat31041)** acontecem à
 
 - primeira prova, 30 pontos, 06 de março.
 - segunda prova, 30 pontos, 19 de abril.
-- 2 projetos, 10 pontos cada.
-- listas, 10 pontos.
+- projeto final, 10 pontos, 17 de abril.
+- listas de exercícios, 10 pontos.
 - prova de recuperação, 100 pontos, 24 de abril.
 
 # bibliografia
