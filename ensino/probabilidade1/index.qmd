@@ -24,4 +24,5 @@ as aulas do curso de **probabilidade 1 (famat31203)** acontecem às terças-feir
 
 # bibliografia básica
 
--   [probabilidade: um curso moderno com aplicações](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=107129); autor: sheldon ross.
+-   [probabilidade: um curso moderno com aplicações](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=107129)<br />
+autor: sheldon ross.

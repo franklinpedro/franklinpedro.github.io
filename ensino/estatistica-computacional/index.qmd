@@ -11,20 +11,19 @@ as aulas das disciplina **estatística computacional (famat31041)** acontecem à
 
 # programa
 
-- introdução ao aprendizado de máquina: definição e conceitos básicos; tipos de aprendizado: supervisionado, não supervisionado e por reforço.
-- pré-processamento de dados.
-- modelos de aprendizado de máquina supervisionado.
-- aprendizado não supervisionado, sistemas de recomendação, aprendizado por reforço.
-- algoritmos avançados de aprendizado de máquina.
-- processamento de linguagem natural
+- fundamentos da linguagem R;
+- ciência de dados com R;
+- construindo modelos de aprendizado de máquina com R;
+- métodos de estimação;
+- simulações probabilísticas;
 
 # avaliação
 
-- primeira prova, 28 pontos, 09 de outubro.
-- segunda prova, 28 pontos, 07 de novembro.
-- laboratórios, 28 pontos.
-- seminário, 16 pontos.
-- prova de recuperação, 100 pontos, 28 de novembro.
+- primeira prova, 30 pontos, 06 de março.
+- segunda prova, 30 pontos, 19 de abril.
+- 2 projetos, 10 pontos cada.
+- listas, 10 pontos.
+- prova de recuperação, 100 pontos, 24 de abril.
 
 # bibliografia
 
