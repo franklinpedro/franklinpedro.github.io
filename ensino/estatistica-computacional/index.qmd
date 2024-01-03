@@ -30,8 +30,6 @@ as aulas das disciplina **estatística computacional (famat31041)** acontecem à
 -   [an introduction to statistical learning with applications in r.](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf)<br />
 gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.
 
-- [r for data science.](https://r4ds.hadley.nz/)
+- [r for data science.](https://r4ds.hadley.nz/)<br />
 hadley wickham, mine çetinkaya-rundel, garrett grolemund. 3ed, o'reilley, 2023.
 
-- ggplot2: elegant graphics for data analysis.<br />
-a terceira edição do livro de hadley wickham, danielle navarro e thomas lin pedersen está em construção e pode ser acessada a partir deste [link](https://ggplot2-book.org/).
