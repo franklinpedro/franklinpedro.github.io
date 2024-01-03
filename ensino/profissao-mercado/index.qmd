@@ -11,6 +11,8 @@ as aulas das disciplina **ges035: profissão e mercado de trabalho** acontecem �
 
 # programa
 
+- criação de apresentações e relatórios com quarto.
+- uma breve história da estatística.
 - curriculum vitae: informações para construção de um cv; trainees; entrevistas de contratação.
 - busca do emprego.
 - descrição do mercado de trabalho.
@@ -18,7 +20,7 @@ as aulas das disciplina **ges035: profissão e mercado de trabalho** acontecem �
 - cursos de graduação, departamentos de estatística, pesquisa e pós-graduação em estatística.
 - como se manter atualizado e estatística na internet.
 - estatísticas oficiais (ibge, ipea, datasus, inep).
-- Competências esperadas de um estatístico.
+- competências esperadas de um estatístico.
 - como ensinar estatística para não-estatísticos.
 - novas formas de organização e análise de dados.
 - as diferentes faces da estatística.
