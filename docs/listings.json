@@ -9,8 +9,8 @@
   {
     "listing": "/ensino.html",
     "items": [
-      "/ensino/series-temporais/index.html",
-      "/ensino/metodos-matematicos/index.html",
+      "/ensino/estatistica-computacional/index.html",
+      "/ensino/probabilidade1/index.html",
       "/ensino/profissao-mercado/index.html"
     ]
   }

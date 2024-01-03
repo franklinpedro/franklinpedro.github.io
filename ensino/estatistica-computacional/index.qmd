@@ -1,13 +1,13 @@
 ---
-title: "métodos matemáticos"
+title: "estatística computacional"
 #author: "pedro franklin"
-date: 2023-07-31
+date: 2024-01-10
 date-format: DD/MM/YYYY
-image: metodos_matematicos.png
-description: "o curso tem como objetivo central proporcionar aos estudantes de estatística uma base sólida de conhecimentos teóricos e práticos no campo do aprendizado de máquina."
+image: hex_estcomp.png
+description: "o curso tem como objetivo central apresentar aplicações práticas de conceitos estatísticos e probabilísticos que são fundamentais para a ciência de dados e para o aprendizado de máquina."
 ---
 
-as aulas das disciplina **ges044: métodos matemáticos** acontecem às segundas-feiras entre 20:50h e 22:30h e às terças-feiras entre 19:00h e 20:40h no laboratório 4 do bloco 1b.
+as aulas das disciplina **estatística computacional (famat31041)** acontecem às quartas-feiras entre 16:50h e 18:30h e às sextas-feiras entre 13:10h e 14:50h no laboratório 4 do bloco 1b.
 
 # programa
 
