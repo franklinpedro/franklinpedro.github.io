@@ -3,7 +3,7 @@ title: "probabilidade 1"
 description: "o objetivo principal do curso é apresentar ao aluno as noções fundamentais da teoria das probabilidades com respeito às variáveis aleatórias discretas."
 date: 2024-01-09
 date-format: DD/MM/YYYY
-image: hex_prob1.png
+image: hex_prob12.png
 ---
 
 as aulas do curso de **probabilidade 1 (famat31203)** acontecem às terças-feiras entre 19:00h e 20:40h e às quartas-feiras entre 20:50h e 22:30h na sala 3Q 307.

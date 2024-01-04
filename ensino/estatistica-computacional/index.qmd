@@ -3,7 +3,7 @@ title: "estatística computacional"
 #author: "pedro franklin"
 date: 2024-01-10
 date-format: DD/MM/YYYY
-image: hex_estcomp.png
+image: hex_estcomp2.png
 description: "o curso tem como objetivo central apresentar aplicações práticas de conceitos estatísticos e probabilísticos que são fundamentais para a ciência de dados e para o aprendizado de máquina."
 ---
 
