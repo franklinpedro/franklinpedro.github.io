@@ -9,6 +9,12 @@ description: "o curso tem como objetivo central apresentar aplicações prática
 
 as aulas das disciplina **estatística computacional (famat31041)** acontecem às quartas-feiras entre 16:50h e 18:30h e às sextas-feiras entre 13:10h e 14:50h.
 
+# atendimento extraclasse
+
+quinta-feira, 10:00h.
+
+sexta-feira, 17:00h.
+
 # programa
 
 - fundamentos da linguagem R;
