@@ -7,20 +7,19 @@ image: hex_estcomp2.png
 description: "o curso tem como objetivo central apresentar aplicações práticas de conceitos estatísticos e probabilísticos que são fundamentais para a ciência de dados e para o aprendizado de máquina."
 ---
 
-as aulas das disciplina **estatística computacional (famat31041)** acontecem às quartas-feiras entre 16:50h e 18:30h e às sextas-feiras entre 13:10h e 14:50h no laboratório 4 do bloco 1b.
+as aulas das disciplina **estatística computacional (famat31041)** acontecem às quartas-feiras entre 16:50h e 18:30h e às sextas-feiras entre 13:10h e 14:50h.
 
 # programa
 
 - fundamentos da linguagem R;
 - ciência de dados com R;
 - construindo modelos de aprendizado de máquina com R;
-- métodos de estimação;
 - simulações probabilísticas;
 
 # avaliação
 
-- primeira prova, 30 pontos, 06 de março.
-- segunda prova, 30 pontos, 19 de abril.
+- primeira prova, 40 pontos, 06 de março.
+- segunda prova, 40 pontos, 19 de abril.
 - projeto final, 10 pontos, 17 de abril.
 - listas de exercícios, 10 pontos.
 - prova de recuperação, 100 pontos, 24 de abril.
@@ -31,5 +30,5 @@ as aulas das disciplina **estatística computacional (famat31041)** acontecem à
 gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.
 
 - [r for data science.](https://r4ds.hadley.nz/)<br />
-hadley wickham, mine çetinkaya-rundel, garrett grolemund. 3ed, o'reilley, 2023.
+hadley wickham, mine çetinkaya-rundel, garrett grolemund. 2ed, o'reilley, 2023.
 
