@@ -5,7 +5,7 @@ date: 2024-02-08
 date-format: DD/MM/YYYY
 image: vovo.jpg
 categories: [filmes, podcasts, música]
-description: "um episódio de um podcast sobre mini cérebros e cuidados paliativos nos últimos dias de uma pessoa; os filmes **a despedida** e **perfect days**; a música **o velho e o moço**."
+description: "um episódio de um podcast sobre mini cérebros e os últimos dias da vida de uma pessoa; os filmes **a despedida** e **perfect days**; a música **o velho e o moço**."
 language: _custom.yml
 ---
 
