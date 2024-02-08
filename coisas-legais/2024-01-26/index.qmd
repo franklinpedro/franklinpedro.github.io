@@ -5,7 +5,7 @@ date: 2024-01-26
 date-format: DD/MM/YYYY
 image: courgette.jpeg
 categories: [filmes, música]
-description: "uma banda e dois filmes para o final de semana"
+description: "la femme, o garoto da bicicleta, minha vida de abobrinha: uma banda e dois filmes para o final de semana"
 language: _custom.yml
 ---
 

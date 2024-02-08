@@ -1,0 +1,32 @@
+---
+title: "as grandes perguntas"
+author: "pedro franklin"
+date: 2024-02-08
+date-format: DD/MM/YYYY
+image: vovo.jpg
+categories: [filmes, podcasts, música]
+description: "um episódio de um podcast sobre mini cérebros e cuidados paliativos nos últimos dias de uma pessoa; os filmes **a despedida** e **perfect days**; a música **o velho e o moço**."
+language: _custom.yml
+---
+
+passei muito mal nas últimas semanas e aproveitei o tempo de repouso em casa para escutar alguns podcasts. um deles foi o episódio "grandes perguntas" da radio novelo. terminei de escutá-lo aos prantos. chorava tanto que tive que e apoiar as duas mãos na bancada da cozinha com o corpo inclinado e cabeça baixa. aquele choro que te dexa sem ar, sabe? o final melancólico do episódio se contrapõe ao início divertido do primeiro ato. neste primeiro ato escutamos alguns cientistas falarem sobre suas tentativas de criar um mini cérebro em laboratório. a tentativa foi bem sucedida e o mini cérebro começou a funcionar de maneira organizada como pisca pisca: num determinado momento suas células passaram a se acender e a se apagar todas juntas! mas então, será que este cérebro do tamanho de um grão de cuscus pode adquirir consciência no futuro? se sim, poderemos continuar fazendo pesquisas com uma estrutura consciente? é muito mágico e assustador ao mesmo tempo ouvir esta história. mas aí começa o segundo ato e as coisas ficam mais tristes. uma mulher com câncer e seus últimos dias. achei muito bonito como as duas histórias foram conectadas. vale a pena escutar.
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1TTWckzjqPvVt6rcrzpkQr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+o episódio do podcast me lembrou de um filme que gostei muito de ver anos atrás: a despedida. uma senhora chinesa está doente e talvez não tenha muito tempo de vida. a família da senhora decide não contar nada para ela ao mesmo tempo que organiza um evento para reunir todo mundo como uma forma de despedida. filme bonito que abordará também diferenças culturais entre china e estados unidos. 
+
+{{< video https://www.youtube.com/watch?v=T3Y6b36eMK4 >}}
+
+já estou melhor, mas a ida ao hospital me deixou meio abatido. como pode uma infecção na garganta derrubar a gente? transladei esta pergunta para um cenário futuro de velhice solitária e fiquei ainda mais reflexivo. como deve ser uma velhice solitária? qualquer resposta que eu me der para esta grande pergunta será só achismo e, por isso, tenho tentado não pensar muito nisso. o bom é que logo depois destes pensamentos eu conheci o senhor hirayama do filme perfect days. foi o filme que maisme tocou nos últimos meses. ele tem a capacidade de nos fazer reacreditar que a vida é um lugar bonito e que uma boa meta de vida é se planejar para chegar na velhice em paz. neste momento, desejo a paz silenciosa do senhor hirayama.
+
+{{< video https://www.youtube.com/watch?v=Iv8YO5BXCAQ >}}
+
+antes de ir, vou deixar aqui os versos finais de *o velho e o moço*, minha música preferida dos los hermanos.
+
+> vou levando assim<br />
+que o acaso é amigo<br />
+do meu coração<br />
+quando fala comigo<br />
+quando eu sei ouvir.
+
+{{< video https://www.youtube.com/watch?v=NExRHKWY5P8>}}
