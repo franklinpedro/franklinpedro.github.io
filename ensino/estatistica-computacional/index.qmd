@@ -1,6 +1,5 @@
 ---
 title: "estatística computacional"
-#author: "pedro franklin"
 date: 2024-01-10
 date-format: DD/MM/YYYY
 image: hex_estcomp2.png

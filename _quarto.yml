@@ -21,11 +21,13 @@ website:
   page-footer:
     left: "página criada com 💜 e [quarto](https://quarto.org/) por pedro franklin."
   favicon: gato.jpg
+  
 format:
   html:
     theme:
-      - simplex
-      - custom.scss
+     - simplex
+     - custom.scss
+    linkcolor: rgb(68, 110, 155)
     css: styles.css
     toc: true
     
