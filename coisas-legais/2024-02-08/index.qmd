@@ -7,6 +7,7 @@ image: vovo.jpg
 categories: [filmes, podcasts, música]
 description: "um episódio de um podcast sobre mini cérebros e os últimos dias da vida de uma pessoa; os filmes **a despedida** e **perfect days**; a música **o velho e o moço**."
 language: _custom.yml
+page-break-after: always
 ---
 
 passei muito mal nas últimas semanas e aproveitei o tempo de repouso em casa para escutar alguns podcasts. um deles foi o episódio "grandes perguntas" da radio novelo. terminei de escutá-lo aos prantos. chorava tanto que tive que e apoiar as duas mãos na bancada da cozinha com o corpo inclinado e cabeça baixa. aquele choro que te dexa sem ar, sabe? o final melancólico do episódio se contrapõe ao início divertido do primeiro ato. neste primeiro ato escutamos alguns cientistas falarem sobre suas tentativas de criar um mini cérebro em laboratório. a tentativa foi bem sucedida e o mini cérebro começou a funcionar de maneira organizada como pisca pisca: num determinado momento suas células passaram a se acender e a se apagar todas juntas! mas então, será que este cérebro do tamanho de um grão de cuscus pode adquirir consciência no futuro? se sim, poderemos continuar fazendo pesquisas com uma estrutura consciente? é muito mágico e assustador ao mesmo tempo ouvir esta história. mas aí começa o segundo ato e as coisas ficam mais tristes. uma mulher com câncer e seus últimos dias. achei muito bonito como as duas histórias foram conectadas. vale a pena escutar.
@@ -14,6 +15,7 @@ passei muito mal nas últimas semanas e aproveitei o tempo de repouso em casa pa
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1TTWckzjqPvVt6rcrzpkQr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 o episódio do podcast me lembrou de um filme que gostei muito de ver anos atrás: a despedida. uma senhora chinesa está doente e talvez não tenha muito tempo de vida. a família da senhora decide não contar nada para ela ao mesmo tempo que organiza um evento para reunir todo mundo como uma forma de despedida. filme bonito que abordará também diferenças culturais entre china e estados unidos. 
+
 
 {{< video https://www.youtube.com/watch?v=T3Y6b36eMK4 >}}
 

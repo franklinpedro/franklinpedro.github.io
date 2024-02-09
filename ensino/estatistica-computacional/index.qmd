@@ -39,6 +39,29 @@ hadley wickham, mine çetinkaya-rundel, garrett grolemund. 2ed, o'reilley, 2023.
 
 # dados
 
--   o conjunto de dados "palmer penguins" é uma coleção de informações sobre três espécies de pinguins (adelie, gentoo e chinstrap) coletadas na península antártica por pesquisadores do palmer station, uma estação de pesquisa dos estados unidos localizada na antártica. o conjunto de dados contém medidas morfológicas, como comprimento do bico, profundidade do bico, massa corporal, sexo e espécie de cada pinguim. ele foi reunido para permitir análises e estudos sobre a ecologia e o comportamento dessas espécies de pinguins em seu habitat natural. para acessar este conjunto, clique [aqui](https://drive.google.com/file/d/1Qdzn92ZOC7V0BrC65JohfislbwSvGNjn/view?usp=sharing).
+## palmer penguins
 
--   as variáveis do conjunto de dados "breast cancer wisconsin" são computadas a partir de uma imagem digitalizada de uma aspiração por agulha fina (FNA) de uma massa mamária. estas variáveis descrevem as características dos núcleos celulares presentes na imagem. este conjunto foi obtido no repositório de aprendizado de máquina da [UC Irvine ](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic); para acessá-lo clique [aqui](https://drive.google.com/file/d/10R2o3G5bj4LCy_htoZG8_WLm0xtpzSTc/view?usp=sharing).
+o conjunto de dados "palmer penguins" é uma coleção de informações sobre três espécies de pinguins (adelie, gentoo e chinstrap) coletadas na península antártica por pesquisadores do palmer station, uma estação de pesquisa dos estados unidos localizada na antártica. o conjunto de dados contém medidas morfológicas, como comprimento do bico, profundidade do bico, massa corporal, sexo e espécie de cada pinguim. ele foi reunido para permitir análises e estudos sobre a ecologia e o comportamento dessas espécies de pinguins em seu habitat natural. para acessar este conjunto, clique [aqui](https://drive.google.com/file/d/1Qdzn92ZOC7V0BrC65JohfislbwSvGNjn/view?usp=sharing).
+
+## breast cancer wisconsin
+
+as variáveis do conjunto de dados "breast cancer wisconsin" são computadas a partir de uma imagem digitalizada de uma aspiração por agulha fina (FNA) de uma massa mamária. estas variáveis descrevem as características dos núcleos celulares presentes na imagem. este conjunto foi obtido no repositório de aprendizado de máquina da [UC Irvine ](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic); para acessá-lo clique [aqui](https://drive.google.com/file/d/10R2o3G5bj4LCy_htoZG8_WLm0xtpzSTc/view?usp=sharing).
+
+## titanic 
+
+o conjunto de dados do titanic (acesse o conjunto [aqui](https://drive.google.com/file/d/1hbMsgxISmHTPrzLp8711pgYeAuIGvF3B/view?usp=sharing)) disponível no [kaggle](https://www.kaggle.com/competitions/titanic/overview) é um dos conjuntos de dados mais populares e amplamente utilizados para análise e aprendizado de máquina. ele contém informações sobre os passageiros a bordo do famoso navio titanic, que naufragou em sua viagem inaugural em 15 de abril de 1912.
+
+aqui está um resumo das variáveis incluídas no conjunto de dados do titanic:
+
+-   passengerid: número de identificação do passageiro.
+-   survived: indica se o passageiro sobreviveu (1) ou não (0) ao naufrágio.
+-   pclass: classe socioeconômica do passageiro (1ª, 2ª ou 3ª classe).
+-   name: nome do passageiro.
+-   sex: gênero do passageiro.
+-   age: idade do passageiro.
+-   sibsp: número de irmãos/cônjuges a bordo do titanic.
+-   parch: número de pais/filhos a bordo do titanic.
+-   ticket: número do bilhete.
+-   fare: tarifa paga pelo passageiro.
+-   cabin: número da cabine do passageiro.
+-   embarked: portão de embarque do passageiro (c = cherbourg, q = queenstown, s = southampton).
