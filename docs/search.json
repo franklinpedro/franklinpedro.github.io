@@ -60,7 +60,7 @@
     "href": "coisas-legais.html",
     "title": "coisas legais",
     "section": "",
-    "text": "as grandes perguntas\n\n\n\n\n\num episódio de um podcast sobre mini cérebros e os últimos dias da vida de uma pessoa; os filmes a despedida e perfect days; a música o velho e o moço.\n\n\n\n\n\n08/02/2024\n\n\n\n\n\n\n\n\n\n\n\n\na noite esfriou, o dia não veio\n\n\n\n\n\nla femme, o garoto da bicicleta, minha vida de abobrinha: uma banda e dois filmes para o final de semana.\n\n\n\n\n\n26/01/2024\n\n\n\n\n\n\nSem itens correspondentes"
+    "text": "as grandes perguntas\n\n\n\n\n\n\nfilmes\n\n\npodcasts\n\n\nmúsica\n\n\n\num episódio de um podcast sobre mini cérebros e os últimos dias da vida de uma pessoa; os filmes a despedida e perfect days; a música o velho e o moço.\n\n\n\n\n\n08/02/2024\n\n\n\n\n\n\n\n\n\n\n\n\na noite esfriou, o dia não veio\n\n\n\n\n\n\nfilmes\n\n\nmúsica\n\n\n\nla femme, o garoto da bicicleta, minha vida de abobrinha: uma banda e dois filmes para o final de semana.\n\n\n\n\n\n26/01/2024\n\n\n\n\n\n\nSem itens correspondentes"
   },
   {
     "objectID": "coisas-legais/segundo/index.html",
@@ -88,14 +88,14 @@
     "href": "ensino.html",
     "title": "ensino",
     "section": "",
-    "text": "o curso tem como objetivo central apresentar aplicações práticas de conceitos estatísticos e probabilísticos que são fundamentais para a ciência de dados e para o…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\no objetivo principal do curso é apresentar ao aluno as noções fundamentais da teoria das probabilidades com respeito às variáveis aleatórias discretas.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\na disciplina propões discutir e analisar as habilidades gerais necessárias para o sucesso profissional de um bacharel em estatística.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "aqui, você encontra informações sobre as disciplinas dos meus cursos que estão em andamento e também uma lista com todas as disciplinas que já lecionei na universidade federal de uberlândia."
   },
   {
     "objectID": "ensino.html#cursos-em-andamento",
     "href": "ensino.html#cursos-em-andamento",
     "title": "ensino",
-    "section": "",
-    "text": "o curso tem como objetivo central apresentar aplicações práticas de conceitos estatísticos e probabilísticos que são fundamentais para a ciência de dados e para o…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\no objetivo principal do curso é apresentar ao aluno as noções fundamentais da teoria das probabilidades com respeito às variáveis aleatórias discretas.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\na disciplina propões discutir e analisar as habilidades gerais necessárias para o sucesso profissional de um bacharel em estatística.\n\n\n\n\n\n\n\nNo matching items"
+    "section": "cursos em andamento",
+    "text": "cursos em andamento\na seguir, as disciplas que estou lecionando no segundo semestre letivo de 2023. para acessar as informações de uma disciplina específica, basta clicar sobre sua ficha.\n\n\n\n\n\n\n\n\n\n\nestatística computacional\n\n\no curso tem como objetivo central apresentar aplicações práticas de conceitos estatísticos e probabilísticos que são fundamentais para a ciência de dados e para o…\n\n\n\n\n\n\n\n\n\n\n\n\n\nprobabilidade 1\n\n\no objetivo principal do curso é apresentar ao aluno as noções fundamentais da teoria das probabilidades com respeito às variáveis aleatórias discretas.\n\n\n\n\n\n\n\n\n\n\n\n\n\nprofissão e mercado de trabalho\n\n\na disciplina propões discutir e analisar as habilidades gerais necessárias para o sucesso profissional de um bacharel em estatística.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "ensino.html#cursos-encerrados",
@@ -173,5 +173,73 @@
     "title": "estatística computacional",
     "section": "titanic",
     "text": "titanic\no conjunto de dados do titanic (acesse o conjunto aqui) disponível no kaggle é um dos conjuntos de dados mais populares e amplamente utilizados para análise e aprendizado de máquina. ele contém informações sobre os passageiros a bordo do famoso navio titanic, que naufragou em sua viagem inaugural em 15 de abril de 1912.\naqui está um resumo das variáveis incluídas no conjunto de dados do titanic:\n\npassengerid: número de identificação do passageiro.\nsurvived: indica se o passageiro sobreviveu (1) ou não (0) ao naufrágio.\npclass: classe socioeconômica do passageiro (1ª, 2ª ou 3ª classe).\nname: nome do passageiro.\nsex: gênero do passageiro.\nage: idade do passageiro.\nsibsp: número de irmãos/cônjuges a bordo do titanic.\nparch: número de pais/filhos a bordo do titanic.\nticket: número do bilhete.\nfare: tarifa paga pelo passageiro.\ncabin: número da cabine do passageiro.\nembarked: portão de embarque do passageiro (c = cherbourg, q = queenstown, s = southampton)."
+  },
+  {
+    "objectID": "segundo-teste.html",
+    "href": "segundo-teste.html",
+    "title": "segundo teste",
+    "section": "",
+    "text": "segundo teste para a página com page break.",
+    "crumbs": [
+      "teste",
+      "segundo teste"
+    ]
+  },
+  {
+    "objectID": "primeiro-teste.html",
+    "href": "primeiro-teste.html",
+    "title": "primeiro teste",
+    "section": "",
+    "text": "primeira página da seção com page break."
+  },
+  {
+    "objectID": "teste.html",
+    "href": "teste.html",
+    "title": "teste",
+    "section": "",
+    "text": "tentando fazer uma paginaçao com sidebar em uma pagina apenas.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsegundo projeto: parte 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nprimeiro projeto: parte 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes",
+    "crumbs": [
+      "teste"
+    ]
+  },
+  {
+    "objectID": "teste2.html",
+    "href": "teste2.html",
+    "title": "teste 2",
+    "section": "",
+    "text": "segundo.",
+    "crumbs": [
+      "teste",
+      "teste 2"
+    ]
+  },
+  {
+    "objectID": "teste1.html",
+    "href": "teste1.html",
+    "title": "teste 1",
+    "section": "",
+    "text": "primeiro.",
+    "crumbs": [
+      "teste",
+      "teste 1"
+    ]
+  },
+  {
+    "objectID": "teste/projeto2/index.html",
+    "href": "teste/projeto2/index.html",
+    "title": "segundo projeto: parte 1",
+    "section": "",
+    "text": "parte 1."
+  },
+  {
+    "objectID": "teste/projeto1/index.html",
+    "href": "teste/projeto1/index.html",
+    "title": "primeiro projeto: parte 1",
+    "section": "",
+    "text": "parte 1.",
+    "crumbs": [
+      "teste",
+      "primeiro projeto: parte 1"
+    ]
   }
 ]

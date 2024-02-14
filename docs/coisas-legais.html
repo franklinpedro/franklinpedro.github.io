@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-description','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-description','listing-title','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
@@ -228,6 +228,17 @@ window.Quarto = {
 <div class="listing-subtitle">
 <a href="./coisas-legais/2024-02-08/index.html" class="no-external"></a>
 </div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('filmes'); return false;">
+filmes
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('podcasts'); return false;">
+podcasts
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('música'); return false;">
+música
+</div>
+</div>
 <div class="listing-description">
 <a href="./coisas-legais/2024-02-08/index.html" class="no-external">um episódio de um podcast sobre mini cérebros e os últimos dias da vida de uma pessoa; os filmes <strong>a despedida</strong> e <strong>perfect days</strong>; a música <strong>o velho e o moço</strong>.</a>
 </div>
@@ -252,6 +263,14 @@ window.Quarto = {
 </h3>
 <div class="listing-subtitle">
 <a href="./coisas-legais/2024-01-26/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('filmes'); return false;">
+filmes
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('música'); return false;">
+música
+</div>
 </div>
 <div class="listing-description">
 <a href="./coisas-legais/2024-01-26/index.html" class="no-external">la femme, o garoto da bicicleta, minha vida de abobrinha: uma banda e dois filmes para o final de semana.</a>

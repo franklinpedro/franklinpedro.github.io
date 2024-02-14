@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  page-navigation: true
   title: "pedro franklin"
   navbar:
     left:
@@ -14,9 +15,16 @@ website:
         text: materiais
       - href: coisas-legais.qmd
         text: coisas legais
+ 
     right: 
       - icon: github
         href: https://github.com/franklinpedro
+  sidebar: 
+    id: teste
+    style: "floating"
+    contents: 
+      - href: teste.qmd
+      - href: teste/projeto1/index.qmd
       
   page-footer:
     left: "página criada com 💜 e [quarto](https://quarto.org/) por pedro franklin."

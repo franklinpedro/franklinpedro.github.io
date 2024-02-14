@@ -9,14 +9,18 @@ listing:
     categories: false
     fields: [image, description, title]
     image-height: 190px
-title-block-banner: true
+title-block-banner: false
 toc-title: "nesta página"
 #language: _custom.yml
 page-layout: full
 toc: true
 ---
 
+aqui, você encontra informações sobre as disciplinas dos meus cursos que estão em andamento e também uma lista com todas as disciplinas que já lecionei na universidade federal de uberlândia.
+
 ## cursos em andamento
+
+a seguir, as disciplas que estou lecionando no segundo semestre letivo de 2023. para acessar as informações de uma disciplina específica, basta clicar sobre sua ficha.
 
 :::{#em-andamento}
 :::

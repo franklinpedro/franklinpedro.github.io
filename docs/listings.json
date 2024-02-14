@@ -13,5 +13,12 @@
       "/ensino/probabilidade1/index.html",
       "/ensino/profissao-mercado/index.html"
     ]
+  },
+  {
+    "listing": "/teste.html",
+    "items": [
+      "/teste/projeto2/index.html",
+      "/teste/projeto1/index.html"
+    ]
   }
 ]
