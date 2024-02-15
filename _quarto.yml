@@ -19,12 +19,7 @@ website:
     right: 
       - icon: github
         href: https://github.com/franklinpedro
-  sidebar: 
-    id: teste
-    style: "floating"
-    contents: 
-      - href: teste.qmd
-      - href: teste/projeto1/index.qmd
+
       
   page-footer:
     left: "página criada com 💜 e [quarto](https://quarto.org/) por pedro franklin."
