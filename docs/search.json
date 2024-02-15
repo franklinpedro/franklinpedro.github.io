@@ -75,5 +75,33 @@
     "title": "materiais",
     "section": "aprendizado de máquina",
     "text": "aprendizado de máquina\nnesta seção dois excelentes livros sobre aprendizado de máquina. ambos os livros conseguem conciliar a teoria e a prática apresentando aplicações interessantes para vários modelos de classificação e de aprendizado não supervisionado. os dois livros foram disponibilizados gratuitamente por seus autores.\n\n\n\n\n\n\nan introduction to statistical learning with applications in r\nlivro espetacular que apresenta algumas das técnicas de modelagem e previsão mais importantes; utiliza aplicações do mundo real para ilustrar os métodos discutidos no texto. os tópicos incluem regressão linear, classificação, métodos de reamostragem, métodos baseados em árvores, máquinas de vetor de suporte, agrupamento e muito mais. há vários laboratórios para implementar e praticar no r as análises e os métodos discutidos em cada capítulo. se tornou uma espécie de livro de cabeceira para mim; um livro de referência para assuntos relacionados à aprendizagem de máquina. recentemente, um versão do livro com aplicações em python foi lançada.\n\n\n\n\n\n\n\n\naprendizado de máquina: uma abordagem estatística\noutro excelente livro sobre aprendizado de máquina. escrito por rafael izbicki e tiago mendança dos santos, o objetivo desta obra é introduzir as ideias do aprendizado de máquina sob uma ótica estatística. a discussão é feita em linguagem r e os códigos produzidos ao longo do texto podem ser utilizados para aplicar os métodos apresentados. alguns resultados teóricos sobre os problemas e métodos investigados foram incluídos o que contribui muito para que o leitor consiga compreender as ideias e conceitos que estão por trás dos modelos investigados. o livro está dividido em três partes: regressão, classificação e aprendizado não supervisionado."
+  },
+  {
+    "objectID": "ensino/estatistica-computacional/index.html",
+    "href": "ensino/estatistica-computacional/index.html",
+    "title": "estatística computacional",
+    "section": "",
+    "text": "as aulas das disciplina estatística computacional (famat31041) acontecem às quartas-feiras entre 16:50h e 18:30h e às sextas-feiras entre 13:10h e 14:50h."
+  },
+  {
+    "objectID": "ensino/estatistica-computacional/index.html#palmer-penguins",
+    "href": "ensino/estatistica-computacional/index.html#palmer-penguins",
+    "title": "estatística computacional",
+    "section": "palmer penguins",
+    "text": "palmer penguins\no conjunto de dados “palmer penguins” é uma coleção de informações sobre três espécies de pinguins (adelie, gentoo e chinstrap) coletadas na península antártica por pesquisadores do palmer station, uma estação de pesquisa dos estados unidos localizada na antártica. o conjunto de dados contém medidas morfológicas, como comprimento do bico, profundidade do bico, massa corporal, sexo e espécie de cada pinguim. ele foi reunido para permitir análises e estudos sobre a ecologia e o comportamento dessas espécies de pinguins em seu habitat natural. para acessar este conjunto, clique aqui."
+  },
+  {
+    "objectID": "ensino/estatistica-computacional/index.html#breast-cancer-wisconsin",
+    "href": "ensino/estatistica-computacional/index.html#breast-cancer-wisconsin",
+    "title": "estatística computacional",
+    "section": "breast cancer wisconsin",
+    "text": "breast cancer wisconsin\nas variáveis do conjunto de dados “breast cancer wisconsin” são computadas a partir de uma imagem digitalizada de uma aspiração por agulha fina (FNA) de uma massa mamária. estas variáveis descrevem as características dos núcleos celulares presentes na imagem. este conjunto foi obtido no repositório de aprendizado de máquina da UC Irvine; para acessá-lo clique aqui."
+  },
+  {
+    "objectID": "ensino/estatistica-computacional/index.html#titanic",
+    "href": "ensino/estatistica-computacional/index.html#titanic",
+    "title": "estatística computacional",
+    "section": "titanic",
+    "text": "titanic\no conjunto de dados do titanic (acesse o conjunto aqui) disponível no kaggle é um dos conjuntos de dados mais populares e amplamente utilizados para análise e aprendizado de máquina. ele contém informações sobre os passageiros a bordo do famoso navio titanic, que naufragou em sua viagem inaugural em 15 de abril de 1912.\naqui está um resumo das variáveis incluídas no conjunto de dados do titanic:\n\npassengerid: número de identificação do passageiro.\nsurvived: indica se o passageiro sobreviveu (1) ou não (0) ao naufrágio.\npclass: classe socioeconômica do passageiro (1ª, 2ª ou 3ª classe).\nname: nome do passageiro.\nsex: gênero do passageiro.\nage: idade do passageiro.\nsibsp: número de irmãos/cônjuges a bordo do titanic.\nparch: número de pais/filhos a bordo do titanic.\nticket: número do bilhete.\nfare: tarifa paga pelo passageiro.\ncabin: número da cabine do passageiro.\nembarked: portão de embarque do passageiro (c = cherbourg, q = queenstown, s = southampton)."
   }
 ]
