@@ -15,7 +15,7 @@ page-layout: full
 toc: true
 ---
 
-aqui, você encontra informações sobre as disciplinas dos meus cursos que estão em andamento e também uma lista com todas as disciplinas que já lecionei na universidade federal de uberlândia.
+você encontra, nesta seção, informações sobre as disciplinas dos meus cursos que estão em andamento e também uma lista com todas as disciplinas que já lecionei na universidade federal de uberlândia.
 
 ## cursos em andamento
 
@@ -43,6 +43,3 @@ a seguir, as disciplas que estou lecionando no segundo semestre letivo de 2023. 
 - get014: estatística
 - ges015: probabilidade 2
 - ges031: modelos lineares generalizados
-
-
-
