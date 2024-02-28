@@ -65,3 +65,7 @@ aqui está um resumo das variáveis incluídas no conjunto de dados do titanic:
 -   fare: tarifa paga pelo passageiro.
 -   cabin: número da cabine do passageiro.
 -   embarked: portão de embarque do passageiro (c = cherbourg, q = queenstown, s = southampton).
+
+## Height Estimation from Skeletal Remains
+
+O artigo *Height Estimation from Skeletal Remains* examina a relação entre altura adulta e comprimento do fêmur. Isso é feito usando análise de regressão linear, que é uma ferramenta útil na medicina forense e na antropologia biológica. O estudo encontra uma forte associação linear entre o comprimento do fêmur e a altura. Os dados utilizados no artigos podem ser acessados [aqui](https://ufubr-my.sharepoint.com/:x:/g/personal/pedrofranklin_ufu_br/ESJgBSm6wTtAvojC3lHQy_MB00I82gSA3_EwQ5C1ezdZvw?e=EFD3pD).
