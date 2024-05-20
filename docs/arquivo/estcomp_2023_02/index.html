@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-10-01">
+<meta name="description" content="o curso tem como objetivo central apresentar aplicações práticas de conceitos estatísticos e probabilísticos que são fundamentais para a ciência de dados e para o aprendizado de máquina.">
 
-<title>pedro franklin - ensino</title>
+<title>pedro franklin - estatística computacional</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./gato.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../gato.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,67 +69,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-em-andamento .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-description','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-em-andamento'] = new List('listing-em-andamento', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -139,7 +81,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">pedro franklin</span>
     </a>
   </div>
@@ -150,19 +92,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./ensino.html" aria-current="page"> 
+    <a class="nav-link" href="../../ensino.html"> 
 <span class="menu-text">ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./materiais/index.html"> 
+    <a class="nav-link" href="../../materiais/index.html"> 
 <span class="menu-text">materiais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./coisas-legais.html"> 
+    <a class="nav-link" href="../../coisas-legais.html"> 
 <span class="menu-text">coisas legais</span></a>
   </li>  
 </ul>
@@ -180,32 +122,52 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">nesta página</h2>
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#cursos-em-andamento" id="toc-cursos-em-andamento" class="nav-link active" data-scroll-target="#cursos-em-andamento">cursos em andamento</a></li>
-  <li><a href="#cursos-encerrados" id="toc-cursos-encerrados" class="nav-link" data-scroll-target="#cursos-encerrados">cursos encerrados</a></li>
+  <li><a href="#atendimento-extraclasse" id="toc-atendimento-extraclasse" class="nav-link active" data-scroll-target="#atendimento-extraclasse">atendimento extraclasse</a></li>
+  <li><a href="#programa" id="toc-programa" class="nav-link" data-scroll-target="#programa">programa</a></li>
+  <li><a href="#avaliação" id="toc-avaliação" class="nav-link" data-scroll-target="#avaliação">avaliação</a></li>
+  <li><a href="#bibliografia" id="toc-bibliografia" class="nav-link" data-scroll-target="#bibliografia">bibliografia</a></li>
+  <li><a href="#dados" id="toc-dados" class="nav-link" data-scroll-target="#dados">dados</a>
+  <ul class="collapse">
+  <li><a href="#palmer-penguins" id="toc-palmer-penguins" class="nav-link" data-scroll-target="#palmer-penguins">palmer penguins</a></li>
+  <li><a href="#breast-cancer-wisconsin" id="toc-breast-cancer-wisconsin" class="nav-link" data-scroll-target="#breast-cancer-wisconsin">breast cancer wisconsin</a></li>
+  <li><a href="#titanic" id="toc-titanic" class="nav-link" data-scroll-target="#titanic">titanic</a></li>
+  <li><a href="#hheight-estimation-from-skeletal-remains" id="toc-hheight-estimation-from-skeletal-remains" class="nav-link" data-scroll-target="#hheight-estimation-from-skeletal-remains">Hheight estimation from skeletal remains</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">ensino</h1>
+<h1 class="title">estatística computacional</h1>
+</div>
+
+<div>
+  <div class="description">
+    o curso tem como objetivo central apresentar aplicações práticas de conceitos estatísticos e probabilísticos que são fundamentais para a ciência de dados e para o aprendizado de máquina.
+  </div>
 </div>
 
 
-
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">10/01/2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -215,94 +177,73 @@ window.Quarto = {
 </header>
 
 
-<p>você encontra, nesta seção, informações sobre as disciplinas dos meus cursos que estão em andamento e também uma lista com todas as disciplinas que já lecionei na universidade federal de uberlândia.</p>
-<section id="cursos-em-andamento" class="level2">
-<h2 class="anchored" data-anchor-id="cursos-em-andamento">cursos em andamento</h2>
-<p>a seguir, as disciplas que estou lecionando no primeiro semestre letivo de 2024. para acessar as informações de uma disciplina específica, basta clicar sobre sua ficha.</p>
-<div id="listing-em-andamento" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1716346800000" data-listing-file-modified-sort="1716234250176" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="506">
-<a href="./ensino/estatistica-computacional/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./ensino/estatistica-computacional/hex_estcomp.png" class="thumbnail-image card-img" style="height: 190px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-estatística computacional
-</h5>
-<div class="card-text listing-description">
-o curso tem como objetivo central apresentar aplicações práticas de conceitos estatísticos e probabilísticos que são fundamentais para a ciência de dados e para o…
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1716346800000" data-listing-file-modified-sort="1716233696021" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="268">
-<a href="./ensino/historia-est-prob/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./ensino/historia-est-prob/hex_historia.png" class="thumbnail-image card-img" style="height: 190px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-história da estatística e da probabilidade
-</h5>
-<div class="card-text listing-description">
-a disciplina propões discutir e analisar as habilidades gerais necessárias para o sucesso profissional de um bacharel em estatística.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1716174000000" data-listing-file-modified-sort="1716236097619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="132">
-<a href="./ensino/ciencia-dados/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./ensino/ciencia-dados/hex_ciencia.png" class="thumbnail-image card-img" style="height: 190px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-introdução à ciência de dados
-</h5>
-<div class="card-text listing-description">
-visualizar, manipular e analisar dados; explorar conceitos introdutórios de aprendizado de máquina.
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<p>as aulas das disciplina <strong>estatística computacional (famat31041)</strong> acontecem às quartas-feiras entre 16:50h e 18:30h e às sextas-feiras entre 13:10h e 14:50h.</p>
+<section id="atendimento-extraclasse" class="level1">
+<h1>atendimento extraclasse</h1>
+<p>quinta-feira, 10:00h.</p>
+<p>sexta-feira, 17:00h.</p>
 </section>
-<section id="cursos-encerrados" class="level2">
-<h2 class="anchored" data-anchor-id="cursos-encerrados">cursos encerrados</h2>
+<section id="programa" class="level1">
+<h1>programa</h1>
 <ul>
-<li>famat31203: probabilidade 1</li>
-<li>ges044: métodos matemáticos (introdução ao aprendizado de máquina)</li>
-<li>ges033: análise de séries temporais</li>
-<li>famat31033: estatística</li>
-<li>gbc041: estatística</li>
-<li>ges017: estatística computacional</li>
-<li>ges022: inferência estatística 2</li>
-<li>ges046: tópicos especiais em matemática aplicada (introdução ao aprendizado estatístico)</li>
-<li>ges012: estatística geral</li>
-<li>famat31041: estatística computacional</li>
-<li>ges035: profissão e mercado de trabalho</li>
-<li>ges008: introdução à estatística 2</li>
-<li>gcc014: estatística</li>
-<li>gci018: estatística</li>
-<li>ges018: inferência estatística 1</li>
-<li>get014: estatística</li>
-<li>ges015: probabilidade 2</li>
-<li>ges031: modelos lineares generalizados</li>
+<li>fundamentos da linguagem R;</li>
+<li>ciência de dados com R;</li>
+<li>construindo modelos de aprendizado de máquina com R;</li>
+<li>simulações probabilísticas;</li>
 </ul>
+</section>
+<section id="avaliação" class="level1">
+<h1>avaliação</h1>
+<ul>
+<li>primeira prova, 40 pontos, 06 de março.</li>
+<li>segunda prova, 40 pontos, 19 de abril.</li>
+<li>projeto final, 10 pontos, 17 de abril.</li>
+<li>listas de exercícios, 10 pontos.</li>
+<li>prova de recuperação, 100 pontos, 24 de abril.</li>
+</ul>
+</section>
+<section id="bibliografia" class="level1">
+<h1>bibliografia</h1>
+<ul>
+<li><p><a href="https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf">an introduction to statistical learning with applications in r.</a><br> gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.</p></li>
+<li><p><a href="https://r4ds.hadley.nz/">r for data science.</a><br> hadley wickham, mine çetinkaya-rundel, garrett grolemund. 2ed, o’reilley, 2023.</p></li>
+</ul>
+</section>
+<section id="dados" class="level1">
+<h1>dados</h1>
+<section id="palmer-penguins" class="level2">
+<h2 class="anchored" data-anchor-id="palmer-penguins">palmer penguins</h2>
+<p>o conjunto de dados “palmer penguins” é uma coleção de informações sobre três espécies de pinguins (adelie, gentoo e chinstrap) coletadas na península antártica por pesquisadores do palmer station, uma estação de pesquisa dos estados unidos localizada na antártica. o conjunto de dados contém medidas morfológicas, como comprimento do bico, profundidade do bico, massa corporal, sexo e espécie de cada pinguim. ele foi reunido para permitir análises e estudos sobre a ecologia e o comportamento dessas espécies de pinguins em seu habitat natural. para acessar este conjunto, clique <a href="https://drive.google.com/file/d/1Qdzn92ZOC7V0BrC65JohfislbwSvGNjn/view?usp=sharing">aqui</a>.</p>
+</section>
+<section id="breast-cancer-wisconsin" class="level2">
+<h2 class="anchored" data-anchor-id="breast-cancer-wisconsin">breast cancer wisconsin</h2>
+<p>as variáveis do conjunto de dados “breast cancer wisconsin” são computadas a partir de uma imagem digitalizada de uma aspiração por agulha fina (FNA) de uma massa mamária. estas variáveis descrevem as características dos núcleos celulares presentes na imagem. este conjunto foi obtido no repositório de aprendizado de máquina da <a href="https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic">UC Irvine</a>; para acessá-lo clique <a href="https://drive.google.com/file/d/10R2o3G5bj4LCy_htoZG8_WLm0xtpzSTc/view?usp=sharing">aqui</a>.</p>
+</section>
+<section id="titanic" class="level2">
+<h2 class="anchored" data-anchor-id="titanic">titanic</h2>
+<p>o conjunto de dados do titanic (acesse o conjunto <a href="https://drive.google.com/file/d/1hbMsgxISmHTPrzLp8711pgYeAuIGvF3B/view?usp=sharing">aqui</a>) disponível no <a href="https://www.kaggle.com/competitions/titanic/overview">kaggle</a> é um dos conjuntos de dados mais populares e amplamente utilizados para análise e aprendizado de máquina. ele contém informações sobre os passageiros a bordo do famoso navio titanic, que naufragou em sua viagem inaugural em 15 de abril de 1912.</p>
+<p>aqui está um resumo das variáveis incluídas no conjunto de dados do titanic:</p>
+<ul>
+<li>passengerid: número de identificação do passageiro.</li>
+<li>survived: indica se o passageiro sobreviveu (1) ou não (0) ao naufrágio.</li>
+<li>pclass: classe socioeconômica do passageiro (1ª, 2ª ou 3ª classe).</li>
+<li>name: nome do passageiro.</li>
+<li>sex: gênero do passageiro.</li>
+<li>age: idade do passageiro.</li>
+<li>sibsp: número de irmãos/cônjuges a bordo do titanic.</li>
+<li>parch: número de pais/filhos a bordo do titanic.</li>
+<li>ticket: número do bilhete.</li>
+<li>fare: tarifa paga pelo passageiro.</li>
+<li>cabin: número da cabine do passageiro.</li>
+<li>embarked: portão de embarque do passageiro (c = cherbourg, q = queenstown, s = southampton).</li>
+</ul>
+</section>
+<section id="hheight-estimation-from-skeletal-remains" class="level2">
+<h2 class="anchored" data-anchor-id="hheight-estimation-from-skeletal-remains">Hheight estimation from skeletal remains</h2>
+<p>o artigo <a href="https://adbou.dk/fileadmin/adbou/projektopgaver/ADBOU_linear_regression_Mette_Wodx.pdf">height estimation from skeletal remains</a> examina a relação entre altura adulta e comprimento do fêmur. isso é feito usando análise de regressão linear, que é uma ferramenta útil na medicina forense e na antropologia biológica. o estudo encontra uma forte associação linear entre o comprimento do fêmur e a altura. os dados utilizados no artigo podem ser acessados <a href="https://ufubr-my.sharepoint.com/:x:/g/personal/pedrofranklin_ufu_br/ESJgBSm6wTtAvojC3lHQy_MB00I82gSA3_EwQ5C1ezdZvw?e=EFD3pD">aqui</a>.</p>
 
 
-
+</section>
 </section>
 
 </main> <!-- /main -->

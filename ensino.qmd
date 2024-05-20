@@ -19,13 +19,14 @@ você encontra, nesta seção, informações sobre as disciplinas dos meus curso
 
 ## cursos em andamento
 
-a seguir, as disciplas que estou lecionando no segundo semestre letivo de 2023. para acessar as informações de uma disciplina específica, basta clicar sobre sua ficha.
+a seguir, as disciplas que estou lecionando no primeiro semestre letivo de 2024. para acessar as informações de uma disciplina específica, basta clicar sobre sua ficha.
 
 :::{#em-andamento}
 :::
 
 ## cursos encerrados
 
+- famat31203: probabilidade 1
 - ges044: métodos matemáticos (introdução ao aprendizado de máquina)
 - ges033: análise de séries temporais
 - famat31033: estatística

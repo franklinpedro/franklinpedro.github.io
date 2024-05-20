@@ -1,0 +1,34 @@
+---
+title: "introdução à ciência de dados"
+description: "visualizar, manipular e analisar dados; explorar conceitos introdutórios de aprendizado de máquina."
+date: 2024-05-20
+date-format: DD/MM/YYYY
+image: hex_ciencia.png
+---
+
+as aulas do curso de **introdução à ciência de dados (famat31308)** acontecem às segundas-feiras entre 18:10h e 19:50h e às terças-feiras entre 20:50h e 22:30h no laboratório 106 da Vila Digital do bloco 3Q.
+
+# programa
+
+1.  introdução à linguagem R;
+2.  visualização, manipulação e análise de dados;
+3.  aprendizado de máquina;
+
+# avaliações
+
+-   primeira prova, 40 pontos, 09 de julho.
+-   segunda prova, 40 pontos, 10 de setembro.
+-   listas e projeto final, 20 pontos.
+-   prova de recuperação, 100 pontos, 16 de setembro.
+
+# bibliografia básica
+
+- r para data science.<br />
+hadley wickham & garrett grolemund. 1ed, o'reilley, 2019.
+
+- [ciência de dados em r.](https://livro.curso-r.com/)<br />
+livro escrito pela equipe do curso-r.
+
+- [an introduction to statistical learning with applications in r.](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf)<br />
+gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.
+
