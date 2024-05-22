@@ -4,7 +4,7 @@ title: "história da estatística e da probabilidade"
 date: 2024-05-22
 date-format: DD/MM/YYYY
 image: hex_historia.png
-description: "a disciplina propões discutir e analisar as habilidades gerais necessárias para o sucesso profissional de um bacharel em estatística."
+description: "proporcionar uma visão geral do desenvolvimento da estatística e da probabilidade ao longo do tempo; analisar tópicos importantes dessas disciplinas, compreendendo como, quando e sob quais condições sociais elas foram criadas e desenvolvidas."
 ---
 
 as aulas das disciplina **ges035: profissão e mercado de trabalho** acontecem às quartas-feiras entre 19:00h e 20:40h e às quintas-feiras entre 20:50h e 22:30h no laboratório 103-B do bloco 3Q.

@@ -1,7 +1,7 @@
 ---
 title: "pedro franklin"
 image: pfranklin.jpg
-resources: resume.pdf
+#resources: resume.pdf
 #title-block-banner: false
 about:
   id: pf-heading

@@ -3,7 +3,7 @@ title: "estatística computacional"
 date: 2024-05-22
 date-format: DD/MM/YYYY
 image: hex_estcomp.png
-description: "o curso tem como objetivo central apresentar aplicações práticas de conceitos estatísticos e probabilísticos que são fundamentais para a ciência de dados e para o aprendizado de máquina."
+description: "apresentar aplicações práticas de conceitos estatísticos que são fundamentais para a ciência de dados e para o aprendizado de máquina; o curso terá foco na linguagem de computação estatística R."
 ---
 
 as aulas das disciplina **estatística computacional (famat31041)** acontecem às quartas-feiras entre 16:50h e 18:30h e às sextas-feiras entre 13:10h e 14:50h.

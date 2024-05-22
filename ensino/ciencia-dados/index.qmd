@@ -1,6 +1,6 @@
 ---
 title: "introdução à ciência de dados"
-description: "visualizar, manipular e analisar dados; explorar conceitos introdutórios de aprendizado de máquina."
+description: "visualizar, manipular e analisar dados; explorar conceitos introdutórios de aprendizado de máquina; o curso terá foco na linguagem de computação estatística R."
 date: 2024-05-20
 date-format: DD/MM/YYYY
 image: hex_ciencia.png

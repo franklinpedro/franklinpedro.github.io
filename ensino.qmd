@@ -9,6 +9,7 @@ listing:
     categories: false
     fields: [image, description, title]
     image-height: 190px
+    max-description-length: 245
 title-block-banner: false
 toc-title: "nesta página"
 page-layout: full
