@@ -16,10 +16,10 @@ as aulas do curso de **introdução à ciência de dados (famat31308)** acontece
 
 # avaliações
 
--   primeira prova, 40 pontos, 09 de julho.
--   segunda prova, 40 pontos, 10 de setembro.
+-   primeira prova, 40 pontos, 24 de setembro.
+-   segunda prova, 40 pontos, 12 de novembro.
 -   listas e projeto final, 20 pontos.
--   prova de recuperação, 100 pontos, 16 de setembro.
+-   prova de recuperação, 100 pontos, 18 de novembro.
 
 # bibliografia básica
 
@@ -29,6 +29,4 @@ as aulas do curso de **introdução à ciência de dados (famat31308)** acontece
 
 -   [an introduction to statistical learning with applications in r.](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf)<br /> gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.
 
-## dados
 
--   [dados](https://drive.google.com/file/d/1EhlWBPwWKMFKr4UD9zj1JF8XwVe5WuCj/view?usp=sharing) da aula do dia 10 de junho.
