@@ -20,9 +20,9 @@ as aulas das disciplina **estatística computacional (famat31041)** acontecem à
 # avaliação
 
 - primeira prova, 40 pontos, 20 de setembro.
-- segunda prova, 40 pontos, 08 de setembro.
+- segunda prova, 40 pontos, 08 de novembro.
 - listas de exercícios e trabalhos, 20 pontos.
-- prova de recuperação, 100 pontos, 13 de setembro.
+- prova de recuperação, 100 pontos, 13 de novembro.
 
 # bibliografia
 
