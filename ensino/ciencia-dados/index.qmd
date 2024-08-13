@@ -29,4 +29,6 @@ as aulas do curso de **introdução à ciência de dados (famat31308)** acontece
 
 -   [an introduction to statistical learning with applications in r.](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf)<br /> gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.
 
+# dados
 
+- dados para aula do dia 13 de agosto: [titanic.txt](https://drive.google.com/file/d/1m4hXnqKa5ryyRqs-ZfoVyZVzuP8nzKxd/view?usp=sharing)
