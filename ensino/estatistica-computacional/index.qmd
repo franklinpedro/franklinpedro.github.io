@@ -34,4 +34,7 @@ hadley wickham, mine çetinkaya-rundel, garrett grolemund. 2ed, o'reilley, 2023.
 
 # dados
 
-- dados para aula do dia 14 de agosto: [titanic.txt](https://drive.google.com/file/d/1m4hXnqKa5ryyRqs-ZfoVyZVzuP8nzKxd/view?usp=sharing)
+-   dados para aula do dia 14 de agosto: [titanic.txt](https://drive.google.com/file/d/1m4hXnqKa5ryyRqs-ZfoVyZVzuP8nzKxd/view?usp=sharing)
+
+-   dados para a aula do dia 28 de agosto:
+[cancer.csv](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/estatistica-computacional/cancer.csv) ou [cancer.txt](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/estatistica-computacional/cancer.txt).
