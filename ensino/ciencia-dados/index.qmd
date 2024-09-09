@@ -32,3 +32,6 @@ as aulas do curso de **introdução à ciência de dados (famat31308)** acontece
 # dados
 
 - dados para aula do dia 13 de agosto: [titanic.txt](https://drive.google.com/file/d/1m4hXnqKa5ryyRqs-ZfoVyZVzuP8nzKxd/view?usp=sharing)
+
+- dados para a aula do dia 09 de setembro: 
+[cancer.csv](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/estatistica-computacional/cancer.csv) ou [cancer.txt](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/estatistica-computacional/cancer.txt).
