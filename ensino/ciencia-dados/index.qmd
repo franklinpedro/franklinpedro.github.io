@@ -37,5 +37,6 @@ as aulas do curso de **introdução à ciência de dados (famat31308)** acontece
 [cancer.csv](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/estatistica-computacional/cancer.csv) ou [cancer.txt](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/estatistica-computacional/cancer.txt).
 
 - dados para a aula do dia 16 de setembro:
-[Carseats.txt](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/ciencia-dados/Carseats.txt) e 
-[Heart.csv](https://trevorhastie.github.io/ISLR/Heart.csv)
+[Heart.csv](https://trevorhastie.github.io/ISLR/Heart.csv) e
+[Carseats.txt](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/ciencia-dados/Carseats.txt)
+
