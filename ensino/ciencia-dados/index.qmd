@@ -27,7 +27,7 @@ as aulas do curso de **introdução à ciência de dados (famat31308)** acontece
 
 -   [ciência de dados em r.](https://livro.curso-r.com/)<br /> livro escrito pela equipe do curso-r.
 
--   [an introduction to statistical learning with applications in r.](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf)<br /> gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.
+-   [an introduction to statistical learning with applications in r.](https://trevorhastie.github.io/ISLR/ISLR%20Seventh%20Printing.pdf)<br /> gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.
 
 # dados
 
