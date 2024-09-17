@@ -1,0 +1,53 @@
+---
+title: "três lugares para descobrir (e ver) músicas"
+author: "pedro franklin"
+date: 2024-09-16
+date-format: DD/MM/YYYY
+image: tiny.jpg
+categories: [música]
+description: "está querendo encontrar novas músicas para ouvir? neste texto, eu falo sobre três canais do youtube que já usei ou ainda uso para descobrir novas músicas."
+language: _custom.yml
+page-break-after: always
+---
+
+quando comecei a graduação, longe de casa pela primeira vez, eu passava muito tempo tentando descobrir novas coisas para ouvir. acho que era uma tentativa de preencher vazios. foi nesta época que descobri a last.fm, a rede social que mais gostei de usar até hoje. foi lá que descobri sigur rós, bon iver e youth lagoon (apenas para citar algumas das grandes descobertas). um dos recursos mais legais da rede era te mostrar pessoas com gostos musicais parecidos com os seus. conheci muita gente bacana por lá, gente que acabou me apresentando outras músicas legais. infelizmente a rede morreu e hoje utilizo-a apenas para contabilizar as músicas que escuto. 
+
+atualmente, tenho recorrido a três canais do youtube para garimpar músicas: la blogothèque, kexp e npr music. para além de usar estes lugares para descobrir músicas, também os uso para ouvir músicas das minhas bandas e cantores favoritos. os shows são muito bem produzidos e a qualidade do som é sempre muito boa.
+
+## la blogothèque
+
+eu descobri o canal francês [la blogothèque](https://www.youtube.com/user/LaBlogotheque) há muito tempo, talvez um pouco depois de ter descoberto a last.fm. curto muito, dentro do la blogothèque, duas séries: soirées de poche e take away shows. em soirées de poche, artistas tocam músicas em lugares bem pequeninos. deixo, aqui, o soirée de poche da minha banda favorita, **beach house**. embora já tenha visto uma dezena de vezes este show, sempre me emociono ao revê-lo. 
+
+{{< video https://www.youtube.com/watch?v=hmNEp4D_2R8 >}}
+
+já na série take away shows, artistas cantam pela cidade. é lindo: as ruas, os sons da cidade, as pessoas que passam. a seguir, **alt-j**, **arcade fire** (até revista vira instrumento; aproveito para dizer que o último álbum deles, WE, é dos melhores álbuns dos últimos anos) e **beirut**.
+
+{{< video https://www.youtube.com/watch?v=kwa_f0c3Xqs >}}
+
+{{< video https://youtu.be/qtR5L-RGKgw?si=j7VYo-lfreImvRBC >}}
+
+{{< video https://www.youtube.com/watch?v=R781LDKOVJE >}}
+
+## kexp
+
+[kexp](https://www.youtube.com/user/kexpradio) é uma rádio de seattle. os apresentadores são simpáticos e o estúdio é bem bonito. muita coisa alternativa e independente rola por lá dentro da série live on kexp. aqui, **glass beams**, **hermanos gutiérrez** (espetáculo!) e **fountaines dc**.
+
+{{< video https://www.youtube.com/watch?v=E4X56wIOZns >}}
+
+{{< video https://youtu.be/QaejAfU-rfs?si=BK9WBnPCkse7Bt7G >}}
+
+{{< video https://youtu.be/hvv3ewYCyIU?si=fKE9pJVPrLjNdy-H >}}
+
+## npr music
+
+dentro do canal da npr music (national public radio), tem a série tiny desk concerts. os concertos são gravados ao vivo num pequeno estúdio com uma platéia igualmente pequena (e que geralmente não é mostrada, apenas escutamos sua reação). o tiny desk é meu companheiro de refeições. mais de uma vez na semana costumo almoçar ou jantar assistindo a um show da série. aqui, **feist** (minha atual cantora favorita), **perfume genius** (se gostar, não deixe de escutar o álbum put your back n 2 it) e **youth lagoon** (se gostar, não deixe de escutar o álbum the year of hibernation).
+
+{{< video https://www.youtube.com/watch?v=kIBTww3U30M >}}
+
+{{< video https://www.youtube.com/watch?v=O7x79AtDKEw >}}
+
+{{< video https://www.youtube.com/watch?v=20XhDSMmalA >}}
+
+
+por hoje é isso. espero que tenha gostado das dicas. se gostou de algumas das recomendações ou se tiver alguma sugestão de lugar para descobrir músicas, sinta-se livre para me escrever (pedrofranklin@ufu.br). até a próxima!
+
