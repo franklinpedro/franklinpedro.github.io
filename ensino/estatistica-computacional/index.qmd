@@ -38,3 +38,9 @@ hadley wickham, mine çetinkaya-rundel, garrett grolemund. 2ed, o'reilley, 2023.
 
 -   dados para a aula do dia 28 de agosto:
 [cancer.csv](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/estatistica-computacional/cancer.csv) ou [cancer.txt](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/estatistica-computacional/cancer.txt).
+
+# revisão para a primeira prova
+
+-   questões para revisão: [PDF](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/dados/revisao_famat31041_2024_01.pdf)
+-   dados para a questão 3: [chicago.csv](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/dados/chicago.csv)
+-   dados para a questão 4: [papagaio.txt](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/dados/papagaio.txt)
