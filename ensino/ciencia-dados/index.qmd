@@ -40,4 +40,10 @@ as aulas do curso de **introdução à ciência de dados (famat31308)** acontece
 [Carseats.txt](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/ciencia-dados/Carseats.txt) e
 [Heart.csv](https://trevorhastie.github.io/ISLR/Heart.csv).
 
+# revisão para a primeira prova
+
+- questões para revisão: [PDF](https://drive.google.com/file/d/1135FUEDvVwapMflmE3SWNmHr1uPbwwpp/view?usp=sharing)
+-   dados para a questão 1: [chicago.csv](https://github.com/franklinpedro/dados/blob/main/chicago.csv)
+-   dados para a questão 2: [papagaio.txt](https://github.com/franklinpedro/dados/blob/main/papagaio.txt)
+
 
