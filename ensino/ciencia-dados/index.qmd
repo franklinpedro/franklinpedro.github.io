@@ -40,6 +40,8 @@ as aulas do curso de **introdução à ciência de dados (famat31308)** acontece
 [Carseats.txt](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/ciencia-dados/Carseats.txt) e
 [Heart.csv](https://trevorhastie.github.io/ISLR/Heart.csv).
 
+- dados para a aula do dia 08 de outubro: [notícias da bbc](https://drive.google.com/file/d/10qNzeSXrdTaEZxnxoiFTIQVNFc_3JEKH/view?usp=sharing).
+
 # revisão para a primeira prova
 
 - questões para revisão: [PDF](https://drive.google.com/file/d/1135FUEDvVwapMflmE3SWNmHr1uPbwwpp/view?usp=sharing)
