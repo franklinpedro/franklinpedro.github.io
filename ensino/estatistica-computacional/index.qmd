@@ -40,7 +40,9 @@ hadley wickham, mine çetinkaya-rundel, garrett grolemund. 2ed, o'reilley, 2023.
 [cancer.csv](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/estatistica-computacional/cancer.csv) ou [cancer.txt](https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/estatistica-computacional/cancer.txt).
 
 -   dados para a aula do dia 04 de outubro:
-[tweets russos](https://github.com/franklinpedro/dados/blob/main/russian_tweets.csv)
+[tweets russos](https://github.com/franklinpedro/dados/blob/main/russian_tweets.csv).
+
+- dados para a aula do dia 09 de outubro: [notícias da bbc](https://drive.google.com/file/d/10qNzeSXrdTaEZxnxoiFTIQVNFc_3JEKH/view?usp=sharing).
 
 # revisão para a primeira prova
 
