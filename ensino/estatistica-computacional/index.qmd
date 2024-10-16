@@ -44,7 +44,9 @@ hadley wickham, mine çetinkaya-rundel, garrett grolemund. 2ed, o'reilley, 2023.
 
 -   dados para a aula do dia 09 de outubro: [notícias da bbc](https://drive.google.com/file/d/10qNzeSXrdTaEZxnxoiFTIQVNFc_3JEKH/view?usp=sharing).
 
--   dados para a aula do dia 11 de outubro: [femur.csv](https://drive.google.com/file/d/1fujrDllIN0pLCp2HL0ydk94H4S8w_a8p/view?usp=sharing).  
+-   dados para a aula do dia 11 de outubro: [femur.csv](https://drive.google.com/file/d/1fujrDllIN0pLCp2HL0ydk94H4S8w_a8p/view?usp=sharing). 
+
+- dados para a aula do dia 16 de outubro: [grilo.txt](https://drive.google.com/file/d/1JE59AU52GRbT5gCVuI7VMyv2PbOhCX1J/view?usp=sharing).
 
 # revisão para a primeira prova
 
