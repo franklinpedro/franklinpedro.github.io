@@ -42,6 +42,8 @@ as aulas do curso de **introdução à ciência de dados (famat31308)** acontece
 
 - dados para a aula do dia 08 de outubro: [notícias da bbc](https://drive.google.com/file/d/10qNzeSXrdTaEZxnxoiFTIQVNFc_3JEKH/view?usp=sharing).
 
+- dados para a aula do dia 21 de outubro: [creditcard.csv](https://drive.google.com/file/d/1gOk-cTuerCyb-QY60csPjJYQpszR22m9/view?usp=sharing).
+
 # revisão para a primeira prova
 
 - questões para revisão: [PDF](https://drive.google.com/file/d/1135FUEDvVwapMflmE3SWNmHr1uPbwwpp/view?usp=sharing)
