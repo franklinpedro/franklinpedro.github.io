@@ -4,13 +4,15 @@ project:
 
 website:
   page-navigation: true
-  title: "pedro franklin"
+  title: ""
   navbar:
     left:
       - href: index.qmd
-        text: home
+        text: apresentação
       - href: ensino.qmd
         text: ensino
+      - href: tutoriais.qmd
+        text: tutoriais
       - href: materiais/index.qmd
         text: materiais
       - href: coisas-legais.qmd
@@ -31,6 +33,8 @@ format:
      - custom.scss
     linkcolor: rgb(68, 110, 155)
     css: styles.css
+    code-overflow: wrap
     toc: true
+    link-external-icon: false
     
 
