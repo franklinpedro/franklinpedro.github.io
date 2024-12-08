@@ -1,0 +1,46 @@
+---
+title: "**inferência 1**"
+description: "proporcionar aos estudantes conhecimentos básicos de inferência estatística, com ênfase em estimação pontual e intervalar."
+date: 2024-12-11
+date-format: long
+image: hex-inferencia1.png
+---
+
+# informações gerais
+
+as aulas do curso de **inferência estatística 1 (ges018)** acontecem na sala 3Q 207 nos seguintes dias e horários:
+
+-   quarta-feira, 19h00 - 20h40.
+-   quinta-feira, 20h50 - 22h30.
+
+o atendimento aos estudantes acontece na sala 1J 107 nos seguintes dias e horários:
+
+-   quarta-feira, 17h15 - 19h00.
+-   sexta-feira, 17h00 - 18h15.
+
+as comunicações extraclasse devem ser feitas através do email **pedrofranklin@ufu.br**
+
+# ementa
+
+revisão de probabilidade. finalidades da inferência estatística. população e amostra. espaço paramétrico. estatística. estimação pontual e suas propriedades. suficiência. estimadores baseados em estatísticas suficientes. famílias exponenciais. desigualdade de cramer-rao. estimadores não-viciados de variância uniformemente mínima. consistência e eficiência de estimadores. propriedades assintóticas dos estimadores. métodos de estimação por intervalos.
+ 
+# avaliações
+
+-   primeira prova, 40 pontos, 19 de março.
+-   segunda prova, 40 pontos, 07 de maio.
+-   listas, trabalhos e apresentação de exercícios, 20 pontos.
+-   prova de recuperação, 100 pontos, 08 de maio.
+
+# bibliografia básica
+
+-   [**introdução à inferência estatística.**](https://docs.ufpr.br/~lucambio/CE210/LIVRO%20de%20infer%EAncia%20bolfarine.pdf)<br />
+heleno bolfarine e monica carneiro sandoval; sbm, 2010.
+
+-   [**introduction to the theory of statistics.**](https://sistemas.fciencias.unam.mx/~misraim/Mood.pdf)<br />
+alexander m. mood, frank a. graybill e duane c. boes; mcgraw-hill, 3ed, 1974.
+
+- [**introduction to mathematical statistics.**](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=126253 
+)<br />
+robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
+
+

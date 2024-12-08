@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-09-01">
-<meta name="description" content="o objetivo principal do curso é apresentar ao aluno as noções fundamentais da teoria das probabilidades com respeito às variáveis aleatórias discretas.">
+<meta name="description" content="o objetivo principal do curso é apresentar aos estudantes as noções fundamentais da teoria das probabilidades com respeito às variáveis aleatórias discretas.">
 
-<title>pedro franklin - probabilidade 1</title>
+<title>probabilidade 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -56,17 +55,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
   }
 }</script>
 
@@ -80,24 +79,23 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">pedro franklin</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../index.html"> 
-<span class="menu-text">home</span></a>
+<span class="menu-text">apresentação</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../ensino.html"> 
 <span class="menu-text">ensino</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../tutoriais.html"> 
+<span class="menu-text">tutoriais</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../materiais/index.html"> 
@@ -125,10 +123,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">probabilidade 1</h1>
+      <h1 class="title"><strong>probabilidade 1</strong></h1>
                   <div>
         <div class="description">
-          o objetivo principal do curso é apresentar ao aluno as noções fundamentais da teoria das probabilidades com respeito às variáveis aleatórias discretas.
+          o objetivo principal do curso é apresentar aos estudantes as noções fundamentais da teoria das probabilidades com respeito às variáveis aleatórias discretas.
         </div>
       </div>
                 </div>
@@ -141,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">início do curso</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">09/01/2024</p>
+        <p class="date">10 de dezembro de 2024</p>
       </div>
     </div>
     
@@ -157,7 +155,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">nesta página</h2>
    
   <ul>
-  <li><a href="#programa" id="toc-programa" class="nav-link active" data-scroll-target="#programa">programa</a></li>
+  <li><a href="#informações-gerais" id="toc-informações-gerais" class="nav-link active" data-scroll-target="#informações-gerais">informações gerais</a></li>
+  <li><a href="#ementa" id="toc-ementa" class="nav-link" data-scroll-target="#ementa">ementa</a></li>
   <li><a href="#avaliações" id="toc-avaliações" class="nav-link" data-scroll-target="#avaliações">avaliações</a></li>
   <li><a href="#bibliografia-básica" id="toc-bibliografia-básica" class="nav-link" data-scroll-target="#bibliografia-básica">bibliografia básica</a></li>
   </ul>
@@ -170,29 +169,38 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>as aulas do curso de <strong>probabilidade 1 (famat31203)</strong> acontecem às terças-feiras entre 19:00h e 20:40h e às quartas-feiras entre 20:50h e 22:30h na sala 3Q 307.</p>
-<section id="programa" class="level1">
-<h1>programa</h1>
-<ol type="1">
-<li>introdução à análise combinatória;</li>
-<li>fundamentos de probabilidade;</li>
-<li>variáveis aleatórias discretas;</li>
-<li>principais modelos probabilísticos discretos.</li>
-</ol>
+<section id="informações-gerais" class="level1">
+<h1>informações gerais</h1>
+<p>as aulas do curso de <strong>probabilidade 1 (famat31203)</strong> acontecem na sala 3Q 307 nos seguintes dias e horários:</p>
+<ul>
+<li>terça-feira, 19h00 - 20h40.</li>
+<li>quarta-feira, 20h50 - 22h30.</li>
+</ul>
+<p>o atendimento aos estudantes acontece na sala 1J 107 nos seguintes dias e horários:</p>
+<ul>
+<li>quarta-feira, 17h15 - 19h00.</li>
+<li>sexta-feira, 17h00 - 18h15.</li>
+</ul>
+<p>as comunicações extraclasse devem ser feitas através do email <strong>pedrofranklin@ufu.br</strong></p>
+</section>
+<section id="ementa" class="level1">
+<h1>ementa</h1>
+<p>fundamentos de análise combinatória. experimento aleatório. espaço amostral. eventos. definição de probabilidade. probabilidade condicional, teorema de bayes e independência de eventos. variáveis aleatórias discretas. função distribuição acumulada. distribuições de funções de variáveis aleatórias univariadas discretas. momentos e função geradora de momentos. alguns modelos discretas.</p>
 </section>
 <section id="avaliações" class="level1">
 <h1>avaliações</h1>
 <ul>
-<li>primeira prova, 40 pontos, 05 de março.</li>
-<li>segunda prova, 40 pontos, 23 de abril.</li>
+<li>primeira prova, 40 pontos, 25 de março.</li>
+<li>segunda prova, 40 pontos, 30 de abril.</li>
 <li>listas e trabalhos, 20 pontos.</li>
-<li>prova de recuperação, 100 pontos, 24 de abril.</li>
+<li>prova de recuperação, 100 pontos, 06 de maio.</li>
 </ul>
 </section>
 <section id="bibliografia-básica" class="level1">
 <h1>bibliografia básica</h1>
 <ul>
-<li><a href="https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=107129">probabilidade: um curso moderno com aplicações</a><br> sheldon ross. 8ed, bookman, 2010.</li>
+<li><a href="http://www.obmep.org.br/docs/apostila2.pdf"><strong>métodos de contagem e probabilidade.</strong></a><br> paulo cezar pinto carvalho, obmep, 2015.</li>
+<li><a href="https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=107129"><strong>probabilidade: um curso moderno com aplicações.</strong></a><br> sheldon ross. 8ed, bookman, 2010.</li>
 </ul>
 
 
@@ -253,12 +261,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copiada");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copiada");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
