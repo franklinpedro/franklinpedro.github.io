@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="apresentar aos estudantes técnicas de visualização, manipulação e análise de dados, além de conceitos introdutórios de aprendizado de máquina, com foco na linguagem de computação estatística R.">
 
-<title>ensino</title>
+<title>introdução à ciência de dados</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +24,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./gato.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../gato.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,67 +68,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-em-andamento .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-description','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-em-andamento'] = new List('listing-em-andamento', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -145,23 +86,23 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">apresentação</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./ensino.html" aria-current="page"> 
+    <a class="nav-link" href="../../ensino.html"> 
 <span class="menu-text">ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tutoriais.html"> 
+    <a class="nav-link" href="../../tutoriais.html"> 
 <span class="menu-text">tutoriais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./materiais/index.html"> 
+    <a class="nav-link" href="../../materiais/index.html"> 
 <span class="menu-text">materiais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./coisas-legais.html"> 
+    <a class="nav-link" href="../../coisas-legais.html"> 
 <span class="menu-text">coisas legais</span></a>
   </li>  
 </ul>
@@ -179,32 +120,46 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">nesta página</h2>
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#cursos-em-andamento" id="toc-cursos-em-andamento" class="nav-link active" data-scroll-target="#cursos-em-andamento">cursos em andamento</a></li>
-  <li><a href="#cursos-encerrados" id="toc-cursos-encerrados" class="nav-link" data-scroll-target="#cursos-encerrados">cursos encerrados</a></li>
+  <li><a href="#ementa" id="toc-ementa" class="nav-link active" data-scroll-target="#ementa">ementa</a></li>
+  <li><a href="#avaliações" id="toc-avaliações" class="nav-link" data-scroll-target="#avaliações">avaliações</a></li>
+  <li><a href="#bibliografia-básica" id="toc-bibliografia-básica" class="nav-link" data-scroll-target="#bibliografia-básica">bibliografia básica</a></li>
+  <li><a href="#dados" id="toc-dados" class="nav-link" data-scroll-target="#dados">dados</a></li>
+  <li><a href="#revisão-para-a-primeira-prova" id="toc-revisão-para-a-primeira-prova" class="nav-link" data-scroll-target="#revisão-para-a-primeira-prova">revisão para a primeira prova</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">ensino</h1>
+<h1 class="title"><strong>introdução à ciência de dados</strong></h1>
+</div>
+
+<div>
+  <div class="description">
+    apresentar aos estudantes técnicas de visualização, manipulação e análise de dados, além de conceitos introdutórios de aprendizado de máquina, com foco na linguagem de computação estatística R.
+  </div>
 </div>
 
 
-
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">20/05/2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -214,95 +169,45 @@ window.Quarto = {
 </header>
 
 
-<p>você encontra, nesta seção, informações sobre as disciplinas dos meus cursos que estão em andamento e também uma lista com todas as disciplinas que já lecionei na universidade federal de uberlândia.</p>
-<section id="cursos-em-andamento" class="level2">
-<h2 class="anchored" data-anchor-id="cursos-em-andamento">cursos em andamento</h2>
-<p>neste segundo semestre de 2024 estou lecionando três disciplinas: introdução à ciência de dados, probabilidade 1 e inferência estatística 1. as informações de cada uma dessas disciplinas específica (como bibliografia, ementa, horário de atendimento e datas das provas), estão nas fichas abaixo.</p>
-<div id="listing-em-andamento" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1733713200000" data-listing-file-modified-sort="1733748191764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="180">
-<a href="./ensino/ciencia-dados/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./ensino/ciencia-dados/hex_ciencia-dados.png" class="thumbnail-image card-img" style="height: 190px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>introdução à ciência de dados</strong>
-</h5>
-<div class="card-text listing-description">
-apresentar aos estudantes técnicas de visualização, manipulação e análise de dados, além de conceitos introdutórios de aprendizado de máquina, com foco na linguagem de computação estatística R.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1733799600000" data-listing-file-modified-sort="1733700074176" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
-<a href="./ensino/probabilidade1/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./ensino/probabilidade1/probabilidade1-hex.png" class="thumbnail-image card-img" style="height: 190px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>probabilidade 1</strong>
-</h5>
-<div class="card-text listing-description">
-o objetivo principal do curso é apresentar aos estudantes as noções fundamentais da teoria das probabilidades com respeito às variáveis aleatórias discretas.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1733886000000" data-listing-file-modified-sort="1733700067373" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
-<a href="./ensino/inferencia1/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./ensino/inferencia1/hex-inferencia1.png" class="thumbnail-image card-img" style="height: 190px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>inferência 1</strong>
-</h5>
-<div class="card-text listing-description">
-proporcionar aos estudantes conhecimentos básicos de inferência estatística, com ênfase em estimação pontual e intervalar.
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<p>as aulas do curso de <strong>introdução à ciência de dados (famat31308)</strong> acontecem às segundas-feiras entre 18:10h e 19:50h e às terças-feiras entre 20:50h e 22:30h no laboratório 106 da Vila Digital do bloco 3Q.</p>
+<section id="ementa" class="level1">
+<h1>ementa</h1>
+<p>introdução à linguagem R; introdução à ciência de dados; visualização, manipulação e análise de dados; introdução ao aprendizado de máquina.</p>
 </section>
-<section id="cursos-encerrados" class="level2">
-<h2 class="anchored" data-anchor-id="cursos-encerrados">cursos encerrados</h2>
+<section id="avaliações" class="level1">
+<h1>avaliações</h1>
 <ul>
-<li>ges045: introdução à história da estatística e da probabilidade</li>
-<li>famat31308: introdução à ciência de dados</li>
-<li>pcda08: processamento automático de textos (especialização em ciência de dados)</li>
-<li>famat31203: probabilidade 1</li>
-<li>ges044: métodos matemáticos (introdução ao aprendizado de máquina)</li>
-<li>ges033: análise de séries temporais</li>
-<li>famat31033: estatística</li>
-<li>gbc041: estatística</li>
-<li>ges017: estatística computacional</li>
-<li>ges022: inferência estatística 2</li>
-<li>ges046: tópicos especiais em matemática aplicada (introdução ao aprendizado estatístico)</li>
-<li>ges012: estatística geral</li>
-<li>famat31041: estatística computacional</li>
-<li>ges035: profissão e mercado de trabalho</li>
-<li>ges008: introdução à estatística 2</li>
-<li>gcc014: estatística</li>
-<li>gci018: estatística</li>
-<li>ges018: inferência estatística 1</li>
-<li>get014: estatística</li>
-<li>ges015: probabilidade 2</li>
-<li>ges031: modelos lineares generalizados</li>
+<li>primeira prova, 40 pontos, 24 de setembro.</li>
+<li>segunda prova, 40 pontos, 12 de novembro.</li>
+<li>projetos, 20 pontos.</li>
+<li>prova de recuperação, 100 pontos, 18 de novembro.</li>
 </ul>
-
+</section>
+<section id="bibliografia-básica" class="level1">
+<h1>bibliografia básica</h1>
+<ul>
+<li><p><a href="https://cienciadedatos.github.io/pt-r4ds/">r para ciência de dados.</a><br> hadley wickham, mine çetinkaya-rundel, garrett grolemund. 2ed; esta é a tradução (em desenvolvimento) do livro <a href="https://r4ds.hadley.nz/">r for data science (2e)</a> pela incrível equipe de pessoas voluntárias da comunidade brasileira de r.</p></li>
+<li><p><a href="https://livro.curso-r.com/">ciência de dados em r.</a><br> livro escrito pela equipe do curso-r.</p></li>
+<li><p><a href="https://trevorhastie.github.io/ISLR/ISLR%20Seventh%20Printing.pdf">an introduction to statistical learning with applications in r.</a><br> gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.</p></li>
+</ul>
+</section>
+<section id="dados" class="level1">
+<h1>dados</h1>
+<ul>
+<li><p>dados para aula do dia 13 de agosto: <a href="https://drive.google.com/file/d/1m4hXnqKa5ryyRqs-ZfoVyZVzuP8nzKxd/view?usp=sharing">titanic.txt</a></p></li>
+<li><p>dados para a aula do dia 09 de setembro: <a href="https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/estatistica-computacional/cancer.csv">cancer.csv</a> ou <a href="https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/estatistica-computacional/cancer.txt">cancer.txt</a>.</p></li>
+<li><p>dados para a aula do dia 16 de setembro: <a href="https://github.com/franklinpedro/franklinpedro.github.io/blob/main/ensino/ciencia-dados/Carseats.txt">Carseats.txt</a> e <a href="https://trevorhastie.github.io/ISLR/Heart.csv">Heart.csv</a>.</p></li>
+<li><p>dados para a aula do dia 08 de outubro: <a href="https://drive.google.com/file/d/10qNzeSXrdTaEZxnxoiFTIQVNFc_3JEKH/view?usp=sharing">notícias da bbc</a>.</p></li>
+<li><p>dados para a aula do dia 21 de outubro: <a href="https://drive.google.com/file/d/1gOk-cTuerCyb-QY60csPjJYQpszR22m9/view?usp=sharing">creditcard.csv</a>.</p></li>
+</ul>
+</section>
+<section id="revisão-para-a-primeira-prova" class="level1">
+<h1>revisão para a primeira prova</h1>
+<ul>
+<li>questões para revisão: <a href="https://drive.google.com/file/d/1135FUEDvVwapMflmE3SWNmHr1uPbwwpp/view?usp=sharing">PDF</a></li>
+<li>dados para a questão 1: <a href="https://github.com/franklinpedro/dados/blob/main/chicago.csv">chicago.csv</a></li>
+<li>dados para a questão 2: <a href="https://github.com/franklinpedro/dados/blob/main/papagaio.txt">papagaio.txt</a></li>
+</ul>
 
 
 </section>
