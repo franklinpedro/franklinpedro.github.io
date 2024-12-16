@@ -39,3 +39,6 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 
 -   [**an introduction to statistical learning with applications in r.**](https://trevorhastie.github.io/ISLR/ISLR%20Seventh%20Printing.pdf)<br /> gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.
 
+# conjuntos de dados
+
+-   conjunto de dados para a aula do dia 16 de dezembro: [shipman_vitimas.txt](https://drive.google.com/file/d/1O7yFB3FXakXr9A5J5-VHw-6XCSBYYumu/view?usp=sharing)
