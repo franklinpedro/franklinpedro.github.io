@@ -37,3 +37,7 @@ fundamentos de análise combinatória. experimento aleatório. espaço amostral.
 paulo cezar pinto carvalho, obmep, 2015.
 -   [**probabilidade: um curso moderno com aplicações.**](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=107129)<br />
 sheldon ross. 8ed, bookman, 2010.
+
+# aulas
+
+1. Aula do dia 17 de dezembro de 2024: Métodos de Contagem. [Arquivo PDF](https://github.com/franklinpedro/probabilidade1/blob/main/contagem.pdf).
