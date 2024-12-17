@@ -42,3 +42,7 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 # conjuntos de dados
 
 -   conjunto de dados para a aula do dia 16 de dezembro: [shipman_vitimas.txt](https://drive.google.com/file/d/1O7yFB3FXakXr9A5J5-VHw-6XCSBYYumu/view?usp=sharing)
+
+# códigos das aulas
+
+-  código da aula do dia 16 de dezembro: [2024-12-16.R](https://github.com/franklinpedro/ciencias-dados/blob/main/2024-12-16/2024-12-16.R)
