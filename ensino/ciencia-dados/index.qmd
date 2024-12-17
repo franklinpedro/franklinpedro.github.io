@@ -42,3 +42,7 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 # conjuntos de dados
 
 -   conjunto de dados para a aula do dia 16 de dezembro: [shipman_vitimas.txt](https://drive.google.com/file/d/1O7yFB3FXakXr9A5J5-VHw-6XCSBYYumu/view?usp=sharing)
+
+# aulas
+
+1. Aula do dia 17 de dezembro de 2024: Métodos de Contagem. [Arquivo PDF](https://github.com/franklinpedro/probabilidade1/blob/main/contagem.pdf).
