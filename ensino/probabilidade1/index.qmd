@@ -22,7 +22,7 @@ as comunicações extraclasse devem ser feitas através do email **pedrofranklin
 
 # ementa
 
-fundamentos de análise combinatória. experimento aleatório. espaço amostral. eventos. definição de probabilidade. probabilidade condicional, teorema de bayes e independência de eventos. variáveis aleatórias discretas. função distribuição acumulada. distribuições de funções de variáveis aleatórias univariadas discretas. momentos e função geradora de momentos. alguns modelos discretas. 
+fundamentos de análise combinatória. experimento aleatório. espaço amostral. eventos. definição de probabilidade. probabilidade condicional, teorema de bayes e independência de eventos. variáveis aleatórias discretas. função distribuição acumulada. distribuições de funções de variáveis aleatórias univariadas discretas. momentos e função geradora de momentos. alguns modelos discretos. 
 
 # avaliações
 

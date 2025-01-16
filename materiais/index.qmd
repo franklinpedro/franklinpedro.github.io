@@ -12,9 +12,9 @@ editor: source
 
 ## programação em r
 
-há alguns anos eu tenho utilizado o r em minhas aulas, principalmente em disciplinas básicas de estatísticas. desde então, tenho percebido que as aulas ficaram melhores e que os alunos passaram a se interessar mais pelo universo da estatística e probabilidade.
+há alguns anos eu tenho utilizado o r em minhas aulas, principalmente em disciplinas básicas de estatística. desde então, tenho percebido que as aulas ficaram melhores e que os alunos passaram a se interessar mais pelo universo da estatística e probabilidade.
 
-o r é uma linguagem de programação muito legal. é possível, a partir dele, gerar gráficos bonitos, manipular vetores de forma elegante e fácil, realizar análises estatísticas, simular experimentos aleatórios e utilizar vários modelos de aprendizado de máquina que estão disponíveis em diversos pacotes.
+o r é uma linguagem de programação muito legal. é possível, a partir dele, gerar gráficos bonitos, manipular vetores de forma intuitiva e fácil, realizar análises estatísticas, simular experimentos aleatórios e utilizar vários modelos de aprendizado de máquina que estão disponíveis em diversos pacotes.
 
 <br>
 
