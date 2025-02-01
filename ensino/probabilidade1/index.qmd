@@ -40,4 +40,16 @@ sheldon ross. 8ed, bookman, 2010.
 
 # aulas
 
-1. Aula do dia 17 de dezembro de 2024: Métodos de Contagem. [Arquivo PDF](https://github.com/franklinpedro/probabilidade1/blob/main/contagem.pdf).
+1. métodos de contagem: [arquivo PDF](https://drive.google.com/file/d/1Ab3bKQBr4SVUuJx_EqnQ1DWwbD49LPSe/view?usp=sharing).
+
+2. permutações e combinações: [arquivo PDF](https://drive.google.com/file/d/1xQi8sRawXx617McwzNrBQAvtltcVS9FR/view?usp=sharing)
+
+# listas e trabalhos
+
+1. primeira lista de exercícios: [arquivo PDF](https://drive.google.com/file/d/1-mwH34g7QIz8BwIgkLep5eB11VindZPU/view?usp=sharing)
+
+# códigos em R
+
+1. lançamento de um dado muitas vezes: [arquivo R](https://drive.google.com/file/d/1ItSYJVh8oprCCPsqIdANOeoVM2i0G2ye/view?usp=sharing).
+
+2. quem é pi? [arquivo R](https://drive.google.com/file/d/1eXJMOgJxwO-6UBDp_fvlKvFpU-HF1MJG/view?usp=sharing).
