@@ -41,7 +41,9 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 
 # conjuntos de dados
 
--   conjunto de dados para a aula do dia 16 de dezembro: [shipman_vitimas.txt](https://drive.google.com/file/d/1O7yFB3FXakXr9A5J5-VHw-6XCSBYYumu/view?usp=sharing)
+| nome | arquivo | documentação |
+|------------------------------|---------------------|---------------------|
+| vítimas de harold shipman | [shipman_vitimas.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EfN2OWiyTNpBsy5Sqz_uhdEBjMcGrOFp-9CsG7l_T0a5wQ?e=UEKoKQ) | [descricao_shipman.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EQ__saD6oqdHthDUmaX6YyoByOPQt7wazqlTv5DnnW4C_Q?e=3bmARj) |
 
 # códigos das aulas
 
