@@ -58,3 +58,4 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 -  código da aula do dia 16 de dezembro: [2024-12-16.R](https://github.com/franklinpedro/ciencias-dados/blob/main/2024-12-16/2024-12-16.R)
 -   código da aula do dia 03 de fevereiro: [2025-02-03.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EXUQq6_uoJ5LuQksHyI4KtkBwN0wsI_JbiS3KOYScBWrjw?e=7aWNwN)
 -   código da aula do dia 04 de fevereiro: [2025-02-04.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EU9WBShAgVNPml2ftCypjWIBQdhKEgI_bLyMdOaDBvzRrA?e=xstmPo)
+-   código da aula do dia 10 de fevereiro: [2025-02-10-parte1.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EYY2xLL8eABEkKL4pAnOAH0BBNab5yo0j8sJ_NALOhJbUg?e=kmAiHP) e [2025-02-10-parte2.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/Ec_q4bfFHupOidyZxWWxU6IBTIX1rKVxq-KkkTltDW1iCQ?e=TjomEo)
