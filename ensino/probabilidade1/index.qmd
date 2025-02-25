@@ -40,20 +40,22 @@ sheldon ross. 8ed, bookman, 2010.
 
 # aulas
 
-1. métodos de contagem: [arquivo PDF](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/ESYkFN0fCzpCgf5bvkz_anMBNlVnwNZ0Dihe3z044yItlw?e=MqOulE).
+1. métodos de contagem: [arquivo PDF](https://drive.google.com/file/d/1-3tsvsDLis92baphvlgQeoukF9F39Yyq/view?usp=sharing).
 
-2. permutações e combinações: [arquivo PDF](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EQsvD-mIkAhOtZA52x_8zFMBQTqyRgHo3_kqjDu9okO-cA?e=NQHajr)
+2. permutações e combinações: [arquivo PDF](https://drive.google.com/file/d/1N8mqIWBGByc5TcbVKYdk7bw1mcIEOoDN/view?usp=sharing)
 
-3. introdução à probabilidade: [arquivo PDF](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EWrkUJ6vA5RPsNs6-vvx5BcBytS4Mvr4Q1YbkzSLtHbM8Q?e=CaacHk)
+3. introdução à probabilidade: [arquivo PDF](https://drive.google.com/file/d/1wFby8bVHWne6QEAnQRzhNH09qw18QDjr/view?usp=sharing)
 
-4. aula de exercícios de fundamentos de probabilidade: [arquivo PDF](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/Efgh5wxGzkJNkxUtgdgK71YB0_p7GJM81xKXkQY4jun6mw?e=ah3D9g)
+4. primeira aula de exercícios de fundamentos de probabilidade: [arquivo PDF](https://drive.google.com/file/d/1fbyYIKL-5EKb3HqSlSy4cCV6flacLdLX/view?usp=sharing)
+
+5. segunda aula de exercícios de fundamentos de probabilidade: [arquivo PDF](https://drive.google.com/file/d/12AGJKeZwHtaPWiPhUaD5CzMTzpv-OUpN/view?usp=sharing).
 
 # listas e trabalhos
 
-1. primeira lista de exercícios: [arquivo PDF](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/ERxn7YIUK1lCjiRxqec4CyQBFhhANGBxTPVtC8Efb2Q1DA?e=yerZFq)
+1. primeira lista de exercícios: [arquivo PDF](https://drive.google.com/file/d/1eonh7lhCyJrT5V0baSZdQyaWaLNxPPAM/view?usp=sharing)
 
 # códigos em R
 
-1. lançando um dado muitas vezes: [arquivo R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/Ec-pEUH5QmhAsKJu0P1mjgIB4cC9etA8CifXqrd-p0HDyg?e=IIjkD8).
+1. lançando um dado muitas vezes: [arquivo R](https://drive.google.com/file/d/1RtPFygJaU6MmWrK9nnGYHHfpf1MO9YXh/view?usp=sharing).
 
-2. quem é pi? [arquivo R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EQg4xG1NSMtMqJo7qy-zdzUBoH-7D9rGrYwMjPOSN7dO3g?e=PHfgp3).
+2. quem é pi? [arquivo R](https://drive.google.com/file/d/1ujuORdcV4DTugxeeqAvWcjZPow__5JTm/view?usp=sharing).
