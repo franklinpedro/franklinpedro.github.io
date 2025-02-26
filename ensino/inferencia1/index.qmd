@@ -54,7 +54,7 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 
 4. amostrando da distribuição normal - parte 1: [arquivo PDF](https://drive.google.com/file/d/15BirjB5q38cSDyRgLyOhBCDlSb85IIDG/view?usp=sharing).
 
-5. como obter estimadores - método dos momentos: [arquivo PDF](https://drive.google.com/file/d/1BCFqcL9KPYO16xGGNPwua3oBjPDxjeG0/view?usp=sharing)
+5. como obter estimadores - método dos momentos: [arquivo PDF](https://drive.google.com/file/d/1y5NE21ol8CrqfbKiSEbLSV-GySvOei8N/view?usp=sharing)
 
 6. como obter estimadores - método da máxima verossimilhança: [arquivo PDF](https://drive.google.com/file/d/1MSoRvakr9rNQ5kz21mIuRk-dBcYeHcqx/view?usp=sharing)
 
