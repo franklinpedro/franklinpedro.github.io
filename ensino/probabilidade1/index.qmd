@@ -54,10 +54,11 @@ sheldon ross. 8ed, bookman, 2010.
 
 # listas e trabalhos
 
-1. primeira lista de exercícios: [arquivo PDF](https://drive.google.com/file/d/1eonh7lhCyJrT5V0baSZdQyaWaLNxPPAM/view?usp=sharing)
+1. primeira lista de exercícios: [lista1.pdf](https://drive.google.com/file/d/1eonh7lhCyJrT5V0baSZdQyaWaLNxPPAM/view?usp=sharing)
+2. segunda lista de exercícios: [lista2.pdf](https://drive.google.com/file/d/1vW6xOnq8M7ybO9Ah9fMEF0e_U0B9Kpft/view?usp=sharing)
 
 # códigos em R
 
-1. lançando um dado muitas vezes: [arquivo R](https://drive.google.com/file/d/1RtPFygJaU6MmWrK9nnGYHHfpf1MO9YXh/view?usp=sharing).
+1. lançando um dado muitas vezes: [motivacao-probabilidade.R](https://drive.google.com/file/d/1RtPFygJaU6MmWrK9nnGYHHfpf1MO9YXh/view?usp=sharing)
 
-2. quem é pi? [arquivo R](https://drive.google.com/file/d/1ujuORdcV4DTugxeeqAvWcjZPow__5JTm/view?usp=sharing).
+2. quem é pi? [pi.R](https://drive.google.com/file/d/1ujuORdcV4DTugxeeqAvWcjZPow__5JTm/view?usp=sharing)

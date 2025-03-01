@@ -60,4 +60,5 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 
 # listas e trabalhos
 
--   primeira lista de exercícios: [arquivo PDF](https://drive.google.com/file/d/1HVuGp9AMEs6Xhhv-7bEu2E8s6zyirtKe/view?usp=sharing).
+-   primeira lista de exercícios: [lista1.pdf](https://drive.google.com/file/d/1HVuGp9AMEs6Xhhv-7bEu2E8s6zyirtKe/view?usp=sharing)
+- segunda lista de exercícios: [lista2.pdf](https://drive.google.com/file/d/1OnME3nx-B8pdTw-A4MHdgaWOXXlH82T0/view?usp=sharing)

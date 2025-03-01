@@ -63,3 +63,13 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 -  códigos da aula do dia 11 de fevereiro: [2025-02-11-parte1.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EWC6WHZIIoJJsMI2nlHG29cBL51X5Q3vesbnqeaRJMrQ3Q?e=zaUiln) e [2025-02-11-parte2.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EbsguWh1fPdGrqDOkwM3dboBe2-r_SHFgfqfXPIOZPO3pw?e=TUdghh)
 
 -  códigos da aula do dia 17 de fevereiro: [2025-02-17.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EXrzdcSf7tJEngy2xSHOUUMBAltzSwEaYQKR0Q_yW7LZDw?e=HZGudC) e [primeiros-passos.qmd](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EQsI-r49To9JvIUoSN-l1RsBhUjumgN_PrpLrnkfe2QCBQ?e=Q0ZTXK).
+
+# projetos
+
+## primeiro projeto de ciência de dados
+
+este projeto tem como objetivo consolidar os conhecimentos adquiridos na disciplina de introdução à ciência de dados. você utilizará o conjunto de dados **palmer penguins**, que contém informações sobre três espécies de pinguins coletadas em ilhas da antártica. o foco será a análise exploratória dos dados e a construção de um modelo **knn (k-nearest neighbors)** para classificar a espécie dos pinguins com base em suas características físicas. em sala de aula, construímos um modelo knn **com apenas duas variáveis e $k = 1$**. para este projeto, você deve **ir além** e realizar outras etapas. as instruções para a realização do projeto podem ser acessadas no arquivo .PDF abaixo.
+
+-   instruções: [projeto1.pdf](https://drive.google.com/file/d/1FE2f4Sd5WsRiv4xEWvm6D75JqoeRdnfQ/view?usp=sharing);
+-   dados para o projeto: [palmerpenguins.csv](https://drive.google.com/file/d/1vC_P_rSeBQ4MlBVJSmkzqNQjMSXxZSMi/view?usp=sharing)
+-   data de entrega: 01 de abril de 2025.
