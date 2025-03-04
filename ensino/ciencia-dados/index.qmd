@@ -56,13 +56,13 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 # códigos das aulas
 
 -  código da aula do dia 16 de dezembro: [2024-12-16.R](https://github.com/franklinpedro/ciencias-dados/blob/main/2024-12-16/2024-12-16.R)
--   código da aula do dia 03 de fevereiro: [2025-02-03.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EXUQq6_uoJ5LuQksHyI4KtkBwN0wsI_JbiS3KOYScBWrjw?e=7aWNwN)
--   código da aula do dia 04 de fevereiro: [2025-02-04.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EU9WBShAgVNPml2ftCypjWIBQdhKEgI_bLyMdOaDBvzRrA?e=xstmPo)
--   códigos da aula do dia 10 de fevereiro: [2025-02-10-parte1.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EYY2xLL8eABEkKL4pAnOAH0BBNab5yo0j8sJ_NALOhJbUg?e=kmAiHP) e [2025-02-10-parte2.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/Ec_q4bfFHupOidyZxWWxU6IBTIX1rKVxq-KkkTltDW1iCQ?e=TjomEo)
-
--  códigos da aula do dia 11 de fevereiro: [2025-02-11-parte1.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EWC6WHZIIoJJsMI2nlHG29cBL51X5Q3vesbnqeaRJMrQ3Q?e=zaUiln) e [2025-02-11-parte2.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EbsguWh1fPdGrqDOkwM3dboBe2-r_SHFgfqfXPIOZPO3pw?e=TUdghh)
-
--  códigos da aula do dia 17 de fevereiro: [2025-02-17.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EXrzdcSf7tJEngy2xSHOUUMBAltzSwEaYQKR0Q_yW7LZDw?e=HZGudC) e [primeiros-passos.qmd](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EQsI-r49To9JvIUoSN-l1RsBhUjumgN_PrpLrnkfe2QCBQ?e=Q0ZTXK).
+-   código da aula do dia 03 de fevereiro: [2025-02-03.R](https://drive.google.com/file/d/1pqrDh-T2kW7AQyZSe0-OR_PHbIACrBsu/view?usp=sharing)
+-   código da aula do dia 04 de fevereiro: [2025-02-04.R](https://drive.google.com/file/d/1F_Qxud_lEbE5ptUlzHpC9ThNoqiHCXlB/view?usp=sharing)
+-   códigos da aula do dia 10 de fevereiro: [2025-02-10-parte1.R](https://drive.google.com/file/d/1YLFRJdiTUbWGPMlUA6sMkyeOd2CtSwTn/view?usp=sharing) e [2025-02-10-parte2.R](https://drive.google.com/file/d/1OdLEdbjsX6_CUHBFHsRTTL-Y1wbplIJI/view?usp=sharing)
+-  códigos da aula do dia 11 de fevereiro: [2025-02-11-parte1.R](https://drive.google.com/file/d/1jhsjRIqBhuQBD7dm9HJiYbuiID8vhDSd/view?usp=sharing) e [2025-02-11-parte2.R](https://drive.google.com/file/d/1UqNhbxlyZULPTq67jpFIR3LLxXpqM7Tz/view?usp=sharing)
+-  códigos da aula do dia 17 de fevereiro: [2025-02-17.R](https://drive.google.com/file/d/12BpDklU4lyL1VM_QpGlSYuI967KSzEKo/view?usp=sharing) e [primeiros-passos.qmd](https://drive.google.com/file/d/1YR7xNp4N3FeepDkPh-bM-K1w28yl3Z08/view?usp=sharing).
+-  códigos das aulas dos dias 18 e 24 de fevereiro: [2025-02-18.qmd](https://drive.google.com/file/d/1CC8Xb-PHWAtY--aNj1b4VVYOQkD4rlxX/view?usp=sharing), [pinguins.qmd](https://drive.google.com/file/d/1UkkrsI9yyHLO5x2cL5CeVdGzagr256BA/view?usp=sharing) e [gerar_relatorios.R](https://drive.google.com/file/d/1utfupQ_0melo7GC-7wv9cX_h4dJT9lVZ/view?usp=sharing). 
+- códigos da aula do dia 25 de fevereiro: [2025-02-25.R](https://drive.google.com/file/d/1TF3wUZOZnhEG1XveViWf87kvWldQdqT6/view?usp=sharing) e [knn.qmd](https://drive.google.com/file/d/1btQh108HgJlvSD-O2fRF8am86GG9MHDP/view?usp=sharing).
 
 # projetos
 
