@@ -58,6 +58,8 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 
 6. como obter estimadores - método da máxima verossimilhança: [arquivo PDF](https://drive.google.com/file/d/1MSoRvakr9rNQ5kz21mIuRk-dBcYeHcqx/view?usp=sharing)
 
+7. estatísticas suficientes: [arquivo PDF](https://drive.google.com/file/d/1_IpLOh9S5IdGnWjzlDqb-PM30sI1H_KU/view?usp=sharing)
+
 # listas e trabalhos
 
 -   primeira lista de exercícios: [lista1.pdf](https://drive.google.com/file/d/1HVuGp9AMEs6Xhhv-7bEu2E8s6zyirtKe/view?usp=sharing)
