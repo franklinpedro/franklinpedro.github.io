@@ -52,6 +52,7 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 | passageiros do titanic | [titanic.csv](https://github.com/franklinpedro/dados/blob/main/titanic.csv) | [descricao_titanic.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/Ee8VRPM8uKRArfuU_SpyfTcB5i15YBbQjeDtHJUvzAD0CA?e=po8GsF) |
 | mortalidade, clima e poluição para chicago | [chicago.csv](https://github.com/franklinpedro/dados/blob/main/chicago.csv) | [descricao_chicago.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/Eed5tJ_nfG1BuGiFnEAkV04Ba3Whuqylj3aXu9A-gEu0Sg?e=uVzjXc) |
 | pinguins do arquipélago de palmer | [penguins.csv](https://github.com/franklinpedro/dados/blob/main/penguins.csv) | [descricao_penguins.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EXf1UPdIMO1KlQvq2qdeXY8BKhPyZqNAqZrqsYDbNMdSCA?e=F7xVgs) |
+|diagnóstico de câncer de mama de wisconsin |[breast_cancer.csv](https://github.com/franklinpedro/dados/blob/main/breast_cancer.csv)| [descricao_breast_cancer.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EVdDLPGo4ehHn5xaFEJ2DMMBB-2xLanNOxWaHfVPVXxU7A?e=sqldk2)|
 
 # códigos das aulas
 
