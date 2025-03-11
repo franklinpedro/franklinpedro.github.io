@@ -50,7 +50,9 @@ sheldon ross. 8ed, bookman, 2010.
 
 5. segunda aula de exercícios de fundamentos de probabilidade: [arquivo PDF](https://drive.google.com/file/d/12AGJKeZwHtaPWiPhUaD5CzMTzpv-OUpN/view?usp=sharing).
 
-6. probabilidade condicional: [arquivo PDF](https://drive.google.com/file/d/1DtddFrd5RSxjWp544YRUd_nVbxCE3k5_/view?usp=sharing).
+6. probabilidade condicional: [arquivo PDF](https://drive.google.com/file/d/1wpbSWuOKAc_1pM7zbjiVm93mrMXAncig/view?usp=sharing).
+
+7. teorema de bayes: [arquivo PDF](https://drive.google.com/file/d/16LsUCpXeHxipv7V1VSnnFMjOfXKGPihJ/view?usp=sharing)
 
 # listas e trabalhos
 
