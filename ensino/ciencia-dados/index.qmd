@@ -66,6 +66,7 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 -  códigos das aulas dos dias 18 e 24 de fevereiro: [2025-02-18.qmd](https://drive.google.com/file/d/1CC8Xb-PHWAtY--aNj1b4VVYOQkD4rlxX/view?usp=sharing), [pinguins.qmd](https://drive.google.com/file/d/1UkkrsI9yyHLO5x2cL5CeVdGzagr256BA/view?usp=sharing) e [gerar_relatorios.R](https://drive.google.com/file/d/1utfupQ_0melo7GC-7wv9cX_h4dJT9lVZ/view?usp=sharing). 
 - códigos da aula do dia 25 de fevereiro: [2025-02-25.R](https://drive.google.com/file/d/1TF3wUZOZnhEG1XveViWf87kvWldQdqT6/view?usp=sharing) e [knn.qmd](https://drive.google.com/file/d/1btQh108HgJlvSD-O2fRF8am86GG9MHDP/view?usp=sharing).
 - código da aula do dia 10 de março: [2025-03-10.R](https://drive.google.com/file/d/11D8p8pO3TE2lv5cLtcDT0Xq9mkyIg5yl/view?usp=sharing)
+- código da aula do dia 11 de março: [2025-03-11.R](https://drive.google.com/file/d/1FsV3IbtuRgfITKWvv1pd5tvB-4pI_eei/view?usp=sharing)
 
 # projetos
 
