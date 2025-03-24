@@ -77,3 +77,9 @@ este projeto tem como objetivo consolidar os conhecimentos adquiridos na discipl
 -   instruções: [projeto1.pdf](https://drive.google.com/file/d/1FE2f4Sd5WsRiv4xEWvm6D75JqoeRdnfQ/view?usp=sharing);
 -   dados para o projeto: [palmerpenguins.csv](https://drive.google.com/file/d/1vC_P_rSeBQ4MlBVJSmkzqNQjMSXxZSMi/view?usp=sharing)
 -   data de entrega: 01 de abril de 2025.
+
+# provas
+
+-   [prova1](https://drive.google.com/file/d/1i99p968O_vDjjDgneGesrQ3DpNxE3CI6/view?usp=sharing)
+
+-   [corujas.txt](https://drive.google.com/file/d/1u0iCrTrPp3V3BOLLraur_Mu_LbBcrX2w/view?usp=sharing)
