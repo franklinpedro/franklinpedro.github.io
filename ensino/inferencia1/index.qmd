@@ -60,6 +60,10 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 
 7. estatísticas suficientes: [arquivo PDF](https://drive.google.com/file/d/1_IpLOh9S5IdGnWjzlDqb-PM30sI1H_KU/view?usp=sharing)
 
+8. estatísticas conjuntamente suficientes: [arquivo PDF](https://drive.google.com/file/d/1nHvUkgHpY6IYtFBktORng6U5A0o1aMWl/view?usp=sharing)
+
+9. famílas exponenciais: [arquivo PDF](https://drive.google.com/file/d/1E4HfSxNxkXi0QTY9f7h4pSg4h7qqFGuA/view?usp=sharing)
+
 # projetos
 
 -   [projeto 1](https://drive.google.com/file/d/1m_q-cBXRuGX1KZ38zBBxlSCs1sROpQm7/view?usp=sharing): data de entrega: 26 de março em formato virtual ou manuscrito. 
