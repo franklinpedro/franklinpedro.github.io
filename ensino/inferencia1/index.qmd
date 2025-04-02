@@ -64,6 +64,10 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 
 9. famílas exponenciais: [arquivo PDF](https://drive.google.com/file/d/1E4HfSxNxkXi0QTY9f7h4pSg4h7qqFGuA/view?usp=sharing)
 
+10. famílias exponenciais de dimensão k: [arquivo PDF](https://drive.google.com/file/d/16DjR19iMaVEBe-ZkJyUTGkpDtIeYYsvf/view?usp=sharing).
+
+11. estatísticas completas: [arquivo PDF](https://drive.google.com/file/d/1l-suIW4qaVL3WYCa_oDEevhGiOPOPCFT/view?usp=sharing)
+
 # projetos
 
 -   [projeto 1](https://drive.google.com/file/d/1m_q-cBXRuGX1KZ38zBBxlSCs1sROpQm7/view?usp=sharing): data de entrega: 26 de março em formato virtual ou manuscrito. 
