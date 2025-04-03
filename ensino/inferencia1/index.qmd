@@ -68,6 +68,8 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 
 11. estatísticas completas: [arquivo PDF](https://drive.google.com/file/d/1l-suIW4qaVL3WYCa_oDEevhGiOPOPCFT/view?usp=sharing)
 
+12. erro quadrático médio: [arquivo PDF](https://drive.google.com/file/d/1ernx-T3xiYTJ4lGw3evyt4hg9yOtjFhI/view?usp=sharing)
+
 # projetos
 
 -   [projeto 1](https://drive.google.com/file/d/1m_q-cBXRuGX1KZ38zBBxlSCs1sROpQm7/view?usp=sharing): data de entrega: 26 de março em formato virtual ou manuscrito. 
@@ -77,3 +79,4 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 -   primeira lista de exercícios: [lista1.pdf](https://drive.google.com/file/d/1HVuGp9AMEs6Xhhv-7bEu2E8s6zyirtKe/view?usp=sharing)
 - segunda lista de exercícios: [lista2.pdf](https://drive.google.com/file/d/1OnME3nx-B8pdTw-A4MHdgaWOXXlH82T0/view?usp=sharing)
 - exercícios complementares sobre estatísticas suficientes: [preparacao_suficiencia.pdf](https://drive.google.com/file/d/1Q5CjFs8oiDkqp-G50ZCV3TeVIUssK0TY/view?usp=sharing)
+-   terceira lista de exercícios: [lista3.pdf](https://drive.google.com/file/d/1TeOKSkmIPp2PwxMKtW511XjtJ0A5d-nD/view?usp=sharing)
