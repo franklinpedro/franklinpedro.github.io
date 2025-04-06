@@ -54,6 +54,12 @@ sheldon ross. 8ed, bookman, 2010.
 
 7. teorema de bayes: [arquivo PDF](https://drive.google.com/file/d/16LsUCpXeHxipv7V1VSnnFMjOfXKGPihJ/view?usp=sharing)
 
+8. variáveis aleatórias discretas: [arquivo PDF](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/Eecpz396vIdIjtqyVUM0YoEBdHejW7qfbJ6RV5z1k2Ewow?e=MmTtDj)
+
+9. esperança e variância: [arquivo PDF](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EQxuYY_N2QhPn8-FOW6DPBcBUFXkHqCp7c3GaxcbdK2mOw?e=PHlnaU)
+
+10. principais modelos discretos - parte 1: [arquivo PDF](https://drive.google.com/file/d/1vW6xOnq8M7ybO9Ah9fMEF0e_U0B9Kpft/view?usp=sharing)
+
 # listas e trabalhos
 
 1. primeira lista de exercícios: [lista1.pdf](https://drive.google.com/file/d/1eonh7lhCyJrT5V0baSZdQyaWaLNxPPAM/view?usp=sharing)
@@ -65,3 +71,5 @@ sheldon ross. 8ed, bookman, 2010.
 1. lançando um dado muitas vezes: [motivacao-probabilidade.R](https://drive.google.com/file/d/1RtPFygJaU6MmWrK9nnGYHHfpf1MO9YXh/view?usp=sharing)
 
 2. quem é pi? [pi.R](https://drive.google.com/file/d/1ujuORdcV4DTugxeeqAvWcjZPow__5JTm/view?usp=sharing)
+
+3. o que é esperança? [experimento-esperanca.R]()
