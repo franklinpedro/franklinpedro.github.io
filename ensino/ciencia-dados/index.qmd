@@ -67,6 +67,11 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 - códigos da aula do dia 25 de fevereiro: [2025-02-25.R](https://drive.google.com/file/d/1TF3wUZOZnhEG1XveViWf87kvWldQdqT6/view?usp=sharing) e [knn.qmd](https://drive.google.com/file/d/1btQh108HgJlvSD-O2fRF8am86GG9MHDP/view?usp=sharing).
 - código da aula do dia 10 de março: [2025-03-10.R](https://drive.google.com/file/d/11D8p8pO3TE2lv5cLtcDT0Xq9mkyIg5yl/view?usp=sharing)
 - código da aula do dia 11 de março: [2025-03-11.R](https://drive.google.com/file/d/1FsV3IbtuRgfITKWvv1pd5tvB-4pI_eei/view?usp=sharing)
+- código para a construção manual do cross validation para o knn: [cross-validation-knn.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/Ec5ElS5cFrtMkj6n8ajpBTABOEeFxeClAy06fFmfyM838Q?e=eeA40v)
+- motivando árvores de decisão: [motivando-arvores.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EWtQwwiD03dBvKB29u9NWLUB9--6Cm51acyuBQFD2SUYqQ?e=EQXKh5)
+- trabalhando com árvores de decisão: [arvore-rpart.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/ESKCMYP5gvJInd-gXTjeVM4BaPH1jUoy_qCmOO6Exr6rmA?e=1pUGfy) e [arvore-pinguim.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EZuoUmdPAs9EgadtX1judXgBoAL2UaPrsqrJnFf0BA_oeQ?e=fmmiQh)
+- florestas aleatórias: [florestas-aleatorias.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EQve8qSm7e9IrucXuQfhfcsBtPOzNXAcCU62ffNr9X4Vpg?e=BFPQXZ)
+- podando árvores de decisão: [podando-arvore.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EUnGRDkwSVdPlq_kAwL0l-MBdwUPsKdwCf6qBbC63OGwFA?e=lo02Jh)
 
 # projetos
 
