@@ -54,6 +54,7 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 | pinguins do arquipélago de palmer | [penguins.csv](https://github.com/franklinpedro/dados/blob/main/penguins.csv) | [descricao_penguins.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EXf1UPdIMO1KlQvq2qdeXY8BKhPyZqNAqZrqsYDbNMdSCA?e=F7xVgs) |
 |imagens de placas de trânsito|[traffic_sign.txt](https://github.com/franklinpedro/dados/blob/main/traffic_sign.txt)|[descricao_traffic_sign.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EfdU9yxJyqtNn5gTeR_8ruEBm1dj_nsj7vJ-Sm3HGo1c6g?e=2B0i60)|
 |diagnóstico de câncer de mama de wisconsin |[breast_cancer.csv](https://github.com/franklinpedro/dados/blob/main/breast_cancer.csv)| [descricao_breast_cancer.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EVdDLPGo4ehHn5xaFEJ2DMMBB-2xLanNOxWaHfVPVXxU7A?e=sqldk2)|
+|fraude em cartão de crédito |[train.fraud.csv](https://ufubr-my.sharepoint.com/:x:/g/personal/pedrofranklin_ufu_br/EZ13NSEUGOZOr77yx1e1cQMBdS6Hv70XMVmO7_5aSCLsNw?e=viQABm) e [test.fraud.csv](https://ufubr-my.sharepoint.com/:x:/g/personal/pedrofranklin_ufu_br/EdG-J14c3EpNnD6SqNwxih4BlibAGGGfFZSz7lP4b0B2yA?e=TVTN2c)|[descrição_fraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 # códigos das aulas
 
