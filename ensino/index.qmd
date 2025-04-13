@@ -10,17 +10,18 @@ listing:
     fields: [image, description, title]
     image-height: 190px
     max-description-length: 245
-title-block-banner: false
+title-block-banner: true
 toc-title: "nesta página"
 page-layout: full
 toc: true
+description: |
+  nesta página estão listadas as disciplinas que estou lecionando atualmente e os cursos que já lecionei. as informações sobre as disciplinas em andamento estão organizadas em fichas, com links para o conteúdo completo.
 ---
 
-você encontra, nesta seção, informações sobre as disciplinas dos meus cursos que estão em andamento e também uma lista com todas as disciplinas que já lecionei na universidade federal de uberlândia.
 
 ## cursos em andamento
 
-neste segundo semestre de 2024 estou lecionando três disciplinas: introdução à ciência de dados, probabilidade 1 e inferência estatística 1. as informações de cada uma dessas disciplinas específica (como bibliografia, ementa, horário de atendimento e datas das provas), estão nas fichas abaixo.
+neste segundo semestre de 2024 estou lecionando três disciplinas: introdução à ciência de dados, probabilidade 1 e inferência estatística 1. as informações de cada uma dessas disciplinas (como bibliografia, ementa, horário de atendimento e datas das provas), estão nas fichas abaixo.
 
 :::{#em-andamento}
 :::
