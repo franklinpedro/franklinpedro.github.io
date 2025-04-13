@@ -81,7 +81,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-filename','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-filename","listing-file-modified"],
     };
 
@@ -288,6 +289,9 @@ img.grid-item:hover {
 <p><a href="gaivota.jpg" data-lightbox="galeria" data-title="Santa Monica Pier | Olympus Stylus (Mju I) | Fujifilm 400"> <img src="gaivota.jpg" class="grid-item"> </a></p>
 </div>
 <div class="grid-gallery">
+<p><a href="0424-KODAKGOLD200-12.jpg" data-lightbox="galeria" data-title="Parque Nacional da Sequoia | Olympus Stylus (Mju I) | Kodak Gold 200"> <img src="0424-KODAKGOLD200-12.jpg" class="grid-item"> </a></p>
+</div>
+<div class="grid-gallery">
 <p><a href="0422-FUJI400-15.jpg" data-lightbox="galeria" data-title="Grand Canyon | Olympus Stylus (Mju I) | Fujifilm 400"> <img src="0422-FUJI400-15.jpg" class="grid-item"> </a></p>
 </div>
 <div class="grid-gallery">
@@ -360,6 +364,9 @@ img.grid-item:hover {
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="gallery-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
