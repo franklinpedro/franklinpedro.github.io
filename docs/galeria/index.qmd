@@ -1,0 +1,29 @@
+---
+title: "um certo olhar"
+page-layout: full
+title-block-banner: true
+listing:
+  id: gallery
+  template: galeria.ejs
+  contents:
+    - "*.jpg"
+  sort-ui: false
+  filter-ui: false
+  categories: false
+description: >
+  aqui estão algumas de minhas fotografias.<br>
+  clique em uma imagem para ampliá-la e conhecer detalhes sobre a câmera e o filme utilizados.<br><br>
+  <span style="font-style: italic; display: block; text-align: right;">
+    “photography helps people to see” — berenice abbott
+  </span>
+---
+
+
+```{=html}
+<!-- Head (CSS do Lightbox) -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+
+<!-- Scripts (jQuery + Lightbox) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+```

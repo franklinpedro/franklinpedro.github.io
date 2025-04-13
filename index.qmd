@@ -26,7 +26,7 @@ about:
 ::: {#pf-heading}
 eu sou professor do instituto de matemática e estatística da universidade federal de uberlândia. gosto muito de estatística e de ser professor e, por isso, é sempre legal poder compartilhar o que aprendi com meus alunos.
 
-na seção [ensino](ensino.qmd), você encontrará informações sobre as disciplinas que leciono. guias práticos sobre estatística, ciência de dados e aprendizado de máquina podem ser encontrados na seção de [tutoriais](tutoriais.qmd). em [materiais](materiais/index.qmd), sugestões relacionadas à matemática e à estatística, como livros, textos, videos e sites. na seção [coisas legais](coisas-legais.qmd), compartilho recomendações sobre assuntos que me interessam.
+na seção [ensino](ensino/index.qmd), você encontrará informações sobre as disciplinas que leciono. guias práticos sobre estatística, ciência de dados e aprendizado de máquina podem ser encontrados na seção de [tutoriais](tutoriais/index.qmd). em [materiais](materiais/index.qmd), sugestões relacionadas à matemática e à estatística, como livros, textos, videos e sites. na seção [coisas legais](coisas-legais/index.qmd), compartilho recomendações sobre assuntos que me interessam. algumas de minhas fotografias podem ser vistas em [um certo olhar](galeria/index.qmd).
 
 bons estudos!
 

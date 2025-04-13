@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/ensino.html",
+    "listing": "/ensino/index.html",
     "items": [
       "/ensino/ciencia-dados/index.html",
       "/ensino/probabilidade1/index.html",
@@ -8,17 +8,21 @@
     ]
   },
   {
-    "listing": "/coisas-legais.html",
+    "listing": "/galeria/index.html",
+    "items": []
+  },
+  {
+    "listing": "/tutoriais/index.html",
+    "items": [
+      "/tutoriais/2024-11-20/index.html"
+    ]
+  },
+  {
+    "listing": "/coisas-legais/index.html",
     "items": [
       "/coisas-legais/2024-09-16/index.html",
       "/coisas-legais/2024-02-08/index.html",
       "/coisas-legais/2024-01-26/index.html"
-    ]
-  },
-  {
-    "listing": "/tutoriais.html",
-    "items": [
-      "/tutoriais/2024-11-20/index.html"
     ]
   }
 ]

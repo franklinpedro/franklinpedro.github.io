@@ -4,3 +4,7 @@ listing-page-field-author: "autor"
 title-block-author-single: "autor"
 title-block-banner: true
 lang: pt-br
+
+toc-title-website: "nesta página"
+listing-page-field-categories: "categorias"
+listing-page-category-all: "tudo"

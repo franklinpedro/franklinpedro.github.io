@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - galeria/
 
 website:
   page-navigation: true
@@ -9,14 +11,16 @@ website:
     left:
       - href: index.qmd
         text: apresentação
-      - href: ensino.qmd
+      - href: ensino/
         text: ensino
-      - href: tutoriais.qmd
+      - href: tutoriais/
         text: tutoriais
-      - href: materiais/index.qmd
+      - href: materiais/
         text: materiais
-      - href: coisas-legais.qmd
+      - href: coisas-legais/
         text: coisas legais
+      - href: galeria/
+        text: um certo olhar
  
     right: 
       - icon: github
@@ -32,9 +36,10 @@ format:
      - simplex
      - custom.scss
     linkcolor: rgb(68, 110, 155)
-    css: styles.css
     code-overflow: wrap
     toc: true
     link-external-icon: false
+    css: styles.css
+    lightbox: true
     
 
