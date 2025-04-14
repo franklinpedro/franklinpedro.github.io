@@ -54,7 +54,8 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 | pinguins do arquipélago de palmer | [penguins.csv](https://github.com/franklinpedro/dados/blob/main/penguins.csv) | [descricao_penguins.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EXf1UPdIMO1KlQvq2qdeXY8BKhPyZqNAqZrqsYDbNMdSCA?e=F7xVgs) |
 |imagens de placas de trânsito|[traffic_sign.txt](https://github.com/franklinpedro/dados/blob/main/traffic_sign.txt)|[descricao_traffic_sign.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EfdU9yxJyqtNn5gTeR_8ruEBm1dj_nsj7vJ-Sm3HGo1c6g?e=2B0i60)|
 |diagnóstico de câncer de mama de wisconsin |[breast_cancer.csv](https://github.com/franklinpedro/dados/blob/main/breast_cancer.csv)| [descricao_breast_cancer.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EVdDLPGo4ehHn5xaFEJ2DMMBB-2xLanNOxWaHfVPVXxU7A?e=sqldk2)|
-|fraude em cartão de crédito |[train_fraud.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/Ef49zgYHniNDsUOX5XR22RIBFF2Vz3aQSDdXiF0e1CkvLA?e=BOpXva) e [test_fraud.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EevItrIiDnxFi5t4hBoT6WUBYnZef9qJN3k2O8hqIjt4xw?e=ZWzluy)|[descrição_fraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+|fraude em cartão de crédito |[train_fraud.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/Ef49zgYHniNDsUOX5XR22RIBFF2Vz3aQSDdXiF0e1CkvLA?e=BOpXva) e [test_fraud.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EevItrIiDnxFi5t4hBoT6WUBYnZef9qJN3k2O8hqIjt4xw?e=ZWzluy)|[descrição_fraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)|
+|feijões|[beans.txt](https://drive.google.com/file/d/19WRaFstVBtwJkLvv2cO8z1bNdLXn_JUx/view?usp=sharing)|[descricao_beans.txt](https://drive.google.com/file/d/1uzTPPsZGHqHE42tk0_0AV5XA4AxmOCwK/view?usp=sharing)|
 
 # códigos das aulas
 
@@ -73,6 +74,7 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 - trabalhando com árvores de decisão: [arvore-rpart.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/ESKCMYP5gvJInd-gXTjeVM4BaPH1jUoy_qCmOO6Exr6rmA?e=1pUGfy) e [arvore-pinguim.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EZuoUmdPAs9EgadtX1judXgBoAL2UaPrsqrJnFf0BA_oeQ?e=fmmiQh)
 - florestas aleatórias: [florestas-aleatorias.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EQve8qSm7e9IrucXuQfhfcsBtPOzNXAcCU62ffNr9X4Vpg?e=BFPQXZ)
 - podando árvores de decisão: [podando-arvore.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EUnGRDkwSVdPlq_kAwL0l-MBdwUPsKdwCf6qBbC63OGwFA?e=lo02Jh)
+código da aula do dia 08 de abril: [2025-04-08.R](https://drive.google.com/file/d/18bkKbja3JkhOtK81bocc5kr4qWAhvdSM/view?usp=sharing)
 
 # projetos
 
