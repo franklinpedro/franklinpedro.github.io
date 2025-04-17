@@ -72,6 +72,10 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 
 13. melhores estimadores não viciados: [arquivo PDF](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/Eft4hfQLfoRElNRAyxNghqQBzHj7qMuoDAPLdlg_mDhmBA?e=6izkVB)
 
+14. estimadores baseados em estatísticas suficientes: [arquivo PDF](https://drive.google.com/file/d/1HLOtLll-VdyWumdqSQHSyS0NiFZpXRwE/view?usp=sharing)
+
+15. estimação intervalar: [arquivo PDF](https://drive.google.com/file/d/1F03lbRojQXXkiCiIekhNY-eAE-aEX8rc/view?usp=sharing)
+
 # projetos
 
 -   [projeto 1](https://drive.google.com/file/d/1m_q-cBXRuGX1KZ38zBBxlSCs1sROpQm7/view?usp=sharing): data de entrega: 26 de março em formato virtual ou manuscrito. 
