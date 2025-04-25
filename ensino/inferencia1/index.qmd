@@ -86,3 +86,5 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 - segunda lista de exercícios: [lista2.pdf](https://drive.google.com/file/d/1OnME3nx-B8pdTw-A4MHdgaWOXXlH82T0/view?usp=sharing)
 - exercícios complementares sobre estatísticas suficientes: [preparacao_suficiencia.pdf](https://drive.google.com/file/d/1Q5CjFs8oiDkqp-G50ZCV3TeVIUssK0TY/view?usp=sharing)
 -   terceira lista de exercícios: [lista3.pdf](https://drive.google.com/file/d/1TeOKSkmIPp2PwxMKtW511XjtJ0A5d-nD/view?usp=sharing)
+
+-   quarta lista de exercícios: [lista4.pdf](https://drive.google.com/file/d/1hx8rphMD81TT7fN2qplP8diCRKJgythy/view?usp=sharing)
