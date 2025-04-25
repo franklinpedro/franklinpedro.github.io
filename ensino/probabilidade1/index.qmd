@@ -71,6 +71,7 @@ sheldon ross. 8ed, bookman, 2010.
 1. primeira lista de exercícios: [lista1.pdf](https://drive.google.com/file/d/1eonh7lhCyJrT5V0baSZdQyaWaLNxPPAM/view?usp=sharing)
 2. segunda lista de exercícios: [lista2.pdf](https://drive.google.com/file/d/1vW6xOnq8M7ybO9Ah9fMEF0e_U0B9Kpft/view?usp=sharing)
 3. terceira lista de exercícios: [lista3.pdf](https://drive.google.com/file/d/1nxFqsYwfi-g3Gb002h4J4VnfkvtktHSE/view?usp=sharing)
+4. quarta lista de exercícios: [lista4.pdf](https://drive.google.com/file/d/1LPCQPNZjLeV6yrfk4GIUmTcMHbWw7G6J/view?usp=sharing)
 
 # códigos em R
 
