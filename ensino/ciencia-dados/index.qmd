@@ -74,7 +74,8 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 - trabalhando com árvores de decisão: [arvore-rpart.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/ESKCMYP5gvJInd-gXTjeVM4BaPH1jUoy_qCmOO6Exr6rmA?e=1pUGfy) e [arvore-pinguim.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EZuoUmdPAs9EgadtX1judXgBoAL2UaPrsqrJnFf0BA_oeQ?e=fmmiQh)
 - florestas aleatórias: [florestas-aleatorias.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EQve8qSm7e9IrucXuQfhfcsBtPOzNXAcCU62ffNr9X4Vpg?e=BFPQXZ)
 - podando árvores de decisão: [podando-arvore.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EUnGRDkwSVdPlq_kAwL0l-MBdwUPsKdwCf6qBbC63OGwFA?e=lo02Jh)
-código da aula do dia 08 de abril: [2025-04-08.R](https://drive.google.com/file/d/18bkKbja3JkhOtK81bocc5kr4qWAhvdSM/view?usp=sharing)
+- código da aula do dia 08 de abril: [2025-04-08.R](https://drive.google.com/file/d/18bkKbja3JkhOtK81bocc5kr4qWAhvdSM/view?usp=sharing)
+- código da aula do dia 28 de abril: [2025-04-08.R](https://drive.google.com/file/d/1RJauDXFU1BCYIqkX98FtEBkPAs1IWYzD/view?usp=sharing)
 
 # projetos
 
