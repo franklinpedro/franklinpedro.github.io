@@ -76,6 +76,7 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 - podando árvores de decisão: [podando-arvore.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EUnGRDkwSVdPlq_kAwL0l-MBdwUPsKdwCf6qBbC63OGwFA?e=lo02Jh)
 - código da aula do dia 08 de abril: [2025-04-08.R](https://drive.google.com/file/d/18bkKbja3JkhOtK81bocc5kr4qWAhvdSM/view?usp=sharing)
 - código da aula do dia 28 de abril: [2025-04-08.R](https://drive.google.com/file/d/1RJauDXFU1BCYIqkX98FtEBkPAs1IWYzD/view?usp=sharing)
+[svm.R](https://drive.google.com/file/d/1hbYrAtXwSYVybOhqUTD38QM54Ny8GjO7/view?usp=sharing)
 
 # projetos
 
@@ -86,6 +87,14 @@ este projeto tem como objetivo consolidar os conhecimentos adquiridos na discipl
 -   instruções: [projeto1.pdf](https://drive.google.com/file/d/1FE2f4Sd5WsRiv4xEWvm6D75JqoeRdnfQ/view?usp=sharing);
 -   dados para o projeto: [palmerpenguins.csv](https://drive.google.com/file/d/1vC_P_rSeBQ4MlBVJSmkzqNQjMSXxZSMi/view?usp=sharing)
 -   data de entrega: 01 de abril de 2025.
+
+## segundo projeto de ciência de dados
+
+este projeto tem como objetivo prosseguir com a análise do primeiro projeto e consolidar os conhecimentos adquiridos na disciplina de introdução à ciência de dados. após a construção e avaliação de modelos baseados no algoritmo k-nearest neighbors (knn), agora você deverá explorar dois novos algoritmos de classificação supervisionada: floresta aleatória (random forest) e máquinas de vetores de suporte (support vector machines — svm). ao final, deverá comparar os três modelos.
+
+-   instruções: [projeto2.pdf](https://drive.google.com/file/d/1ZxSjr-WhYPnj0suP_jtt66VFXi-gOluc/view?usp=sharing);
+-   dados para o projeto: [palmerpenguins.csv](https://drive.google.com/file/d/1vC_P_rSeBQ4MlBVJSmkzqNQjMSXxZSMi/view?usp=sharing)
+-   data de entrega: até o dia 11 de maio de 2025.
 
 # provas
 

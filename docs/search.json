@@ -278,5 +278,12 @@
     "title": "",
     "section": "",
     "text": "aqui, alguma de minhas fotografias. clique na foto para ampliá-la e obter informações como câmera e filme utilizados."
+  },
+  {
+    "objectID": "ensino/ciencia-dados/index.html#segundo-projeto-de-ciência-de-dados",
+    "href": "ensino/ciencia-dados/index.html#segundo-projeto-de-ciência-de-dados",
+    "title": "introdução à ciência de dados",
+    "section": "segundo projeto de ciência de dados",
+    "text": "segundo projeto de ciência de dados\neste projeto tem como objetivo prosseguir com a análise do primeiro projeto e consolidar os conhecimentos adquiridos na disciplina de introdução à ciência de dados. após a construção e avaliação de modelos baseados no algoritmo k-nearest neighbors (knn), agora você deverá explorar dois novos algoritmos de classificação supervisionada: floresta aleatória (random forest) e máquinas de vetores de suporte (support vector machines — svm). ao final, deverá comparar os três modelos.\n\ninstruções: projeto2.pdf;\ndados para o projeto: palmerpenguins.csv\ndata de entrega: até o dia 11 de maio de 2025."
   }
 ]
