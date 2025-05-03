@@ -84,3 +84,7 @@ sheldon ross. 8ed, bookman, 2010.
 # provas
 
 1. primeira prova: [prova1.pdf](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/Ef-h9nx0DB9IsHeIecF7GUoBaUAKW3qnMIDqKTZ-DLldKw?e=qapA0u); discussão sobre a prova: [prova1-solucao.pdf](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/ETb2hKH2H8FDha1kuYDGgxIBxk8QPdwojpd0NNz537O69g?e=Q0TMqn)
+
+# notas
+
+as notas da disciplina de probabilidade 1 podem ser acessadas através do seguinte link: [notas.PDF](https://drive.google.com/file/d/1VhGBMLYRoOSLmgtgSFGqlQbv_jeNZea1/view?usp=sharing)
