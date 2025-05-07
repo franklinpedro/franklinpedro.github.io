@@ -37,7 +37,7 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 
 -   [**ciência de dados em r.**](https://livro.curso-r.com/)<br /> livro escrito pela equipe do curso-r.
 
--   [**an introduction to statistical learning with applications in r.**](https://trevorhastie.github.io/ISLR/ISLR%20Seventh%20Printing.pdf)<br /> gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.
+-   [**an introduction to statistical learning with applications in r.**](https://drive.google.com/file/d/1pQ8BAgrjv5Vs47yzdc-KFYVbTx_oQCpy/view?usp=sharing)<br /> gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.
 
 # materiais de apoio
 
@@ -101,3 +101,5 @@ este projeto tem como objetivo prosseguir com a análise do primeiro projeto e c
 -   [prova1](https://drive.google.com/file/d/1i99p968O_vDjjDgneGesrQ3DpNxE3CI6/view?usp=sharing)
 
 -   [corujas.txt](https://drive.google.com/file/d/1u0iCrTrPp3V3BOLLraur_Mu_LbBcrX2w/view?usp=sharing)
+
+- [prova2]
