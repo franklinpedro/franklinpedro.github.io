@@ -10,6 +10,28 @@ link-external-newwindow: true
 editor: source
 ---
 
+## estatística básica
+
+em meus cursos de estatística básica, já testei diferentes livros. por muito tempo, meu preferido foi **noções de probabilidade e estatística**, de marcos nascimento magalhães e antonio carlos pedroso de lima. foi o livro adotado pelo meu professor de estatística na graduação e, talvez por isso, naturalmente me apeguei a ele. trata-se de uma obra excelente, mas talvez um pouco avançada para quem está dando os primeiros passos na área. depois, experimentei **estatística aplicada**, de larson e farber, um  ótimo livro, com muitos exercícios e leitura mais acessível que a de magalhães e pedroso. em 2024, num passeio por uma biblioteca, conheci, por acaso!, **a estatística básica e sua prática**, de moore, notz e fligner. a partir de 2025, será este o livro que utilizarei em meus cursos introdutórios de estatística.
+
+
+
+<br>
+
+::: grid
+::: {.g-col-12 .g-col-md-4}
+![](estatistica_basica.png){width="200"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+##### [a estatística básica e sua prática](https://mb.ufu.br/9788521638612)
+
+entre os pontos que mais me agradam estão a linguagem acessível e super didática, a riqueza de exercícios e exemplos baseados em dados reais, bem como a organização dos tópicos: ao contrário da ordem tradicional, os capítulos sobre correlação e regressão linear simples aparecem logo no início, permitindo uma introdução mais intuitiva e prática à análise estatística. além disso, o livro foi traduzido para o português pela professora ana maria lima de farias (sou grande fã de seu trabalho) da uff; a professora ana maria possui produziu ao longo dos anos um excelente material sobre estatística e probabilidade, que pode ser encontrado em seu [site](https://www.professores.uff.br/anafarias/).
+:::
+:::
+
+<br>
+
 ## programação em r
 
 há alguns anos eu tenho utilizado o r em minhas aulas, principalmente em disciplinas básicas de estatística. desde então, tenho percebido que as aulas ficaram melhores e que os alunos passaram a se interessar mais pelo universo da estatística e probabilidade.
