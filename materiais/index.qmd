@@ -24,7 +24,7 @@ em meus cursos de estatística básica, já testei diferentes livros. por muito 
 :::
 
 ::: {.g-col-12 .g-col-md-8}
-##### [a estatística básica e sua prática](https://mb.ufu.br/9788521638612)
+##### [a estatística básica e sua prática](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=221969)
 
 entre os pontos que mais me agradam estão a linguagem acessível e super didática, a riqueza de exercícios e exemplos baseados em dados reais, bem como a organização dos tópicos: ao contrário da ordem tradicional, os capítulos sobre correlação e regressão linear simples aparecem logo no início, permitindo uma introdução mais intuitiva e prática à análise estatística. além disso, o livro foi traduzido para o português pela professora ana maria lima de farias (sou grande fã de seu trabalho) da uff; a professora ana maria possui produziu ao longo dos anos um excelente material sobre estatística e probabilidade, que pode ser encontrado em seu [site](https://www.professores.uff.br/anafarias/).
 :::
@@ -98,7 +98,11 @@ o rstudio foi fundado em 2009 e, em 2011, lança o rstudio IDE. em julho de 2022
 
 ## visualização de dados no r
 
-o ggplot2 é um pacote do R para a produção de gráficos. ele é uma implementação da gramática dos gráficos (grammar of graphics). a gramática dos gráficos é um conjunto de regras e convenções que descreve como os componentes de um gráfico podem ser combinados para criar visualizações. quando você entende esta estrutura da grmáticas dos gráficos, as coisas ficam mais fáceis e é possível produzir gráficos muito bonitos. sou super fã deste pacote e sempre tento introduzir seus fundamentos em minhas aulas. a seguir, duas recomendações que podem ser úteis para quem quer aprender a construir gráficos no r com o ggplot2.
+o ggplot2 é um pacote do r para a produção de gráficos. ele é uma implementação da gramática dos gráficos (grammar of graphics). a gramática dos gráficos é um conjunto de regras e convenções que descreve como os componentes de um gráfico podem ser combinados para criar visualizações. quando você entende essa estrutura da gramática dos gráficos, as coisas ficam mais fáceis, e é possível produzir gráficos muito bonitos. sou super fã desse pacote e sempre tento introduzir seus fundamentos em minhas aulas; acho muito chique pensar que um gráfico pode ser construído como uma frase formada por sujeito + verbo + complementos.
+
+a seguir, duas recomendações que podem ser úteis para quem quer aprender a construir gráficos no r com o ggplot2. a terceira recomendação não é sobre gráficos em r, mas é um livro incrível sobre como contar boas histórias com gráficos.
+
+
 
 <br>
 
@@ -125,6 +129,20 @@ livro escrito por hadley wickham, o criador do pacote ggplot2. gosto muito deste
 ##### [a ggplot2 tutorial for beautiful plotting in r](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
 
 este tutorial foi escrito por cédric scherer. cédric começou a utilizar o ggplot2 enquanto preparava a apresentação de sua tese de doutorado em 2016. seu tutorial é um ótimo ponto de partida para quem quer aprender a usar a o ggplot2. a proposta do autor é introduzir o ggplot2 a partir de um estudo sobre morbidade e mortalidade por poluição do ar. sempre volto ao tutorial em momentos de dúvidas durante a construção de algum gráfico.
+:::
+:::
+
+<br>
+
+::: grid
+::: {.g-col-12 .g-col-md-4}
+![](story.jpg){width="200"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+##### [storytelling com dados: um guia sobre visualização de dados para profissionais de negócios](https://archive.org/details/storytelling-com-dados-um-guia/page/6/mode/2up)
+
+o título pode afastar aqueles que, como eu, não entendem nada de negócios — mas não julgue o livro pelo título! o livro é excelente e apresenta uma abordagem prática para a visualização de dados. a autora, cole nussbaumer knaack, discute como contar histórias com dados, enfatizando a importância de entender o público-alvo e o contexto da visualização. ela também aborda princípios de design, como a escolha de cores. é um livro que pode ser lido por qualquer pessoa interessada em melhorar suas habilidades de visualização. li e discuti o livro com meus queridos estudantes do pet estatística; gostamos demais das lições e saímos do livro com a sensação de termos evoluído na forma como pensamos sobre visualização de dados ^^
 :::
 :::
 
@@ -240,7 +258,7 @@ livro espetacular que apresenta algumas das técnicas de modelagem e previsão m
 :::
 
 ::: {.g-col-12 .g-col-md-8}
-##### [aprendizado de máquina: uma abordagem estatística](http://www.rizbicki.ufscar.br/AME.pdf)
+##### [aprendizado de máquina: uma abordagem estatística](https://tiagoms.com/publications/ame/AME.pdf)
 
 outro excelente livro sobre aprendizado de máquina. escrito por rafael izbicki e tiago mendança dos santos, o objetivo desta obra é introduzir as ideias do aprendizado de máquina sob uma ótica estatística. a discussão é feita em linguagem r e os códigos produzidos ao longo do texto podem ser utilizados para aplicar os métodos apresentados. alguns resultados teóricos sobre os problemas e
 métodos investigados foram incluídos o que contribui muito para que o leitor consiga compreender as ideias e conceitos que estão por trás dos modelos investigados. o livro está dividido em três partes: regressão, classificação e aprendizado não supervisionado.
