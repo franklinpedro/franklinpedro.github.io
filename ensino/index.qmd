@@ -21,13 +21,14 @@ description: |
 
 ## cursos em andamento
 
-neste segundo semestre de 2024 estou lecionando três disciplinas: introdução à ciência de dados, probabilidade 1 e inferência estatística 1. as informações de cada uma dessas disciplinas (como bibliografia, ementa, horário de atendimento e datas das provas), estão nas fichas abaixo.
+neste primeiro semestre de 2025 estou lecionando duas disciplinas: introdução à ciência de dados e probabilidade 3. as informações de cada uma dessas disciplinas (como bibliografia, ementa, horário de atendimento e datas das provas), estão nas fichas abaixo.
 
 :::{#em-andamento}
 :::
 
 ## cursos encerrados
 
+- famat31203: probabilidade 1
 - ges045: introdução à história da estatística e da probabilidade
 - famat31308: introdução à ciência de dados
 - pcda08: processamento automático de textos (especialização em ciência de dados)

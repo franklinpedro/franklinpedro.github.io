@@ -69,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -172,7 +143,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">início do curso</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">9 de dezembro de 2024</p>
+        <p class="date">9 de junho de 2025</p>
       </div>
     </div>
     
@@ -193,14 +164,6 @@ window.Quarto = {
   <li><a href="#avaliações" id="toc-avaliações" class="nav-link" data-scroll-target="#avaliações">avaliações</a></li>
   <li><a href="#bibliografia-básica" id="toc-bibliografia-básica" class="nav-link" data-scroll-target="#bibliografia-básica">bibliografia básica</a></li>
   <li><a href="#materiais-de-apoio" id="toc-materiais-de-apoio" class="nav-link" data-scroll-target="#materiais-de-apoio">materiais de apoio</a></li>
-  <li><a href="#conjuntos-de-dados" id="toc-conjuntos-de-dados" class="nav-link" data-scroll-target="#conjuntos-de-dados">conjuntos de dados</a></li>
-  <li><a href="#códigos-das-aulas" id="toc-códigos-das-aulas" class="nav-link" data-scroll-target="#códigos-das-aulas">códigos das aulas</a></li>
-  <li><a href="#projetos" id="toc-projetos" class="nav-link" data-scroll-target="#projetos">projetos</a>
-  <ul class="collapse">
-  <li><a href="#primeiro-projeto-de-ciência-de-dados" id="toc-primeiro-projeto-de-ciência-de-dados" class="nav-link" data-scroll-target="#primeiro-projeto-de-ciência-de-dados">primeiro projeto de ciência de dados</a></li>
-  <li><a href="#segundo-projeto-de-ciência-de-dados" id="toc-segundo-projeto-de-ciência-de-dados" class="nav-link" data-scroll-target="#segundo-projeto-de-ciência-de-dados">segundo projeto de ciência de dados</a></li>
-  </ul></li>
-  <li><a href="#provas" id="toc-provas" class="nav-link" data-scroll-target="#provas">provas</a></li>
   </ul>
 </nav>
     </div>
@@ -213,28 +176,31 @@ window.Quarto = {
 
 <section id="informações-gerais" class="level1">
 <h1>informações gerais</h1>
-<p>as aulas do curso de <strong>introdução à ciência de dados (famat31308)</strong> acontecem no laboratório 106 da Vila Digital do bloco 3Q nos seguintes dias e horários:</p>
+<p>as aulas do curso de <strong>introdução à ciência de dados (famat31308)</strong> acontecem no laboratório do curso de Estatística, sala 1J110 do bloco 1J, nos seguintes dias e horários:</p>
 <ul>
 <li>segunda-feira, 18h10 - 19h50.</li>
 <li>terça-feira, 20h50 - 22h30.</li>
 </ul>
 <p>o atendimento aos estudantes acontece na sala 1J 107 nos seguintes dias e horários:</p>
 <ul>
-<li>quarta-feira, 17h15 - 19h00.</li>
-<li>sexta-feira, 17h00 - 18h15.</li>
+<li>segunda-feira, 17h00 - 18h00.</li>
+<li>quarta-feira, 17h50 - 18h50.</li>
 </ul>
 <p>as comunicações extraclasse devem ser feitas através do email <strong>pedrofranklin@ufu.br</strong></p>
 </section>
 <section id="ementa" class="level1">
 <h1>ementa</h1>
-<p>introdução à linguagem R; introdução à ciência de dados; visualização, manipulação e análise de dados; introdução ao aprendizado de máquina.</p>
+<p>introdução à linguagem R; introdução à ciência de dados; visualização, manipulação e análise de dados; introdução ao aprendizado de máquina; comunicando resultados.</p>
 </section>
 <section id="avaliações" class="level1">
 <h1>avaliações</h1>
 <ul>
-<li>primeira prova, 35 pontos, 24 de março.</li>
-<li>segunda prova, 45 pontos, 06 de maio.</li>
-<li>projetos, 20 pontos.</li>
+<li>primeira prova, 15 pontos, 07 de julho.</li>
+<li>segunda prova, 15 pontos, 11 de agosto.</li>
+<li>terceira prova, 32 pontos, 16 de setembro.</li>
+<li>6 laboratórios, 3 pontos cada, totalizando 18 pontos, com datas de entrega a serem definidas em sala de aula.</li>
+<li>projeto final, 15 pontos.</li>
+<li>curso datacamp, 5 pontos.</li>
 <li>prova de recuperação, 100 pontos, 12 de maio.</li>
 </ul>
 </section>
@@ -242,120 +208,14 @@ window.Quarto = {
 <h1>bibliografia básica</h1>
 <ul>
 <li><p><a href="https://pt.r4ds.hadley.nz/"><strong>r para ciência de dados.</strong></a><br> hadley wickham, mine çetinkaya-rundel, garrett grolemund. 2ed.</p></li>
-<li><p><a href="https://livro.curso-r.com/"><strong>ciência de dados em r.</strong></a><br> livro escrito pela equipe do curso-r.</p></li>
 <li><p><a href="https://drive.google.com/file/d/1pQ8BAgrjv5Vs47yzdc-KFYVbTx_oQCpy/view?usp=sharing"><strong>an introduction to statistical learning with applications in r.</strong></a><br> gareth james, daniela witten, trevor hastie, robert tibshirani; 2ed, springer, 2023.</p></li>
 </ul>
 </section>
 <section id="materiais-de-apoio" class="level1">
 <h1>materiais de apoio</h1>
 <ul>
-<li><a href="https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/"><strong>A ggplot2 Tutorial for Beautiful Plotting in R</strong></a>: tutorial em inglês sobre o pacote ggplot2 escrito por cédric scherer. material excelente e acessível.</li>
-<li><a href="https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EaMQ2YgW4t9GuoBOyzYGv-4BbKA8hnlyo6BWmP_KVoAoyA?e=0GTrKb"><strong>colors in R</strong></a>: arquivo com os nomes das cores em R.</li>
-</ul>
-</section>
-<section id="conjuntos-de-dados" class="level1">
-<h1>conjuntos de dados</h1>
-<table class="table">
-<thead>
-<tr class="header">
-<th>nome</th>
-<th>arquivo</th>
-<th>documentação</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>vítimas de harold shipman</td>
-<td><a href="https://github.com/franklinpedro/dados/blob/main/shipman_vitimas.txt">shipman_vitimas.txt</a></td>
-<td><a href="https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EQ__saD6oqdHthDUmaX6YyoByOPQt7wazqlTv5DnnW4C_Q?e=rTkrXb">descricao_shipman.txt</a></td>
-</tr>
-<tr class="even">
-<td>passageiros do titanic</td>
-<td><a href="https://github.com/franklinpedro/dados/blob/main/titanic.csv">titanic.csv</a></td>
-<td><a href="https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/Ee8VRPM8uKRArfuU_SpyfTcB5i15YBbQjeDtHJUvzAD0CA?e=po8GsF">descricao_titanic.txt</a></td>
-</tr>
-<tr class="odd">
-<td>mortalidade, clima e poluição para chicago</td>
-<td><a href="https://github.com/franklinpedro/dados/blob/main/chicago.csv">chicago.csv</a></td>
-<td><a href="https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/Eed5tJ_nfG1BuGiFnEAkV04Ba3Whuqylj3aXu9A-gEu0Sg?e=uVzjXc">descricao_chicago.txt</a></td>
-</tr>
-<tr class="even">
-<td>pinguins do arquipélago de palmer</td>
-<td><a href="https://github.com/franklinpedro/dados/blob/main/penguins.csv">penguins.csv</a></td>
-<td><a href="https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EXf1UPdIMO1KlQvq2qdeXY8BKhPyZqNAqZrqsYDbNMdSCA?e=F7xVgs">descricao_penguins.txt</a></td>
-</tr>
-<tr class="odd">
-<td>imagens de placas de trânsito</td>
-<td><a href="https://github.com/franklinpedro/dados/blob/main/traffic_sign.txt">traffic_sign.txt</a></td>
-<td><a href="https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EfdU9yxJyqtNn5gTeR_8ruEBm1dj_nsj7vJ-Sm3HGo1c6g?e=2B0i60">descricao_traffic_sign.txt</a></td>
-</tr>
-<tr class="even">
-<td>diagnóstico de câncer de mama de wisconsin</td>
-<td><a href="https://github.com/franklinpedro/dados/blob/main/breast_cancer.csv">breast_cancer.csv</a></td>
-<td><a href="https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EVdDLPGo4ehHn5xaFEJ2DMMBB-2xLanNOxWaHfVPVXxU7A?e=sqldk2">descricao_breast_cancer.txt</a></td>
-</tr>
-<tr class="odd">
-<td>fraude em cartão de crédito</td>
-<td><a href="https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/Ef49zgYHniNDsUOX5XR22RIBFF2Vz3aQSDdXiF0e1CkvLA?e=BOpXva">train_fraud.txt</a> e <a href="https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/EevItrIiDnxFi5t4hBoT6WUBYnZef9qJN3k2O8hqIjt4xw?e=ZWzluy">test_fraud.txt</a></td>
-<td><a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud">descrição_fraud</a></td>
-</tr>
-<tr class="even">
-<td>feijões</td>
-<td><a href="https://drive.google.com/file/d/19WRaFstVBtwJkLvv2cO8z1bNdLXn_JUx/view?usp=sharing">beans.txt</a></td>
-<td><a href="https://drive.google.com/file/d/1uzTPPsZGHqHE42tk0_0AV5XA4AxmOCwK/view?usp=sharing">descricao_beans.txt</a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="códigos-das-aulas" class="level1">
-<h1>códigos das aulas</h1>
-<ul>
-<li>código da aula do dia 16 de dezembro: <a href="https://github.com/franklinpedro/ciencias-dados/blob/main/2024-12-16/2024-12-16.R">2024-12-16.R</a></li>
-<li>código da aula do dia 03 de fevereiro: <a href="https://drive.google.com/file/d/1pqrDh-T2kW7AQyZSe0-OR_PHbIACrBsu/view?usp=sharing">2025-02-03.R</a></li>
-<li>código da aula do dia 04 de fevereiro: <a href="https://drive.google.com/file/d/1F_Qxud_lEbE5ptUlzHpC9ThNoqiHCXlB/view?usp=sharing">2025-02-04.R</a></li>
-<li>códigos da aula do dia 10 de fevereiro: <a href="https://drive.google.com/file/d/1YLFRJdiTUbWGPMlUA6sMkyeOd2CtSwTn/view?usp=sharing">2025-02-10-parte1.R</a> e <a href="https://drive.google.com/file/d/1OdLEdbjsX6_CUHBFHsRTTL-Y1wbplIJI/view?usp=sharing">2025-02-10-parte2.R</a></li>
-<li>códigos da aula do dia 11 de fevereiro: <a href="https://drive.google.com/file/d/1jhsjRIqBhuQBD7dm9HJiYbuiID8vhDSd/view?usp=sharing">2025-02-11-parte1.R</a> e <a href="https://drive.google.com/file/d/1UqNhbxlyZULPTq67jpFIR3LLxXpqM7Tz/view?usp=sharing">2025-02-11-parte2.R</a></li>
-<li>códigos da aula do dia 17 de fevereiro: <a href="https://drive.google.com/file/d/12BpDklU4lyL1VM_QpGlSYuI967KSzEKo/view?usp=sharing">2025-02-17.R</a> e <a href="https://drive.google.com/file/d/1YR7xNp4N3FeepDkPh-bM-K1w28yl3Z08/view?usp=sharing">primeiros-passos.qmd</a>.</li>
-<li>códigos das aulas dos dias 18 e 24 de fevereiro: <a href="https://drive.google.com/file/d/1CC8Xb-PHWAtY--aNj1b4VVYOQkD4rlxX/view?usp=sharing">2025-02-18.qmd</a>, <a href="https://drive.google.com/file/d/1UkkrsI9yyHLO5x2cL5CeVdGzagr256BA/view?usp=sharing">pinguins.qmd</a> e <a href="https://drive.google.com/file/d/1utfupQ_0melo7GC-7wv9cX_h4dJT9lVZ/view?usp=sharing">gerar_relatorios.R</a>.</li>
-<li>códigos da aula do dia 25 de fevereiro: <a href="https://drive.google.com/file/d/1TF3wUZOZnhEG1XveViWf87kvWldQdqT6/view?usp=sharing">2025-02-25.R</a> e <a href="https://drive.google.com/file/d/1btQh108HgJlvSD-O2fRF8am86GG9MHDP/view?usp=sharing">knn.qmd</a>.</li>
-<li>código da aula do dia 10 de março: <a href="https://drive.google.com/file/d/11D8p8pO3TE2lv5cLtcDT0Xq9mkyIg5yl/view?usp=sharing">2025-03-10.R</a></li>
-<li>código da aula do dia 11 de março: <a href="https://drive.google.com/file/d/1FsV3IbtuRgfITKWvv1pd5tvB-4pI_eei/view?usp=sharing">2025-03-11.R</a></li>
-<li>código para a construção manual do cross validation para o knn: <a href="https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/Ec5ElS5cFrtMkj6n8ajpBTABOEeFxeClAy06fFmfyM838Q?e=eeA40v">cross-validation-knn.R</a></li>
-<li>motivando árvores de decisão: <a href="https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EWtQwwiD03dBvKB29u9NWLUB9--6Cm51acyuBQFD2SUYqQ?e=EQXKh5">motivando-arvores.R</a></li>
-<li>trabalhando com árvores de decisão: <a href="https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/ESKCMYP5gvJInd-gXTjeVM4BaPH1jUoy_qCmOO6Exr6rmA?e=1pUGfy">arvore-rpart.R</a> e <a href="https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EZuoUmdPAs9EgadtX1judXgBoAL2UaPrsqrJnFf0BA_oeQ?e=fmmiQh">arvore-pinguim.R</a></li>
-<li>florestas aleatórias: <a href="https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EQve8qSm7e9IrucXuQfhfcsBtPOzNXAcCU62ffNr9X4Vpg?e=BFPQXZ">florestas-aleatorias.R</a></li>
-<li>podando árvores de decisão: <a href="https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EUnGRDkwSVdPlq_kAwL0l-MBdwUPsKdwCf6qBbC63OGwFA?e=lo02Jh">podando-arvore.R</a></li>
-<li>código da aula do dia 08 de abril: <a href="https://drive.google.com/file/d/18bkKbja3JkhOtK81bocc5kr4qWAhvdSM/view?usp=sharing">2025-04-08.R</a></li>
-<li>código da aula do dia 28 de abril: <a href="https://drive.google.com/file/d/1RJauDXFU1BCYIqkX98FtEBkPAs1IWYzD/view?usp=sharing">2025-04-08.R</a> <a href="https://drive.google.com/file/d/1hbYrAtXwSYVybOhqUTD38QM54Ny8GjO7/view?usp=sharing">svm.R</a></li>
-</ul>
-</section>
-<section id="projetos" class="level1">
-<h1>projetos</h1>
-<section id="primeiro-projeto-de-ciência-de-dados" class="level2">
-<h2 class="anchored" data-anchor-id="primeiro-projeto-de-ciência-de-dados">primeiro projeto de ciência de dados</h2>
-<p>este projeto tem como objetivo consolidar os conhecimentos adquiridos na disciplina de introdução à ciência de dados. você utilizará o conjunto de dados <strong>palmer penguins</strong>, que contém informações sobre três espécies de pinguins coletadas em ilhas da antártica. o foco será a análise exploratória dos dados e a construção de um modelo <strong>knn (k-nearest neighbors)</strong> para classificar a espécie dos pinguins com base em suas características físicas. em sala de aula, construímos um modelo knn <strong>com apenas duas variáveis e <span class="math inline">\(k = 1\)</span></strong>. para este projeto, você deve <strong>ir além</strong> e realizar outras etapas. as instruções para a realização do projeto podem ser acessadas no arquivo .PDF abaixo.</p>
-<ul>
-<li>instruções: <a href="https://drive.google.com/file/d/1FE2f4Sd5WsRiv4xEWvm6D75JqoeRdnfQ/view?usp=sharing">projeto1.pdf</a>;</li>
-<li>dados para o projeto: <a href="https://drive.google.com/file/d/1vC_P_rSeBQ4MlBVJSmkzqNQjMSXxZSMi/view?usp=sharing">palmerpenguins.csv</a></li>
-<li>data de entrega: 01 de abril de 2025.</li>
-</ul>
-</section>
-<section id="segundo-projeto-de-ciência-de-dados" class="level2">
-<h2 class="anchored" data-anchor-id="segundo-projeto-de-ciência-de-dados">segundo projeto de ciência de dados</h2>
-<p>este projeto tem como objetivo prosseguir com a análise do primeiro projeto e consolidar os conhecimentos adquiridos na disciplina de introdução à ciência de dados. após a construção e avaliação de modelos baseados no algoritmo k-nearest neighbors (knn), agora você deverá explorar dois novos algoritmos de classificação supervisionada: floresta aleatória (random forest) e máquinas de vetores de suporte (support vector machines — svm). ao final, deverá comparar os três modelos.</p>
-<ul>
-<li>instruções: <a href="https://drive.google.com/file/d/1ZxSjr-WhYPnj0suP_jtt66VFXi-gOluc/view?usp=sharing">projeto2.pdf</a>;</li>
-<li>dados para o projeto: <a href="https://drive.google.com/file/d/1vC_P_rSeBQ4MlBVJSmkzqNQjMSXxZSMi/view?usp=sharing">palmerpenguins.csv</a></li>
-<li>data de entrega: até o dia 11 de maio de 2025.</li>
-</ul>
-</section>
-</section>
-<section id="provas" class="level1">
-<h1>provas</h1>
-<ul>
-<li><p><a href="https://drive.google.com/file/d/1i99p968O_vDjjDgneGesrQ3DpNxE3CI6/view?usp=sharing">prova1</a></p></li>
-<li><p><a href="https://drive.google.com/file/d/1u0iCrTrPp3V3BOLLraur_Mu_LbBcrX2w/view?usp=sharing">corujas.txt</a></p></li>
-<li><p>[prova2]</p></li>
+<li><p><a href="https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/"><strong>A ggplot2 Tutorial for Beautiful Plotting in R</strong></a>: tutorial em inglês sobre o pacote ggplot2 escrito por cédric scherer. material excelente e acessível.</p></li>
+<li><p><a href="https://livro.curso-r.com/"><strong>ciência de dados em r.</strong></a><br> livro escrito pela equipe do curso-r.</p></li>
 </ul>
 
 
