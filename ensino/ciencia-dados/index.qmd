@@ -33,7 +33,7 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 -   6 laboratórios, 3 pontos cada, totalizando 18 pontos, com datas de entrega a serem definidas em sala de aula.
 -   projeto final, 15 pontos.
 -   curso datacamp, 5 pontos.
--   prova de recuperação, 100 pontos, 12 de maio.
+-   prova de recuperação, 100 pontos, 22 de setembro.
 
 # bibliografia básica
 
