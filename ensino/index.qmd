@@ -8,8 +8,9 @@ listing:
     date-format: DD/MM/YYYY
     categories: false
     fields: [image, description, title]
-    image-height: 190px
+    image-height: 270px
     max-description-length: 245
+    grid-columns: 2
 title-block-banner: true
 toc-title: "nesta página"
 page-layout: full
@@ -21,7 +22,7 @@ description: |
 
 ## cursos em andamento
 
-neste primeiro semestre de 2025 estou lecionando duas disciplinas: introdução à ciência de dados e probabilidade 3. as informações de cada uma dessas disciplinas (como bibliografia, ementa, horário de atendimento e datas das provas), estão nas fichas abaixo.
+neste primeiro semestre de 2025 estou lecionando duas disciplinas: **introdução à ciência de dados** e **probabilidade 3**. as informações de cada uma dessas disciplinas (como bibliografia, ementa, horário de atendimento e datas das provas), estão nas fichas abaixo.
 
 :::{#em-andamento}
 :::

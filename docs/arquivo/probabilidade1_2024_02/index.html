@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="nesta página estão listadas as disciplinas que estou lecionando atualmente e os cursos que já lecionei. as informações sobre as disciplinas em andamento estão organizadas em fichas, com links para o conteúdo completo.">
+<meta name="dcterms.date" content="2024-12-10">
+<meta name="description" content="o objetivo principal do curso é apresentar aos estudantes as noções fundamentais da teoria das probabilidades com respeito às variáveis aleatórias discretas.">
 
-<title>ensino</title>
+<title>probabilidade 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../gato.jpg" rel="icon" type="image/jpeg">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../gato.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -57,116 +56,58 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Nenhum resultado",
-    "search-matching-documents-text": "documentos correspondentes",
-    "search-copy-link-title": "Copiar link para a busca",
-    "search-hide-matches-text": "Esconder correspondências adicionais",
-    "search-more-match-text": "mais correspondência neste documento",
-    "search-more-matches-text": "mais correspondências neste documento",
-    "search-clear-button-title": "Limpar",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancelar",
-    "search-submit-button-title": "Enviar",
-    "search-label": "Procurar"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-em-andamento .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-description','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-em-andamento'] = new List('listing-em-andamento', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-            <div id="quarto-search" class="" title="Procurar"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">apresentação</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../ensino/"> 
+    <a class="nav-link" href="../../ensino/"> 
 <span class="menu-text">ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../tutoriais/"> 
+    <a class="nav-link" href="../../tutoriais/"> 
 <span class="menu-text">tutoriais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../materiais/"> 
+    <a class="nav-link" href="../../materiais/"> 
 <span class="menu-text">materiais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../coisas-legais/"> 
+    <a class="nav-link" href="../../coisas-legais/"> 
 <span class="menu-text">coisas legais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../galeria/"> 
+    <a class="nav-link" href="../../galeria/"> 
 <span class="menu-text">um certo olhar</span></a>
   </li>  
 </ul>
@@ -184,119 +125,137 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">ensino</h1>
-                  <div>
-        <div class="description">
-          <p>nesta página estão listadas as disciplinas que estou lecionando atualmente e os cursos que já lecionei. as informações sobre as disciplinas em andamento estão organizadas em fichas, com links para o conteúdo completo.</p>
-        </div>
-      </div>
-                </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">nesta página</h2>
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#cursos-em-andamento" id="toc-cursos-em-andamento" class="nav-link active" data-scroll-target="#cursos-em-andamento">cursos em andamento</a></li>
-  <li><a href="#cursos-encerrados" id="toc-cursos-encerrados" class="nav-link" data-scroll-target="#cursos-encerrados">cursos encerrados</a></li>
+  <li><a href="#informações-gerais" id="toc-informações-gerais" class="nav-link active" data-scroll-target="#informações-gerais">informações gerais</a></li>
+  <li><a href="#ementa" id="toc-ementa" class="nav-link" data-scroll-target="#ementa">ementa</a></li>
+  <li><a href="#avaliações" id="toc-avaliações" class="nav-link" data-scroll-target="#avaliações">avaliações</a></li>
+  <li><a href="#bibliografia-básica" id="toc-bibliografia-básica" class="nav-link" data-scroll-target="#bibliografia-básica">bibliografia básica</a></li>
+  <li><a href="#aulas" id="toc-aulas" class="nav-link" data-scroll-target="#aulas">aulas</a></li>
+  <li><a href="#listas-e-trabalhos" id="toc-listas-e-trabalhos" class="nav-link" data-scroll-target="#listas-e-trabalhos">listas e trabalhos</a></li>
+  <li><a href="#códigos-em-r" id="toc-códigos-em-r" class="nav-link" data-scroll-target="#códigos-em-r">códigos em R</a></li>
+  <li><a href="#provas" id="toc-provas" class="nav-link" data-scroll-target="#provas">provas</a></li>
+  <li><a href="#notas" id="toc-notas" class="nav-link" data-scroll-target="#notas">notas</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><strong>probabilidade 1</strong></h1>
+</div>
+
+<div>
+  <div class="description">
+    o objetivo principal do curso é apresentar aos estudantes as noções fundamentais da teoria das probabilidades com respeito às variáveis aleatórias discretas.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 10, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
-<section id="cursos-em-andamento" class="level2">
-<h2 class="anchored" data-anchor-id="cursos-em-andamento">cursos em andamento</h2>
-<p>neste primeiro semestre de 2025 estou lecionando duas disciplinas: <strong>introdução à ciência de dados</strong> e <strong>probabilidade 3</strong>. as informações de cada uma dessas disciplinas (como bibliografia, ementa, horário de atendimento e datas das provas), estão nas fichas abaixo.</p>
-<div id="listing-em-andamento" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1749438000000" data-listing-file-modified-sort="1749502022071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
-<a href="../ensino/ciencia-dados/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../ensino/ciencia-dados/famat31308.png" class="thumbnail-image card-img" style="height: 270px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>introdução à ciência de dados</strong>
-</h5>
-<div class="card-text listing-description">
-apresentar aos estudantes técnicas de visualização, manipulação e análise de dados, além de conceitos introdutórios de aprendizado de máquina, com foco na linguagem de computação estatística R.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1749610800000" data-listing-file-modified-sort="1749670204039" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="215">
-<a href="../ensino/probabilidade3/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../ensino/probabilidade3/famat31404.png" class="thumbnail-image card-img" style="height: 270px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>probabilidade 3</strong>
-</h5>
-<div class="card-text listing-description">
-apresentar ao estudante os fundamentos da teoria das probabilidades e suas aplicações no estudo de vetores aleatórios e teoremas limite
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Sem itens correspondentes
-</div>
-</div>
-</section>
-<section id="cursos-encerrados" class="level2">
-<h2 class="anchored" data-anchor-id="cursos-encerrados">cursos encerrados</h2>
+
+<section id="informações-gerais" class="level1">
+<h1>informações gerais</h1>
+<p>as aulas do curso de <strong>probabilidade 1 (famat31203)</strong> acontecem na sala 3Q 307 nos seguintes dias e horários:</p>
 <ul>
-<li>famat31203: probabilidade 1</li>
-<li>ges045: introdução à história da estatística e da probabilidade</li>
-<li>famat31308: introdução à ciência de dados</li>
-<li>pcda08: processamento automático de textos (especialização em ciência de dados)</li>
-<li>famat31203: probabilidade 1</li>
-<li>ges044: métodos matemáticos (introdução ao aprendizado de máquina)</li>
-<li>ges033: análise de séries temporais</li>
-<li>famat31033: estatística</li>
-<li>gbc041: estatística</li>
-<li>ges017: estatística computacional</li>
-<li>ges022: inferência estatística 2</li>
-<li>ges046: tópicos especiais em matemática aplicada (introdução ao aprendizado estatístico)</li>
-<li>ges012: estatística geral</li>
-<li>famat31041: estatística computacional</li>
-<li>ges035: profissão e mercado de trabalho</li>
-<li>ges008: introdução à estatística 2</li>
-<li>gcc014: estatística</li>
-<li>gci018: estatística</li>
-<li>ges018: inferência estatística 1</li>
-<li>get014: estatística</li>
-<li>ges015: probabilidade 2</li>
-<li>ges031: modelos lineares generalizados</li>
+<li>terça-feira, 19h00 - 20h40.</li>
+<li>quarta-feira, 20h50 - 22h30.</li>
 </ul>
-
+<p>o atendimento aos estudantes acontece na sala 1J 107 nos seguintes dias e horários:</p>
+<ul>
+<li>quarta-feira, 17h15 - 19h00.</li>
+<li>sexta-feira, 17h00 - 18h15.</li>
+</ul>
+<p>as comunicações extraclasse devem ser feitas através do email <strong>pedrofranklin@ufu.br</strong></p>
+</section>
+<section id="ementa" class="level1">
+<h1>ementa</h1>
+<p>fundamentos de análise combinatória. experimento aleatório. espaço amostral. eventos. definição de probabilidade. probabilidade condicional, teorema de bayes e independência de eventos. variáveis aleatórias discretas. função distribuição acumulada. distribuições de funções de variáveis aleatórias univariadas discretas. momentos e função geradora de momentos. alguns modelos discretos.</p>
+</section>
+<section id="avaliações" class="level1">
+<h1>avaliações</h1>
+<ul>
+<li>primeira prova, 40 pontos, 25 de março.</li>
+<li>segunda prova, 40 pontos, 30 de abril.</li>
+<li>listas e trabalhos, 20 pontos.</li>
+<li>prova de recuperação, 100 pontos, 06 de maio.</li>
+</ul>
+</section>
+<section id="bibliografia-básica" class="level1">
+<h1>bibliografia básica</h1>
+<ul>
+<li><a href="http://www.obmep.org.br/docs/apostila2.pdf"><strong>métodos de contagem e probabilidade.</strong></a><br> paulo cezar pinto carvalho, obmep, 2015.</li>
+<li><a href="https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=107129"><strong>probabilidade: um curso moderno com aplicações.</strong></a><br> sheldon ross. 8ed, bookman, 2010.</li>
+</ul>
+</section>
+<section id="aulas" class="level1">
+<h1>aulas</h1>
+<ol type="1">
+<li><p>métodos de contagem: <a href="https://drive.google.com/file/d/1-3tsvsDLis92baphvlgQeoukF9F39Yyq/view?usp=sharing">arquivo PDF</a>.</p></li>
+<li><p>permutações e combinações: <a href="https://drive.google.com/file/d/1N8mqIWBGByc5TcbVKYdk7bw1mcIEOoDN/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>introdução à probabilidade: <a href="https://drive.google.com/file/d/1wFby8bVHWne6QEAnQRzhNH09qw18QDjr/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>primeira aula de exercícios de fundamentos de probabilidade: <a href="https://drive.google.com/file/d/1fbyYIKL-5EKb3HqSlSy4cCV6flacLdLX/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>segunda aula de exercícios de fundamentos de probabilidade: <a href="https://drive.google.com/file/d/12AGJKeZwHtaPWiPhUaD5CzMTzpv-OUpN/view?usp=sharing">arquivo PDF</a>.</p></li>
+<li><p>probabilidade condicional: <a href="https://drive.google.com/file/d/1wpbSWuOKAc_1pM7zbjiVm93mrMXAncig/view?usp=sharing">arquivo PDF</a>.</p></li>
+<li><p>teorema de bayes: <a href="https://drive.google.com/file/d/16LsUCpXeHxipv7V1VSnnFMjOfXKGPihJ/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>variáveis aleatórias discretas: <a href="https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/Eecpz396vIdIjtqyVUM0YoEBdHejW7qfbJ6RV5z1k2Ewow?e=MmTtDj">arquivo PDF</a></p></li>
+<li><p>esperança e variância: <a href="https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EQxuYY_N2QhPn8-FOW6DPBcBUFXkHqCp7c3GaxcbdK2mOw?e=PHlnaU">arquivo PDF</a></p></li>
+<li><p>principais modelos discretos - parte 1: <a href="https://drive.google.com/file/d/1PCrpE47KhxD0ZjZuulWeeb3szlg47IBr/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>principais modelos discretos - parte 2: <a href="https://drive.google.com/file/d/1zQuwHk3VtI4FPabwDGIlrDKjTWTXsB_C/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>principais modelos discretos - parte 3: <a href="https://drive.google.com/file/d/1v3SdtJIb_AFmMUBiJv7blabJaOYyZWDQ/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>função geradora de momentos: <a href="https://drive.google.com/file/d/1QjLnGPGnQpYt5TVkpDfXkTSla5eYJ0UT/view?usp=sharing">arquivo PDF</a></p></li>
+</ol>
+</section>
+<section id="listas-e-trabalhos" class="level1">
+<h1>listas e trabalhos</h1>
+<ol type="1">
+<li>primeira lista de exercícios: <a href="https://drive.google.com/file/d/1eonh7lhCyJrT5V0baSZdQyaWaLNxPPAM/view?usp=sharing">lista1.pdf</a></li>
+<li>segunda lista de exercícios: <a href="https://drive.google.com/file/d/1vW6xOnq8M7ybO9Ah9fMEF0e_U0B9Kpft/view?usp=sharing">lista2.pdf</a></li>
+<li>terceira lista de exercícios: <a href="https://drive.google.com/file/d/1nxFqsYwfi-g3Gb002h4J4VnfkvtktHSE/view?usp=sharing">lista3.pdf</a></li>
+<li>quarta lista de exercícios: <a href="https://drive.google.com/file/d/1LPCQPNZjLeV6yrfk4GIUmTcMHbWw7G6J/view?usp=sharing">lista4.pdf</a></li>
+</ol>
+</section>
+<section id="códigos-em-r" class="level1">
+<h1>códigos em R</h1>
+<ol type="1">
+<li><p>lançando um dado muitas vezes: <a href="https://drive.google.com/file/d/1RtPFygJaU6MmWrK9nnGYHHfpf1MO9YXh/view?usp=sharing">motivacao-probabilidade.R</a></p></li>
+<li><p>quem é pi? <a href="https://drive.google.com/file/d/1ujuORdcV4DTugxeeqAvWcjZPow__5JTm/view?usp=sharing">pi.R</a></p></li>
+<li><p>o que é esperança? <a href="https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EQVAWQHBGthApUlBI1pur6YBUVLRxgc1iQLQrm8HS172Qg?e=qVVXoA">experimento-esperanca.R</a></p></li>
+</ol>
+</section>
+<section id="provas" class="level1">
+<h1>provas</h1>
+<ol type="1">
+<li>primeira prova: <a href="https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/Ef-h9nx0DB9IsHeIecF7GUoBaUAKW3qnMIDqKTZ-DLldKw?e=qapA0u">prova1.pdf</a>; discussão sobre a prova: <a href="https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/ETb2hKH2H8FDha1kuYDGgxIBxk8QPdwojpd0NNz537O69g?e=Q0TMqn">prova1-solucao.pdf</a></li>
+</ol>
+</section>
+<section id="notas" class="level1">
+<h1>notas</h1>
+<p>as notas da disciplina de probabilidade 1 podem ser acessadas através do seguinte link: <a href="https://drive.google.com/file/d/1VhGBMLYRoOSLmgtgSFGqlQbv_jeNZea1/view?usp=sharing">notas.PDF</a></p>
 
 
 </section>
@@ -356,12 +315,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copiada");
+    button.setAttribute("title", "Copied!");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copiada");
+      button.setAttribute("data-bs-title", "Copied!");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -381,24 +340,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
-          }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,

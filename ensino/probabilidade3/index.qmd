@@ -1,0 +1,46 @@
+---
+title: "**probabilidade 3**"
+description: "apresentar ao estudante os fundamentos da teoria das probabilidades e suas aplicações no estudo de vetores aleatórios e teoremas limite"
+date: 2025-06-11
+date-format: long
+image: famat31404.png
+---
+
+# informações gerais
+
+as aulas do curso de **probabilidade 3 (famat31404)** acontecem na sala 3Q204, nos seguintes dias e horários:
+
+-   terça-feira, 19h00 - 20h50.
+-   quarta-feira, 20h50 - 22h30
+
+o atendimento aos estudantes acontece na sala 1J 107 nos seguintes dias e horários:
+
+-   segunda-feira, 17h00 - 18h00.
+-   quarta-feira, 17h50 - 18h50.
+
+
+as comunicações extraclasse devem ser feitas através do email **pedrofranklin@ufu.br**
+
+# ementa
+
+vetores aleatórios contínuos. função distribuição acumulada conjunta e função densidade de probabilidade conjunta de vetores aleatórios contínuos. distribuições marginais e distribuições condicionais de vetores aleatórios contínuos. momentos e função geradora de momentos de vetores aleatórios contínuos. modos de convergência. lei fraca dos grandes números. lei forte dos grandes números. teorema central do limite.
+
+# avaliações
+
+-   primeira prova, 25 pontos, 15 de julho.
+-   segunda prova, 25 pontos, 13 de agosto.
+-   terceira prova, 25 pontos, 17 de setembro.
+-   listas de exercícios, 25 pontos
+-   prova de recuperação, 100 pontos, 23 de setembro.
+
+# bibliografia básica
+
+-   [**probabilidade: um curso moderno com aplicações**](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=107489 
+)<br /> sheldon ross, 8ed, new jersey, prentice hall, 2010.
+
+-   [**probabilidade: um curso em nível intermediário**](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=68025 
+)<br /> barry james, 2ed, rio de janeiro, impa, 1996.
+
+-   [**probabilidade e variáveis aleatórias**](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=68025 
+)<br /> marcos nascimento magalhães, 3ed, são paulo, edusp, 2011.
+
