@@ -46,3 +46,68 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 -   [**A ggplot2 Tutorial for Beautiful Plotting in R**](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/): tutorial em inglês sobre o pacote ggplot2 escrito por cédric scherer. material excelente e acessível.
 
 -   [**ciência de dados em r.**](https://livro.curso-r.com/)<br /> livro escrito pela equipe do curso-r.
+
+# aulas
+
+a seguir, uma tabela com informações de cada aula do curso, incluindo a data, os tópicos abordados, os códigos produzidos durante a aula e as referências recomendadas para estudo. a tabela será atualizada ao final de cada aula.  
+na coluna de referências, **cdr** refere-se ao livro *ciência de dados em r* e **r4ds**, ao livro *r para ciência de dados*, ambos utilizados como base para o curso.
+
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(googlesheets4)
+library(gt)
+library(tidyverse)
+library(lubridate)
+library(glue)
+
+gs4_deauth()
+
+dados <- read_sheet("https://docs.google.com/spreadsheets/d/1sZRn5kzSvxKxRPIlcjdav3NxWNnFCTnPSdCFvZREf94/edit?usp=sharing")
+```
+
+```{r}
+#| echo: false
+
+dias_pt <- c("domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado")
+meses_pt <- c("janeiro", "fevereiro", "março", "abril", "maio", "junho",
+              "julho", "agosto", "setembro", "outubro", "novembro", "dezembro")
+
+dados |>
+  rename(
+    data = DATA,
+    conteudo = CONTEÚDO,
+    codigos = CÓDIGOS,
+    referencias = REFERÊNCIAS
+  ) |>
+  mutate(
+    data = as.Date(data),
+    dia_semana = wday(data, label = FALSE),
+    nome_dia = dias_pt[dia_semana],
+    nome_mes = meses_pt[month(data)],
+    data_formatada = glue("{nome_dia}, {day(data)} de {nome_mes}")
+  ) |>
+  select(data_formatada, conteudo, codigos, referencias) |>
+  gt() |>
+  sub_missing(columns = everything(), missing_text = "") |>
+  cols_align(align = "center", columns = data_formatada) |>
+  cols_align(align = "left", columns = c(conteudo, codigos, referencias)) |>
+  fmt_markdown(columns = c(conteudo, codigos, referencias)) |>
+  cols_width(
+    data_formatada ~ px(300),
+    conteudo ~ px(600),
+    codigos ~ px(300),
+    referencias ~ px(400)
+  ) |>
+  cols_label(
+    data_formatada = md("**DATA**"),
+    conteudo = md("**CONTEÚDO**"),
+    codigos = md("**CÓDIGOS**"),
+    referencias = md("**REFERÊNCIAS**")
+  ) |>
+  tab_options(table.font.size = 16) |>
+  opt_row_striping()
+```
