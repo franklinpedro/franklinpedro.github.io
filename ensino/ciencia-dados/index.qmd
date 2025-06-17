@@ -100,7 +100,7 @@ dados |>
     data_formatada ~ px(300),
     conteudo ~ px(600),
     codigos ~ px(300),
-    referencias ~ px(400)
+    referencias ~ px(600)
   ) |>
   cols_label(
     data_formatada = md("**DATA**"),
@@ -108,6 +108,6 @@ dados |>
     codigos = md("**CÓDIGOS**"),
     referencias = md("**REFERÊNCIAS**")
   ) |>
-  tab_options(table.font.size = 16) |>
+  tab_options(table.font.size = 14) |>
   opt_row_striping()
 ```
