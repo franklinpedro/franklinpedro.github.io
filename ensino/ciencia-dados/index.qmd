@@ -30,7 +30,7 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 -   primeira prova, 15 pontos, 07 de julho.
 -   segunda prova, 15 pontos, 11 de agosto.
 -   terceira prova, 32 pontos, 16 de setembro.
--   6 laboratórios, 3 pontos cada, totalizando 18 pontos, com datas de entrega a serem definidas em sala de aula.
+-   laboratórios e listas, 18 pontos, com datas de entrega a serem definidas em sala de aula.
 -   projeto final, 15 pontos.
 -   curso datacamp, 5 pontos.
 -   prova de recuperação, 100 pontos, 22 de setembro.
@@ -111,3 +111,8 @@ dados |>
   tab_options(table.font.size = 14) |>
   opt_row_striping()
 ```
+
+# laboratórios e listas
+
+1. primeiro laboratório: [lab1.pdf](https://drive.google.com/file/d/1ougliQ7yjh8EsByRYNPsVKSmmiFcJMTu/view?usp=sharing) e [violencia_domestica_2023.csv](https://drive.google.com/file/d/1hQaYJf3OFpX-db4XoDNKb4QFfBoqxZQ-/view?usp=sharing).
+
