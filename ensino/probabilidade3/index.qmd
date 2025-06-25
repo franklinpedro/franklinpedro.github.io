@@ -44,3 +44,7 @@ vetores aleatórios contínuos. função distribuição acumulada conjunta e fun
 -   [**probabilidade e variáveis aleatórias**](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=68025 
 )<br /> marcos nascimento magalhães, 3ed, são paulo, edusp, 2011.
 
+# aulas
+
+-  introdução aos vetores aleatórios: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EcYWSuJxHKxBh0sidYuMnREBrfzbVk4NSvbbMYEIyYpnZg?e=O2Mqpc)
+-  distribuições marginais: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EY6ZK2JdWspJtuEMH3bZiuMB0ZlfNyqTu8kV8RNixQ-ZrQ?e=hCDcCd)
