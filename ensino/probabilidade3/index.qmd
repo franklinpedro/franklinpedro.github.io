@@ -46,9 +46,11 @@ vetores aleatórios contínuos. função distribuição acumulada conjunta e fun
 
 # aulas
 
--  introdução aos vetores aleatórios: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EcYWSuJxHKxBh0sidYuMnREBrfzbVk4NSvbbMYEIyYpnZg?e=O2Mqpc)
--  distribuições marginais: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EY6ZK2JdWspJtuEMH3bZiuMB0ZlfNyqTu8kV8RNixQ-ZrQ?e=hCDcCd)
--  tipos de vetores aleatórios: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EaRboQTH15NPks1mKVT8hK0BsK3fZNZFf0T3iGlo-MOf5g?e=rp46oX)
+-   introdução aos vetores aleatórios: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EcYWSuJxHKxBh0sidYuMnREBrfzbVk4NSvbbMYEIyYpnZg?e=O2Mqpc)
+-   distribuições marginais: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EY6ZK2JdWspJtuEMH3bZiuMB0ZlfNyqTu8kV8RNixQ-ZrQ?e=hCDcCd)
+-   tipos de vetores aleatórios: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EaRboQTH15NPks1mKVT8hK0BsK3fZNZFf0T3iGlo-MOf5g?e=rp46oX)
+-   aula de exercícios: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/Eeho9wsRLLJEpiuxvX4hrPAB0XxDKtHBS7psA8puaWSneQ?e=oM8a2l)
+-   variáveis aleatórias independentes: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EVymisyLvTNDp8wIgYTXC4IBD8crnRUZgpmE-r7Up-dkjQ?e=Tibph7)
 
 # listas
 
