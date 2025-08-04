@@ -50,8 +50,7 @@ introdução à linguagem R; introdução à ciência de dados; visualização, 
 # aulas
 
 a seguir, uma tabela com informações de cada aula do curso, incluindo a data, os tópicos abordados, os códigos produzidos durante a aula e as referências recomendadas para estudo. a tabela será atualizada ao final de cada aula.  
-na coluna de referências, **cdr** refere-se ao livro *ciência de dados em r* e **r4ds**, ao livro *r para ciência de dados*, ambos utilizados como base para o curso.
-
+na coluna de referências, **cdr** refere-se ao livro *ciência de dados em r*; **r4ds** ao livro *r para ciência de dados* e **islr** ao livro *an introduction to statistical learning with applications in r*, todos disponíveis na bibliografia do curso.
 
 ```{r}
 #| echo: false
