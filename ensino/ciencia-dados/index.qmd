@@ -79,7 +79,7 @@ dados |>
   rename(
     data = DATA,
     conteudo = CONTEÚDO,
-    codigos = CÓDIGOS,
+    materiais = MATERIAIS,
     referencias = REFERÊNCIAS
   ) |>
   mutate(
@@ -89,22 +89,22 @@ dados |>
     nome_mes = meses_pt[month(data)],
     data_formatada = glue("{nome_dia}, {day(data)} de {nome_mes}")
   ) |>
-  select(data_formatada, conteudo, codigos, referencias) |>
+  select(data_formatada, conteudo, materiais, referencias) |>
   gt() |>
   sub_missing(columns = everything(), missing_text = "") |>
   cols_align(align = "center", columns = data_formatada) |>
-  cols_align(align = "left", columns = c(conteudo, codigos, referencias)) |>
-  fmt_markdown(columns = c(conteudo, codigos, referencias)) |>
+  cols_align(align = "left", columns = c(conteudo, materiais, referencias)) |>
+  fmt_markdown(columns = c(conteudo, materiais, referencias)) |>
   cols_width(
     data_formatada ~ px(300),
-    conteudo ~ px(600),
-    codigos ~ px(300),
+    conteudo ~ px(500),
+    materiais ~ px(400),
     referencias ~ px(600)
   ) |>
   cols_label(
     data_formatada = md("**DATA**"),
     conteudo = md("**CONTEÚDO**"),
-    codigos = md("**CÓDIGOS**"),
+    materiais = md("**MATERIAIS**"),
     referencias = md("**REFERÊNCIAS**")
   ) |>
   tab_options(table.font.size = 14) |>
