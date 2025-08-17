@@ -34,6 +34,10 @@ bons estudos!
 *"vivendo, se aprende; mas o que se aprende, mais, é só a fazer outras maiores perguntas."*<br> *grande sertão: veredas, por joão guimarães rosa*.
 </div>
 
+<div style="text-align: right; opacity: 0.7;">
+*"ensinar é dar aos alunos a oportunidade de descobrirem as coisas por si mesmos."*<br> *george pólya*.
+</div>
+
 :::
 
 
