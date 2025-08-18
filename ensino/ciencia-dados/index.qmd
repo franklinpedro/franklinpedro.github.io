@@ -117,7 +117,11 @@ dados |>
 2. segundo laboratório: [lab2.pdf](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/ETpX8H2kVHpCjdKjgiNyULgBkZP3fuScs_FJdifiwTcOUQ?e=cqvR9E), [child_mortality.csv](https://github.com/franklinpedro/dados/blob/main/child_mortality_0_5_year_olds_dying_per_1000_born.csv), [fertility.csv](https://github.com/franklinpedro/dados/blob/main/children_per_woman_total_fertility.csv) e [population.csv](https://github.com/franklinpedro/dados/blob/main/pop.csv). 
 3. terceiro laboratório: [lab3.pdf](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EdC9sUNdk7pEpKzGPlbGctcBCyytYgccOjURLU7dzw3u8g?e=z05pPR) e [cogumelos_dataset.csv](https://github.com/franklinpedro/dados/blob/main/cogumelos_dataset.csv).
 
-# arquivo de provas
+# projeto final
+
+a data limite de entrega para o projeto final é 19 de setembro de 2025. O projeto final pode ser acessado aqui: [projeto-final.PDF](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EZ0DdGRW1UxDvotfXz2r7OkBYYCEpjZTA03MfTwsyOPpXw?e=GNu0ab)
+
+# provas
 
 Primeira prova: [P1.pdf](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EVRnsgqvlTJEstwRwWAlC_kBEAuTiLmBVgoLzPj8HYEn-w?e=Uo0LJI), [mulheres_parlamento.txt](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/ESLPfZREq3dFnhfcyGrF9RsB2D8aqKcM8hSn0AlP8_ygWg?e=0tt9em), [dados_titanic](https://ufubr-my.sharepoint.com/:t:/g/personal/pedrofranklin_ufu_br/Ed5A4RwQAtlOla0MMhJyglIBd0rIluXbHdiceyLeqCoDtQ?e=R7Wcy0), [comentarios_P1.pdf](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EYCyuib14xpLhe_OGj7C9KwB6Ww3aFWCvSpju4rYP5qzwg?e=qvjhYd)
 
