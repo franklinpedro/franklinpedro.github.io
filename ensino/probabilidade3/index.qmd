@@ -44,6 +44,8 @@ vetores aleatórios contínuos. função distribuição acumulada conjunta e fun
 -   [**probabilidade e variáveis aleatórias**](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=68025 
 )<br /> marcos nascimento magalhães, 3ed, são paulo, edusp, 2011.
 
+-   [**probabilidade**](https://www.ime.usp.br/~leorolla/papers/probabilidade.pdf)<br /> leonardo t. rolla e bernardo n. b. de lima.
+
 # aulas
 
 -   introdução aos vetores aleatórios: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EcYWSuJxHKxBh0sidYuMnREBrfzbVk4NSvbbMYEIyYpnZg?e=O2Mqpc)
@@ -51,6 +53,13 @@ vetores aleatórios contínuos. função distribuição acumulada conjunta e fun
 -   tipos de vetores aleatórios: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EaRboQTH15NPks1mKVT8hK0BsK3fZNZFf0T3iGlo-MOf5g?e=rp46oX)
 -   aula de exercícios: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/Eeho9wsRLLJEpiuxvX4hrPAB0XxDKtHBS7psA8puaWSneQ?e=oM8a2l)
 -   variáveis aleatórias independentes: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EVymisyLvTNDp8wIgYTXC4IBD8crnRUZgpmE-r7Up-dkjQ?e=Tibph7)
+-   funções de vetores aleatórios: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/Ed8-TxSw985Hu0LJTGkhlNUBy5C3c2q6KKgXGmjdTceo_w?e=hKPpLe)
+-   o método do jacobiano: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EdgBEC3lVaxHtjikIxon46ABQ97md4kmYV4yV7ZoHy6xnA?e=VSICdh)
+-   desigualdades básicas: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/Ed47u9YpR4hAi5apZYUI0SQBCRcLOxjFATwgWOcem1Um6w?e=fc1hFk)
+-   modos de convergências, parte 1: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/ESPchnG77mRFn3L2EZaIdb0BPEUdD9ALcvTK2kYaLX24uw?e=ZIxlR3)
+-   modos de convergências, parte 2: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EfHNKOX0ZThBlVQVKrnSQeIBAMiXdXqCRG7iTKhQTKSw_g?e=2elQuI)
+-   sorteando pontos uniformemente no círculo: [**uniforme_circulo.R**](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EZN94VDEU75PrGP8oqJCA-oB7g8v0IkjqN_n7xgfqLw34w?e=95HcIa)
+-   o lema de borel-cantelli: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/ETw4DirEnN9HuVNjcuwih3gBQjoNf2kLACmTsHSRXS6S5A?e=rtfONV)
 
 # listas
 
