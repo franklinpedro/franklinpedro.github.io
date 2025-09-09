@@ -60,7 +60,9 @@ vetores aleatórios contínuos. função distribuição acumulada conjunta e fun
 -   modos de convergências, parte 2: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EfHNKOX0ZThBlVQVKrnSQeIBAMiXdXqCRG7iTKhQTKSw_g?e=2elQuI)
 -   sorteando pontos uniformemente no círculo: [**uniforme_circulo.R**](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/EZN94VDEU75PrGP8oqJCA-oB7g8v0IkjqN_n7xgfqLw34w?e=95HcIa)
 -   o lema de borel-cantelli: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/ETw4DirEnN9HuVNjcuwih3gBQjoNf2kLACmTsHSRXS6S5A?e=rtfONV)
+-  lei dos grandes números: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EcemYgDfpzxEmAdSh5AqP6oBmKrJceLV31yoNs9DVwVDUA?e=y8TT4F)
 
 # listas
 
 - primeira lista: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EWbgMIm2Y0VPq_LFZGPSYFYBputHZC8WWTo_OjCN8gOIdg?e=i9bWle)
+- segunda lista: [**PDF**](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/EUPiPogs3zZEqZrEnlWINm8Bo78v4LkziVDOrMNxRpaR5w?e=ySjF9a)
