@@ -1,9 +1,9 @@
 ---
-title: "**introdução à ciência de dados**"
-description: "laboratório de estatística | segunda 18h10-19h50 | terça 20h50-22h30"
+title: "**inferência bayesiana**"
+description: "sala 3q305 | segunda 20h50-22h30 | terça 19h00-20h50"
 date: 2025-10-20
 date-format: long
-image: hex-icd.png
+image: hex-bayes.png
 ---
 
 # informações gerais
@@ -15,16 +15,14 @@ o atendimento aos estudantes acontece na sala 1J 107 nos seguintes dias e horár
 
 as comunicações extraclasse devem ser feitas através do email **pedrofranklin@ufu.br**.
 
-**instruções para o envio de e-mails:** por favor, adicione `"[ciência de dados]"` no assunto da mensagem. o e-mail deve ser tratado como uma forma de comunicação profissional.
+**instruções para o envio de e-mails:** por favor, adicione `"[bayesiana]"` no assunto da mensagem. o e-mail deve ser tratado como uma forma de comunicação profissional.
 
 # objetivos do curso
 
--  explorar, visualizar e analisar dados a partir de problemas do mundo real;
--  realizar limpeza, transformação e integração de dados;
--  construir visualizações informativas e corretas para exploração e comunicação de resultados;
--  introduzir conceitos de aprendizado de máquina, com foco em modelos de máquinas de vetor de suporte e métodos baseados em árvores;
--  adotar princípios éticos em ciência de dados, incluindo uso responsável de ferramentas de ia;
--  documentar e compartilhar análises de modo reprodutível;
+-  discutir o conceito probabilidade subjetiva;
+-  apresentar o modelo bayesiano;
+-  deduzir os procedimentos da inferência bayesiana a partir da teoria da decisão;
+-  apresentar os métodos computacionais usados na inferência bayesiana.
 
 # atividades e avaliações do curso
 
@@ -32,18 +30,18 @@ você será avaliado com base em quatro componentes: participação nas aulas, t
 
 ### participação
 
-nesta disciplina, a sua participação é parte fundamental do aprendizado. você será convidado a resolver exercícios em aula, individualmente ou em grupo, com o objetivo de identificar rapidamente dúvidas e testar a compreensão dos conceitos trabalhados no dia. estar presente, contribuir nas discussões e acompanhar as atividades propostas serão os critérios para sua avaliação nesta componente.
+nesta disciplina, a sua participação é parte fundamental do aprendizado. você será convidado a resolver exercícios em aula, individualmente ou em grupo, com o objetivo de identificar rapidamente dúvidas e testar a compreensão dos conceitos trabalhados no dia. estar presente, contribuir nas discussões e acompanhar as atividades propostas serão os critérios para sua avaliação nesta componente. 
 
 ### tarefas de casa
 
-ao longo do semestre, você receberá tarefas de casa com o objetivo de praticar, com calma e autonomia, os conceitos apresentados em aula. essas tarefas devem ser feitas individualmente, mas você é encorajado a discutir ideias e dificuldades comigo e com seus colegas, desde que o raciocínio final seja seu. entregar as tarefas no prazo é parte da avaliação, e a menor nota poderá ser desconsiderada ao final do curso.
+ao longo do semestre, você receberá tarefas de casa com o objetivo de praticar, com calma e autonomia, os conceitos apresentados em aula. essas tarefas devem ser feitas individualmente, mas você é encorajado a discutir ideias e dificuldades comigo e com seus colegas, desde que o raciocínio final seja seu . entregar as tarefas no prazo é parte da avaliação, e a menor nota poderá ser desconsiderada ao final do curso.
 
 ### provas
 
 você realizará duas provas ao longo do semestre, cada uma cobrindo o conteúdo ministrado até aquele momento.
 
 -  prova 1: 09 de dezembro;
--  prova 2: 09 de março.
+-  prova 2: 10 de março.
 
 ### prova de recuperação
 
@@ -51,10 +49,7 @@ caso você seja um estudante frequente e sua nota final seja inferior a 60%, voc
 
 ### projeto
 
-o projeto tem como objetivo aplicar o que você aprendeu ao longo do semestre para analisar uma questão de pesquisa interessante baseada em dados. os resultados do projeto serão apresentados no final do semestre (10 e 16 de março). o relatório escrito deverá ser entregue no mesmo dia.
-
-mais informações sobre o projeto serão fornecidas ao longo do semestre.
-
+aplicar inferência bayesiana a um problema real com dados reais, documentando o processo completo.
 
 # integridade acadêmica
 
@@ -73,9 +68,9 @@ a nota final do curso será calculada da seguinte forma:
 ::: {style="margin-left: auto; margin-right: auto;"}
 | categoria                | porcentagem |
 |--------------------------|-------------|
-| participação.            | 10%         |
+| participação             | 5%          |
 | tarefas de casa          | 10%         |
-| prova 1                  | 30%         |
+| prova 1                  | 35%         |
 | prova 2                  | 35%         |
 | projeto                  | 15%         |
 :::
@@ -85,9 +80,10 @@ a nota final do curso será calculada da seguinte forma:
 # livros do curso
 
 as leituras do curso serão baseadas nos seguintes livros, todos disponíveis gratuitamente online.
--  [Estatística e Ciência de Dados](https://www.ime.usp.br/~pam/cdadosf3.pdf). Pedro A. Morettin e Julio M. Singer. 2nd edition. LTC, 2025.
-- [R for Data Science](https://pt.r4ds.hadley.nz/). Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2nd edition. O’Reilly, 2022.  
+
+-  [Notas de aula de inferência bayesiana](https://github.com/rbstern/bayesian_inference_book/raw/master/book.pdf). Luís Gustavo Esteves, Rafael Izbicki e Rafael Bassi Stern.
+- [A First Course in Bayesian Statistical Methods](https://sites.math.rutgers.edu/~zeilberg/EM20/Hoff.pdf). Peter D. Hoff. Springer, 2009.
 
 ### leitura complementar
 
--  [Introduction to Statistical Learning](https://www.statlearning.com/). Gareth James, Daniela Witten, Trevor Hastie e Robert Tibshirani. 2nd edition. Springer, 2021.
+- [Probability and Statistics](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=123315). Morris H. DeGroot e Mark J. Schervish. 4th edition. Addison-Wesley, 2012.

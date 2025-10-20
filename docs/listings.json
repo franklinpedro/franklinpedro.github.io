@@ -2,8 +2,9 @@
   {
     "listing": "/ensino/index.html",
     "items": [
+      "/ensino/inferencia-bayesiana/index.html",
       "/ensino/ciencia-dados/index.html",
-      "/ensino/probabilidade3/index.html"
+      "/ensino/visualizacao/index.html"
     ]
   },
   {

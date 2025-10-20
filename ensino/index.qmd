@@ -7,10 +7,10 @@ listing:
     sort: "date"
     date-format: DD/MM/YYYY
     categories: false
-    fields: [image, description, title]
+    fields: [image, title]
     image-height: 270px
     max-description-length: 245
-    grid-columns: 2
+    grid-columns: 3
 title-block-banner: true
 toc-title: "nesta página"
 page-layout: full
@@ -22,13 +22,14 @@ description: |
 
 ## cursos em andamento
 
-neste primeiro semestre de 2025 estou lecionando duas disciplinas: **introdução à ciência de dados** e **probabilidade 3**. as informações de cada uma dessas disciplinas (como bibliografia, ementa, horário de atendimento e datas das provas), estão nas fichas abaixo.
+neste segundo semestre de 2025 estou lecionando três disciplinas: **introdução à ciência de dados**, **inferência bayesiana** e **visualização avançada de dados**. para acessar as informações de cada uma delas, clique no cartão do curso para abrir a página.
 
 :::{#em-andamento}
 :::
 
 ## cursos encerrados
 
+- famat31404: probabilidade 3
 - famat31203: probabilidade 1
 - ges045: introdução à história da estatística e da probabilidade
 - famat31308: introdução à ciência de dados

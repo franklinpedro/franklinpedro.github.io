@@ -35,7 +35,7 @@ format:
     theme:
      - simplex
      - custom.scss
-    linkcolor: rgb(68, 110, 155)
+    linkcolor: rgb(135, 43, 191)
     code-overflow: wrap
     toc: true
     link-external-icon: false
