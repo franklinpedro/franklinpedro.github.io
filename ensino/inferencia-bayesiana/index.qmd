@@ -51,16 +51,6 @@ caso você seja um estudante frequente e sua nota final seja inferior a 60%, voc
 
 aplicar inferência bayesiana a um problema real com dados reais, documentando o processo completo.
 
-# integridade acadêmica
-
-nesta disciplina, espero que você participe das aulas com atenção e respeito ao ambiente coletivo de aprendizagem. fazer perguntas, compartilhar dúvidas e contribuir nas discussões faz parte do processo e será sempre bem-vindo. da mesma forma, ouvir os colegas com interesse é parte essencial da convivência acadêmica.
-
-o uso de computadores, tablets ou outras ferramentas digitais é permitido quando estiver diretamente ligado às atividades da aula. fora desse contexto, distrações com mensagens, redes sociais ou qualquer outro conteúdo prejudicam não apenas o seu aprendizado, mas o dos demais. mantenha os dispositivos em silêncio e evite qualquer uso que interrompa o andamento da aula.
-
-quanto ao trabalho acadêmico, você é encorajado a discutir ideias e estratégias com colegas, mas todo trabalho entregue deve refletir o seu próprio entendimento. copiar respostas ou reproduzir código sem compreensão ou sem citação é uma violação da integridade acadêmica e poderá resultar em penalidades. é permitido consultar materiais e recursos online, inclusive ferramentas de inteligência artificial, desde que você reconheça sua origem e não substitua o esforço de pensamento próprio. utilizar esses recursos para aprender é diferente de usá-los para responder no seu lugar.
-
-acima de tudo, lembre-se de que este curso valoriza o raciocínio e a honestidade intelectual.
-
 # composição da nota final
 
 a nota final do curso será calculada da seguinte forma:
@@ -75,6 +65,15 @@ a nota final do curso será calculada da seguinte forma:
 | projeto                  | 15%         |
 :::
 
+# integridade acadêmica
+
+nesta disciplina, espero que você participe das aulas com atenção e respeito ao ambiente coletivo de aprendizagem. fazer perguntas, compartilhar dúvidas e contribuir nas discussões faz parte do processo e será sempre bem-vindo. da mesma forma, ouvir os colegas com interesse é parte essencial da convivência acadêmica.
+
+o uso de computadores, tablets ou outras ferramentas digitais é permitido quando estiver diretamente ligado às atividades da aula. fora desse contexto, distrações com mensagens, redes sociais ou qualquer outro conteúdo prejudicam não apenas o seu aprendizado, mas o dos demais. mantenha os dispositivos em silêncio e evite qualquer uso que interrompa o andamento da aula.
+
+quanto ao trabalho acadêmico, você é encorajado a discutir ideias e estratégias com colegas, mas todo trabalho entregue deve refletir o seu próprio entendimento. copiar respostas ou reproduzir código sem compreensão ou sem citação é uma violação da integridade acadêmica e poderá resultar em penalidades. é permitido consultar materiais e recursos online, inclusive ferramentas de inteligência artificial, desde que você reconheça sua origem e não substitua o esforço de pensamento próprio. utilizar esses recursos para aprender é diferente de usá-los para responder no seu lugar.
+
+acima de tudo, lembre-se de que este curso valoriza o raciocínio e a honestidade intelectual.
 
 
 # livros do curso
