@@ -78,11 +78,23 @@ acima de tudo, lembre-se de que este curso valoriza o raciocínio e a honestidad
 
 # livros do curso
 
-as leituras do curso serão baseadas nos seguintes livros, todos disponíveis gratuitamente online.
+As leituras do curso serão baseadas nos seguintes livros:
 
--  [Notas de aula de inferência bayesiana](https://github.com/rbstern/bayesian_inference_book/raw/master/book.pdf). Luís Gustavo Esteves, Rafael Izbicki e Rafael Bassi Stern.
-- [A First Course in Bayesian Statistical Methods](https://sites.math.rutgers.edu/~zeilberg/EM20/Hoff.pdf). Peter D. Hoff. Springer, 2009.
+1. `[notasib]` Luís Gustavo Esteves, Rafael Izbicki, e Rafael Bassi Stern. __Notas de aula de inferência bayesiana__. 2023. [PDF](https://github.com/rbstern/bayesian_inference_book/raw/master/book.pdf)
+
+2. `[hoff]` Peter D. Hoff. __A First Course in Bayesian Statistical Methods__. Springer, 2009. [PDF](https://sites.math.rutgers.edu/~zeilberg/EM20/Hoff.pdf)
 
 ### leitura complementar
 
-- [Probability and Statistics](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=123315). Morris H. DeGroot e Mark J. Schervish. 4th edition. Addison-Wesley, 2012.
+3. `[degroot-schervish]` Morris H. DeGroot and Mark J. Schervish. __Probability and Statistics__. 4th edition. Addison-Wesley, 2012. [Acervo UFU](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=123315)
+
+# listas e trabalhos
+
+**Entrega: 17 de novembro**
+
+1. Resolva os exercícios 2.3, 2.4, 2.5 e 2.6 de `[notasib]`.
+
+2. Estudo de caso - Prevalência de doença infecciosa: Leia a seção 1.2.1 de `[hoff]` (até antes de *Sensitivity analysis*) e elabore uma discussão sobre o problema apresentado. Sua resposta deve incluir:
+   - Descrição do problema e dos dados observados
+   - Formulação da distribuição a priori e justificativa
+   - Cálculo da distribuição a posteriori (mostre os passos)
