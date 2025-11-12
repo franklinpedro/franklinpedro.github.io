@@ -82,6 +82,7 @@ acima de tudo, lembre-se de que este curso valoriza o raciocínio e a honestidad
 # livros do curso
 
 as leituras do curso serão baseadas nos seguintes livros, todos disponíveis gratuitamente online.
+
 -  [Estatística e Ciência de Dados](https://www.ime.usp.br/~pam/cdadosf3.pdf). Pedro A. Morettin e Julio M. Singer. 2nd edition. LTC, 2025.
 - [R for Data Science](https://pt.r4ds.hadley.nz/). Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2nd edition. O’Reilly, 2022.  
 
