@@ -90,11 +90,28 @@ As leituras do curso serão baseadas nos seguintes livros:
 
 # listas e trabalhos
 
-**Entrega: 17 de novembro**
 
-1. Resolva os exercícios 2.3, 2.4, 2.5 e 2.6 de `[notasib]`.
+### Primeira lista de exercícios
 
-2. Estudo de caso - Prevalência de doença infecciosa: Leia a seção 1.2.1 de `[hoff]` (até antes de *Sensitivity analysis*) e elabore uma discussão sobre o problema apresentado. Sua resposta deve incluir:
+Entrega: 17 de novembro
+
+1. Resolva os exercícios 2.3, 2.4, 2.5 e 2.6 de`[notasib]`.
+
+2. Estudo de caso - Prevalência de doença infecciosa: Leia a seção 1.2.1 de`[hoff]` (até antes de *Sensitivity analysis*) e elabore uma discussão sobre o problema apresentado. Sua resposta deve incluir:
    - Descrição do problema e dos dados observados
    - Formulação da distribuição a priori e justificativa
    - Cálculo da distribuição a posteriori (mostre os passos)
+   
+### Segunda lista de exercícios
+
+Entrega: 25 de novembro
+
+1. Resolva os exercícios 3.7, 4.4, 4.5, 4.6 e 4.8 de`[notasib]`.
+2. Resolva o exercício 3.1 de`[hoff]`.
+
+### Terceira lista de exercícios
+
+Entrega: 02 de dezembro
+
+1. Resolva os exercícios 4.9, 4.10 e 4.37 de`[notasib]`.
+2. Resolva os exercícios 3.2, 3.3 e 3.9 de`[hoff]`.
