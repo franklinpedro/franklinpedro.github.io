@@ -89,3 +89,7 @@ as leituras do curso serão baseadas nos seguintes livros, todos disponíveis gr
 ### leitura complementar
 
 -  [Introduction to Statistical Learning](https://www.statlearning.com/). Gareth James, Daniela Witten, Trevor Hastie e Robert Tibshirani. 2nd edition. Springer, 2021.
+
+# laboratórios e listas
+
+1. primeiro laboratório: [lab1.pdf](https://github.com/franklinpedro/dados/blob/main/lab1/lab1.pdf) e [violencia_domestica_2023.csv](https://github.com/franklinpedro/dados/blob/main/lab1/violencia_domestica_2023.csv).
