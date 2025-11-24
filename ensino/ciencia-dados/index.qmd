@@ -93,3 +93,68 @@ as leituras do curso serão baseadas nos seguintes livros, todos disponíveis gr
 # laboratórios e listas
 
 1. primeiro laboratório: [lab1.pdf](https://github.com/franklinpedro/dados/blob/main/lab1/lab1.pdf) e [violencia_domestica_2023.csv](https://github.com/franklinpedro/dados/blob/main/lab1/violencia_domestica_2023.csv).
+
+# aulas
+
+a seguir, uma tabela com informações de cada aula do curso, incluindo a data, os tópicos abordados, os códigos produzidos durante a aula e as referências recomendadas para estudo. a tabela será atualizada ao final de cada aula. 
+
+na coluna de referências, **r4ds** refere-se ao livro *r para ciência de dados* e **islr** ao livro *an introduction to statistical learning with applications in r*, todos disponíveis na bibliografia do curso.
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(googlesheets4)
+library(gt)
+library(tidyverse)
+library(lubridate)
+library(glue)
+
+gs4_deauth()
+
+dados <- read_sheet("https://docs.google.com/spreadsheets/d/1JyNIvLwUXczt1ub69jXYCjOb0Sm6LrEfxPCzn-evMBo/edit?usp=sharing")
+```
+
+```{r}
+#| echo: false
+
+dias_pt <- c("domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado")
+meses_pt <- c("janeiro", "fevereiro", "março", "abril", "maio", "junho",
+              "julho", "agosto", "setembro", "outubro", "novembro", "dezembro")
+
+dados |>
+  rename(
+    data = DATA,
+    conteudo = CONTEÚDO,
+    materiais = MATERIAIS,
+    referencias = REFERÊNCIAS
+  ) |>
+  mutate(
+    data = as.Date(data),
+    dia_semana = wday(data, label = FALSE),
+    nome_dia = dias_pt[dia_semana],
+    nome_mes = meses_pt[month(data)],
+    data_formatada = glue("{nome_dia}, {day(data)} de {nome_mes}")
+  ) |>
+  select(data_formatada, conteudo, materiais, referencias) |>
+  gt() |>
+  sub_missing(columns = everything(), missing_text = "") |>
+  cols_align(align = "center", columns = data_formatada) |>
+  cols_align(align = "left", columns = c(conteudo, materiais, referencias)) |>
+  fmt_markdown(columns = c(conteudo, materiais, referencias)) |>
+  cols_width(
+    data_formatada ~ px(200),
+    conteudo ~ px(400),
+    materiais ~ px(500),
+    referencias ~ px(500)
+  ) |>
+  cols_label(
+    data_formatada = md("**DATA**"),
+    conteudo = md("**CONTEÚDO**"),
+    materiais = md("**MATERIAIS**"),
+    referencias = md("**REFERÊNCIAS**")
+  ) |>
+  tab_options(table.font.size = 13) |>
+  opt_row_striping()
+```

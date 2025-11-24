@@ -176,6 +176,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#leitura-complementar" id="toc-leitura-complementar" class="nav-link" data-scroll-target="#leitura-complementar">leitura complementar</a></li>
   </ul></li>
   <li><a href="#laboratórios-e-listas" id="toc-laboratórios-e-listas" class="nav-link" data-scroll-target="#laboratórios-e-listas">laboratórios e listas</a></li>
+  <li><a href="#aulas" id="toc-aulas" class="nav-link" data-scroll-target="#aulas">aulas</a></li>
   </ul>
 </nav>
     </div>
@@ -298,6 +299,515 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li>primeiro laboratório: <a href="https://github.com/franklinpedro/dados/blob/main/lab1/lab1.pdf">lab1.pdf</a> e <a href="https://github.com/franklinpedro/dados/blob/main/lab1/violencia_domestica_2023.csv">violencia_domestica_2023.csv</a>.</li>
 </ol>
+</section>
+<section id="aulas" class="level1">
+<h1>aulas</h1>
+<p>a seguir, uma tabela com informações de cada aula do curso, incluindo a data, os tópicos abordados, os códigos produzidos durante a aula e as referências recomendadas para estudo. a tabela será atualizada ao final de cada aula.</p>
+<p>na coluna de referências, <strong>r4ds</strong> refere-se ao livro <em>r para ciência de dados</em> e <strong>islr</strong> ao livro <em>an introduction to statistical learning with applications in r</em>, todos disponíveis na bibliografia do curso.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="ujbqsmhhue" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ujbqsmhhue table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#ujbqsmhhue thead, #ujbqsmhhue tbody, #ujbqsmhhue tfoot, #ujbqsmhhue tr, #ujbqsmhhue td, #ujbqsmhhue th {
+  border-style: none;
+}
+
+#ujbqsmhhue p {
+  margin: 0;
+  padding: 0;
+}
+
+#ujbqsmhhue .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#ujbqsmhhue .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#ujbqsmhhue .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#ujbqsmhhue .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#ujbqsmhhue .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ujbqsmhhue .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ujbqsmhhue .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ujbqsmhhue .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#ujbqsmhhue .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#ujbqsmhhue .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#ujbqsmhhue .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#ujbqsmhhue .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#ujbqsmhhue .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#ujbqsmhhue .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#ujbqsmhhue .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#ujbqsmhhue .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#ujbqsmhhue .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#ujbqsmhhue .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#ujbqsmhhue .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ujbqsmhhue .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#ujbqsmhhue .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#ujbqsmhhue .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#ujbqsmhhue .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ujbqsmhhue .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#ujbqsmhhue .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#ujbqsmhhue .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ujbqsmhhue .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ujbqsmhhue .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#ujbqsmhhue .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ujbqsmhhue .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#ujbqsmhhue .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ujbqsmhhue .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ujbqsmhhue .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ujbqsmhhue .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ujbqsmhhue .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ujbqsmhhue .gt_left {
+  text-align: left;
+}
+
+#ujbqsmhhue .gt_center {
+  text-align: center;
+}
+
+#ujbqsmhhue .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#ujbqsmhhue .gt_font_normal {
+  font-weight: normal;
+}
+
+#ujbqsmhhue .gt_font_bold {
+  font-weight: bold;
+}
+
+#ujbqsmhhue .gt_font_italic {
+  font-style: italic;
+}
+
+#ujbqsmhhue .gt_super {
+  font-size: 65%;
+}
+
+#ujbqsmhhue .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#ujbqsmhhue .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#ujbqsmhhue .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#ujbqsmhhue .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#ujbqsmhhue .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#ujbqsmhhue .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#ujbqsmhhue .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#ujbqsmhhue .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#ujbqsmhhue div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="header gt_col_headings">
+<th id="data_formatada" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>DATA</strong></th>
+<th id="conteudo" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"><strong>CONTEÚDO</strong></th>
+<th id="materiais" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"><strong>MATERIAIS</strong></th>
+<th id="referencias" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"><strong>REFERÊNCIAS</strong></th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_center" headers="data_formatada">segunda-feira, 20 de outubro</td>
+<td class="gt_row gt_left" headers="conteudo">conhecendo r e rstudio; <br> operações básicas; <br> criando variáveis; <br> criando vetores.</td>
+<td class="gt_row gt_left" headers="materiais"><a href="https://drive.google.com/file/d/1KgQV96X8pzB7xZOdOhuMHDAzmf-iQWD4/view?usp=sharing">2025_10_20.R</a></td>
+<td class="gt_row gt_left" headers="referencias">📗<a href="https://pt.r4ds.hadley.nz/workflow-basics.html">r4ds - fluxo básico</a></td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="data_formatada">terça-feira, 21 de outubro</td>
+<td class="gt_row gt_left gt_striped" headers="conteudo">vetores; <br> operações com vetores e indexação; <br> sequências; <br> amostragem e simulação.</td>
+<td class="gt_row gt_left gt_striped" headers="materiais"><a href="https://drive.google.com/file/d/14iR9hwX2G5YgXwevJn69KKZlUj7Jw2gj/view?usp=sharing">2025_10_21.R</a></td>
+<td class="gt_row gt_left gt_striped" headers="referencias">📗<a href="https://pt.r4ds.hadley.nz/workflow-basics.html">r4ds - fluxo básico</a></td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="data_formatada">segunda-feira, 3 de novembro</td>
+<td class="gt_row gt_left" headers="conteudo">data frames; <br> importando data frames; <br> manipulando data frames.</td>
+<td class="gt_row gt_left" headers="materiais"><a href="https://drive.google.com/file/d/1pD2z5mvket4fy0LU5eJ13pGhQnaM6iCi/view?usp=sharing">2025_11_03.R</a></td>
+<td class="gt_row gt_left" headers="referencias">📗<a href="https://pt.r4ds.hadley.nz/data-transform.html">r4ds - transformando dados</a> <br></td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="data_formatada">terça-feira, 4 de novembro</td>
+<td class="gt_row gt_left gt_striped" headers="conteudo">visualizações com ggplot2; <br> estruturas condicionais; <br> estruturas de repetição; <br> aulas do dia 04, 10, 11 e 14 de novembro.</td>
+<td class="gt_row gt_left gt_striped" headers="materiais"><a href="https://drive.google.com/file/d/1OtH1KzsCAeEisD0LDjNzVi6BLMiLnG_J/view?usp=sharing">2025_11_04.R</a></td>
+<td class="gt_row gt_left gt_striped" headers="referencias">📗<a href="https://pt.r4ds.hadley.nz/data-visualize.html">r4ds - visualização de dados</a> <br> 🧭<a href="https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/">tutorial de ggplot2</a></td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="data_formatada">segunda-feira, 17 de novembro</td>
+<td class="gt_row gt_left" headers="conteudo">introdução aos modelos de aprendizado de máquina; <br> o modelo de árvore de decisão</td>
+<td class="gt_row gt_left" headers="materiais"><a href="https://drive.google.com/file/d/1JnP7CYCZn8zNKmyWLtWu5CjLddj3sEUL/view?usp=sharing">2025_11_17.R</a></td>
+<td class="gt_row gt_left" headers="referencias">📙<a href="https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf.download.html">islr - capítulo 8: tree-based models</a></td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="data_formatada">terça-feira, 18 de novembro</td>
+<td class="gt_row gt_left gt_striped" headers="conteudo">introdução aos modelos de aprendizado de máquina; <br> o modelo KNN</td>
+<td class="gt_row gt_left gt_striped" headers="materiais"><a href="https://drive.google.com/file/d/1ISUo0ykwhorzj8Kh8bltWpdFWS4tEZWP/view?usp=sharing">2025_11_18.R</a></td>
+<td class="gt_row gt_left gt_striped" headers="referencias">🧭<a href="https://www.datacamp.com/pt/tutorial/k-nearest-neighbors-knn-classification-with-r-tutorial">tutorial datacamp</a></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
 
 
 </section>
