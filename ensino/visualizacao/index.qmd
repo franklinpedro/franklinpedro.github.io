@@ -81,3 +81,12 @@ as leituras do curso serão baseadas nos seguintes livros, todos disponíveis gr
 -  [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/). Claus O. Wilke. O’Reilly Media, 2019.  
 - [R for Data Science](https://pt.r4ds.hadley.nz/). Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2nd edition. O’Reilly, 2022.  
 
+# trabalhos e projetos
+
+## primeiro projeto
+
+o objetivo deste projeto é selecionar um dos sistemas do DATASUS e um conjunto específico de dados para construir uma narrativa visual. a partir da extração e do tratamento desses dados, o trabalho busca contar uma história através de visualizações.
+
+as informações sobre os trabalhos estão disponíveis no seguinte arquivo: [primeiro_projeto.pdf](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/IQAZlGzI87ftRKKk30AgT_NrAWyoXD8bUcHKkU452_EcFY0?e=11Mw7W).
+
+O código em R que construímos em sala de aula para acessar dados do SINASC pode ser acessado aqui: [sinasc.R](https://ufubr-my.sharepoint.com/:u:/g/personal/pedrofranklin_ufu_br/IQAVLieJ8mdQTJ1bwyErMaI2ASHfkmJF7E4xK89wSSU11IM?e=UvwUKx).

@@ -404,5 +404,12 @@
     "title": "inferência bayesiana",
     "section": "Primeira lista de exercícios",
     "text": "Primeira lista de exercícios\nEntrega: 17 de novembro\n\nResolva os exercícios 2.3, 2.4, 2.5 e 2.6 de [notasib].\nEstudo de caso - Prevalência de doença infecciosa: Leia a seção 1.2.1 de [hoff] (até antes de Sensitivity analysis) e elabore uma discussão sobre o problema apresentado. Sua resposta deve incluir:\n\nDescrição do problema e dos dados observados\nFormulação da distribuição a priori e justificativa\nCálculo da distribuição a posteriori (mostre os passos)"
+  },
+  {
+    "objectID": "ensino/visualizacao/index.html#primeiro-projeto",
+    "href": "ensino/visualizacao/index.html#primeiro-projeto",
+    "title": "visualização avançada de dados",
+    "section": "primeiro projeto",
+    "text": "primeiro projeto\no objetivo deste projeto é selecionar um dos sistemas do DATASUS e um conjunto específico de dados para construir uma narrativa visual. a partir da extração e do tratamento desses dados, o trabalho busca contar uma história através de visualizações.\nas informações sobre os trabalhos estão disponíveis no seguinte arquivo: primeiro_projeto.pdf.\nO código em R que construímos em sala de aula para acessar dados do SINASC pode ser acessado aqui: sinasc.R."
   }
 ]
