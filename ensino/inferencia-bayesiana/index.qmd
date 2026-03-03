@@ -84,6 +84,8 @@ As leituras do curso serão baseadas nos seguintes livros:
 
 2. `[hoff]` Peter D. Hoff. __A First Course in Bayesian Statistical Methods__. Springer, 2009. [PDF](https://sites.math.rutgers.edu/~zeilberg/EM20/Hoff.pdf)
 
+3. `[fossaluza]` Victor Fossaluza e Luís Gustavo Esteves. __Fundamentos de Inferência Bayesiana__. 2021. [Página do livro](https://vfossaluza.github.io/InfBayes/)
+
 ### leitura complementar
 
 3. `[degroot-schervish]` Morris H. DeGroot and Mark J. Schervish. __Probability and Statistics__. 4th edition. Addison-Wesley, 2012. [Acervo UFU](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=123315)
@@ -115,3 +117,9 @@ Entrega: 02 de dezembro
 
 1. Resolva os exercícios 4.9, 4.10 e 4.37 de`[notasib]`.
 2. Resolva os exercícios 3.2, 3.3 e 3.9 de`[hoff]`.
+
+### Quarta lista de exercícios
+
+Entrega: 16 de março
+
+Lista em [PDF](https://ufubr-my.sharepoint.com/:b:/g/personal/pedrofranklin_ufu_br/IQDYfPJJSePjTKvikTv-andRAcSOx_U6bhoIRYW3Mx4yX5E?e=uJ0LOG).
