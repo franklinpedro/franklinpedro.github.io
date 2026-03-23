@@ -1,15 +1,15 @@
 [
   {
-    "listing": "/ensino/index.html",
-    "items": [
-      "/ensino/inferencia-bayesiana/index.html",
-      "/ensino/ciencia-dados/index.html",
-      "/ensino/visualizacao/index.html"
-    ]
-  },
-  {
     "listing": "/galeria/index.html",
     "items": []
+  },
+  {
+    "listing": "/coisas-legais/index.html",
+    "items": [
+      "/coisas-legais/2024-09-16/index.html",
+      "/coisas-legais/2024-02-08/index.html",
+      "/coisas-legais/2024-01-26/index.html"
+    ]
   },
   {
     "listing": "/tutoriais/index.html",
@@ -18,11 +18,11 @@
     ]
   },
   {
-    "listing": "/coisas-legais/index.html",
+    "listing": "/ensino/index.html",
     "items": [
-      "/coisas-legais/2024-09-16/index.html",
-      "/coisas-legais/2024-02-08/index.html",
-      "/coisas-legais/2024-01-26/index.html"
+      "/ensino/inferencia-bayesiana/index.html",
+      "/ensino/ciencia-dados/index.html",
+      "/ensino/visualizacao/index.html"
     ]
   }
 ]

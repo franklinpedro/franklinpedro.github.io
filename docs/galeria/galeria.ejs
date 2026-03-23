@@ -1,29 +1,32 @@
-<style type="text/css">
+<style>
 .grid-gallery {
-  columns: 5 280px;
+  columns: 5 260px;
   column-gap: 0.5rem;
   width: 96%;
   margin: 0 auto;
 }
-.grid-item {
-  margin: 0 0.5rem 0.5rem 0;
-  display: inline-block;
-  width: 100%;
+.grid-item-wrap {
+  break-inside: avoid;
+  margin-bottom: 0.5rem;
   border-radius: 5px;
+  overflow: hidden;
+  display: block;
 }
 img.grid-item {
   width: 100%;
-  transition: all .25s ease-in-out;
+  display: block;
+  border-radius: 5px;
+  transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
 }
 img.grid-item:hover {
   transform: scale(1.025);
+  opacity: 0.92;
 }
-/* Lightbox caption styling */
 .lb-caption {
-  font-size: 16px !important;
+  font-size: 15px !important;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-  padding: 12px !important;
-  line-height: 1.5 !important;
+  padding: 10px 16px !important;
+  line-height: 1.6 !important;
 }
 .lb-data .lb-details {
   width: 90% !important;
@@ -32,190 +35,62 @@ img.grid-item:hover {
 }
 </style>
 
-<div class="grid-gallery">
-<div class="grid-gallery">
-  <a href="amendoim.jpg" data-lightbox="galeria" data-title="Amendoim | Olympus Stylus (Mju I) | Fujifilm 400">
-    <img src="amendoim.jpg" class="grid-item" />
-  </a>
-</div>
+<link rel="stylesheet" href="lightbox.min.css" />
 
-<div class="grid-gallery">
-  <a href="5886 - 3791 - 400TX Pedro ALTA - Juliane Baldow -27.jpg" data-lightbox="galeria" data-title="Olympus Stylus (Mju I) | Fujifilm 400">
-    <img src="5886 - 3791 - 400TX Pedro ALTA - Juliane Baldow -27.jpg" class="grid-item" />
-  </a>
-</div>
+<div id="galeria-raw" style="display:none">amendoim.jpg||Amendoim | Olympus Stylus (Mju I) | Fujifilm 400;;;5886 - 3791 - 400TX Pedro ALTA - Juliane Baldow -27.jpg||Olympus Stylus (Mju I) | Fujifilm 400;;;0423-KODAKGOLD200-31.jpg||São Francisco | Olympus Stylus (Mju I) | Kodak Gold 200;;;0424-KODAKGOLD200-2.jpg||Olympus Stylus (Mju I) | Kodak Gold 200;;;0424-KODAKGOLD200-17.jpg||Parque Nacional da Sequoia | Olympus Stylus (Mju I) | Kodak Gold 200;;;canyon.jpg||Grand Canyon | Olympus Stylus (Mju I) | Fujifilm 400;;;gaivota.jpg||Santa Monica Pier | Olympus Stylus (Mju I) | Fujifilm 400;;;0424-KODAKGOLD200-12.jpg||Parque Nacional da Sequoia | Olympus Stylus (Mju I) | Kodak Gold 200;;;0422-FUJI400-15.jpg||Grand Canyon | Olympus Stylus (Mju I) | Fujifilm 400;;;0422-FUJI400-1.jpg||Primeira foto da minha câmera | Olympus Stylus (Mju I) | Fujifilm 400;;;0422-FUJI400-2.jpg||Ju Baldow | Olympus Stylus (Mju I) | Fujifilm 400;;;0423-KODAKGOLD200-4.jpg||São Francisco | Olympus Stylus (Mju I) | Kodak Gold 200;;;0423-KODAKGOLD200-12.jpg||Olympus Stylus (Mju I) | Kodak Gold 200;;;0422-FUJI400-21.jpg||Olympus Stylus (Mju I) | Fujifilm 400;;;0423-KODAKGOLD200-13.jpg||Olympus Stylus (Mju I) | Kodak Gold 200;;;0422-FUJI400-31.jpg||Amoeba Music, Hollywood Blvd | Olympus Stylus (Mju I) | Fujifilm 400;;;5886 - 3792 - Aerocolor Pedro ALTA - Juliane Baldow -08.jpg||Olympus Stylus (Mju I) | Kodak Aerocolor;;;0423-KODAKGOLD200-6.jpg||São Francisco | Olympus Stylus (Mju I) | Kodak Gold 200;;;400TX-7.jpg||Olympus Stylus (Mju I) | Kodak TRI-X 400;;;0423-KODAKGOLD200-15.jpg||São Francisco | Olympus Stylus (Mju I) | Kodak Gold 200;;;frida2.jpg||Frida | Olympus Stylus (Mju I) | Fujifilm 400;;;pescador.jpg||Santa Monica Pier | Olympus Stylus (Mju I) | Fujifilm 400;;;0423-KODAKGOLD200-18.jpg||Olympus Stylus (Mju I) | Kodak Gold 200;;;0423-KODAKGOLD200-16.jpg||São Francisco | Olympus Stylus (Mju I) | Kodak Gold 200;;;0423-KODAKGOLD200-35.jpg||Olympus Stylus (Mju I) | Kodak Gold 200;;;frida.jpg||Frida | Olympus Stylus (Mju I) | Fujifilm 400</div>
 
-
-
-<div class="grid-gallery">
-  <a href="0423-KODAKGOLD200-31.jpg" data-lightbox="galeria" data-title="São Francisco | Olympus Stylus (Mju I) | Kodak Gold 200">
-    <img src="0423-KODAKGOLD200-31.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="0424-KODAKGOLD200-2.jpg" data-lightbox="galeria" data-title="Olympus Stylus (Mju I) | Kodak Gold 200">
-    <img src="0424-KODAKGOLD200-2.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="0424-KODAKGOLD200-17.jpg" data-lightbox="galeria" data-title="Parque Nacional da Sequoia | Olympus Stylus (Mju I) | Kodak Gold 200">
-    <img src="0424-KODAKGOLD200-17.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="canyon.jpg" data-lightbox="galeria" data-title="Grand Canyon | Olympus Stylus (Mju I) | Fujifilm 400">
-    <img src="canyon.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="gaivota.jpg" data-lightbox="galeria" data-title="Santa Monica Pier | Olympus Stylus (Mju I) | Fujifilm 400">
-    <img src="gaivota.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="0424-KODAKGOLD200-12.jpg" data-lightbox="galeria" data-title="Parque Nacional da Sequoia | Olympus Stylus (Mju I) | Kodak Gold 200">
-    <img src="0424-KODAKGOLD200-12.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="0422-FUJI400-15.jpg" data-lightbox="galeria" data-title="Grand Canyon | Olympus Stylus (Mju I) | Fujifilm 400">
-    <img src="0422-FUJI400-15.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="0422-FUJI400-1.jpg" data-lightbox="galeria" data-title="Primeira foto da minha câmera | Olympus Stylus (Mju I) | Fujifilm 400">
-    <img src="0422-FUJI400-1.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="0422-FUJI400-2.jpg" data-lightbox="galeria" data-title="Ju Baldow | Olympus Stylus (Mju I) | Fujifilm 400">
-    <img src="0422-FUJI400-2.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="0423-KODAKGOLD200-4.jpg" data-lightbox="galeria" data-title="São Francisco | Olympus Stylus (Mju I) | Kodak Gold 200">
-    <img src="0423-KODAKGOLD200-4.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="0423-KODAKGOLD200-12.jpg" data-lightbox="galeria" data-title="Olympus Stylus (Mju I) | Kodak Gold 200">
-    <img src="0423-KODAKGOLD200-12.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="0422-FUJI400-21.jpg" data-lightbox="galeria" data-title="Olympus Stylus (Mju I) | Fujifilm 400">
-    <img src="0422-FUJI400-21.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="0423-KODAKGOLD200-13.jpg" data-lightbox="galeria" data-title="Olympus Stylus (Mju I) | Kodak Gold 200">
-    <img src="0423-KODAKGOLD200-13.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="0422-FUJI400-31.jpg" data-lightbox="galeria" data-title="Amoeba Music, Hollywood Blvd | Olympus Stylus (Mju I) | Fujifilm 400">
-    <img src="0422-FUJI400-31.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="5886 - 3792 - Aerocolor Pedro ALTA - Juliane Baldow -08.jpg" data-lightbox="galeria" data-title="Olympus Stylus (Mju I) | Kodak Gold 200">
-    <img src="5886 - 3792 - Aerocolor Pedro ALTA - Juliane Baldow -08.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="0423-KODAKGOLD200-6.jpg" data-lightbox="galeria" data-title="São Francisco | Olympus Stylus (Mju I) | Kodak Gold 200">
-    <img src="0423-KODAKGOLD200-6.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="400TX-7.jpg" data-lightbox="galeria" data-title="Olympus Stylus (Mju I) | Kodak TRI-X 400">
-    <img src="400TX-7.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="0423-KODAKGOLD200-15.jpg" data-lightbox="galeria" data-title="São Francisco | Olympus Stylus (Mju I) | Kodak Gold 200">
-    <img src="0423-KODAKGOLD200-15.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="frida2.jpg" data-lightbox="galeria" data-title="Frida | Olympus Stylus (Mju I) | Fujifilm 400">
-    <img src="frida2.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="pescador.jpg" data-lightbox="galeria" data-title="Santa Monica Pier | Olympus Stylus (Mju I) | Fujifilm 400">
-    <img src="pescador.jpg" class="grid-item" />
-  </a>
-</div>
-
-
-<div class="grid-gallery">
-  <a href="0423-KODAKGOLD200-18.jpg" data-lightbox="galeria" data-title="Olympus Stylus (Mju I) | Kodak Gold 200">
-    <img src="0423-KODAKGOLD200-18.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="0423-KODAKGOLD200-16.jpg" data-lightbox="galeria" data-title="São Francisco | Olympus Stylus (Mju I) | Kodak Gold 200">
-    <img src="0423-KODAKGOLD200-16.jpg" class="grid-item" />
-  </a>
-</div>
-
-<div class="grid-gallery">
-  <a href="0423-KODAKGOLD200-35.jpg" data-lightbox="galeria" data-title="Olympus Stylus (Mju I) | Kodak Gold 200">
-    <img src="0423-KODAKGOLD200-35.jpg" class="grid-item" />
-  </a>
-</div>
-
-
-<div class="grid-gallery">
-  <a href="frida.jpg" data-lightbox="galeria" data-title="Frida | Olympus Stylus (Mju I) | Fujifilm 400">
-    <img src="frida.jpg" class="grid-item" />
-  </a>
-</div>
-
-
-</div>
+<div class="grid-gallery" id="galeria-grid"></div>
 
 <script>
-  lightbox.option({
-    'resizeDuration': 300,
-    'wrapAround': true,
-    'fadeDuration': 300,
-    'positionFromTop': 100,
-    'albumLabel': "Imagem %1 de %2"
+function iniciarGaleria() {
+  var raw   = document.getElementById('galeria-raw').innerText.trim();
+  var fotos = raw.split(';;;');
+  var grid  = document.getElementById('galeria-grid');
+
+  fotos.forEach(function (entry) {
+    entry = entry.trim();
+    if (!entry) return;
+    var parts = entry.split('||');
+    var file  = parts[0].trim();
+    var title = (parts[1] || '').trim();
+
+    var a = document.createElement('a');
+    a.href = file;
+    a.setAttribute('data-lightbox', 'galeria');
+    a.setAttribute('data-title', title);
+    a.className = 'grid-item-wrap';
+
+    var img       = document.createElement('img');
+    img.src       = 'thumbs/' + file;
+    img.className = 'grid-item';
+    img.loading   = 'lazy';
+    img.alt       = title;
+
+    a.appendChild(img);
+    grid.appendChild(a);
   });
+
+  lightbox.option({
+    resizeDuration : 300,
+    wrapAround     : true,
+    fadeDuration   : 300,
+    positionFromTop: 100,
+    albumLabel     : 'Imagem %1 de %2'
+  });
+}
+
+function carregarScript(src, cb) {
+  var s    = document.createElement('script');
+  s.src    = src;
+  s.onload = cb;
+  document.head.appendChild(s);
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  carregarScript('jquery.slim.min.js', function () {
+    carregarScript('lightbox.min.js', function () {
+      iniciarGaleria();
+    });
+  });
+});
 </script>
-
-<style>
-.lb-data .lb-number {
-  display: none !important;
-}
-</style>
-
-<style>
-.text-intro {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 1200px;
-}
-</style>
