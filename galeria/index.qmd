@@ -11,8 +11,7 @@ listing:
   filter-ui: false
   categories: false
 description: >
-  aqui estão algumas de minhas fotografias.<br>
-  clique em uma imagem para ampliá-la e conhecer detalhes sobre a câmera e o filme utilizados.<br><br>
+  aqui estão algumas de minhas fotografias, tiradas com uma olympus stylus (mju i) 35mm — a mesma câmera do senhor hirayama em dias perfeitos (wim wenders, 2023).<br>
   <span style="font-style: italic; display: block; text-align: right;">
     "photography helps people to see" — berenice abbott
   </span>

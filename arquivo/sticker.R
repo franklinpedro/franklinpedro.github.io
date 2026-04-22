@@ -8,21 +8,21 @@ font_import()
 
 loadfonts()
 
-caudas_img <- image_read("~/site/franklinpedro.github.io/ensino/inferencia1/caudas.png")
+caudas_img <- image_read("~/site/franklinpedro.github.io/ensino/inferencia/caudas.png")
 caudas_img
 
 sticker(
   subplot = caudas_img,
-  package = "inferência 1",
+  package = "inferência",
   s_width = 1.4,
   s_height = 1.0,
   s_x = 1.0,
   s_y = 0.85,
-  p_size = 12,
+  p_size = 17,
   h_fill = "white",
-  h_color = "#2f6100",
+  h_color = "#8B4000",
   h_size = 3,
-  p_color = "#2f6100",
+  p_color = "#8B4000",
   p_family = "Rubik-Bold",
   filename = "hex-inferencia.png"
 ) |> print()

@@ -298,20 +298,27 @@
     "href": "ensino/index.html",
     "title": "ensino",
     "section": "",
-    "text": "neste segundo semestre de 2025 estou lecionando três disciplinas: introdução à ciência de dados, inferência bayesiana e visualização avançada de dados. para acessar as informações de cada uma delas, clique no cartão do curso para abrir a página.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
+    "text": "neste primeiro semestre de 2026 leciono duas disciplinas: inferência estatística para o curso de ciência de dados e estatística e estatística para os cursos de engenharia da faculdade de engenharia elétrica. para acessar as informações de cada uma delas, clique no cartão do curso para abrir a página.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
   },
   {
     "objectID": "ensino/index.html#cursos-em-andamento",
     "href": "ensino/index.html#cursos-em-andamento",
     "title": "ensino",
     "section": "",
-    "text": "neste segundo semestre de 2025 estou lecionando três disciplinas: introdução à ciência de dados, inferência bayesiana e visualização avançada de dados. para acessar as informações de cada uma delas, clique no cartão do curso para abrir a página.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
+    "text": "neste primeiro semestre de 2026 leciono duas disciplinas: inferência estatística para o curso de ciência de dados e estatística e estatística para os cursos de engenharia da faculdade de engenharia elétrica. para acessar as informações de cada uma delas, clique no cartão do curso para abrir a página.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
   },
   {
     "objectID": "ensino/index.html#cursos-encerrados",
     "href": "ensino/index.html#cursos-encerrados",
     "title": "ensino",
     "section": "cursos encerrados",
-    "text": "cursos encerrados\n\nfamat31404: probabilidade 3\nfamat31203: probabilidade 1\nges045: introdução à história da estatística e da probabilidade\nfamat31308: introdução à ciência de dados\npcda08: processamento automático de textos (especialização em ciência de dados)\nfamat31203: probabilidade 1\nges044: métodos matemáticos (introdução ao aprendizado de máquina)\nges033: análise de séries temporais\nfamat31033: estatística\ngbc041: estatística\nges017: estatística computacional\nges022: inferência estatística 2\nges046: tópicos especiais em matemática aplicada (introdução ao aprendizado estatístico)\nges012: estatística geral\nfamat31041: estatística computacional\nges035: profissão e mercado de trabalho\nges008: introdução à estatística 2\ngcc014: estatística\ngci018: estatística\nges018: inferência estatística 1\nget014: estatística\nges015: probabilidade 2\nges031: modelos lineares generalizados"
+    "text": "cursos encerrados\n\nges046: visualização avançada de dados\nges030: inferência bayesiana\nfamat31404: probabilidade 3\nfamat31203: probabilidade 1\nges045: introdução à história da estatística e da probabilidade\nfamat31308: introdução à ciência de dados\npcda08: processamento automático de textos (especialização em ciência de dados)\nfamat31203: probabilidade 1\nges044: métodos matemáticos (introdução ao aprendizado de máquina)\nges033: análise de séries temporais\nfamat31033: estatística\ngbc041: estatística\nges017: estatística computacional\nges022: inferência estatística 2\nges046: tópicos especiais em matemática aplicada (introdução ao aprendizado estatístico)\nges012: estatística geral\nfamat31041: estatística computacional\nges035: profissão e mercado de trabalho\nges008: introdução à estatística 2\ngcc014: estatística\ngci018: estatística\nges018: inferência estatística 1\nget014: estatística\nges015: probabilidade 2\nges031: modelos lineares generalizados"
+  },
+  {
+    "objectID": "ensino/inferencia/index.html",
+    "href": "ensino/inferencia/index.html",
+    "title": "inferência estatística",
+    "section": "",
+    "text": "informações gerais\nas aulas do curso de inferência estatística (imema34505) acontecem na sala 3Q 310 nos seguintes dias e horários:\n\nterça-feira, 19h50 - 22h30.\nquarta-feira, 18h10 - 20h50.\n\no atendimento aos estudantes acontece na sala 1J 107 nos seguintes dias e horários:\n\nsegunda-feira, 18h00 - 19h00.\nquarta-feira, 17h10 - 18h10.\n\nas comunicações extraclasse devem ser feitas através do email pedrofranklin@ufu.br\n\n\nementa\nobjetivo da inferência estatística. população e amostra. distribuições amostrais. método delta. espaço paramétrico. estatística. estimação pontual e suas propriedades. suficiência. estimadores baseados em estatísticas suficientes. famílias exponenciais. desigualdade da informação. estimadores não viciados de variância uniformemente mínima. consistência e eficiência de estimadores. propriedades assintóticas dos estimadores. métodos de estimação por intervalos. intervalos assintóticos. teoria da decisão. testes de hipóteses paramétricos.\n\n\navaliações\n\nprimeira prova, 25 pontos, 26 de maio.\nsegunda prova, 30 pontos, 24 de junho.\nterceira prova, 30 pontos, 29 de julho.\nlistas, trabalhos e apresentação de exercícios, 15 pontos.\nprova de recuperação, 100 pontos, 04 de agosto.\n\n\n\nbibliografia básica\n\nintrodução à inferência estatística. heleno bolfarine e monica carneiro sandoval; sbm, 2010.\nintroduction to the theory of statistics. alexander m. mood, frank a. graybill e duane c. boes; mcgraw-hill, 3ed, 1974.\nintroduction to mathematical statistics. robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013."
   }
 ]

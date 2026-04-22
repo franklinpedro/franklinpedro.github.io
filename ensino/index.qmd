@@ -22,13 +22,15 @@ description: |
 
 ## cursos em andamento
 
-neste segundo semestre de 2025 estou lecionando três disciplinas: **introdução à ciência de dados**, **inferência bayesiana** e **visualização avançada de dados**. para acessar as informações de cada uma delas, clique no cartão do curso para abrir a página.
+neste primeiro semestre de 2026 leciono duas disciplinas: **inferência estatística** para o curso de ciência de dados e estatística e **estatística** para os cursos de engenharia da faculdade de engenharia elétrica. para acessar as informações de cada uma delas, clique no cartão do curso para abrir a página.
 
 :::{#em-andamento}
 :::
 
 ## cursos encerrados
 
+- ges046: visualização avançada de dados
+- ges030: inferência bayesiana
 - famat31404: probabilidade 3
 - famat31203: probabilidade 1
 - ges045: introdução à história da estatística e da probabilidade
