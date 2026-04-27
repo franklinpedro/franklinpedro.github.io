@@ -1,5 +1,5 @@
 ---
-title: "**estatística**"
+title: "**estatística (famat31033)**"
 description: "introdução à estatística: distribuição de frequências, probabilidade, variáveis aleatórias, inferência e regressão — com análise de dados em r."
 date: 2026-04-27
 date-format: long

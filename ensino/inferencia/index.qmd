@@ -1,5 +1,5 @@
 ---
-title: "**inferência estatística**"
+title: "**inferência estatística (imema34505)**"
 description: "estimadores e suas propriedades, métodos de estimação, testes de hipóteses e introdução à teoria da decisão bayesiana."
 date: 2026-04-22
 date-format: long
