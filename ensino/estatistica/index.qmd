@@ -1,0 +1,45 @@
+---
+title: "**estatística**"
+description: "introdução à estatística: distribuição de frequências, probabilidade, variáveis aleatórias, inferência e regressão — com análise de dados em r."
+date: 2026-04-27
+date-format: long
+image: hex-estatistica.png
+---
+
+# informações gerais
+
+as aulas do curso de **estatística (famat31033)** acontecem nos seguintes dias, horários e lugares:
+
+-   segunda-feira, 07h10 - 08h50, laboratório 5 do bloco 1B.
+-   terça-feira, 07h10 - 08h50, sala 1B 102.
+
+o atendimento aos estudantes acontece na sala 1J 107 nos seguintes dias e horários:
+
+-   segunda-feira, 17h00 - 18h00.
+-   quarta-feira, 17h10 - 18h10.
+
+as comunicações extraclasse devem ser feitas através do email **pedrofranklin@ufu.br**
+
+# ementa
+
+distribuição de frequências, amostragem, probabilidade, variáveis aleatórias, distribuições amostrais, intervalo de confiança, teste de hipótese, regressão e correlação.
+ 
+# avaliações
+
+-   primeira prova, 25 pontos, 25 de maio.
+-   segunda prova, 30 pontos, 29 de junho.
+-   terceira prova, 30 pontos, 28 de julho.
+-   listas e trabalhos, 15 pontos.
+-   prova de recuperação, 100 pontos, 03 de agosto.
+
+# bibliografia básica
+
+-   [**a estatística básica e sua prática.**](https://mb.ufu.br/9788521638612)<br />
+david s. moore, william i. notz e michael a. fligner; ltc, 2023.
+
+-   [**noções de probabilidade e estatística.**](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=90432 )<br />
+marcos n. magalhães e antonio c. p. de lima; edusp, 6ed, 2007.
+
+# bibliografia complementar
+
+- [**r for data science**](https://pt.r4ds.hadley.nz/). hadley wickham, mine çetinkaya-rundel, and garrett grolemund. 2nd edition. o’reilly, 2022. 
