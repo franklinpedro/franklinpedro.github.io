@@ -43,3 +43,8 @@ alexander m. mood, frank a. graybill e duane c. boes; mcgraw-hill, 3ed, 1974.
 - [**introduction to mathematical statistics.**](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=126253 
 )<br />
 robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
+
+# aulas
+
+1. amostragem: [arquivo PDF](https://drive.google.com/file/d/1AsGEQU3kpH_dr5UC28JtdLxdAZepVA43/view?usp=sharing).
+
