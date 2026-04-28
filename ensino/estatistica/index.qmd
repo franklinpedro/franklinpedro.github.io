@@ -42,4 +42,71 @@ marcos n. magalhães e antonio c. p. de lima; edusp, 6ed, 2007.
 
 # bibliografia complementar
 
-- [**r for data science**](https://pt.r4ds.hadley.nz/). hadley wickham, mine çetinkaya-rundel, and garrett grolemund. 2nd edition. o’reilly, 2022. 
+-  [**r for data science**](https://pt.r4ds.hadley.nz/).<br />
+hadley wickham, mine çetinkaya-rundel, and garrett grolemund. 2nd edition. o’reilly, 2022. 
+-   [**ciência de dados em r.**](https://curso-r.github.io/livro-material/)<br /> livro escrito pela equipe do curso-r e disponibilizado gratuitamente online.
+
+# aulas
+
+a seguir, uma tabela com informações de cada aula do curso, incluindo a data, os tópicos abordados, os materiais produzidos durante a aula e as referências recomendadas para estudo. a tabela será atualizada ao final de cada aula.<br>  
+na coluna de referências, **cdr** refere-se ao livro *ciência de dados em r*, **r4ds** ao livro *r para ciência de dados*, **ebp** ao livro *a estatística básica e sua prática* e **npe** ao livro *noções de probabilidade e estatística.*
+
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(googlesheets4)
+library(gt)
+library(tidyverse)
+library(lubridate)
+library(glue)
+
+gs4_deauth()
+
+dados <- read_sheet("https://docs.google.com/spreadsheets/d/1d8q3gYYxotCflWa8oBOwcooqUz5uid1BfcHeZ_vpUpM/edit?usp=sharing")
+```
+
+```{r}
+#| echo: false
+
+dias_pt <- c("domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado")
+meses_pt <- c("janeiro", "fevereiro", "março", "abril", "maio", "junho",
+              "julho", "agosto", "setembro", "outubro", "novembro", "dezembro")
+
+dados |>
+  rename(
+    data = DATA,
+    conteudo = CONTEÚDO,
+    materiais = MATERIAIS,
+    referencias = REFERÊNCIAS
+  ) |>
+  mutate(
+    data = as.Date(data),
+    dia_semana = wday(data, label = FALSE),
+    nome_dia = dias_pt[dia_semana],
+    nome_mes = meses_pt[month(data)],
+    data_formatada = glue("{nome_dia}, {day(data)} de {nome_mes}")
+  ) |>
+  select(data_formatada, conteudo, materiais, referencias) |>
+  gt() |>
+  sub_missing(columns = everything(), missing_text = "") |>
+  cols_align(align = "center", columns = data_formatada) |>
+  cols_align(align = "left", columns = c(conteudo, materiais, referencias)) |>
+  fmt_markdown(columns = c(conteudo, materiais, referencias)) |>
+  cols_width(
+    data_formatada ~ px(300),
+    conteudo ~ px(500),
+    materiais ~ px(400),
+    referencias ~ px(600)
+  ) |>
+  cols_label(
+    data_formatada = md("**DATA**"),
+    conteudo = md("**CONTEÚDO**"),
+    materiais = md("**MATERIAIS**"),
+    referencias = md("**REFERÊNCIAS**")
+  ) |>
+  tab_options(table.font.size = 14) |>
+  opt_row_striping()
+```
