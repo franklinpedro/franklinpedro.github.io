@@ -49,3 +49,7 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 1. amostragem: [arquivo PDF](https://drive.google.com/file/d/1AsGEQU3kpH_dr5UC28JtdLxdAZepVA43/view?usp=sharing).
 
 2. momentos amostrais e lei dos grandes números: [arquivo PDF](https://drive.google.com/file/d/1B0aNki7jRe29JtAk9Yt8CLBNOGNL5_xl/view?usp=sharing)
+
+3. função geradora de momentos: [arquivo PDF](https://drive.google.com/file/d/1-su07HBFjPGJllJ5_Gj4tWVNRAK_Jbmw/view?usp=sharing)
+
+4. amostrando da distribuição normal: [arquivo PDF](https://drive.google.com/file/d/1Q1CUPh-7iZlcGFLwLV9ZkRpJz5xIhJtE/view?usp=sharing)
