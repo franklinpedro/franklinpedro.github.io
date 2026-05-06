@@ -10,7 +10,7 @@ listing:
     fields: [image, title]
     image-height: 270px
     max-description-length: 245
-    grid-columns: 3
+    grid-columns: 2
 title-block-banner: true
 toc-title: "nesta página"
 page-layout: full
@@ -23,6 +23,14 @@ description: |
 ## cursos em andamento
 
 neste primeiro semestre de 2026 leciono duas disciplinas: **inferência estatística** para o curso de ciência de dados e estatística e **estatística** para os cursos de engenharia da faculdade de engenharia elétrica. para acessar as informações de cada uma delas, clique no cartão do curso para abrir a página.
+
+```{=html}
+<style>
+#listing-em-andamento .card-body {
+  text-align: center;
+}
+</style>
+```
 
 :::{#em-andamento}
 :::
