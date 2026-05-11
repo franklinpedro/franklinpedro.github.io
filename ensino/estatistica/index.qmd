@@ -49,7 +49,7 @@ hadley wickham, mine çetinkaya-rundel, and garrett grolemund. 2nd edition. o’
 # aulas
 
 a seguir, uma tabela com informações de cada aula do curso, incluindo a data, os tópicos abordados, os materiais produzidos durante a aula e as referências recomendadas para estudo. a tabela será atualizada ao final de cada aula.<br>  
-na coluna de referências, **cdr** refere-se ao livro *ciência de dados em r*, **r4ds** ao livro *r para ciência de dados*, **ebp** ao livro *a estatística básica e sua prática* e **npe** ao livro *noções de probabilidade e estatística.*
+na coluna de referências, **cdr** refere-se ao livro *ciência de dados em r*, **r4ds** ao livro *r para ciência de dados*, **ebp** ao livro *a estatística básica e sua prática* e **npe** ao livro *noções de probabilidade e estatística.* Para o aprendizado sobre a construção de gráficos com `ggplot2` recomendo fortemente o tutorial *A ggplot2 Tutorial for Beautiful Plotting in R* escrito por cédric scherer; foi com este tutorial que construí meus primeiros gráficos com `ggplot2`.
 
 
 ```{r}
