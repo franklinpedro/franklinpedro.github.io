@@ -4,7 +4,7 @@ author: "pedro franklin"
 date: 2024-11-24
 date-format: long
 image: mapa_udia_tutorial2.png
-categories: [mapa, censo, webscraping]
+categories: [mapas, webscraping]
 description: "aprenda a construir um mapa de uberlândia no R representando a população de cada bairro com base nos dados do censo demográfico do brasil de 2022."
 page-break-after: always
 number-sections: true

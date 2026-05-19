@@ -1,0 +1,14 @@
+---
+title: "quantos pacotes de figurinhas você precisa comprar para completar o álbum da copa?"
+author: "pedro franklin"
+date: 2026-05-18
+date-format: long
+image: histograma_figurinhas.png
+categories: [probabilidade, simulação]
+description: "descubra quantos pacotes você precisaria comprar para completar o álbum da copa do mundo usando simulação probabiistica no R."
+page-break-after: always
+number-sections: true
+fig-align: center
+link-external-icon: false
+link-external-newwindow: true
+---
