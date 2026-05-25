@@ -34,3 +34,28 @@ df |>
   scale_x_continuous(breaks = seq(from = 700, to = 2500, by = 200)) +
   theme_void() 
 
+
+library(tidyverse)
+faces <- 1:6
+z <- c()
+for (j in 1:40000) {
+  lancamentos <- sample(faces, size = 1, replace = FALSE)
+  total <- 1
+  L <- length(unique(lancamentos))
+  
+  while (L < 6) {
+    lancamentos <- c(lancamentos, sample(faces, size = 1, replace = FALSE))
+    total <- total + 1
+    L <- length(unique(lancamentos))
+  }
+  z[j] <- total
+}
+df_dado <- data.frame(quantidade = z)
+df_dado |>
+  ggplot(aes(x = quantidade)) +
+  geom_histogram(col = "darkgreen", fill = "#C8970A", bins = 30) +
+  scale_x_continuous(breaks = seq(from = 0, to = 80, by = 5)) +
+  labs(x = "Número de lançamentos para obter todas as faces",
+       y = "Número de simulações",
+       title = "Distribuição do número de lançamentos necessários para completar o dado") +
+  theme_bw()
