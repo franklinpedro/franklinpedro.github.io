@@ -60,6 +60,10 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 
 7. estatísticas suficientes: [arquivo PDF](https://drive.google.com/file/d/1PLeDpvgN83f1frl7QG_lfClz8kMK-e0D/view?usp=sharing)
 
+8. estatísticas conjuntamente suficientes: [arquivo PDF](https://drive.google.com/file/d/13tPfGMv3QXteWddoL25IKWSY6LuJfOTK/view?usp=sharing)
+
+9. famílias exponenciais: [arquivo PDF](https://drive.google.com/file/d/1x_CDTla4n-pZBhwd3KEIDmZjL3FF7h9J/view?usp=sharing)
+
 # listas e trabalhos
 
 -   primeira lista de exercícios: [lista1.pdf](https://drive.google.com/file/d/1Ty3KgXi2PuD7rjY4iYApDAOkw83S6YMe/view?usp=sharing)
