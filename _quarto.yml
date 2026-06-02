@@ -40,6 +40,5 @@ format:
     toc: true
     link-external-icon: false
     css: styles.css
-    lightbox: true
     
 
