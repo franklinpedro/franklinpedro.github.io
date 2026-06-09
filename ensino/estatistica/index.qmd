@@ -46,9 +46,13 @@ marcos n. magalhães e antonio c. p. de lima; edusp, 6ed, 2007.
 hadley wickham, mine çetinkaya-rundel, and garrett grolemund. 2nd edition. o’reilly, 2022. 
 -   [**ciência de dados em r.**](https://curso-r.github.io/livro-material/)<br /> livro escrito pela equipe do curso-r e disponibilizado gratuitamente online.
 
-## projetos e listas
+# projetos e listas
 
 - **primeiro projeto:** as informações sobre o primeiro projeto e os dados necessários para o trabalho estão disponíveis no seguinte link: [projeto1_estatistica.pdf](https://drive.google.com/drive/folders/1JKog2b7AxepWpWiUWRPFvyDrTnX2ZEZI?usp=sharing)
+
+- **datacamp**: os convites para o datacamp foram enviados por email; entre na equipe e conclua pelo menos dois cursos de pelo menos 4 horas cada até o dia 10 de julho; a conclusão dessa atividade renderá 5 pontos adicionais. ao entrar na equipe você verá a sugestão de dois cursos; para mais sugestões acesse o documento a seguir: [cursos_datacamp.pdf](https://drive.google.com/file/d/1OCoteydhX09CKMPWeF_aKh8uyFaEDFrY/view?usp=sharing)
+
+- **primeira lista de exercícios:** [lista1.pdf](https://drive.google.com/file/d/1zU2CczJ-tgxDyN0pD4TReu3ozUpRASA2/view?usp=sharing)
 
 # aulas
 

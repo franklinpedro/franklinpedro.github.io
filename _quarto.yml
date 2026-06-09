@@ -40,5 +40,6 @@ format:
     toc: true
     link-external-icon: false
     css: styles.css
+    html-math-method: plain
     
 

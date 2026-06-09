@@ -21,6 +21,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
 
 
@@ -69,35 +70,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -252,7 +224,7 @@ window.Quarto = {
 <li><p>estatísticas suficientes: <a href="https://drive.google.com/file/d/1PLeDpvgN83f1frl7QG_lfClz8kMK-e0D/view?usp=sharing">arquivo PDF</a></p></li>
 <li><p>estatísticas conjuntamente suficientes: <a href="https://drive.google.com/file/d/13tPfGMv3QXteWddoL25IKWSY6LuJfOTK/view?usp=sharing">arquivo PDF</a></p></li>
 <li><p>famílias exponenciais: <a href="https://drive.google.com/file/d/1x_CDTla4n-pZBhwd3KEIDmZjL3FF7h9J/view?usp=sharing">arquivo PDF</a></p></li>
-<li><p>famílias exponenciais de dimensão <span class="math inline">\(k\)</span>: <a href="https://drive.google.com/file/d/1ndgN8loxFeE0ou0yIexOdvuvTt0GqTe8/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>famílias exponenciais de dimensão <span class="math inline"><em>k</em></span>: <a href="https://drive.google.com/file/d/1ndgN8loxFeE0ou0yIexOdvuvTt0GqTe8/view?usp=sharing">arquivo PDF</a></p></li>
 </ol>
 </section>
 <section id="listas-e-trabalhos" class="level1">
