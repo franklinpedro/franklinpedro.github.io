@@ -66,6 +66,10 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 
 10. famílias exponenciais de dimensão $k$: [arquivo PDF](https://drive.google.com/file/d/1ndgN8loxFeE0ou0yIexOdvuvTt0GqTe8/view?usp=sharing)
 
+11. estatísticas completas: [arquivo.PDF](https://drive.google.com/file/d/1jQIdQGXdZd9lPxloFVKfACnSudV_U_YW/view?usp=sharing)
+
+12. erro quadrático médio: [arquivo.PDF](https://drive.google.com/file/d/1Fm920Zto2G9K6_i84di_LvOtn2ovOvn3/view?usp=sharing)
+
 # listas e trabalhos
 
 -   primeira lista de exercícios: [lista1.pdf](https://drive.google.com/file/d/1Ty3KgXi2PuD7rjY4iYApDAOkw83S6YMe/view?usp=sharing)
