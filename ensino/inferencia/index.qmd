@@ -27,7 +27,7 @@ objetivo da inferência estatística. população e amostra. distribuições amo
 # avaliações
 
 -   primeira prova, 25 pontos, 26 de maio.
--   segunda prova, 30 pontos, 24 de junho.
+-   segunda prova, 30 pontos, 23 de junho.
 -   terceira prova, 30 pontos, 29 de julho.
 -   listas, trabalhos e apresentação de exercícios, 15 pontos.
 -   prova de recuperação, 100 pontos, 04 de agosto.
@@ -77,3 +77,5 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 -   segunda lista de exercícios: [lista2.pdf](https://drive.google.com/file/d/1z8iHfSVOkjTTPp5kWREZYsSQC3akRvmC/view?usp=sharing)
 
 -   terceira lista de exercícios: [lista3.pdf](https://drive.google.com/file/d/1wYA3EW-8gppsxBQy8554J8qCl3aUaHL7/view?usp=sharing)
+
+-   quarta lista de exercícios: [lista4.pdf](https://drive.google.com/file/d/1NYCayPZTDLJMpb2TOcqo2K9y-tbLuUBN/view?usp=sharing)
