@@ -70,6 +70,8 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 
 12. erro quadrático médio: [arquivo.PDF](https://drive.google.com/file/d/1Fm920Zto2G9K6_i84di_LvOtn2ovOvn3/view?usp=sharing)
 
+13. melhores estimadores não viciados: [arquivo.PDF](https://drive.google.com/file/d/1LPZQIWHauCBeiBlqPTrqMVxNlT8jLjHS/view?usp=sharing)
+
 # listas e trabalhos
 
 -   primeira lista de exercícios: [lista1.pdf](https://drive.google.com/file/d/1Ty3KgXi2PuD7rjY4iYApDAOkw83S6YMe/view?usp=sharing)
