@@ -72,6 +72,8 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 
 13. melhores estimadores não viciados: [arquivo.PDF](https://drive.google.com/file/d/1LPZQIWHauCBeiBlqPTrqMVxNlT8jLjHS/view?usp=sharing)
 
+14. estimadores baseados em estatísticas suficientes: [arquivo.PDF](https://drive.google.com/file/d/18z6h49WRAEzGh_dOX_jIXiQ7YhX5nshJ/view?usp=sharing)
+
 # listas e trabalhos
 
 -   primeira lista de exercícios: [lista1.pdf](https://drive.google.com/file/d/1Ty3KgXi2PuD7rjY4iYApDAOkw83S6YMe/view?usp=sharing)
