@@ -54,6 +54,8 @@ hadley wickham, mine çetinkaya-rundel, and garrett grolemund. 2nd edition. o’
 
 - **primeira lista de exercícios:** [lista1.pdf](https://drive.google.com/file/d/1zU2CczJ-tgxDyN0pD4TReu3ozUpRASA2/view?usp=sharing)
 
+- **segunda lista de exercícios:** [lista2.pdf](https://drive.google.com/file/d/1DCUCcEKQQlXAvdVch7PquXT-jbn7Kqfr/view?usp=sharing)
+
 # aulas
 
 a seguir, uma tabela com informações de cada aula do curso, incluindo a data, os tópicos abordados, os materiais produzidos durante a aula e as referências recomendadas para estudo. a tabela será atualizada ao final de cada aula.<br>  
