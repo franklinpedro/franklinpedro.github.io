@@ -129,5 +129,6 @@ dados |>
 
 # notas
 
-- as notas da primeira prova estão [aqui](https://drive.google.com/file/d/1I-xlEEn_CjYhDSwSOd51jqXuroH34COv/view?usp=sharing).
 - as notas da segunda prova estão [aqui](https://drive.google.com/file/d/1SzDFJmYsvO4P1IOIq7ih9A2BB8AJv50p/view?usp=sharing).
+- as notas da primeira prova estão [aqui](https://drive.google.com/file/d/1I-xlEEn_CjYhDSwSOd51jqXuroH34COv/view?usp=sharing).
+
