@@ -1,0 +1,34 @@
+---
+title: "acessando dados do datasus com r: uma introdução ao dplyr usando dados de nascimentos"
+author: "pedro franklin"
+date: 2026-07-26
+date-format: long
+image: datasus.jpg
+categories: [datasus, dplyr]
+description: "aprenda a baixar e importar dados do sinasc (sistema de informações sobre nascidos vivos) usando o pacote microdatasus, e a manipular esses dados com o dplyr para responder perguntas sobre nascimentos no em minas gerais."
+page-break-after: always
+number-sections: true
+fig-align: center
+link-external-icon: false
+link-external-newwindow: true
+---
+
+## objetivos 
+
+neste tutorial, você aprenderá a acessar dados públicos do datasus utilizando a linguagem de programação r, e a utilizar o pacote `dplyr` para manipular e explorar esses dados. como exemplo prático, vamos trabalhar com o sinasc (sistema de informações sobre nascidos vivos), que reúne dados de praticamente todos os nascimentos ocorridos no brasil.
+
+ao final deste tutorial, você será capaz de:
+
+- baixar dados do datasus diretamente pelo r, sem precisar acessar o site do governo manualmente;
+- decodificar variáveis que vêm originalmente como códigos numéricos, transformando-as em categorias legíveis;
+- utilizar os principais verbos do dplyr (filter(), mutate(), group_by(), summarise()) para responder perguntas sobre os dados;
+- identificar e tratar valores implausíveis ou ausentes antes de realizar qualquer análise;
+- construir uma pequena investigação, do dado bruto até uma conclusão, sobre nascimentos em minas gerais no ano de 2024.
+
+## introdução
+
+uma coisa boa do r é a facilidade de acesso a bases de dados públicas diretamente pelo código, sem precisar navegar manualmente por sites e baixar arquivos um a um. isso é especialmente valioso quando trabalhamos com dados de saúde pública, que costumam ser volumosos, atualizados periodicamente, e organizados por ano, estado ou sistema de informação.
+
+neste tutorial, vamos explorar o sinasc (sistema de informações sobre nascidos vivos), mantido pelo ministério da saúde através do datasus. esse sistema reúne dados de praticamente todo nascimento ocorrido no brasil, a partir da declaração de nascido vivo (dn), documento preenchido para cada criança nascida no país. cada linha desse conjunto de dados apresenta informações sobre um bebê que nasceu vivo. 
+
+utilizaremos o pacote `microdatasus` para baixar os dados diretamente do datasus, e o pacote `dplyr` para manipulá-los. como exemplo prático, vamos investigar nascimentos ocorridos em minas gerais no ano de 2023, explorando perguntas como: qual o perfil das mães? qual a proporção de partos cesáreos? existe relação entre o número de consultas de pré-natal e o peso do bebê ao nascer? 

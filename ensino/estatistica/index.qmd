@@ -30,7 +30,7 @@ distribuição de frequências, amostragem, probabilidade, variáveis aleatória
 -   segunda prova, 30 pontos, 29 de junho.
 -   terceira prova, 30 pontos, 28 de julho.
 -   listas e trabalhos, 15 pontos.
--   prova de recuperação, 100 pontos, 03 de agosto.
+-   prova de recuperação, 100 pontos, 04 de agosto.
 
 # bibliografia básica
 
@@ -127,8 +127,7 @@ dados |>
 - o que devo estudar para a prova 2?: [arquivo PDF](https://drive.google.com/file/d/1nfApV4rbn94RGo7P_jMaDmO1EqBnnsWR/view?usp=sharing)
 - a prova 3 compreende o conteúdo de variáveis aleatórias e intervalos de confiança; o conteúdo de variáveis aleatórias está na segunda lista; o material de preparação contendo intervalos de confiança está aqui: [arquivo.PDF](https://drive.google.com/file/d/1QGWmbzVqDzYDl8GV7BzhyusWcBLauQHn/view?usp=sharing)
 
-# notas
+# notas finais
 
-- as notas da segunda prova estão [aqui](https://drive.google.com/file/d/1SzDFJmYsvO4P1IOIq7ih9A2BB8AJv50p/view?usp=sharing).
-- as notas da primeira prova estão [aqui](https://drive.google.com/file/d/1I-xlEEn_CjYhDSwSOd51jqXuroH34COv/view?usp=sharing).
+as notas estão aqui: [notas_finais.pdf](https://drive.google.com/file/d/1BOUrDArE5SqS3TIIVYUgpCZKTcWKiq7u/view?usp=sharing)
 
