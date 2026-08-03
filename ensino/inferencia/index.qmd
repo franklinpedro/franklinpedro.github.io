@@ -89,3 +89,5 @@ robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.
 -   terceira lista de exercícios: [lista3.pdf](https://drive.google.com/file/d/1wYA3EW-8gppsxBQy8554J8qCl3aUaHL7/view?usp=sharing)
 
 -   quarta lista de exercícios: [lista4.pdf](https://drive.google.com/file/d/1NYCayPZTDLJMpb2TOcqo2K9y-tbLuUBN/view?usp=sharing)
+
+- o trabalho final está [aqui](https://drive.google.com/file/d/1x5tcvS9d7fyGGn2WhHukb_naYDx3nfd6/view?usp=sharing); os dados, se precisar, estão [aqui](https://drive.google.com/file/d/1kgWJlInsSaRwBwpKuJEe7XjzglSAzVHK/view?usp=sharing); o código, discutido em sala, está [aqui](https://drive.google.com/file/d/1K-iM3GXKp19bMzZQo7NoZkwphv-PSGvN/view?usp=sharing).
