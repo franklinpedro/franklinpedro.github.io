@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="nesta página estão listadas as disciplinas que estou lecionando atualmente e os cursos que já lecionei. as informações sobre as disciplinas em andamento estão organizadas em fichas, com links para o conteúdo completo.">
+<meta name="dcterms.date" content="2026-04-22">
+<meta name="description" content="estimadores e suas propriedades, métodos de estimação, testes de hipóteses e introdução à teoria da decisão bayesiana.">
 
-<title>ensino</title>
+<title>inferência estatística (imema34505)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,25 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../gato.jpg" rel="icon" type="image/jpeg">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../gato.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -58,87 +57,58 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Nenhum resultado",
-    "search-matching-documents-text": "documentos correspondentes",
-    "search-copy-link-title": "Copiar link para a busca",
-    "search-hide-matches-text": "Esconder correspondências adicionais",
-    "search-more-match-text": "mais correspondência neste documento",
-    "search-more-matches-text": "mais correspondências neste documento",
-    "search-clear-button-title": "Limpar",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancelar",
-    "search-submit-button-title": "Enviar",
-    "search-label": "Procurar"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-em-andamento .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-em-andamento'] = new List('listing-em-andamento', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-            <div id="quarto-search" class="" title="Procurar"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">apresentação</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../ensino/"> 
+    <a class="nav-link" href="../../ensino/"> 
 <span class="menu-text">ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../tutoriais/"> 
+    <a class="nav-link" href="../../tutoriais/"> 
 <span class="menu-text">tutoriais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../materiais/"> 
+    <a class="nav-link" href="../../materiais/"> 
 <span class="menu-text">materiais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../coisas-legais/"> 
+    <a class="nav-link" href="../../coisas-legais/"> 
 <span class="menu-text">coisas legais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../galeria/"> 
+    <a class="nav-link" href="../../galeria/"> 
 <span class="menu-text">um certo olhar</span></a>
   </li>  
 </ul>
@@ -156,108 +126,123 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">ensino</h1>
-                  <div>
-        <div class="description">
-          <p>nesta página estão listadas as disciplinas que estou lecionando atualmente e os cursos que já lecionei. as informações sobre as disciplinas em andamento estão organizadas em fichas, com links para o conteúdo completo.</p>
-        </div>
-      </div>
-                </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">nesta página</h2>
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#cursos-em-andamento" id="toc-cursos-em-andamento" class="nav-link active" data-scroll-target="#cursos-em-andamento">cursos em andamento</a></li>
-  <li><a href="#cursos-encerrados" id="toc-cursos-encerrados" class="nav-link" data-scroll-target="#cursos-encerrados">cursos encerrados</a></li>
+  <li><a href="#informações-gerais" id="toc-informações-gerais" class="nav-link active" data-scroll-target="#informações-gerais">informações gerais</a></li>
+  <li><a href="#ementa" id="toc-ementa" class="nav-link" data-scroll-target="#ementa">ementa</a></li>
+  <li><a href="#avaliações" id="toc-avaliações" class="nav-link" data-scroll-target="#avaliações">avaliações</a></li>
+  <li><a href="#bibliografia-básica" id="toc-bibliografia-básica" class="nav-link" data-scroll-target="#bibliografia-básica">bibliografia básica</a></li>
+  <li><a href="#aulas" id="toc-aulas" class="nav-link" data-scroll-target="#aulas">aulas</a></li>
+  <li><a href="#listas-e-trabalhos" id="toc-listas-e-trabalhos" class="nav-link" data-scroll-target="#listas-e-trabalhos">listas e trabalhos</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><strong>inferência estatística (imema34505)</strong></h1>
+</div>
+
+<div>
+  <div class="description">
+    estimadores e suas propriedades, métodos de estimação, testes de hipóteses e introdução à teoria da decisão bayesiana.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 22, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
-<section id="cursos-em-andamento" class="level2">
-<h2 class="anchored" data-anchor-id="cursos-em-andamento">cursos em andamento</h2>
-<p>neste segundo semestre de 2026 leciono duas disciplinas: <strong>estatística</strong> para o curso de ciência da computação e <strong>estatística multivariada e mineração de dados</strong> para o curso de ciência de dados e estatística. para acessar as informações de cada uma delas, clique no cartão do curso para abrir a página.</p>
-<style>
-#listing-em-andamento .card-body {
-  text-align: center;
-}
-</style>
-<div id="listing-em-andamento" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1788231600000" data-listing-file-modified-sort="1788286748255" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="316">
-<a href="../ensino/multivariada/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../ensino/multivariada/hex-multivariada.png" class="thumbnail-image card-img" style="height: 270px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>estatística multivariada e mineração de dados (imema34603)</strong>
-</h5>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Sem itens correspondentes
-</div>
-</div>
-</section>
-<section id="cursos-encerrados" class="level2">
-<h2 class="anchored" data-anchor-id="cursos-encerrados">cursos encerrados</h2>
+
+<section id="informações-gerais" class="level1">
+<h1>informações gerais</h1>
+<p>as aulas do curso de <strong>inferência estatística (imema34505)</strong> acontecem na sala 3Q 310 nos seguintes dias e horários:</p>
 <ul>
-<li>imema34505: inferência estatística</li>
-<li>ges046: visualização avançada de dados</li>
-<li>ges030: inferência bayesiana</li>
-<li>famat31404: probabilidade 3</li>
-<li>famat31203: probabilidade 1</li>
-<li>ges045: introdução à história da estatística e da probabilidade</li>
-<li>famat31308: introdução à ciência de dados</li>
-<li>pcda08: processamento automático de textos (especialização em ciência de dados)</li>
-<li>famat31203: probabilidade 1</li>
-<li>ges044: métodos matemáticos (introdução ao aprendizado de máquina)</li>
-<li>ges033: análise de séries temporais</li>
-<li>famat31033: estatística</li>
-<li>gbc041: estatística</li>
-<li>ges017: estatística computacional</li>
-<li>ges022: inferência estatística 2</li>
-<li>ges046: tópicos especiais em matemática aplicada (introdução ao aprendizado estatístico)</li>
-<li>ges012: estatística geral</li>
-<li>famat31041: estatística computacional</li>
-<li>ges035: profissão e mercado de trabalho</li>
-<li>ges008: introdução à estatística 2</li>
-<li>gcc014: estatística</li>
-<li>gci018: estatística</li>
-<li>ges018: inferência estatística 1</li>
-<li>get014: estatística</li>
-<li>ges015: probabilidade 2</li>
-<li>ges031: modelos lineares generalizados</li>
+<li>terça-feira, 19h50 - 22h30.</li>
+<li>quarta-feira, 18h10 - 20h50.</li>
 </ul>
-
+<p>o atendimento aos estudantes acontece na sala 1J 107 nos seguintes dias e horários:</p>
+<ul>
+<li>segunda-feira, 18h00 - 19h00.</li>
+<li>quarta-feira, 17h10 - 18h10.</li>
+</ul>
+<p>as comunicações extraclasse devem ser feitas através do email <strong>pedrofranklin@ufu.br</strong></p>
+</section>
+<section id="ementa" class="level1">
+<h1>ementa</h1>
+<p>objetivo da inferência estatística. população e amostra. distribuições amostrais. método delta. espaço paramétrico. estatística. estimação pontual e suas propriedades. suficiência. estimadores baseados em estatísticas suficientes. famílias exponenciais. desigualdade da informação. estimadores não viciados de variância uniformemente mínima. consistência e eficiência de estimadores. propriedades assintóticas dos estimadores. métodos de estimação por intervalos. intervalos assintóticos. teoria da decisão. testes de hipóteses paramétricos.</p>
+</section>
+<section id="avaliações" class="level1">
+<h1>avaliações</h1>
+<ul>
+<li>primeira prova, 25 pontos, 26 de maio.</li>
+<li>segunda prova, 30 pontos, 23 de junho.</li>
+<li>terceira prova, 30 pontos, 29 de julho.</li>
+<li>listas, trabalhos e apresentação de exercícios, 15 pontos.</li>
+<li>prova de recuperação, 100 pontos, 04 de agosto.</li>
+</ul>
+</section>
+<section id="bibliografia-básica" class="level1">
+<h1>bibliografia básica</h1>
+<ul>
+<li><p><a href="https://docs.ufpr.br/~lucambio/CE210/LIVRO%20de%20infer%EAncia%20bolfarine.pdf"><strong>introdução à inferência estatística.</strong></a><br> heleno bolfarine e monica carneiro sandoval; sbm, 2010.</p></li>
+<li><p><a href="https://sistemas.fciencias.unam.mx/~misraim/Mood.pdf"><strong>introduction to the theory of statistics.</strong></a><br> alexander m. mood, frank a. graybill e duane c.&nbsp;boes; mcgraw-hill, 3ed, 1974.</p></li>
+<li><p><a href="https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=126253"><strong>introduction to mathematical statistics.</strong></a><br> robert v. hogg, joseph w. mckean e allen t. craig; prentice hall, 7ed, 2013.</p></li>
+</ul>
+</section>
+<section id="aulas" class="level1">
+<h1>aulas</h1>
+<ol type="1">
+<li><p>amostragem: <a href="https://drive.google.com/file/d/1AsGEQU3kpH_dr5UC28JtdLxdAZepVA43/view?usp=sharing">arquivo PDF</a>.</p></li>
+<li><p>momentos amostrais e lei dos grandes números: <a href="https://drive.google.com/file/d/1B0aNki7jRe29JtAk9Yt8CLBNOGNL5_xl/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>função geradora de momentos: <a href="https://drive.google.com/file/d/1-su07HBFjPGJllJ5_Gj4tWVNRAK_Jbmw/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>amostrando da distribuição normal: <a href="https://drive.google.com/file/d/1Q1CUPh-7iZlcGFLwLV9ZkRpJz5xIhJtE/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>obtendo estimadores - método dos momentos: <a href="https://drive.google.com/file/d/1NzSbN4D4b_ycOXRxdctIOdVajAqUbtGG/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>obtendo estimadores - máxima verossimilhança: <a href="https://drive.google.com/file/d/1DfkWZ7oCygC0gdKb7W7gYykZC_FbVoZq/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>estatísticas suficientes: <a href="https://drive.google.com/file/d/1PLeDpvgN83f1frl7QG_lfClz8kMK-e0D/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>estatísticas conjuntamente suficientes: <a href="https://drive.google.com/file/d/13tPfGMv3QXteWddoL25IKWSY6LuJfOTK/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>famílias exponenciais: <a href="https://drive.google.com/file/d/1x_CDTla4n-pZBhwd3KEIDmZjL3FF7h9J/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>famílias exponenciais de dimensão <span class="math inline"><em>k</em></span>: <a href="https://drive.google.com/file/d/1ndgN8loxFeE0ou0yIexOdvuvTt0GqTe8/view?usp=sharing">arquivo PDF</a></p></li>
+<li><p>estatísticas completas: <a href="https://drive.google.com/file/d/1jQIdQGXdZd9lPxloFVKfACnSudV_U_YW/view?usp=sharing">arquivo.PDF</a></p></li>
+<li><p>erro quadrático médio: <a href="https://drive.google.com/file/d/1Fm920Zto2G9K6_i84di_LvOtn2ovOvn3/view?usp=sharing">arquivo.PDF</a></p></li>
+<li><p>melhores estimadores não viciados: <a href="https://drive.google.com/file/d/1LPZQIWHauCBeiBlqPTrqMVxNlT8jLjHS/view?usp=sharing">arquivo.PDF</a></p></li>
+<li><p>estimadores baseados em estatísticas suficientes: <a href="https://drive.google.com/file/d/18z6h49WRAEzGh_dOX_jIXiQ7YhX5nshJ/view?usp=sharing">arquivo.PDF</a></p></li>
+<li><p>intervalos de confiança: <a href="https://drive.google.com/file/d/17pYszXP7O4OZGctg5GpPSOwZkvkAzjpi/view?usp=sharing">arquivo.PDF</a></p></li>
+<li><p>quantidade pivotal: <a href="https://drive.google.com/file/d/1lnoKDXmuRgwmIivBoRte_hF1bNFM2SBO/view?usp=sharing">arquivo.PDF</a></p></li>
+<li><p>laboratório sobre intervalos de confiança: <a href="https://drive.google.com/file/d/1aUWUCAUL9nRk13MFOZ-WE0jliuqsHNG1/view?usp=sharing">arquivo.PDF</a></p></li>
+</ol>
+</section>
+<section id="listas-e-trabalhos" class="level1">
+<h1>listas e trabalhos</h1>
+<ul>
+<li><p>primeira lista de exercícios: <a href="https://drive.google.com/file/d/1Ty3KgXi2PuD7rjY4iYApDAOkw83S6YMe/view?usp=sharing">lista1.pdf</a></p></li>
+<li><p>segunda lista de exercícios: <a href="https://drive.google.com/file/d/1z8iHfSVOkjTTPp5kWREZYsSQC3akRvmC/view?usp=sharing">lista2.pdf</a></p></li>
+<li><p>terceira lista de exercícios: <a href="https://drive.google.com/file/d/1wYA3EW-8gppsxBQy8554J8qCl3aUaHL7/view?usp=sharing">lista3.pdf</a></p></li>
+<li><p>quarta lista de exercícios: <a href="https://drive.google.com/file/d/1NYCayPZTDLJMpb2TOcqo2K9y-tbLuUBN/view?usp=sharing">lista4.pdf</a></p></li>
+<li><p>o trabalho final está <a href="https://drive.google.com/file/d/1x5tcvS9d7fyGGn2WhHukb_naYDx3nfd6/view?usp=sharing">aqui</a>; os dados, se precisar, estão <a href="https://drive.google.com/file/d/1kgWJlInsSaRwBwpKuJEe7XjzglSAzVHK/view?usp=sharing">aqui</a>; o código, discutido em sala, está <a href="https://drive.google.com/file/d/1K-iM3GXKp19bMzZQo7NoZkwphv-PSGvN/view?usp=sharing">aqui</a>.</p></li>
+</ul>
 
 
 </section>
@@ -317,12 +302,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copiada");
+    button.setAttribute("title", "Copied!");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copiada");
+      button.setAttribute("data-bs-title", "Copied!");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -342,24 +327,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
-          }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,

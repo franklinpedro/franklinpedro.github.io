@@ -22,7 +22,7 @@ description: |
 
 ## cursos em andamento
 
-neste primeiro semestre de 2026 leciono duas disciplinas: **inferência estatística** para o curso de ciência de dados e estatística e **estatística** para os cursos de engenharia da faculdade de engenharia elétrica. para acessar as informações de cada uma delas, clique no cartão do curso para abrir a página.
+neste segundo semestre de 2026 leciono duas disciplinas: **estatística** para o curso de ciência da computação e **estatística multivariada e mineração de dados** para o curso de ciência de dados e estatística. para acessar as informações de cada uma delas, clique no cartão do curso para abrir a página.
 
 ```{=html}
 <style>
@@ -37,6 +37,7 @@ neste primeiro semestre de 2026 leciono duas disciplinas: **inferência estatís
 
 ## cursos encerrados
 
+- imema34505: inferência estatística
 - ges046: visualização avançada de dados
 - ges030: inferência bayesiana
 - famat31404: probabilidade 3

@@ -1,0 +1,58 @@
+---
+title: "**estatística multivariada e mineração de dados (imema34603)**"
+description: "vetores e distribuições multivariadas, análise de componentes principais e fatorial, análise de agrupamentos e discriminante, com aplicações em mineração de dados."
+date: 2026-09-01
+date-format: long
+image: hex-multivariada.png
+---
+
+# informações gerais
+
+as aulas do curso de **estatística multivariada e mineração de dados (imema34603)** acontecem nos seguintes dias, horários e locais:
+
+-   terça-feira, 19h00 - 20h40, sala 3Q 205.
+-   quarta-feira, 20h50 - 22h30, sala 3Q 205.
+-   sexta-feira, 19h00 - 20h40, laboratório 3Q 104.
+
+o atendimento aos estudantes acontece na sala 1J 107 nos seguintes dias e horários:
+
+-   segunda-feira, 18h00 - 19h00.
+-   quarta-feira, 17h10 - 18h10.
+
+as comunicações extraclasse devem ser feitas através do email **pedrofranklin@ufu.br**. Para 
+
+# ementa
+
+introdução à estatística multivariada. organização dos dados. vetores aleatórios, vetores de médias e matrizes de covariância e correlação. variância generalizada e variância total. distribuição normal multivariada. estimação dos parâmetros e testes de aderência. inferência sobre o vetor de médias. região de confiança. comparação entre vetores médios de duas ou mais populações (manova). análise de componentes principais. análise fatorial exploratória. análise de agrupamentos: métodos hierárquicos e não hierárquicos. análise discriminante. mineração de dados: processo kdd e modelos supervisionados de classificação.
+
+para mais informações, você pode acessar a ficha da disciplina aqui: [ficha de componente curricular (PDF)](https://www.ime.ufu.br/system/files/conteudo/6imema34603_mult.pdf).
+ 
+# avaliações
+
+-   primeira prova, 25 pontos, 2 de outubro.
+-   segunda prova, 30 pontos, 6 de novembro.
+-   terceira prova, 30 pontos, 11 de dezembro.
+-   listas, trabalhos, apresentação de exercícios e seminários, 15 pontos.
+-   prova de recuperação, 100 pontos, 16 de dezembro.
+
+os resultados finais serão divulgados no dia 15 de dezembro.
+
+# bibliografia
+
+## livro-texto principal
+- [**applied multivariate statistical analysis.**](https://acervo.bibliotecas.ufu.br/index.php?codigo_sophia=103244 )<br />
+richard a. johnson e dean w. wichern; pearson, 6ed, 2007.
+
+## mineração de dados
+- [**introduction to data mining.**](https://www-users.cse.umn.edu/~kumar001/dmbook/index.php)<br />
+pang-ning tan, michael steinbach, anuj karpatne e vipin kumar; pearson, 2ed, 2021.
+
+## laboratórios
+- [**an introduction to applied multivariate analysis with r.**](https://link.springer.com/book/10.1007/978-1-4419-9650-3)<br />
+brian s. everitt e torsten hothorn; springer, 1ed, 2011.
+
+## para aprofundamento
+- [**methods of multivariate analysis.**](https://onlinelibrary.wiley.com/doi/book/10.1002/9781118391686)<br />
+alvin c. rencher e william f. christensen; wiley, 3ed, 2012.
+- [**modern multivariate statistical techniques.**](https://link.springer.com/book/10.1007/978-0-387-78189-1)<br />
+alan j. izenman; springer, 1ed, 2008.
