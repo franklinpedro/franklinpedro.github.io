@@ -172,7 +172,7 @@
     "href": "tutoriais/index.html",
     "title": "tutoriais",
     "section": "",
-    "text": "construindo mapas: um guia para representar a população de uberlândia com o R\n\n\n\n\n\n\nmapas\n\n\nwebscraping\n\n\n\naprenda a construir um mapa de uberlândia no R representando a população de cada bairro com base nos dados do censo demográfico do brasil de 2022.\n\n\n\n\n\n24/11/2024\n\n\n\n\n\n\nSem itens correspondentes"
+    "text": "preparando o ambiente para trabalhar com r\n\n\n\n\n\n\ninstalação\n\n\nr\n\n\nrstudio\n\n\n\nguia para instalar r e rstudio no computador ou utilizar o posit cloud para trabalhar com r diretamente no navegador.\n\n\n\n\n\n03/09/2026\n\n\n\n\n\n\n\n\n\n\n\n\nconstruindo mapas: um guia para representar a população de uberlândia com o R\n\n\n\n\n\n\nmapas\n\n\nwebscraping\n\n\n\naprenda a construir um mapa de uberlândia no R representando a população de cada bairro com base nos dados do censo demográfico do brasil de 2022.\n\n\n\n\n\n24/11/2024\n\n\n\n\n\n\nSem itens correspondentes"
   },
   {
     "objectID": "coisas-legais/2024-09-16/index.html",
@@ -326,7 +326,7 @@
     "href": "ensino/estatistica/index.html",
     "title": "estatística (gbc041)",
     "section": "",
-    "text": "informações gerais\nas aulas do curso de estatística (gbc041) acontecem nos seguintes dias e horários:\n\nquinta-feira, 13h10 - 14h50.\nsexta-feira, 13h10 - 14h50.\n\ndurante a primeira parte do curso, até o dia 01 de novembro, as aulas acontecem no laboratório 4 do bloco 1B. a partir de 02 de novembro, as aulas acontecem na sala 1B 208, no bloco 1B.\no atendimento aos estudantes acontece na sala 1J 107 nos seguintes dias e horários:\n\nsegunda-feira, 17h00 - 18h00.\nquarta-feira, 17h10 - 18h10.\n\nas comunicações extraclasse devem ser feitas através do email pedrofranklin@ufu.br\n\n\nementa\norganização e apresentação de dados. medidas de posição e de dispersão. teoria das probabilidades. variáveis aleatórias discretas e contínuas. distribuições de probabilidade. estimação de parâmetros e intervalos de confiança. testes de hipóteses paramétricos. correlação e análise de regressão.\n\n\navaliações\n\nprimeira prova, 25 pontos, 02 de outubro.\nsegunda prova, 30 pontos, 06 de novembro.\nterceira prova, 30 pontos, 11 de dezembro.\ncursos datacamp e trabalhos, 15 pontos.\nprova de recuperação, 100 pontos, 17 de dezembro.\n\n\n\nbibliografia básica\n\nnoções de probabilidade e estatística. marcos n. magalhães e antonio c. p. de lima; edusp, 6ed, 2007.\n\n\n\nbibliografia complementar\n\nr for data science. hadley wickham, mine çetinkaya-rundel, and garrett grolemund. 2nd edition. o’reilly, 2022.\nciência de dados em r. livro escrito pela equipe do curso-r e disponibilizado gratuitamente online."
+    "text": "informações gerais\nas aulas do curso de estatística (gbc041) acontecem nos seguintes dias e horários:\n\nquinta-feira, 13h10 - 14h50.\nsexta-feira, 13h10 - 14h50.\n\ndurante a primeira parte do curso, até o dia 01 de novembro, as aulas acontecem no laboratório 4 do bloco 1B. a partir de 02 de novembro, as aulas acontecem na sala 1B 208, no bloco 1B.\no atendimento aos estudantes acontece na sala 1J 107 nos seguintes dias e horários:\n\nsegunda-feira, 17h00 - 18h00.\nquarta-feira, 17h10 - 18h10.\n\nas comunicações extraclasse devem ser feitas através do email pedrofranklin@ufu.br\n\n\nementa\norganização e apresentação de dados. medidas de posição e de dispersão. teoria das probabilidades. variáveis aleatórias discretas e contínuas. distribuições de probabilidade. estimação de parâmetros e intervalos de confiança. testes de hipóteses paramétricos. correlação e análise de regressão.\n\n\navaliações\n\nprimeira prova, 25 pontos, 02 de outubro.\nsegunda prova, 30 pontos, 06 de novembro.\nterceira prova, 30 pontos, 11 de dezembro.\ncursos datacamp e trabalhos, 15 pontos.\nprova de recuperação, 100 pontos, 17 de dezembro.\n\n\n\nbibliografia básica\n\nnoções de probabilidade e estatística. marcos n. magalhães e antonio c. p. de lima; edusp, 6ed, 2007.\n\n\n\nbibliografia complementar\n\nr for data science. hadley wickham, mine çetinkaya-rundel, and garrett grolemund. 2nd edition. o’reilly, 2022.\nciência de dados em r. livro escrito pela equipe do curso-r e disponibilizado gratuitamente online.\n\n\n\nambiente computacional\ndurante a primeira parte do curso utilizaremos o r e o rstudio para organização, visualização e análise de dados.\npara preparar o ambiente computacional que será utilizado nas aulas, consulte o tutorial preparando o ambiente para trabalhar com r, que apresenta as instruções para instalação do r e do rstudio no computador e para utilização do rstudio diretamente no navegador através do posit cloud.\nproblemas na instalação podem ser reportados por email, pedrofranklin@ufu.br, ou trazidos para o horário de atendimento."
   },
   {
     "objectID": "ensino/estatistica/index.html#material-complemetar",
@@ -418,5 +418,54 @@
     "title": "estatística multivariada e mineração de dados (imema34603)",
     "section": "para aprofundamento",
     "text": "para aprofundamento\n\nmethods of multivariate analysis. alvin c. rencher e william f. christensen; wiley, 3ed, 2012.\nmodern multivariate statistical techniques. alan j. izenman; springer, 1ed, 2008."
+  },
+  {
+    "objectID": "tutoriais/2026-09-03/index.html",
+    "href": "tutoriais/2026-09-03/index.html",
+    "title": "preparando o ambiente para trabalhar com r",
+    "section": "",
+    "text": "neste tutorial você vai aprender duas formas de preparar um ambiente para trabalhar com r:\n\ninstalar o r e o rstudio desktop no seu computador;\nutilizar o posit cloud para trabalhar com r diretamente no navegador, sem instalar nenhum programa."
+  },
+  {
+    "objectID": "tutoriais/2026-09-03/index.html#passo-1-instalar-o-r",
+    "href": "tutoriais/2026-09-03/index.html#passo-1-instalar-o-r",
+    "title": "preparando o ambiente para trabalhar com r",
+    "section": "4.1 passo 1: instalar o r",
+    "text": "4.1 passo 1: instalar o r\n\nacesse o cran (comprehensive r archive network).\nclique no link correspondente ao seu sistema operacional: download r for windows, download r for macos ou download r for linux.\nwindows: clique em base, depois em download r-x.x.x for windows, e execute o instalador aceitando as opções padrão.\nmacos: baixe o arquivo .pkg correspondente ao processador do seu computador. em computadores mais recentes, com processadores apple silicon (m1, m2, m3 etc.), escolha a versão indicada para arm64; em macs com processador intel, escolha a versão x86_64.\nlinux: siga as instruções específicas da sua distribuição na própria página do cran."
+  },
+  {
+    "objectID": "tutoriais/2026-09-03/index.html#passo-2-instalar-o-rstudio-desktop",
+    "href": "tutoriais/2026-09-03/index.html#passo-2-instalar-o-rstudio-desktop",
+    "title": "preparando o ambiente para trabalhar com r",
+    "section": "4.2 passo 2: instalar o rstudio desktop",
+    "text": "4.2 passo 2: instalar o rstudio desktop\n\nacesse posit.co/download/rstudio-desktop.\nvá até a seção Direct Downloads (Open Source) e em RStudio IDE baixe e execute o instalador de acordo com seu sistema operacional, aceitando as opções padrão.\nabra o rstudio. se a instalação do r (passo 1) tiver funcionado, o rstudio já vai reconhecê-lo automaticamente e, por isso, não é preciso configurar nada manualmente."
+  },
+  {
+    "objectID": "tutoriais/2026-09-03/index.html#conferindo-se-deu-certo",
+    "href": "tutoriais/2026-09-03/index.html#conferindo-se-deu-certo",
+    "title": "preparando o ambiente para trabalhar com r",
+    "section": "4.3 conferindo se deu certo",
+    "text": "4.3 conferindo se deu certo\nabra o rstudio e localize o painel console, geralmente no canto inferior esquerdo. ao lado do símbolo &gt;, digite:\n2 + 2\npressione enter. se aparecer\n[1] 4\nseu ambiente está funcionando corretamente."
+  },
+  {
+    "objectID": "arquivo/2026-07-25/index.html",
+    "href": "arquivo/2026-07-25/index.html",
+    "title": "acessando dados do datasus com r: uma introdução ao dplyr usando dados de nascimentos",
+    "section": "",
+    "text": "neste tutorial, você aprenderá a acessar dados públicos do datasus utilizando a linguagem de programação r, e a utilizar o pacote dplyr para manipular e explorar esses dados. como exemplo prático, vamos trabalhar com o sinasc (sistema de informações sobre nascidos vivos), que reúne dados de praticamente todos os nascimentos ocorridos no brasil.\nao final deste tutorial, você será capaz de:\n\nbaixar dados do datasus diretamente pelo r, sem precisar acessar o site do governo manualmente;\ndecodificar variáveis que vêm originalmente como códigos numéricos, transformando-as em categorias legíveis;\nutilizar os principais verbos do dplyr (filter(), mutate(), group_by(), summarise()) para responder perguntas sobre os dados;\nidentificar e tratar valores implausíveis ou ausentes antes de realizar qualquer análise;\nconstruir uma pequena investigação, do dado bruto até uma conclusão, sobre nascimentos em minas gerais no ano de 2024."
+  },
+  {
+    "objectID": "arquivo/2026-07-25/index.html#objetivos",
+    "href": "arquivo/2026-07-25/index.html#objetivos",
+    "title": "acessando dados do datasus com r: uma introdução ao dplyr usando dados de nascimentos",
+    "section": "",
+    "text": "neste tutorial, você aprenderá a acessar dados públicos do datasus utilizando a linguagem de programação r, e a utilizar o pacote dplyr para manipular e explorar esses dados. como exemplo prático, vamos trabalhar com o sinasc (sistema de informações sobre nascidos vivos), que reúne dados de praticamente todos os nascimentos ocorridos no brasil.\nao final deste tutorial, você será capaz de:\n\nbaixar dados do datasus diretamente pelo r, sem precisar acessar o site do governo manualmente;\ndecodificar variáveis que vêm originalmente como códigos numéricos, transformando-as em categorias legíveis;\nutilizar os principais verbos do dplyr (filter(), mutate(), group_by(), summarise()) para responder perguntas sobre os dados;\nidentificar e tratar valores implausíveis ou ausentes antes de realizar qualquer análise;\nconstruir uma pequena investigação, do dado bruto até uma conclusão, sobre nascimentos em minas gerais no ano de 2024."
+  },
+  {
+    "objectID": "arquivo/2026-07-25/index.html#introdução",
+    "href": "arquivo/2026-07-25/index.html#introdução",
+    "title": "acessando dados do datasus com r: uma introdução ao dplyr usando dados de nascimentos",
+    "section": "2 introdução",
+    "text": "2 introdução\numa coisa boa do r é a facilidade de acesso a bases de dados públicas diretamente pelo código, sem precisar navegar manualmente por sites e baixar arquivos um a um. isso é especialmente valioso quando trabalhamos com dados de saúde pública, que costumam ser volumosos, atualizados periodicamente, e organizados por ano, estado ou sistema de informação.\nneste tutorial, vamos explorar o sinasc (sistema de informações sobre nascidos vivos), mantido pelo ministério da saúde através do datasus. esse sistema reúne dados de praticamente todo nascimento ocorrido no brasil, a partir da declaração de nascido vivo (dn), documento preenchido para cada criança nascida no país. cada linha desse conjunto de dados apresenta informações sobre um bebê que nasceu vivo.\nutilizaremos o pacote microdatasus para baixar os dados diretamente do datasus, e o pacote dplyr para manipulá-los. como exemplo prático, vamos investigar nascimentos ocorridos em minas gerais no ano de 2023, explorando perguntas como: qual o perfil das mães? qual a proporção de partos cesáreos? existe relação entre o número de consultas de pré-natal e o peso do bebê ao nascer?"
   }
 ]

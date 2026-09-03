@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="nesta página estão listadas as disciplinas que estou lecionando atualmente e os cursos que já lecionei. as informações sobre as disciplinas em andamento estão organizadas em fichas, com links para o conteúdo completo.">
+<meta name="author" content="pedro franklin">
+<meta name="description" content="guia para instalar r e rstudio no computador ou utilizar o posit cloud para trabalhar com r diretamente no navegador.">
 
-<title>ensino</title>
+<title>preparando o ambiente para trabalhar com r</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,28 +23,60 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../gato.jpg" rel="icon" type="image/jpeg">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../gato.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,38 +104,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-em-andamento .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-em-andamento'] = new List('listing-em-andamento', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -118,27 +122,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">apresentação</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../ensino/"> 
+    <a class="nav-link" href="../../ensino/"> 
 <span class="menu-text">ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../tutoriais/"> 
+    <a class="nav-link" href="../../tutoriais/"> 
 <span class="menu-text">tutoriais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../materiais/"> 
+    <a class="nav-link" href="../../materiais/"> 
 <span class="menu-text">materiais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../coisas-legais/"> 
+    <a class="nav-link" href="../../coisas-legais/"> 
 <span class="menu-text">coisas legais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../galeria/"> 
+    <a class="nav-link" href="../../galeria/"> 
 <span class="menu-text">um certo olhar</span></a>
   </li>  
 </ul>
@@ -158,26 +162,43 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">ensino</h1>
+    <div class="quarto-title column-body">
+      <h1 class="title">preparando o ambiente para trabalhar com r</h1>
                   <div>
         <div class="description">
-          <p>nesta página estão listadas as disciplinas que estou lecionando atualmente e os cursos que já lecionei. as informações sobre as disciplinas em andamento estão organizadas em fichas, com links para o conteúdo completo.</p>
+          guia para instalar r e rstudio no computador ou utilizar o posit cloud para trabalhar com r diretamente no navegador.
         </div>
       </div>
-                </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">instalação</div>
+                <div class="quarto-category">r</div>
+                <div class="quarto-category">rstudio</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Autor</div>
+      <div class="quarto-title-meta-contents">
+               <p>pedro franklin </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Data de Publicação</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">3 de setembro de 2026</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -185,93 +206,120 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">nesta página</h2>
    
   <ul>
-  <li><a href="#cursos-em-andamento" id="toc-cursos-em-andamento" class="nav-link active" data-scroll-target="#cursos-em-andamento">cursos em andamento</a></li>
-  <li><a href="#cursos-encerrados" id="toc-cursos-encerrados" class="nav-link" data-scroll-target="#cursos-encerrados">cursos encerrados</a></li>
+  <li><a href="#objetivos" id="toc-objetivos" class="nav-link active" data-scroll-target="#objetivos"><span class="header-section-number">1</span> objetivos</a></li>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link" data-scroll-target="#introdução"><span class="header-section-number">2</span> introdução</a></li>
+  <li><a href="#opção-1-posit-cloud-sem-instalar-nada" id="toc-opção-1-posit-cloud-sem-instalar-nada" class="nav-link" data-scroll-target="#opção-1-posit-cloud-sem-instalar-nada"><span class="header-section-number">3</span> opção 1: posit cloud (sem instalar nada)</a></li>
+  <li><a href="#opção-2-instalação-local" id="toc-opção-2-instalação-local" class="nav-link" data-scroll-target="#opção-2-instalação-local"><span class="header-section-number">4</span> opção 2: instalação local</a>
+  <ul class="collapse">
+  <li><a href="#passo-1-instalar-o-r" id="toc-passo-1-instalar-o-r" class="nav-link" data-scroll-target="#passo-1-instalar-o-r"><span class="header-section-number">4.1</span> passo 1: instalar o r</a></li>
+  <li><a href="#passo-2-instalar-o-rstudio-desktop" id="toc-passo-2-instalar-o-rstudio-desktop" class="nav-link" data-scroll-target="#passo-2-instalar-o-rstudio-desktop"><span class="header-section-number">4.2</span> passo 2: instalar o rstudio desktop</a></li>
+  <li><a href="#conferindo-se-deu-certo" id="toc-conferindo-se-deu-certo" class="nav-link" data-scroll-target="#conferindo-se-deu-certo"><span class="header-section-number">4.3</span> conferindo se deu certo</a></li>
+  </ul></li>
+  <li><a href="#qual-opção-escolher" id="toc-qual-opção-escolher" class="nav-link" data-scroll-target="#qual-opção-escolher"><span class="header-section-number">5</span> qual opção escolher?</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<section id="cursos-em-andamento" class="level2">
-<h2 class="anchored" data-anchor-id="cursos-em-andamento">cursos em andamento</h2>
-<p>neste segundo semestre de 2026 leciono duas disciplinas: <strong>estatística</strong> para o curso de ciência da computação e <strong>estatística multivariada e mineração de dados</strong> para o curso de ciência de dados e estatística. para acessar as informações de cada uma delas, clique no cartão do curso para abrir a página.</p>
-<style>
-#listing-em-andamento .card-body {
-  text-align: center;
-}
-</style>
-<div id="listing-em-andamento" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1788231600000" data-listing-file-modified-sort="1788436338550" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
-<a href="../ensino/multivariada/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../ensino/multivariada/hex-multivariada.png" class="thumbnail-image card-img" style="height: 270px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>estatística multivariada e mineração de dados (imema34603)</strong>
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1788404400000" data-listing-file-modified-sort="1788463958773" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="318">
-<a href="../ensino/estatistica/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../ensino/estatistica/hex-estatistica-cc.png" class="thumbnail-image card-img" style="height: 270px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>estatística (gbc041)</strong>
-</h5>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Sem itens correspondentes
-</div>
-</div>
-</section>
-<section id="cursos-encerrados" class="level2">
-<h2 class="anchored" data-anchor-id="cursos-encerrados">cursos encerrados</h2>
+<section id="objetivos" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> objetivos</h1>
+<p>neste tutorial você vai aprender duas formas de preparar um ambiente para trabalhar com r:</p>
 <ul>
-<li>imema34505: inferência estatística</li>
-<li>ges046: visualização avançada de dados</li>
-<li>ges030: inferência bayesiana</li>
-<li>famat31404: probabilidade 3</li>
-<li>famat31203: probabilidade 1</li>
-<li>ges045: introdução à história da estatística e da probabilidade</li>
-<li>famat31308: introdução à ciência de dados</li>
-<li>pcda08: processamento automático de textos (especialização em ciência de dados)</li>
-<li>famat31203: probabilidade 1</li>
-<li>ges044: métodos matemáticos (introdução ao aprendizado de máquina)</li>
-<li>ges033: análise de séries temporais</li>
-<li>famat31033: estatística</li>
-<li>gbc041: estatística</li>
-<li>ges017: estatística computacional</li>
-<li>ges022: inferência estatística 2</li>
-<li>ges046: tópicos especiais em matemática aplicada (introdução ao aprendizado estatístico)</li>
-<li>ges012: estatística geral</li>
-<li>famat31041: estatística computacional</li>
-<li>ges035: profissão e mercado de trabalho</li>
-<li>ges008: introdução à estatística 2</li>
-<li>gcc014: estatística</li>
-<li>gci018: estatística</li>
-<li>ges018: inferência estatística 1</li>
-<li>get014: estatística</li>
-<li>ges015: probabilidade 2</li>
-<li>ges031: modelos lineares generalizados</li>
+<li>instalar o r e o rstudio desktop no seu computador;</li>
+<li>utilizar o <a href="https://posit.cloud">posit cloud</a> para trabalhar com r diretamente no navegador, sem instalar nenhum programa.</li>
 </ul>
-
+</section>
+<section id="introdução" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> introdução</h1>
+<p>nosso ambiente de trabalho será composto pelo <strong>r</strong> e pelo <strong>rstudio</strong>:</p>
+<ul>
+<li>o <strong>r</strong> é a linguagem de programação utilizada para realizar as análises;</li>
+<li>o <strong>rstudio</strong> é um ambiente de desenvolvimento integrado (<em>integrated development environment</em>, ide) que oferece uma interface conveniente para escrever e executar código em r, organizar arquivos, visualizar gráficos e realizar outras tarefas.</li>
+</ul>
+<p>há duas formas de preparar esse ambiente de trabalho: instalar o r e o rstudio no seu computador ou utilizar o posit cloud, que permite trabalhar com o rstudio diretamente no navegador. as seções a seguir apresentam cada uma dessas opções.</p>
+</section>
+<section id="opção-1-posit-cloud-sem-instalar-nada" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> opção 1: posit cloud (sem instalar nada)</h1>
+<p>o <a href="https://posit.cloud">posit cloud</a> oferece um rstudio completo no navegador, com um plano gratuito.</p>
+<ol type="1">
+<li>acesse <a href="https://posit.cloud/plans/free">posit.cloud/plans/free</a> e clique em <strong>sign up</strong>.</li>
+<li>crie a conta com seu email (pode ser o institucional) ou com uma conta google/github já existente.</li>
+<li>confirme o email, se solicitado.</li>
+<li>no painel (<strong>your workspace</strong>), clique em <strong>new project</strong> → <strong>new rstudio project</strong>.</li>
+<li>aguarde alguns segundos: um rstudio completo abrirá no navegador, pronto para uso.</li>
+</ol>
+<p><strong>vantagens</strong>: não exige instalação e permite acessar seu ambiente de trabalho a partir de diferentes computadores.</p>
+</section>
+<section id="opção-2-instalação-local" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> opção 2: instalação local</h1>
+<p>a ordem de instalação é importante: <strong>primeiro instale o r e depois o rstudio</strong>. o rstudio não substitui o r; ele fornece a interface que utilizaremos para trabalhar com a linguagem. por isso, o r precisa estar instalado antes.</p>
+<section id="passo-1-instalar-o-r" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="passo-1-instalar-o-r"><span class="header-section-number">4.1</span> passo 1: instalar o r</h2>
+<ol type="1">
+<li>acesse o <a href="https://cran.r-project.org">cran</a> (<em>comprehensive r archive network</em>).</li>
+<li>clique no link correspondente ao seu sistema operacional: <strong>download r for windows</strong>, <strong>download r for macos</strong> ou <strong>download r for linux</strong>.</li>
+<li><strong>windows</strong>: clique em <strong>base</strong>, depois em <strong>download r-x.x.x for windows</strong>, e execute o instalador aceitando as opções padrão.</li>
+<li><strong>macos</strong>: baixe o arquivo <code>.pkg</code> correspondente ao processador do seu computador. em computadores mais recentes, com processadores apple silicon (m1, m2, m3 etc.), escolha a versão indicada para <strong>arm64</strong>; em macs com processador intel, escolha a versão <strong>x86_64</strong>.</li>
+<li><strong>linux</strong>: siga as instruções específicas da sua distribuição na própria página do cran.</li>
+</ol>
+</section>
+<section id="passo-2-instalar-o-rstudio-desktop" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="passo-2-instalar-o-rstudio-desktop"><span class="header-section-number">4.2</span> passo 2: instalar o rstudio desktop</h2>
+<ol type="1">
+<li>acesse <a href="https://posit.co/download/rstudio-desktop/">posit.co/download/rstudio-desktop</a>.</li>
+<li>vá até a seção Direct Downloads (Open Source) e em RStudio IDE baixe e execute o instalador de acordo com seu sistema operacional, aceitando as opções padrão.</li>
+<li>abra o rstudio. se a instalação do r (passo 1) tiver funcionado, o rstudio já vai reconhecê-lo automaticamente e, por isso, não é preciso configurar nada manualmente.</li>
+</ol>
+</section>
+<section id="conferindo-se-deu-certo" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="conferindo-se-deu-certo"><span class="header-section-number">4.3</span> conferindo se deu certo</h2>
+<p>abra o rstudio e localize o painel <strong>console</strong>, geralmente no canto inferior esquerdo. ao lado do símbolo <code>&gt;</code>, digite:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span> <span class="sc">+</span> <span class="dv">2</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>pressione <strong>enter</strong>. se aparecer</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>[<span class="dv">1</span>] <span class="dv">4</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>seu ambiente está funcionando corretamente.</p>
+</section>
+</section>
+<section id="qual-opção-escolher" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> qual opção escolher?</h1>
+<p>se você utiliza regularmente um computador pessoal no qual pode instalar programas, recomendo a <strong>instalação local</strong>. o <strong>posit cloud</strong> é uma boa alternativa quando não é possível instalar programas ou quando você precisa trabalhar em outro computador.</p>
+<p>as principais diferenças entre as duas opções são:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th>posit cloud</th>
+<th>instalação local</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>precisa instalar programas?</td>
+<td>não</td>
+<td>sim</td>
+</tr>
+<tr class="even">
+<td>pode ser utilizado sem internet?</td>
+<td>não</td>
+<td>sim</td>
+</tr>
+<tr class="odd">
+<td>onde os códigos são executados?</td>
+<td>na nuvem</td>
+<td>no seu computador</td>
+</tr>
+<tr class="even">
+<td>há limite de uso?</td>
+<td>sim, no plano gratuito</td>
+<td>não</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>

@@ -44,3 +44,10 @@ marcos n. magalhães e antonio c. p. de lima; edusp, 6ed, 2007.
 hadley wickham, mine çetinkaya-rundel, and garrett grolemund. 2nd edition. o’reilly, 2022. 
 -   [**ciência de dados em r.**](https://curso-r.github.io/livro-material/)<br /> livro escrito pela equipe do curso-r e disponibilizado gratuitamente online.
 
+# ambiente computacional
+
+durante a primeira parte do curso utilizaremos o **r** e o **rstudio** para organização, visualização e análise de dados.
+
+para preparar o ambiente computacional que será utilizado nas aulas, consulte o tutorial [**preparando o ambiente para trabalhar com r**](/tutoriais/2026-09-03/), que apresenta as instruções para instalação do r e do rstudio no computador e para utilização do rstudio diretamente no navegador através do posit cloud.
+
+problemas na instalação podem ser reportados por email, **pedrofranklin@ufu.br**, ou trazidos para o horário de atendimento.

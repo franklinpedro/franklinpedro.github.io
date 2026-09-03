@@ -1,0 +1,91 @@
+---
+title: "preparando o ambiente para trabalhar com r"
+author: "pedro franklin"
+date: 2026-09-03
+date-format: long
+image: R_logo.svg
+categories: [instalação, r, rstudio]
+description: "guia para instalar r e rstudio no computador ou utilizar o posit cloud para trabalhar com r diretamente no navegador."
+page-break-after: always
+number-sections: true
+fig-align: center
+link-external-icon: false
+link-external-newwindow: true
+---
+
+# objetivos
+
+neste tutorial você vai aprender duas formas de preparar um ambiente para trabalhar com r:
+
+- instalar o r e o rstudio desktop no seu computador;
+- utilizar o [posit cloud](https://posit.cloud) para trabalhar com r diretamente no navegador, sem instalar nenhum programa.
+
+# introdução
+
+nosso ambiente de trabalho será composto pelo **r** e pelo **rstudio**:
+
+- o **r** é a linguagem de programação utilizada para realizar as análises;
+- o **rstudio** é um ambiente de desenvolvimento integrado (*integrated development environment*, ide) que oferece uma interface conveniente para escrever e executar código em r, organizar arquivos, visualizar gráficos e realizar outras tarefas.
+
+há duas formas de preparar esse ambiente de trabalho: instalar o r e o rstudio no seu computador ou utilizar o posit cloud, que permite trabalhar com o rstudio diretamente no navegador. as seções a seguir apresentam cada uma dessas opções.
+
+# opção 1: posit cloud (sem instalar nada)
+
+o [posit cloud](https://posit.cloud) oferece um rstudio completo no navegador, com um plano gratuito.
+
+1.  acesse [posit.cloud/plans/free](https://posit.cloud/plans/free) e clique em **sign up**.
+2.  crie a conta com seu email (pode ser o institucional) ou com uma conta google/github já existente.
+3.  confirme o email, se solicitado.
+4.  no painel (**your workspace**), clique em **new project** → **new rstudio project**.
+5.  aguarde alguns segundos: um rstudio completo abrirá no navegador, pronto para uso.
+
+**vantagens**: não exige instalação e permite acessar seu ambiente de trabalho a partir de diferentes computadores.
+
+
+# opção 2: instalação local
+
+a ordem de instalação é importante: **primeiro instale o r e depois o rstudio**. o rstudio não substitui o r; ele fornece a interface que utilizaremos para trabalhar com a linguagem. por isso, o r precisa estar instalado antes.
+
+## passo 1: instalar o r
+
+1.  acesse o [cran](https://cran.r-project.org) (*comprehensive r archive network*).
+2.  clique no link correspondente ao seu sistema operacional: **download r for windows**, **download r for macos** ou **download r for linux**.
+3.  **windows**: clique em **base**, depois em **download r-x.x.x for windows**, e execute o instalador aceitando as opções padrão.
+4.  **macos**: baixe o arquivo `.pkg` correspondente ao processador do seu computador. em computadores mais recentes, com processadores apple silicon (m1, m2, m3 etc.), escolha a versão indicada para **arm64**; em macs com processador intel, escolha a versão **x86_64**.
+5.  **linux**: siga as instruções específicas da sua distribuição na própria página do cran.
+
+## passo 2: instalar o rstudio desktop
+
+1.  acesse [posit.co/download/rstudio-desktop](https://posit.co/download/rstudio-desktop/).
+2.  vá até a seção Direct Downloads (Open Source) e em RStudio IDE baixe e execute o instalador de acordo com seu sistema operacional, aceitando as opções padrão.
+3.  abra o rstudio. se a instalação do r (passo 1) tiver funcionado, o rstudio já vai reconhecê-lo automaticamente e, por isso, não é preciso configurar nada manualmente.
+
+## conferindo se deu certo
+
+abra o rstudio e localize o painel **console**, geralmente no canto inferior esquerdo. ao lado do símbolo `>`, digite:
+
+```r
+2 + 2
+```
+
+pressione **enter**. se aparecer
+
+```r
+[1] 4
+```
+
+seu ambiente está funcionando corretamente.
+
+
+# qual opção escolher?
+
+se você utiliza regularmente um computador pessoal no qual pode instalar programas, recomendo a **instalação local**. o **posit cloud** é uma boa alternativa quando não é possível instalar programas ou quando você precisa trabalhar em outro computador.
+
+as principais diferenças entre as duas opções são:
+
+| | posit cloud | instalação local |
+|---|---|---|
+| precisa instalar programas? | não | sim  |
+| pode ser utilizado sem internet? | não| sim |
+| onde os códigos são executados? | na nuvem | no seu computador |
+| há limite de uso? | sim, no plano gratuito | não |

@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="nesta página estão listadas as disciplinas que estou lecionando atualmente e os cursos que já lecionei. as informações sobre as disciplinas em andamento estão organizadas em fichas, com links para o conteúdo completo.">
+<meta name="author" content="pedro franklin">
+<meta name="dcterms.date" content="2026-07-26">
+<meta name="description" content="aprenda a baixar e importar dados do sinasc (sistema de informações sobre nascidos vivos) usando o pacote microdatasus, e a manipular esses dados com o dplyr para responder perguntas sobre nascimentos no em minas gerais.">
 
-<title>ensino</title>
+<title>acessando dados do datasus com r: uma introdução ao dplyr usando dados de nascimentos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,25 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../gato.jpg" rel="icon" type="image/jpeg">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../gato.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -58,87 +58,58 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Nenhum resultado",
-    "search-matching-documents-text": "documentos correspondentes",
-    "search-copy-link-title": "Copiar link para a busca",
-    "search-hide-matches-text": "Esconder correspondências adicionais",
-    "search-more-match-text": "mais correspondência neste documento",
-    "search-more-matches-text": "mais correspondências neste documento",
-    "search-clear-button-title": "Limpar",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancelar",
-    "search-submit-button-title": "Enviar",
-    "search-label": "Procurar"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-em-andamento .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-em-andamento'] = new List('listing-em-andamento', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-            <div id="quarto-search" class="" title="Procurar"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">apresentação</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../ensino/"> 
+    <a class="nav-link" href="../../ensino/"> 
 <span class="menu-text">ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../tutoriais/"> 
+    <a class="nav-link" href="../../tutoriais/"> 
 <span class="menu-text">tutoriais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../materiais/"> 
+    <a class="nav-link" href="../../materiais/"> 
 <span class="menu-text">materiais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../coisas-legais/"> 
+    <a class="nav-link" href="../../coisas-legais/"> 
 <span class="menu-text">coisas legais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../galeria/"> 
+    <a class="nav-link" href="../../galeria/"> 
 <span class="menu-text">um certo olhar</span></a>
   </li>  
 </ul>
@@ -156,122 +127,79 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">ensino</h1>
-                  <div>
-        <div class="description">
-          <p>nesta página estão listadas as disciplinas que estou lecionando atualmente e os cursos que já lecionei. as informações sobre as disciplinas em andamento estão organizadas em fichas, com links para o conteúdo completo.</p>
-        </div>
-      </div>
-                </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">nesta página</h2>
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#cursos-em-andamento" id="toc-cursos-em-andamento" class="nav-link active" data-scroll-target="#cursos-em-andamento">cursos em andamento</a></li>
-  <li><a href="#cursos-encerrados" id="toc-cursos-encerrados" class="nav-link" data-scroll-target="#cursos-encerrados">cursos encerrados</a></li>
+  <li><a href="#objetivos" id="toc-objetivos" class="nav-link active" data-scroll-target="#objetivos"><span class="header-section-number">1</span> objetivos</a></li>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link" data-scroll-target="#introdução"><span class="header-section-number">2</span> introdução</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">acessando dados do datasus com r: uma introdução ao dplyr usando dados de nascimentos</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">datasus</div>
+    <div class="quarto-category">dplyr</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    aprenda a baixar e importar dados do sinasc (sistema de informações sobre nascidos vivos) usando o pacote microdatasus, e a manipular esses dados com o dplyr para responder perguntas sobre nascimentos no em minas gerais.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>pedro franklin </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 26, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
-<section id="cursos-em-andamento" class="level2">
-<h2 class="anchored" data-anchor-id="cursos-em-andamento">cursos em andamento</h2>
-<p>neste segundo semestre de 2026 leciono duas disciplinas: <strong>estatística</strong> para o curso de ciência da computação e <strong>estatística multivariada e mineração de dados</strong> para o curso de ciência de dados e estatística. para acessar as informações de cada uma delas, clique no cartão do curso para abrir a página.</p>
-<style>
-#listing-em-andamento .card-body {
-  text-align: center;
-}
-</style>
-<div id="listing-em-andamento" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1788231600000" data-listing-file-modified-sort="1788436338550" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
-<a href="../ensino/multivariada/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../ensino/multivariada/hex-multivariada.png" class="thumbnail-image card-img" style="height: 270px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>estatística multivariada e mineração de dados (imema34603)</strong>
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1788404400000" data-listing-file-modified-sort="1788463958773" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="318">
-<a href="../ensino/estatistica/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../ensino/estatistica/hex-estatistica-cc.png" class="thumbnail-image card-img" style="height: 270px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>estatística (gbc041)</strong>
-</h5>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Sem itens correspondentes
-</div>
-</div>
-</section>
-<section id="cursos-encerrados" class="level2">
-<h2 class="anchored" data-anchor-id="cursos-encerrados">cursos encerrados</h2>
+
+<section id="objetivos" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="objetivos"><span class="header-section-number">1</span> objetivos</h2>
+<p>neste tutorial, você aprenderá a acessar dados públicos do datasus utilizando a linguagem de programação r, e a utilizar o pacote <code>dplyr</code> para manipular e explorar esses dados. como exemplo prático, vamos trabalhar com o sinasc (sistema de informações sobre nascidos vivos), que reúne dados de praticamente todos os nascimentos ocorridos no brasil.</p>
+<p>ao final deste tutorial, você será capaz de:</p>
 <ul>
-<li>imema34505: inferência estatística</li>
-<li>ges046: visualização avançada de dados</li>
-<li>ges030: inferência bayesiana</li>
-<li>famat31404: probabilidade 3</li>
-<li>famat31203: probabilidade 1</li>
-<li>ges045: introdução à história da estatística e da probabilidade</li>
-<li>famat31308: introdução à ciência de dados</li>
-<li>pcda08: processamento automático de textos (especialização em ciência de dados)</li>
-<li>famat31203: probabilidade 1</li>
-<li>ges044: métodos matemáticos (introdução ao aprendizado de máquina)</li>
-<li>ges033: análise de séries temporais</li>
-<li>famat31033: estatística</li>
-<li>gbc041: estatística</li>
-<li>ges017: estatística computacional</li>
-<li>ges022: inferência estatística 2</li>
-<li>ges046: tópicos especiais em matemática aplicada (introdução ao aprendizado estatístico)</li>
-<li>ges012: estatística geral</li>
-<li>famat31041: estatística computacional</li>
-<li>ges035: profissão e mercado de trabalho</li>
-<li>ges008: introdução à estatística 2</li>
-<li>gcc014: estatística</li>
-<li>gci018: estatística</li>
-<li>ges018: inferência estatística 1</li>
-<li>get014: estatística</li>
-<li>ges015: probabilidade 2</li>
-<li>ges031: modelos lineares generalizados</li>
+<li>baixar dados do datasus diretamente pelo r, sem precisar acessar o site do governo manualmente;</li>
+<li>decodificar variáveis que vêm originalmente como códigos numéricos, transformando-as em categorias legíveis;</li>
+<li>utilizar os principais verbos do dplyr (filter(), mutate(), group_by(), summarise()) para responder perguntas sobre os dados;</li>
+<li>identificar e tratar valores implausíveis ou ausentes antes de realizar qualquer análise;</li>
+<li>construir uma pequena investigação, do dado bruto até uma conclusão, sobre nascimentos em minas gerais no ano de 2024.</li>
 </ul>
-
+</section>
+<section id="introdução" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="introdução"><span class="header-section-number">2</span> introdução</h2>
+<p>uma coisa boa do r é a facilidade de acesso a bases de dados públicas diretamente pelo código, sem precisar navegar manualmente por sites e baixar arquivos um a um. isso é especialmente valioso quando trabalhamos com dados de saúde pública, que costumam ser volumosos, atualizados periodicamente, e organizados por ano, estado ou sistema de informação.</p>
+<p>neste tutorial, vamos explorar o sinasc (sistema de informações sobre nascidos vivos), mantido pelo ministério da saúde através do datasus. esse sistema reúne dados de praticamente todo nascimento ocorrido no brasil, a partir da declaração de nascido vivo (dn), documento preenchido para cada criança nascida no país. cada linha desse conjunto de dados apresenta informações sobre um bebê que nasceu vivo.</p>
+<p>utilizaremos o pacote <code>microdatasus</code> para baixar os dados diretamente do datasus, e o pacote <code>dplyr</code> para manipulá-los. como exemplo prático, vamos investigar nascimentos ocorridos em minas gerais no ano de 2023, explorando perguntas como: qual o perfil das mães? qual a proporção de partos cesáreos? existe relação entre o número de consultas de pré-natal e o peso do bebê ao nascer?</p>
 
 
 </section>
@@ -331,12 +259,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copiada");
+    button.setAttribute("title", "Copied!");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copiada");
+      button.setAttribute("data-bs-title", "Copied!");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
