@@ -172,7 +172,7 @@
     "href": "tutoriais/index.html",
     "title": "tutoriais",
     "section": "",
-    "text": "acessando dados do datasus com r: uma introdução ao dplyr usando dados de nascimentos\n\n\n\n\n\n\ndatasus\n\n\ndplyr\n\n\n\naprenda a baixar e importar dados do sinasc (sistema de informações sobre nascidos vivos) usando o pacote microdatasus, e a manipular esses dados com o dplyr para responder perguntas sobre nascimentos no em minas gerais.\n\n\n\n\n\n26/07/2026\n\n\n\n\n\n\n\n\n\n\n\n\nconstruindo mapas: um guia para representar a população de uberlândia com o R\n\n\n\n\n\n\nmapas\n\n\nwebscraping\n\n\n\naprenda a construir um mapa de uberlândia no R representando a população de cada bairro com base nos dados do censo demográfico do brasil de 2022.\n\n\n\n\n\n24/11/2024\n\n\n\n\n\n\nSem itens correspondentes"
+    "text": "construindo mapas: um guia para representar a população de uberlândia com o R\n\n\n\n\n\n\nmapas\n\n\nwebscraping\n\n\n\naprenda a construir um mapa de uberlândia no R representando a população de cada bairro com base nos dados do censo demográfico do brasil de 2022.\n\n\n\n\n\n24/11/2024\n\n\n\n\n\n\nSem itens correspondentes"
   },
   {
     "objectID": "coisas-legais/2024-09-16/index.html",
