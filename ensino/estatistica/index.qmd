@@ -54,6 +54,6 @@ problemas na instalação podem ser reportados por email, **pedrofranklin@ufu.br
 
 # materiais das aulas
 
-os códigos desenvolvidos durante as aulas e os conjuntos de dados utilizados na disciplina estão disponíveis no repositório da disciplina no github: [**gbc041-estatistica**](https://github.com/franklinpedro/gbc041-estatistica)
+os códigos desenvolvidos durante as aulas e os conjuntos de dados utilizados na disciplina estão disponíveis no repositório da disciplina no github: [**gbc041-estatistica**](https://github.com/franklinpedro/gbc041-estatistica).
 
 o repositório será atualizado ao longo do semestre conforme novos materiais forem utilizados em aula.
