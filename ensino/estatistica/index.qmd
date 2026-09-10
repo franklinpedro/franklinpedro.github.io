@@ -51,3 +51,9 @@ durante a primeira parte do curso utilizaremos o **r** e o **rstudio** para orga
 para preparar o ambiente computacional que será utilizado nas aulas, consulte o tutorial [**preparando o ambiente para trabalhar com r**](/tutoriais/2026-09-03/), que apresenta as instruções para instalação do r e do rstudio no computador e para utilização do rstudio diretamente no navegador através do posit cloud.
 
 problemas na instalação podem ser reportados por email, **pedrofranklin@ufu.br**, ou trazidos para o horário de atendimento.
+
+# materiais das aulas
+
+os códigos desenvolvidos durante as aulas e os conjuntos de dados utilizados na disciplina estão disponíveis no repositório da disciplina no github: [**gbc041-estatistica**](https://github.com/franklinpedro/gbc041-estatistica)
+
+o repositório será atualizado ao longo do semestre conforme novos materiais forem utilizados em aula.
