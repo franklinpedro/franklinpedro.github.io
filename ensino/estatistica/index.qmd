@@ -56,6 +56,8 @@ problemas na instalação podem ser reportados por email, **pedrofranklin@ufu.br
 
 os códigos desenvolvidos durante as aulas e os conjuntos de dados utilizados na disciplina estão disponíveis no repositório da disciplina no github: [**gbc041-estatistica**](https://github.com/franklinpedro/gbc041-estatistica).
 
+a parte teórica das aulas sobre probabilidade estão disponíveis no repositório da disciplina: [material de probabilidade](https://github.com/franklinpedro/gbc041-estatistica/tree/main/aulas/probabilidade). Dentro desta pasta, temos o material sobre [contagem](https://github.com/franklinpedro/gbc041-estatistica/blob/main/aulas/probabilidade/contagem.pdf), sobre [introdução à probabilidade](https://github.com/franklinpedro/gbc041-estatistica/blob/main/aulas/probabilidade/probabilidade.pdf), sobre [probabilidade condicional](https://github.com/franklinpedro/gbc041-estatistica/blob/main/aulas/probabilidade/probabilidade-condicional.pdf), sobre o [teorema de bayes](https://github.com/franklinpedro/gbc041-estatistica/blob/main/aulas/probabilidade/bayes.pdf) e uma [lista com exerícios sugeridos](https://github.com/franklinpedro/gbc041-estatistica/blob/main/aulas/probabilidade/lista-revisao-probabilidade.pdf).
+
 o repositório será atualizado ao longo do semestre conforme novos materiais forem utilizados em aula.
 
 # trabalhos e projetos
