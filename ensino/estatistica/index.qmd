@@ -67,3 +67,7 @@ o repositório será atualizado ao longo do semestre conforme novos materiais fo
 # provas
 
 - primeira prova: [prova1.PDF](https://drive.google.com/file/d/1hJ1W04tG_y2Oi0qoCws45s_VSBffuzin/view?usp=sharing)
+
+# notas
+
+- notas da primeira prova: [notas_P1.pdf](https://drive.google.com/file/d/1310s8twxJ7dpIhCF8ki2_JVFhk4S7WWK/view?usp=sharing)
